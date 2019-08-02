@@ -13,6 +13,6 @@ deploy:
     local_dir: docs
     repo: rudy.org.cn
     fqdn: rudy.org.cn
-    target_branch: master
+    target_branch: master/docs
     email: rudy.architect@foxmail.com
     name: rudyarchitect
