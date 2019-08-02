@@ -1,6 +1,6 @@
 baseurl = "https://rudy.org.cn"
-title = "Hugo Themes"
-copyright = "Copyright (c) 2008 - 2014, all rights reserved."
+title = "Rudy's blog"
+copyright = "Copyright (c) 2014 - 2024, all rights reserved."
 languageCode = "en-US"
 canonifyurls = true
 paginate = 3
@@ -37,15 +37,15 @@ pygmentsCodeFences = true
   tag = "tags"
 
 [author]
-  name = ""
+  name = "Rudy"
 
 [params.meta]
   keywords = ""
   description = "Personal blog."
 
 [params]
-  email = "myemail"
-  github = "github id"
+  email = "rudy.architect@foxmail.com"
+  github = "rudyarchitect"
   #gitlab = "gitlab id"
   twitter = "twitter id"
   #linkedin = "linkedin id"
