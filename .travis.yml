@@ -9,7 +9,7 @@ deploy:
     skip_cleanup: true
     github_token: $GITHUB_TOKEN
     on:
-        branch: master
+        branch: master/docs
     local_dir: docs
     repo: rudy.org.cn
     fqdn: rudy.org.cn
