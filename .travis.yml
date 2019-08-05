@@ -13,3 +13,4 @@ deploy:
     local_dir: docs
     repo: rudyarchitect/rudy.org.cn
     target_branch: gh-pages
+    fqdn: rudy.ory.cn
