@@ -9,10 +9,7 @@ deploy:
     skip_cleanup: true
     github_token: $GITHUB_TOKEN
     on:
-        branch: master/docs
+        branch: master
     local_dir: docs
-    repo: rudy.org.cn
-    fqdn: rudy.org.cn
-    target_branch: master/docs
-    email: rudy.architect@foxmail.com
-    name: rudyarchitect
+    repo: rudyarchitect/rudy.org.cn
+    target_branch: master
