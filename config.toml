@@ -47,7 +47,7 @@ preserveTaxonomyNames = true
     baiduAnalytics = ""
     license= 'MIT'
 [params.social]
-    GitHub = "https://github.com/rudyarchitect"
+    GitHub = "rudyarchitect"
     Twitter = ""
     Email   = "rudy.architect@foxmail.com"
     Instagram = ""
