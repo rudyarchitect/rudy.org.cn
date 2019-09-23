@@ -2,7 +2,19 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
     <url>
-      <loc>https://rudy.org.cn/categories/</loc>
+      <loc>https://rudy.org.cn/about/</loc>
+      
+      <lastmod>2019-09-23T17:53:43+08:00</lastmod>
+      
+      
+      
+      
+    </url>
+  
+    <url>
+      <loc>https://rudy.org.cn/</loc>
+      
+      <lastmod>2019-09-23T17:53:43+08:00</lastmod>
       
       
       
@@ -12,7 +24,29 @@
     </url>
   
     <url>
-      <loc>https://rudy.org.cn/</loc>
+      <loc>https://rudy.org.cn/posts/</loc>
+      
+      <lastmod>2019-09-23T16:46:54+08:00</lastmod>
+      
+      
+      
+      <priority>0</priority>
+      
+      
+    </url>
+  
+    <url>
+      <loc>https://rudy.org.cn/2019/test/</loc>
+      
+      <lastmod>2019-09-23T16:46:54+08:00</lastmod>
+      
+      
+      
+      
+    </url>
+  
+    <url>
+      <loc>https://rudy.org.cn/categories/</loc>
       
       
       

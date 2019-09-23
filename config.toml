@@ -34,10 +34,9 @@ preserveTaxonomyNames = true
     weight = 4
 [params]
     since = 2019
-    end = 2025
     author = "Rudy"
-    avatar = "" 
-    subtitle = ""
+    avatar = "android-chrome-192x192.png" 
+    subtitle = "年岁有加，并非垂老。理想丢弃，方坠暮年。"
     cdn_url = "" 
     home_mode = "" 
     enableGitalk = true 
@@ -46,18 +45,18 @@ preserveTaxonomyNames = true
     keywords = "" 
     beian = ""
     baiduAnalytics = ""
-    license= ''
+    license= 'MIT'
 [params.social]
-    GitHub = ""
+    GitHub = "https://github.com/rudyarchitect"
     Twitter = ""
-    Email   = ""
+    Email   = "rudy.architect@foxmail.com"
     Instagram = ""
     Wechat = ""  
     Facebook = ""
     Telegram = ""
     Dribbble = ""
     Medium = ""
-[params.gitalk] # Github: https://github.com/gitalk/gitalk
+[params.gitalk] 
     clientID = "14b5679b927269afbdb6"
     clientSecret = "a69f53c82624a3541530aee402850ed998b49ae9"
     repo = "rudy.org.cn" 
