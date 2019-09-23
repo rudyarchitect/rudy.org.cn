@@ -34,6 +34,7 @@ preserveTaxonomyNames = true
     weight = 4
 [params]
     since = 2019
+    end = 2025
     author = "Rudy"
     avatar = "" 
     subtitle = ""
@@ -45,7 +46,7 @@ preserveTaxonomyNames = true
     keywords = "" 
     beian = ""
     baiduAnalytics = ""
-    license= '本文采用<a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/" target="_blank">知识共享署名-非商业性使用 4.0 国际许可协议</a>进行许可'
+    license= ''
 [params.social]
     GitHub = ""
     Twitter = ""
@@ -57,11 +58,11 @@ preserveTaxonomyNames = true
     Dribbble = ""
     Medium = ""
 [params.gitalk] # Github: https://github.com/gitalk/gitalk
-    clientID = ""
-    clientSecret = ""
-    repo = "" 
-    owner = "" 
-    admin= "" 
+    clientID = "14b5679b927269afbdb6"
+    clientSecret = "a69f53c82624a3541530aee402850ed998b49ae9"
+    repo = "rudy.org.cn" 
+    owner = "rudyarchitect" 
+    admin= "Rudy" 
     id= "location.pathname" 
     labels= "gitalk" 
     perPage= 15 
