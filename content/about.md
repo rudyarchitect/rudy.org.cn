@@ -9,3 +9,5 @@ draft: false
 ### 年岁有加，并非垂老。理想丢弃，方坠暮年。
 
 ### rudy.architect@foxmail.com
+
+![GitHub Chart](https://ghchart.rshah.org/rudyarchitect)
