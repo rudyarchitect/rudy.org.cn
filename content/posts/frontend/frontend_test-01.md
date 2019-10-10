@@ -56,6 +56,8 @@ $event//event原生事件
 
 事件修饰符 .stop .prevent .once
 
+v-on:keyup.按键名 //按键修饰符
+
 <br>
 
 <center>  ·End·  </center>

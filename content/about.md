@@ -10,4 +10,6 @@ draft: false
 
 ### rudy.architect@foxmail.com
 
+<img alt="lufei" src="https://rudy.org.cn/site-images/life/lufei.jpeg">
+
 ![GitHub Chart](https://ghchart.rshah.org/rudyarchitect)
