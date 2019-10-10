@@ -2,7 +2,7 @@
 title: "vue笔记01"
 date: 2019-10-09T16:03:06+08:00
 draft: false
-tags: ["前端"]
+tags: ["vue"]
 categories: ["前端"]
 featured_image: 
 description: 

@@ -2,7 +2,7 @@
 title: "java笔记01"
 date: 2019-10-09T16:03:33+08:00
 draft: false
-tags: ["后端"]
+tags: ["java"]
 categories: ["后端"]
 featured_image: 
 description: 
