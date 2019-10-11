@@ -2,7 +2,7 @@
 title: "About"
 date: 2019-09-23T17:53:43+08:00
 draft: false
-featured_image: https://rudyarchitect.github.io/site-images/life/deepMind.jpg
+featured_image:
 ---
 
 <center>
