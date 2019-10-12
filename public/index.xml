@@ -1,0 +1,210 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Rudy&#39;s blog on Rudy&#39;s blog</title>
+    <link>https://rudy.org.cn/</link>
+    <description>Recent content in Rudy&#39;s blog on Rudy&#39;s blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Wed, 09 Oct 2019 19:27:35 +0800</lastBuildDate>
+    <atom:link href="https://rudy.org.cn/" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>前端架构与管理实践01</title>
+      <link>https://rudy.org.cn/2019/frontend_book_test-01/</link>
+      <pubDate>Wed, 09 Oct 2019 19:27:35 +0800</pubDate>
+      
+      <guid>https://rudy.org.cn/2019/frontend_book_test-01/</guid>
+      <description>&lt;p&gt;框架分析与展望&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;核心原理&lt;/li&gt;
+&lt;li&gt;三大框架对比&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;前端流程设计与团队建设&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;脚手架&lt;/li&gt;
+&lt;li&gt;规范&lt;/li&gt;
+&lt;li&gt;代码管理策略&lt;/li&gt;
+&lt;li&gt;测试&lt;/li&gt;
+&lt;li&gt;部署策略&lt;/li&gt;
+&lt;li&gt;团队建设&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;前端监控设计与落地&lt;/p&gt;
+
+&lt;p&gt;前端新技术展望与实践&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;webassembly&lt;/li&gt;
+&lt;li&gt;pwa&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;br&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;center&gt;  ·End·  &lt;/center&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>机器学习01</title>
+      <link>https://rudy.org.cn/2019/ai_test-01/</link>
+      <pubDate>Wed, 09 Oct 2019 19:17:50 +0800</pubDate>
+      
+      <guid>https://rudy.org.cn/2019/ai_test-01/</guid>
+      <description>&lt;p&gt;&lt;br&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;center&gt;  ·End·  &lt;/center&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>java笔记01</title>
+      <link>https://rudy.org.cn/2019/backend_test-01/</link>
+      <pubDate>Wed, 09 Oct 2019 16:03:33 +0800</pubDate>
+      
+      <guid>https://rudy.org.cn/2019/backend_test-01/</guid>
+      <description>&lt;p&gt;任何程序的本质有3个，变量，判断语句，循环语句。&lt;/p&gt;
+
+&lt;p&gt;数据都是由一张张表组成的。&lt;/p&gt;
+
+&lt;p&gt;20%的精英才会用心对待一件事件。&lt;/p&gt;
+
+&lt;p&gt;面试前准备：
+1. 了解公司情况
+2. 相关技术复习
+3. 公司产品分析
+ - 用户群体
+ - PC端功能
+ - APP端功能
+ - 同类产品
+4. 5年职业规划&lt;/p&gt;
+
+&lt;p&gt;&lt;br&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;center&gt;  ·End·  &lt;/center&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>vue笔记01</title>
+      <link>https://rudy.org.cn/2019/frontend_test-01/</link>
+      <pubDate>Wed, 09 Oct 2019 16:03:06 +0800</pubDate>
+      
+      <guid>https://rudy.org.cn/2019/frontend_test-01/</guid>
+      <description>&lt;p&gt;npm root -g&lt;/p&gt;
+
+&lt;p&gt;npm config set prefix [path]&lt;/p&gt;
+
+&lt;p&gt;npm list /ls&lt;/p&gt;
+
+&lt;p&gt;—save -S //生产环境 默认&lt;/p&gt;
+
+&lt;p&gt;—save-dev -D //开发环境&lt;/p&gt;
+
+&lt;p&gt;npm view [module] version/versions&lt;/p&gt;
+
+&lt;p&gt;npm get registry&lt;/p&gt;
+
+&lt;p&gt;npm config set registry [url]&lt;/p&gt;
+
+&lt;p&gt;V-model //vm&lt;/p&gt;
+
+&lt;p&gt;v-once&lt;/p&gt;
+
+&lt;p&gt;v-html&lt;/p&gt;
+
+&lt;p&gt;v-bind：属性 = 数据 // ：属性 = 数据&lt;/p&gt;
+
+&lt;p&gt;v-on：事件 = 函数 // @ 事件 = 函数&lt;/p&gt;
+
+&lt;p&gt;函数和计算属性区别
+1. 计算属性有缓存
+2. 支持双向绑定 get/set&lt;/p&gt;
+
+&lt;p&gt;Vue instance
+{
+    el,
+    data,
+    methods,
+    compute,
+    watch
+}&lt;/p&gt;
+
+&lt;p&gt;class,style使用v-bind绑定//string, object,array&lt;/p&gt;
+
+&lt;p&gt;v-show // css display属性实现，仍存在dom中，频繁切换使用，否则使用v-if&lt;/p&gt;
+
+&lt;p&gt;v-for // 使用时添加v-bind:key&lt;/p&gt;
+
+&lt;p&gt;$event//event原生事件&lt;/p&gt;
+
+&lt;p&gt;事件修饰符 .stop .prevent .once&lt;/p&gt;
+
+&lt;p&gt;v-on:keyup.按键名 //按键修饰符&lt;/p&gt;
+
+&lt;p&gt;&lt;br&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;center&gt;  ·End·  &lt;/center&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>人生总是起起落落</title>
+      <link>https://rudy.org.cn/2019/life_test-01/</link>
+      <pubDate>Wed, 09 Oct 2019 16:02:39 +0800</pubDate>
+      
+      <guid>https://rudy.org.cn/2019/life_test-01/</guid>
+      <description>&lt;p&gt;&lt;br&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;center&gt;  ·End·  &lt;/center&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>量化投资01</title>
+      <link>https://rudy.org.cn/2019/finance_test-01/</link>
+      <pubDate>Wed, 09 Oct 2019 16:02:24 +0800</pubDate>
+      
+      <guid>https://rudy.org.cn/2019/finance_test-01/</guid>
+      <description>&lt;p&gt;&lt;br&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;center&gt;  ·End·  &lt;/center&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>管理01</title>
+      <link>https://rudy.org.cn/2019/manage_test-01/</link>
+      <pubDate>Wed, 09 Oct 2019 15:58:01 +0800</pubDate>
+      
+      <guid>https://rudy.org.cn/2019/manage_test-01/</guid>
+      <description>&lt;p&gt;&lt;br&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;center&gt;  ·End·  &lt;/center&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>About</title>
+      <link>https://rudy.org.cn/about/</link>
+      <pubDate>Mon, 23 Sep 2019 17:53:43 +0800</pubDate>
+      
+      <guid>https://rudy.org.cn/about/</guid>
+      <description>
+
+&lt;p&gt;&lt;center&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;年岁有加-并非垂老-理想丢弃-方坠暮年&#34;&gt;年岁有加，并非垂老。理想丢弃，方坠暮年。&lt;/h3&gt;
+
+&lt;p&gt;&lt;img alt=&#34;lufei&#34; style=&#34;width:200px;height:200px&#34; src=&#34;https://rudyarchitect.github.io/site-images/life/lufei.jpeg&#34;&gt;
+&lt;strong&gt;&lt;em&gt;rudy.architect@foxmail.com&lt;/em&gt;&lt;/strong&gt;
+&lt;/center&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://ghchart.rshah.org/rudyarchitect&#34; alt=&#34;GitHub Chart&#34; /&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

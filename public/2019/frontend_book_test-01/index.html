@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+  <head>
+  <meta http-equiv="content-type" content="text/html;charset=utf-8">
+  <meta http-equiv="X-UA-Compatible" content="chrome=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="robots" content="noodp"/>
+  <meta name="author" content="Rudy">
+  
+  
+  
+  <link rel="prev" href="https://rudy.org.cn/2019/ai_test-01/" />
+  
+  <link rel="canonical" href="https://rudy.org.cn/2019/frontend_book_test-01/" />
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+  <link rel="manifest" href="/site.webmanifest">
+  <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+  <meta name="msapplication-TileColor" content="#da532c">
+  <meta name="theme-color" content="#ffffff">
+  <title>
+       
+       
+           前端架构与管理实践01 | Rudy&#39;s blog
+       
+  </title>
+  <meta name="title" content="前端架构与管理实践01 | Rudy&#39;s blog">
+    
+  <link rel="stylesheet" href="/css/main.min.css">
+
+
+  
+  
+ 
+
+<script type="application/ld+json">
+ "@context" : "http://schema.org",
+    "@type" : "BlogPosting",
+    "mainEntityOfPage": {
+         "@type": "WebPage",
+         "@id": "https:\/\/rudy.org.cn\/"
+    },
+    "articleSection" : "posts",
+    "name" : "前端架构与管理实践01",
+    "headline" : "前端架构与管理实践01",
+    "description" : "框架分析与展望 核心原理 三大框架对比 前端流程设计与团队建设 脚手架 规范 代码管理策略 测试 部署策略 团队建设 前端监控设计与落地 前端新技术展望与实践 webassembly pwa",
+    "inLanguage" : "zh-cn",
+    "author" : "Rudy",
+    "creator" : "Rudy",
+    "publisher": "Rudy",
+    "accountablePerson" : "Rudy",
+    "copyrightHolder" : "Rudy",
+    "copyrightYear" : "2019",
+    "datePublished": "2019-10-09 19:27:35 \x2b0800 CST",
+    "dateModified" : "2019-10-09 19:27:35 \x2b0800 CST",
+    "url" : "https:\/\/rudy.org.cn\/2019\/frontend_book_test-01\/",
+    "wordCount" : "75",
+    "keywords" : [ "book", "Rudy\x27s blog"]
+}
+</script>
+
+</head>
+
+  
+
+
+  <body class="">
+    <div class="wrapper">
+        <nav class="navbar">
+    
+        <div class="top-scroll-bar"></div>
+    
+    <div class="container">
+        <div class="navbar-header header-logo">
+            
+            <span class="logo_mark" >></span>
+            <a href="https://rudy.org.cn/">
+                <span class="logo_text" >$ cd /home/ </span>
+                <span class="logo_cursor" ></span>
+            </a>
+            
+        </div>
+        <div class="navbar-right">
+                
+                <span class="menu">
+                
+                <a class="menu-item" href="/posts/" title="">Blog</a>
+                
+                <a class="menu-item" href="/categories/" title="">Categories</a>
+                
+                <a class="menu-item" href="/tags/" title="">Tags</a>
+                
+                <a class="menu-item" href="/about/" title="">About</a>
+                
+                </span>
+                <a href="javascript:void(0);" class="theme-switch"><i class="iconfont icon-dark-mode"></i></a>
+        </div>
+    </div>
+</nav>
+<nav class="navbar-mobile" id="nav-mobile" style="display: none">
+     
+         <div class="top-scroll-bar"></div>
+     
+     <div class="container">
+        <div class="navbar-header">
+            <div class="header-logo">
+                
+                    <span class="logo_mark">></span>
+                    <a href="https://rudy.org.cn/">
+                        <span class="logo_text">$ cd /home/ </span>
+                        <span class="logo_cursor"></span>
+                </a>
+                
+            </div>
+            <div class="navbar-right">
+                <a href="javascript:void(0);" class="theme-switch"><i class="iconfont icon-dark-mode"></i></a>
+                <div class="menu-toggle">
+                    <span></span><span></span><span></span>
+                </div>
+            </div>
+        </div>
+     
+          <div class="menu" id="mobile-menu">
+                
+                
+                <a class="menu-item" href="/posts/" title="">Blog</a>
+                
+                <a class="menu-item" href="/categories/" title="">Categories</a>
+                
+                <a class="menu-item" href="/tags/" title="">Tags</a>
+                
+                <a class="menu-item" href="/about/" title="">About</a>
+                
+        </div>
+    </div>
+</nav>
+    	 <main class="main">
+          <div class="container">
+      		
+<article class="post-warp" itemscope itemtype="http://schema.org/Article">
+    <header class="post-header">
+        <h1 class="post-title" itemprop="name headline">前端架构与管理实践01</h1>
+        <div class="post-meta">
+                Written by <a itemprop="name" href="https://rudy.org.cn/" rel="author">Rudy</a> with ♥ 
+                <span class="post-time">
+                on <time datetime=2019-10-09 itemprop="datePublished">October 9, 2019</time>
+                </span>
+                in
+                <i class="iconfont icon-folder"></i>
+                <span class="post-category">
+                        <a href="https://rudy.org.cn/categories/%E5%89%8D%E7%AB%AF/"> 前端 </a>
+                        
+                </span>
+                <span class="post-word-count">, 75 words</span>
+        </div>
+    </header>
+    <div class="post-content">
+        
+
+        
+
+        
+        
+     
+          
+          
+          
+
+          
+          
+          
+
+          <p>框架分析与展望</p>
+
+<ul>
+<li>核心原理</li>
+<li>三大框架对比</li>
+</ul>
+
+<p>前端流程设计与团队建设</p>
+
+<ul>
+<li>脚手架</li>
+<li>规范</li>
+<li>代码管理策略</li>
+<li>测试</li>
+<li>部署策略</li>
+<li>团队建设</li>
+</ul>
+
+<p>前端监控设计与落地</p>
+
+<p>前端新技术展望与实践</p>
+
+<ul>
+<li>webassembly</li>
+<li>pwa</li>
+</ul>
+
+<p><br></p>
+
+<p><center>  ·End·  </center></p>
+
+    </div>
+
+    <div class="post-copyright">
+             
+            <p class="copyright-item">
+                <span>Author:</span>
+                <span>Rudy </span>
+                </p>
+            
+           
+             
+            <p class="copyright-item">
+                    <span>Link:</span>
+                    <a href=https://rudy.org.cn/2019/frontend_book_test-01/>https://rudy.org.cn/2019/frontend_book_test-01/</span>
+            </p>
+            
+             
+            <p class="copyright-item lincese">
+                MIT
+            </p>
+            
+    </div>
+
+  
+    <div class="post-tags">
+        
+            <section>
+            <i class="iconfont icon-tag"></i>Tag(s): 
+            
+            <span class="tag"><a href="https://rudy.org.cn/tags/book/">
+                    #book</a></span>
+            
+            </section>
+        
+        <section>
+                <a href="javascript:window.history.back();">back</a></span> · 
+                <span><a href="https://rudy.org.cn/">home</a></span>
+        </section>
+    </div>
+
+    <div class="post-nav">
+        
+        <a href="https://rudy.org.cn/2019/ai_test-01/" class="prev" rel="prev" title="机器学习01"><i class="iconfont icon-left"></i>&nbsp;机器学习01</a>
+         
+        
+    </div>
+
+    <div class="post-comment">
+          
+                 
+          
+        
+<div id="gitalk-container"></div>
+<link rel="stylesheet" href="https://cdn.bootcss.com/gitalk/1.5.0/gitalk.css">
+<script src="https://cdn.bootcss.com/gitalk/1.5.0/gitalk.min.js"></script>
+<script>
+    const gitalk = new Gitalk({
+
+        clientID: '14b5679b927269afbdb6',
+        clientSecret: 'a69f53c82624a3541530aee402850ed998b49ae9',
+        repo: 'rudy.org.cn',
+        owner: 'rudyarchitect',
+        admin: ['rudyarchitect'],
+        id: location.pathname, 
+        distractionFreeMode: false 
+    });
+    (function () {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('gitalk-container').innerHTML = 'Gitalk comments not available by default when the website is previewed locally.';
+            return;
+        }
+        gitalk.render('gitalk-container');
+    })();
+</script>
+
+    </div>
+</article>
+          </div>
+		   </main>
+      <footer class="footer">
+    <img alt="deepMind"  style="width:50%;" src=" https://rudyarchitect.github.io/site-images/life/deepMind.jpg">
+    <div class="copyright">
+        &copy;
+        
+        <span itemprop="copyrightYear">2019</span>
+        
+        <span class="with-love">
+    	 <i class="iconfont icon-love"></i> 
+         </span>
+         
+            <span class="author" itemprop="copyrightHolder"><a href="https://rudy.org.cn/">Rudy</a> | </span> 
+         
+
+         
+		  <span>Powered by <a href="https://gohugo.io/" target="_blank" rel="external nofollow">Hugo</a> & <a href="https://github.com/liuzc/leaveit" target="_blank" rel="external nofollow">LeaveIt</a></span> 
+    </div>
+</footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    
+    <script src="/js/vendor_no_gallery.min.js" async=""></script>
+    
+  
+
+
+
+     </div>
+  </body>
+</html>
