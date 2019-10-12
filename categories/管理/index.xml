@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>管理 on Rudy&#39;s blog</title>
+    <link>https://rudy.org.cn/categories/%E7%AE%A1%E7%90%86/</link>
+    <description>Recent content in 管理 on Rudy&#39;s blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Wed, 09 Oct 2019 15:58:01 +0800</lastBuildDate>
+    
+	<atom:link href="https://rudy.org.cn/categories/%E7%AE%A1%E7%90%86/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>管理01</title>
+      <link>https://rudy.org.cn/2019/manage_test-01/</link>
+      <pubDate>Wed, 09 Oct 2019 15:58:01 +0800</pubDate>
+      
+      <guid>https://rudy.org.cn/2019/manage_test-01/</guid>
+      <description>·End·</description>
+    </item>
+    
+  </channel>
+</rss>

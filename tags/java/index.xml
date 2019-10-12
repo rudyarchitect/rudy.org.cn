@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>java on Rudy&#39;s blog</title>
+    <link>https://rudy.org.cn/tags/java/</link>
+    <description>Recent content in java on Rudy&#39;s blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Wed, 09 Oct 2019 16:03:33 +0800</lastBuildDate>
+    
+	<atom:link href="https://rudy.org.cn/tags/java/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>java笔记01</title>
+      <link>https://rudy.org.cn/2019/backend_test-01/</link>
+      <pubDate>Wed, 09 Oct 2019 16:03:33 +0800</pubDate>
+      
+      <guid>https://rudy.org.cn/2019/backend_test-01/</guid>
+      <description>任何程序的本质有3个，变量，判断语句，循环语句。 数据都是由一张张表组成的。 20%的精英才会用心对待一件事件。 面试前准备： 1. 了解公司情况 2. 相关</description>
+    </item>
+    
+  </channel>
+</rss>
