@@ -1,11 +1,23 @@
 sudo: false
 language: go
-git:
-    depth: 1
-install: go get -v github.com/gohugoio/hugo
-script: hugo
+go:
+    - master
+
+# before_install
+# install - install any dependencies required
+install:
+    - go get github.com/gohugoio/hugo   
+
+before_script:
+    - rm -rf docs 2> /dev/null
+
+# script - run the build script
+script:
+    - hugo 2> /dev/null
+    - echo "$CNAME_URL" > docs/CNAME
 deploy:
     provider: pages
+    skip-cleanup: true
     github_token: $GITHUB_TOKEN
     on:
         branch: master
@@ -13,3 +25,4 @@ deploy:
     repo: rudyarchitect/rudy.org.cn
     target_branch: gh-pages
     fqdn: rudy.org.cn
+    
