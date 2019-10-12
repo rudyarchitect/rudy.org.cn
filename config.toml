@@ -35,7 +35,7 @@ preserveTaxonomyNames = true
 [params]
     since = 2019
     author = "Rudy"
-    avatar = "android-chrome-192x192.png" 
+    avatar = "/android-chrome-192x192.png" 
     subtitle = "年岁有加，并非垂老。理想丢弃，方坠暮年。"
     cdn_url = "" 
     home_mode = "post" 
