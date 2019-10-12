@@ -1,4 +1,4 @@
-publishDir = "docs"
+publishDir = "public"
 baseURL = "https://rudy.org.cn/"
 title = "Rudy's blog" 
 languageCode = "zh-cn" 
