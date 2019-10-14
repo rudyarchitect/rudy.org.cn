@@ -5,8 +5,242 @@
     <description>Recent content in Rudy&#39;s blog on Rudy&#39;s blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Wed, 09 Oct 2019 19:27:35 +0800</lastBuildDate>
+    <lastBuildDate>Mon, 14 Oct 2019 17:39:21 +0800</lastBuildDate>
     <atom:link href="https://rudy.org.cn/" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>前端规范01</title>
+      <link>https://rudy.org.cn/2019/frontend_standard-01/</link>
+      <pubDate>Mon, 14 Oct 2019 17:39:21 +0800</pubDate>
+      
+      <guid>https://rudy.org.cn/2019/frontend_standard-01/</guid>
+      <description>&lt;p&gt;1.项目组织结构
+- 目录结构
+- 配置文件
+- README&lt;/p&gt;
+
+&lt;p&gt;2.代码规范&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;命名规范&lt;/li&gt;
+&lt;li&gt;Html规范&lt;/li&gt;
+&lt;li&gt;Javascript规范&lt;/li&gt;
+&lt;li&gt;CSS规范&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;3.统一代码风格&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;利用Lint工具，配置语法检测规则来对代码风格进行检测。&lt;/li&gt;
+&lt;li&gt;e.g.  js lint, css lint&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;4.开发工具规范&lt;/p&gt;
+
+&lt;p&gt;4.1 编辑器&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Visual Studio Code&lt;/li&gt;
+&lt;li&gt;Web Storm&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;4.2 统一插件&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;EditorConfig&lt;/li&gt;
+&lt;li&gt;Lint&lt;/li&gt;
+&lt;li&gt;单词拼写检查&lt;/li&gt;
+&lt;li&gt;路径补全&lt;/li&gt;
+&lt;li&gt;代码自动补全&lt;/li&gt;
+&lt;li&gt;Emmet&lt;/li&gt;
+&lt;li&gt;代码格式化&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;4.3 README搭建指南&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;运行环境&lt;/li&gt;
+&lt;li&gt;依赖项&lt;/li&gt;
+&lt;li&gt;项目安装指南&lt;/li&gt;
+&lt;li&gt;项目结构图&lt;/li&gt;
+&lt;li&gt;参考资料&lt;/li&gt;
+&lt;li&gt;维护人员联系方式&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;5.代码提交信息规范&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;[任务名称/编码] [类型] 提交人 : 详细信息。&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;类型说明：&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;文档&lt;/li&gt;
+&lt;li&gt;功能&lt;/li&gt;
+&lt;li&gt;修复&lt;/li&gt;
+&lt;li&gt;重构&lt;/li&gt;
+&lt;li&gt;样式&lt;/li&gt;
+&lt;li&gt;测试&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;6.流程化&lt;/p&gt;
+
+&lt;p&gt;6.1 代码预处理
+- Lint + Git Hooks
+- Lint + Webhook&lt;/p&gt;
+
+&lt;p&gt;6.2 人工检查代码
+- Code Review
+- Pull Request&lt;/p&gt;
+
+&lt;p&gt;7.工具&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;代码扫描工具 Sonar&lt;/li&gt;
+&lt;li&gt;测试方案&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;br&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;center&gt;  ·End·  &lt;/center&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>前端监控平台analysis-01</title>
+      <link>https://rudy.org.cn/2019/frontend_analysis-01/</link>
+      <pubDate>Mon, 14 Oct 2019 17:33:53 +0800</pubDate>
+      
+      <guid>https://rudy.org.cn/2019/frontend_analysis-01/</guid>
+      <description>
+
+&lt;h2 id=&#34;背景&#34;&gt;背景&lt;/h2&gt;
+
+&lt;p&gt;为了定位Web线上问题，需要对页面异常信息进行收集，分析和定位问题原因，以提升用户体验和产品运营效率。&lt;/p&gt;
+
+&lt;h2 id=&#34;维度&#34;&gt;维度&lt;/h2&gt;
+
+&lt;p&gt;前端监控的维度主要分为以下3个方面：&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;性能&lt;/li&gt;
+&lt;li&gt;异常&lt;/li&gt;
+&lt;li&gt;用户行为&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;原理&#34;&gt;原理&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;监听window对象的onerror事件。&lt;/li&gt;
+&lt;li&gt;使用try catch语句。&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;案例&#34;&gt;案例&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;[开源] 腾讯 &lt;a href=&#34;https://betterjs.github.io/&#34; rel=&#34;nofollow noreferrer&#34; target=&#34;_blank&#34;&gt;badjs&lt;/a&gt;
+文档说明详细，提供完整解决方案，项目落地10+。
+
+&lt;ul&gt;
+&lt;li&gt;日志功能&lt;/li&gt;
+&lt;li&gt;上报功能&lt;/li&gt;
+&lt;li&gt;统计功能&lt;/li&gt;
+&lt;li&gt;邮件功能&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;[收费] &lt;a href=&#34;https://sentry.io&#34; rel=&#34;nofollow noreferrer&#34; target=&#34;_blank&#34;&gt;sentry&lt;/a&gt;
+
+&lt;ul&gt;
+&lt;li&gt;代码开源&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://sentry.io/pricing/&#34; rel=&#34;nofollow noreferrer&#34; target=&#34;_blank&#34;&gt;价格&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;[收费] &lt;a href=&#34;https://www.fundebug.com/&#34; rel=&#34;nofollow noreferrer&#34; target=&#34;_blank&#34;&gt;fundebug&lt;/a&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.fundebug.com/price&#34; rel=&#34;nofollow noreferrer&#34; target=&#34;_blank&#34;&gt;价格&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;[收费] 阿里云ARMS-&lt;a href=&#34;https://help.aliyun.com/document_detail/58652.html?spm=5176.8064714.976547.2.251cIEc0IEc0Ro&#34; rel=&#34;nofollow noreferrer&#34; target=&#34;_blank&#34;&gt;前端监控&lt;/a&gt;
+
+&lt;ul&gt;
+&lt;li&gt;主动监控&lt;/li&gt;
+&lt;li&gt;慢会话追踪&lt;/li&gt;
+&lt;li&gt;搜索报错明细&lt;/li&gt;
+&lt;li&gt;出错行为还原&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;[收费] 蒲公英 &lt;a href=&#34;https://www.frontjs.com&#34; rel=&#34;nofollow noreferrer&#34; target=&#34;_blank&#34;&gt;frontjs&lt;/a&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.frontjs.com/pricing&#34; rel=&#34;nofollow noreferrer&#34; target=&#34;_blank&#34;&gt;价格&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;[无维护] 淘宝 &lt;a href=&#34;https://github.com/CurtisCBS/monitor&#34; rel=&#34;nofollow noreferrer&#34; target=&#34;_blank&#34;&gt;JSTracker&lt;/a&gt;
+
+&lt;ul&gt;
+&lt;li&gt;参考README&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;[未开源] 阿里 FdSafe&lt;/li&gt;
+&lt;li&gt;[无维护] 支付宝 &lt;a href=&#34;https://github.com/saijs/sai.js&#34; rel=&#34;nofollow noreferrer&#34; target=&#34;_blank&#34;&gt;saijs&lt;/a&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/saijs/wiki&#34; rel=&#34;nofollow noreferrer&#34; target=&#34;_blank&#34;&gt;javascript异常文档&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;需求分析&#34;&gt;需求分析&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;错误收集&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;错误信息&lt;/li&gt;
+&lt;li&gt;资源加载错误&lt;/li&gt;
+&lt;li&gt;运行时错误&lt;/li&gt;
+&lt;li&gt;性能指标&lt;/li&gt;
+&lt;li&gt;页面加载时长&lt;/li&gt;
+&lt;li&gt;首次渲染时长&lt;/li&gt;
+&lt;li&gt;首次内容渲染时长&lt;/li&gt;
+&lt;li&gt;首次有效渲染时长&lt;/li&gt;
+&lt;li&gt;&amp;hellip;&lt;/li&gt;
+&lt;li&gt;日志数据
+&lt;br /&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;上报策略&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;ajax&lt;/li&gt;
+&lt;li&gt;跨域 CORS协议&lt;/li&gt;
+&lt;li&gt;image对象
+&lt;br /&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;日志采集与存储&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;数据过滤&lt;/li&gt;
+&lt;li&gt;节流&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;告警功能&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;最大最小值&lt;/li&gt;
+&lt;li&gt;错误累计数&lt;/li&gt;
+&lt;li&gt;异常等级&lt;/li&gt;
+&lt;li&gt;自定义&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;邮件短信通知&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;错误定位与复现&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;管理后台数据可视化&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;br&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;center&gt;  ·End·  &lt;/center&gt;&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>前端架构与管理实践01</title>
@@ -143,6 +377,12 @@
 &lt;p&gt;事件修饰符 .stop .prevent .once&lt;/p&gt;
 
 &lt;p&gt;v-on:keyup.按键名 //按键修饰符&lt;/p&gt;
+
+&lt;p&gt;v-pre // 忽略Vue编译，提升性能&lt;/p&gt;
+
+&lt;p&gt;v-text/v-clock //隐藏双大括号&lt;/p&gt;
+
+&lt;p&gt;directives //自定义全局或局部指令&lt;/p&gt;
 
 &lt;p&gt;&lt;br&gt;&lt;/p&gt;
 

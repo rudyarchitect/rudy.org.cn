@@ -9,9 +9,9 @@
   
   
   
-  <link rel="prev" href="https://rudy.org.cn/2019/life_test-01/" />
-  <link rel="next" href="https://rudy.org.cn/2019/backend_test-01/" />
-  <link rel="canonical" href="https://rudy.org.cn/2019/frontend_test-01/" />
+  <link rel="prev" href="https://rudy.org.cn/2019/frontend_book_test-01/" />
+  <link rel="next" href="https://rudy.org.cn/2019/frontend_standard-01/" />
+  <link rel="canonical" href="https://rudy.org.cn/2019/frontend_analysis-01/" />
   <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
   <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
   <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
@@ -22,10 +22,10 @@
   <title>
        
        
-           vue笔记01 | Rudy&#39;s blog
+           前端监控平台analysis-01 | Rudy&#39;s blog
        
   </title>
-  <meta name="title" content="vue笔记01 | Rudy&#39;s blog">
+  <meta name="title" content="前端监控平台analysis-01 | Rudy&#39;s blog">
     
   <link rel="stylesheet" href="/css/main.min.css">
 
@@ -42,9 +42,9 @@
          "@id": "https:\/\/rudy.org.cn\/"
     },
     "articleSection" : "posts",
-    "name" : "vue笔记01",
-    "headline" : "vue笔记01",
-    "description" : "npm root -g npm config set prefix [path] npm list \/ls —save -S \/\/生产环境 默认 —save-dev -D \/\/开发环境 npm view [module] version\/versions npm get registry npm config set registry [url] V-model \/\/vm v-once v-html v-bind：属性 = 数据 \/\/",
+    "name" : "前端监控平台analysis-01",
+    "headline" : "前端监控平台analysis-01",
+    "description" : "背景 为了定位Web线上问题，需要对页面异常信息进行收集，分析和定位问题原因，以提升用户体验和产品运营效率。 维度 前端监控的维度主要分为以下3个",
     "inLanguage" : "zh-cn",
     "author" : "Rudy",
     "creator" : "Rudy",
@@ -52,11 +52,11 @@
     "accountablePerson" : "Rudy",
     "copyrightHolder" : "Rudy",
     "copyrightYear" : "2019",
-    "datePublished": "2019-10-09 16:03:06 \x2b0800 CST",
-    "dateModified" : "2019-10-09 16:03:06 \x2b0800 CST",
-    "url" : "https:\/\/rudy.org.cn\/2019\/frontend_test-01\/",
-    "wordCount" : "300",
-    "keywords" : [ "vue", "Rudy\x27s blog"]
+    "datePublished": "2019-10-14 17:33:53 \x2b0800 CST",
+    "dateModified" : "2019-10-14 17:33:53 \x2b0800 CST",
+    "url" : "https:\/\/rudy.org.cn\/2019\/frontend_analysis-01\/",
+    "wordCount" : "419",
+    "keywords" : [ "analysis", "Rudy\x27s blog"]
 }
 </script>
 
@@ -140,11 +140,11 @@
       		
 <article class="post-warp" itemscope itemtype="http://schema.org/Article">
     <header class="post-header">
-        <h1 class="post-title" itemprop="name headline">vue笔记01</h1>
+        <h1 class="post-title" itemprop="name headline">前端监控平台analysis-01</h1>
         <div class="post-meta">
                 Written by <a itemprop="name" href="https://rudy.org.cn/" rel="author">Rudy</a> with ♥ 
                 <span class="post-time">
-                on <time datetime=2019-10-09 itemprop="datePublished">October 9, 2019</time>
+                on <time datetime=2019-10-14 itemprop="datePublished">October 14, 2019</time>
                 </span>
                 in
                 <i class="iconfont icon-folder"></i>
@@ -152,7 +152,7 @@
                         <a href="https://rudy.org.cn/categories/%E5%89%8D%E7%AB%AF/"> 前端 </a>
                         
                 </span>
-                <span class="post-word-count">, 300 words</span>
+                <span class="post-word-count">, 419 words</span>
         </div>
     </header>
     <div class="post-content">
@@ -171,62 +171,128 @@
           
           
 
-          <p>npm root -g</p>
+          
 
-<p>npm config set prefix [path]</p>
+<h2 id="背景">背景</h2>
 
-<p>npm list /ls</p>
+<p>为了定位Web线上问题，需要对页面异常信息进行收集，分析和定位问题原因，以提升用户体验和产品运营效率。</p>
 
-<p>—save -S //生产环境 默认</p>
+<h2 id="维度">维度</h2>
 
-<p>—save-dev -D //开发环境</p>
+<p>前端监控的维度主要分为以下3个方面：</p>
 
-<p>npm view [module] version/versions</p>
+<ul>
+<li>性能</li>
+<li>异常</li>
+<li>用户行为</li>
+</ul>
 
-<p>npm get registry</p>
+<h2 id="原理">原理</h2>
 
-<p>npm config set registry [url]</p>
+<ul>
+<li>监听window对象的onerror事件。</li>
+<li>使用try catch语句。</li>
+</ul>
 
-<p>V-model //vm</p>
+<h2 id="案例">案例</h2>
 
-<p>v-once</p>
+<ul>
+<li>[开源] 腾讯 <a href="https://betterjs.github.io/" rel="nofollow noreferrer" target="_blank">badjs</a>
+文档说明详细，提供完整解决方案，项目落地10+。
 
-<p>v-html</p>
+<ul>
+<li>日志功能</li>
+<li>上报功能</li>
+<li>统计功能</li>
+<li>邮件功能</li>
+</ul></li>
+<li>[收费] <a href="https://sentry.io" rel="nofollow noreferrer" target="_blank">sentry</a>
 
-<p>v-bind：属性 = 数据 // ：属性 = 数据</p>
+<ul>
+<li>代码开源</li>
+<li><a href="https://sentry.io/pricing/" rel="nofollow noreferrer" target="_blank">价格</a></li>
+</ul></li>
+<li>[收费] <a href="https://www.fundebug.com/" rel="nofollow noreferrer" target="_blank">fundebug</a>
 
-<p>v-on：事件 = 函数 // @ 事件 = 函数</p>
+<ul>
+<li><a href="https://www.fundebug.com/price" rel="nofollow noreferrer" target="_blank">价格</a></li>
+</ul></li>
+<li>[收费] 阿里云ARMS-<a href="https://help.aliyun.com/document_detail/58652.html?spm=5176.8064714.976547.2.251cIEc0IEc0Ro" rel="nofollow noreferrer" target="_blank">前端监控</a>
 
-<p>函数和计算属性区别
-1. 计算属性有缓存
-2. 支持双向绑定 get/set</p>
+<ul>
+<li>主动监控</li>
+<li>慢会话追踪</li>
+<li>搜索报错明细</li>
+<li>出错行为还原</li>
+</ul></li>
+<li>[收费] 蒲公英 <a href="https://www.frontjs.com" rel="nofollow noreferrer" target="_blank">frontjs</a>
 
-<p>Vue instance
-{
-    el,
-    data,
-    methods,
-    compute,
-    watch
-}</p>
+<ul>
+<li><a href="https://www.frontjs.com/pricing" rel="nofollow noreferrer" target="_blank">价格</a></li>
+</ul></li>
+<li>[无维护] 淘宝 <a href="https://github.com/CurtisCBS/monitor" rel="nofollow noreferrer" target="_blank">JSTracker</a>
 
-<p>class,style使用v-bind绑定//string, object,array</p>
+<ul>
+<li>参考README</li>
+</ul></li>
+<li>[未开源] 阿里 FdSafe</li>
+<li>[无维护] 支付宝 <a href="https://github.com/saijs/sai.js" rel="nofollow noreferrer" target="_blank">saijs</a>
 
-<p>v-show // css display属性实现，仍存在dom中，频繁切换使用，否则使用v-if</p>
+<ul>
+<li><a href="https://github.com/saijs/wiki" rel="nofollow noreferrer" target="_blank">javascript异常文档</a></li>
+</ul></li>
+</ul>
 
-<p>v-for // 使用时添加v-bind:key</p>
+<h2 id="需求分析">需求分析</h2>
 
-<p>$event//event原生事件</p>
+<ul>
+<li><p>错误收集</p>
 
-<p>事件修饰符 .stop .prevent .once</p>
+<ul>
+<li>错误信息</li>
+<li>资源加载错误</li>
+<li>运行时错误</li>
+<li>性能指标</li>
+<li>页面加载时长</li>
+<li>首次渲染时长</li>
+<li>首次内容渲染时长</li>
+<li>首次有效渲染时长</li>
+<li>&hellip;</li>
+<li>日志数据
+<br /></li>
+</ul></li>
 
-<p>v-on:keyup.按键名 //按键修饰符</p>
+<li><p>上报策略</p>
 
-<p>v-pre // 忽略Vue编译，提升性能</p>
+<ul>
+<li>ajax</li>
+<li>跨域 CORS协议</li>
+<li>image对象
+<br /></li>
+</ul></li>
 
-<p>v-text/v-clock //隐藏双大括号</p>
+<li><p>日志采集与存储</p>
 
-<p>directives //自定义全局或局部指令</p>
+<ul>
+<li>数据过滤</li>
+<li>节流</li>
+</ul></li>
+
+<li><p>告警功能</p>
+
+<ul>
+<li>最大最小值</li>
+<li>错误累计数</li>
+<li>异常等级</li>
+<li>自定义</li>
+</ul></li>
+
+<li><p>邮件短信通知</p></li>
+
+<li><p>错误定位与复现</p></li>
+
+<li><p>管理后台数据可视化</p></li>
+</ul>
 
 <p><br></p>
 
@@ -245,7 +311,7 @@
              
             <p class="copyright-item">
                     <span>Link:</span>
-                    <a href=https://rudy.org.cn/2019/frontend_test-01/>https://rudy.org.cn/2019/frontend_test-01/</span>
+                    <a href=https://rudy.org.cn/2019/frontend_analysis-01/>https://rudy.org.cn/2019/frontend_analysis-01/</span>
             </p>
             
              
@@ -261,8 +327,8 @@
             <section>
             <i class="iconfont icon-tag"></i>Tag(s): 
             
-            <span class="tag"><a href="https://rudy.org.cn/tags/vue/">
-                    #vue</a></span>
+            <span class="tag"><a href="https://rudy.org.cn/tags/analysis/">
+                    #analysis</a></span>
             
             </section>
         
@@ -274,10 +340,10 @@
 
     <div class="post-nav">
         
-        <a href="https://rudy.org.cn/2019/life_test-01/" class="prev" rel="prev" title="人生总是起起落落"><i class="iconfont icon-left"></i>&nbsp;人生总是起起落落</a>
+        <a href="https://rudy.org.cn/2019/frontend_book_test-01/" class="prev" rel="prev" title="前端架构与管理实践01"><i class="iconfont icon-left"></i>&nbsp;前端架构与管理实践01</a>
          
         
-        <a href="https://rudy.org.cn/2019/backend_test-01/" class="next" rel="next" title="java笔记01">java笔记01&nbsp;<i class="iconfont icon-right"></i></a>
+        <a href="https://rudy.org.cn/2019/frontend_standard-01/" class="next" rel="next" title="前端规范01">前端规范01&nbsp;<i class="iconfont icon-right"></i></a>
         
     </div>
 

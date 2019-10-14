@@ -58,6 +58,12 @@ $event//event原生事件
 
 v-on:keyup.按键名 //按键修饰符
 
+v-pre // 忽略Vue编译，提升性能
+
+v-text/v-clock //隐藏双大括号
+
+directives //自定义全局或局部指令
+
 <br>
 
 <center>  ·End·  </center>
