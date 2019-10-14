@@ -9,9 +9,9 @@
   
   
   
-  <link rel="prev" href="https://rudy.org.cn/2019/life_test-01/" />
-  <link rel="next" href="https://rudy.org.cn/2019/backend_test-01/" />
-  <link rel="canonical" href="https://rudy.org.cn/2019/frontend_test-01/" />
+  <link rel="prev" href="https://rudy.org.cn/2019/frontend_analysis-01/" />
+  
+  <link rel="canonical" href="https://rudy.org.cn/2019/frontend_standard-01/" />
   <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
   <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
   <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
@@ -22,10 +22,10 @@
   <title>
        
        
-           vue笔记01 | Rudy&#39;s blog
+           前端规范01 | Rudy&#39;s blog
        
   </title>
-  <meta name="title" content="vue笔记01 | Rudy&#39;s blog">
+  <meta name="title" content="前端规范01 | Rudy&#39;s blog">
     
   <link rel="stylesheet" href="/css/main.min.css">
 
@@ -42,9 +42,9 @@
          "@id": "https://rudy.org.cn/"
     },
     "articleSection" : "posts",
-    "name" : "vue笔记01",
-    "headline" : "vue笔记01",
-    "description" : "npm root -g npm config set prefix [path] npm list /ls —save -S //生产环境 默认 —save-dev -D //开发环境 npm view [module] version/versions npm get registry npm config set registry [url] V-model //vm v-once v-html v-bind：属性 = 数据 //",
+    "name" : "前端规范01",
+    "headline" : "前端规范01",
+    "description" : "1.项目组织结构 - 目录结构 - 配置文件 - README 2.代码规范 命名规范 Html规范 Javascript规范 CSS规范 3.统一代码风格 利用Lint工具，",
     "inLanguage" : "zh-cn",
     "author" : "Rudy",
     "creator" : "Rudy",
@@ -52,11 +52,11 @@
     "accountablePerson" : "Rudy",
     "copyrightHolder" : "Rudy",
     "copyrightYear" : "2019",
-    "datePublished": "2019-10-09 16:03:06 &#43;0800 &#43;0800",
-    "dateModified" : "2019-10-09 16:03:06 &#43;0800 &#43;0800",
-    "url" : "https://rudy.org.cn/2019/frontend_test-01/",
-    "wordCount" : "300",
-    "keywords" : [ "vue", "Rudy&#39;s blog"]
+    "datePublished": "2019-10-14 17:39:21 &#43;0800 &#43;0800",
+    "dateModified" : "2019-10-14 17:39:21 &#43;0800 &#43;0800",
+    "url" : "https://rudy.org.cn/2019/frontend_standard-01/",
+    "wordCount" : "283",
+    "keywords" : [ "standard", "Rudy&#39;s blog"]
 }
 </script>
 
@@ -140,11 +140,11 @@
       		
 <article class="post-warp" itemscope itemtype="http://schema.org/Article">
     <header class="post-header">
-        <h1 class="post-title" itemprop="name headline">vue笔记01</h1>
+        <h1 class="post-title" itemprop="name headline">前端规范01</h1>
         <div class="post-meta">
                 Written by <a itemprop="name" href="https://rudy.org.cn/" rel="author">Rudy</a> with ♥ 
                 <span class="post-time">
-                on <time datetime=2019-10-09 itemprop="datePublished">October 9, 2019</time>
+                on <time datetime=2019-10-14 itemprop="datePublished">October 14, 2019</time>
                 </span>
                 in
                 <i class="iconfont icon-folder"></i>
@@ -152,7 +152,7 @@
                         <a href="https://rudy.org.cn/categories/%E5%89%8D%E7%AB%AF/"> 前端 </a>
                         
                 </span>
-                <span class="post-word-count">, 300 words</span>
+                <span class="post-word-count">, 283 words</span>
         </div>
     </header>
     <div class="post-content">
@@ -171,62 +171,92 @@
           
           
 
-          <p>npm root -g</p>
+          <p>1.项目组织结构
+- 目录结构
+- 配置文件
+- README</p>
 
-<p>npm config set prefix [path]</p>
+<p>2.代码规范</p>
 
-<p>npm list /ls</p>
+<ul>
+<li>命名规范</li>
+<li>Html规范</li>
+<li>Javascript规范</li>
+<li>CSS规范</li>
+</ul>
 
-<p>—save -S //生产环境 默认</p>
+<p>3.统一代码风格</p>
 
-<p>—save-dev -D //开发环境</p>
+<ul>
+<li>利用Lint工具，配置语法检测规则来对代码风格进行检测。</li>
+<li>e.g.  js lint, css lint</li>
+</ul>
 
-<p>npm view [module] version/versions</p>
+<p>4.开发工具规范</p>
 
-<p>npm get registry</p>
+<p>4.1 编辑器</p>
 
-<p>npm config set registry [url]</p>
+<ul>
+<li>Visual Studio Code</li>
+<li>Web Storm</li>
+</ul>
 
-<p>V-model //vm</p>
+<p>4.2 统一插件</p>
 
-<p>v-once</p>
+<ul>
+<li>EditorConfig</li>
+<li>Lint</li>
+<li>单词拼写检查</li>
+<li>路径补全</li>
+<li>代码自动补全</li>
+<li>Emmet</li>
+<li>代码格式化</li>
+</ul>
 
-<p>v-html</p>
+<p>4.3 README搭建指南</p>
 
-<p>v-bind：属性 = 数据 // ：属性 = 数据</p>
+<ul>
+<li>运行环境</li>
+<li>依赖项</li>
+<li>项目安装指南</li>
+<li>项目结构图</li>
+<li>参考资料</li>
+<li>维护人员联系方式</li>
+</ul>
 
-<p>v-on：事件 = 函数 // @ 事件 = 函数</p>
+<p>5.代码提交信息规范</p>
 
-<p>函数和计算属性区别
-1. 计算属性有缓存
-2. 支持双向绑定 get/set</p>
+<ul>
+<li>[任务名称/编码] [类型] 提交人 : 详细信息。</li>
+</ul>
 
-<p>Vue instance
-{
-    el,
-    data,
-    methods,
-    compute,
-    watch
-}</p>
+<p>类型说明：</p>
 
-<p>class,style使用v-bind绑定//string, object,array</p>
+<ul>
+<li>文档</li>
+<li>功能</li>
+<li>修复</li>
+<li>重构</li>
+<li>样式</li>
+<li>测试</li>
+</ul>
 
-<p>v-show // css display属性实现，仍存在dom中，频繁切换使用，否则使用v-if</p>
+<p>6.流程化</p>
 
-<p>v-for // 使用时添加v-bind:key</p>
+<p>6.1 代码预处理
+- Lint + Git Hooks
+- Lint + Webhook</p>
 
-<p>$event//event原生事件</p>
+<p>6.2 人工检查代码
+- Code Review
+- Pull Request</p>
 
-<p>事件修饰符 .stop .prevent .once</p>
+<p>7.工具</p>
 
-<p>v-on:keyup.按键名 //按键修饰符</p>
-
-<p>v-pre // 忽略Vue编译，提升性能</p>
-
-<p>v-text/v-clock //隐藏双大括号</p>
-
-<p>directives //自定义全局或局部指令</p>
+<ul>
+<li>代码扫描工具 Sonar</li>
+<li>测试方案</li>
+</ul>
 
 <p><br></p>
 
@@ -245,7 +275,7 @@
              
             <p class="copyright-item">
                     <span>Link:</span>
-                    <a href=https://rudy.org.cn/2019/frontend_test-01/>https://rudy.org.cn/2019/frontend_test-01/</span>
+                    <a href=https://rudy.org.cn/2019/frontend_standard-01/>https://rudy.org.cn/2019/frontend_standard-01/</span>
             </p>
             
              
@@ -261,8 +291,8 @@
             <section>
             <i class="iconfont icon-tag"></i>Tag(s): 
             
-            <span class="tag"><a href="https://rudy.org.cn/tags/vue/">
-                    #vue</a></span>
+            <span class="tag"><a href="https://rudy.org.cn/tags/standard/">
+                    #standard</a></span>
             
             </section>
         
@@ -274,10 +304,8 @@
 
     <div class="post-nav">
         
-        <a href="https://rudy.org.cn/2019/life_test-01/" class="prev" rel="prev" title="人生总是起起落落"><i class="iconfont icon-left"></i>&nbsp;人生总是起起落落</a>
+        <a href="https://rudy.org.cn/2019/frontend_analysis-01/" class="prev" rel="prev" title="前端监控平台analysis-01"><i class="iconfont icon-left"></i>&nbsp;前端监控平台analysis-01</a>
          
-        
-        <a href="https://rudy.org.cn/2019/backend_test-01/" class="next" rel="next" title="java笔记01">java笔记01&nbsp;<i class="iconfont icon-right"></i></a>
         
     </div>
 
