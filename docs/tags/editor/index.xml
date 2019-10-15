@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>editor on Rudy&#39;s blog</title>
+    <link>https://rudy.org.cn/tags/editor/</link>
+    <description>Recent content in editor on Rudy&#39;s blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Mon, 14 Oct 2019 19:18:13 +0800</lastBuildDate>
+    
+	<atom:link href="https://rudy.org.cn/tags/editor/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>编辑器01</title>
+      <link>https://rudy.org.cn/2019/frontend_editor-01/</link>
+      <pubDate>Mon, 14 Oct 2019 19:18:13 +0800</pubDate>
+      
+      <guid>https://rudy.org.cn/2019/frontend_editor-01/</guid>
+      <description>页面 = HTML Tree (DOM) + 静态Data + 动态逻辑Javascript 页面可视化编辑本质上是用可视化的方式对页面的DOM、静态Data和动态逻辑javas</description>
+    </item>
+    
+  </channel>
+</rss>

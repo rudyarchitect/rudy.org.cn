@@ -5,8 +5,77 @@
     <description>Recent content in Rudy&#39;s blog on Rudy&#39;s blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Mon, 14 Oct 2019 17:39:21 +0800</lastBuildDate>
+    <lastBuildDate>Tue, 15 Oct 2019 11:19:24 +0800</lastBuildDate>
     <atom:link href="https://rudy.org.cn/" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>大数据01</title>
+      <link>https://rudy.org.cn/2019/backend_bigdata_01/</link>
+      <pubDate>Tue, 15 Oct 2019 11:19:24 +0800</pubDate>
+      
+      <guid>https://rudy.org.cn/2019/backend_bigdata_01/</guid>
+      <description>&lt;p&gt;&lt;br&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;center&gt;  ·End·  &lt;/center&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>编辑器01</title>
+      <link>https://rudy.org.cn/2019/frontend_editor-01/</link>
+      <pubDate>Mon, 14 Oct 2019 19:18:13 +0800</pubDate>
+      
+      <guid>https://rudy.org.cn/2019/frontend_editor-01/</guid>
+      <description>&lt;p&gt;页面 = HTML Tree (DOM) + 静态Data + 动态逻辑Javascript&lt;/p&gt;
+
+&lt;p&gt;页面可视化编辑本质上是用可视化的方式对页面的DOM、静态Data和动态逻辑javascript进行操作，从而完成页面的生成。&lt;/p&gt;
+
+&lt;p&gt;前端服务化，为前端小白，运营/产品人员,以及后台开发人员提供开发前端页面的能力。&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;系统粒度
+
+&lt;ul&gt;
+&lt;li&gt;HTML Tree编辑&lt;/li&gt;
+&lt;li&gt;Component Tree编辑&lt;/li&gt;
+&lt;li&gt;静态Data编辑&lt;/li&gt;
+&lt;li&gt;动态逻辑Javascript编辑&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;面向群体
+
+&lt;ul&gt;
+&lt;li&gt;前端小白&lt;/li&gt;
+&lt;li&gt;运营/产品人员&lt;/li&gt;
+&lt;li&gt;后台开发人员&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;编辑自由度
+
+&lt;ul&gt;
+&lt;li&gt;页面&lt;/li&gt;
+&lt;li&gt;组件&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;核心原理：模板 + 配置数据 = 页面&lt;/p&gt;
+
+&lt;p&gt;最佳实践
+- 数据格式Json Scheme
+- 组件化和模板化
+- 编辑与组件、模板和框架解耦
+- 框架负责数据管理
+  + 数据包括组件数据和业务数据，管理包括保存数据和读取数据方式。
+- 分析数据管理的简单场景和复杂场景，确定边界
+- 组件暴露所有属性和事件
+- 渐进式体验
+- 数据驱动
+  + 数据现在是什么样子
+  + 数据在哪里被修改了&lt;/p&gt;
+
+&lt;p&gt;&lt;br&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;center&gt;  ·End·  &lt;/center&gt;&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>前端规范01</title>
@@ -295,10 +364,10 @@
     
     <item>
       <title>java笔记01</title>
-      <link>https://rudy.org.cn/2019/backend_test-01/</link>
+      <link>https://rudy.org.cn/2019/backend_java-01/</link>
       <pubDate>Wed, 09 Oct 2019 16:03:33 +0800</pubDate>
       
-      <guid>https://rudy.org.cn/2019/backend_test-01/</guid>
+      <guid>https://rudy.org.cn/2019/backend_java-01/</guid>
       <description>&lt;p&gt;任何程序的本质有3个，变量，判断语句，循环语句。&lt;/p&gt;
 
 &lt;p&gt;数据都是由一张张表组成的。&lt;/p&gt;
@@ -323,10 +392,10 @@
     
     <item>
       <title>vue笔记01</title>
-      <link>https://rudy.org.cn/2019/frontend_test-01/</link>
+      <link>https://rudy.org.cn/2019/frontend_vue-01/</link>
       <pubDate>Wed, 09 Oct 2019 16:03:06 +0800</pubDate>
       
-      <guid>https://rudy.org.cn/2019/frontend_test-01/</guid>
+      <guid>https://rudy.org.cn/2019/frontend_vue-01/</guid>
       <description>&lt;p&gt;npm root -g&lt;/p&gt;
 
 &lt;p&gt;npm config set prefix [path]&lt;/p&gt;

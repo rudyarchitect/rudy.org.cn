@@ -6,17 +6,26 @@
     <description>Recent content in 后端 on Rudy&#39;s blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Wed, 09 Oct 2019 16:03:33 +0800</lastBuildDate>
+    <lastBuildDate>Tue, 15 Oct 2019 11:19:24 +0800</lastBuildDate>
     
 	<atom:link href="https://rudy.org.cn/categories/%E5%90%8E%E7%AB%AF/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
+      <title>大数据01</title>
+      <link>https://rudy.org.cn/2019/backend_bigdata_01/</link>
+      <pubDate>Tue, 15 Oct 2019 11:19:24 +0800</pubDate>
+      
+      <guid>https://rudy.org.cn/2019/backend_bigdata_01/</guid>
+      <description>·End·</description>
+    </item>
+    
+    <item>
       <title>java笔记01</title>
-      <link>https://rudy.org.cn/2019/backend_test-01/</link>
+      <link>https://rudy.org.cn/2019/backend_java-01/</link>
       <pubDate>Wed, 09 Oct 2019 16:03:33 +0800</pubDate>
       
-      <guid>https://rudy.org.cn/2019/backend_test-01/</guid>
+      <guid>https://rudy.org.cn/2019/backend_java-01/</guid>
       <description>任何程序的本质有3个，变量，判断语句，循环语句。 数据都是由一张张表组成的。 20%的精英才会用心对待一件事件。 面试前准备： 1. 了解公司情况 2. 相关</description>
     </item>
     

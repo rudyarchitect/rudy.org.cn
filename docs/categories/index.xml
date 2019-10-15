@@ -6,15 +6,24 @@
     <description>Recent content in Categories on Rudy&#39;s blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Mon, 14 Oct 2019 17:39:21 +0800</lastBuildDate>
+    <lastBuildDate>Tue, 15 Oct 2019 11:19:24 +0800</lastBuildDate>
     
 	<atom:link href="https://rudy.org.cn/categories/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
+      <title>后端</title>
+      <link>https://rudy.org.cn/categories/%E5%90%8E%E7%AB%AF/</link>
+      <pubDate>Tue, 15 Oct 2019 11:19:24 +0800</pubDate>
+      
+      <guid>https://rudy.org.cn/categories/%E5%90%8E%E7%AB%AF/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>前端</title>
       <link>https://rudy.org.cn/categories/%E5%89%8D%E7%AB%AF/</link>
-      <pubDate>Mon, 14 Oct 2019 17:39:21 +0800</pubDate>
+      <pubDate>Mon, 14 Oct 2019 19:18:13 +0800</pubDate>
       
       <guid>https://rudy.org.cn/categories/%E5%89%8D%E7%AB%AF/</guid>
       <description></description>
@@ -26,15 +35,6 @@
       <pubDate>Wed, 09 Oct 2019 19:17:50 +0800</pubDate>
       
       <guid>https://rudy.org.cn/categories/%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>后端</title>
-      <link>https://rudy.org.cn/categories/%E5%90%8E%E7%AB%AF/</link>
-      <pubDate>Wed, 09 Oct 2019 16:03:33 +0800</pubDate>
-      
-      <guid>https://rudy.org.cn/categories/%E5%90%8E%E7%AB%AF/</guid>
       <description></description>
     </item>
     
