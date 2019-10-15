@@ -13,10 +13,10 @@
     
     <item>
       <title>vue笔记01</title>
-      <link>https://rudy.org.cn/2019/frontend_test-01/</link>
+      <link>https://rudy.org.cn/2019/frontend_vue-01/</link>
       <pubDate>Wed, 09 Oct 2019 16:03:06 +0800</pubDate>
       
-      <guid>https://rudy.org.cn/2019/frontend_test-01/</guid>
+      <guid>https://rudy.org.cn/2019/frontend_vue-01/</guid>
       <description>npm root -g npm config set prefix [path] npm list /ls —save -S //生产环境 默认 —save-dev -D //开发环境 npm view [module] version/versions npm get registry npm config set registry [url] V-model //vm v-once v-html v-bind：属性 = 数据 //</description>
     </item>
     

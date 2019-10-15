@@ -2,9 +2,19 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
     <url>
+      <loc>https://rudy.org.cn/tags/bigdata/</loc>
+      
+      <lastmod>2019-10-15T11:19:24+08:00</lastmod>
+      
+      
+      
+      
+    </url>
+  
+    <url>
       <loc>https://rudy.org.cn/categories/</loc>
       
-      <lastmod>2019-10-14T17:39:21+08:00</lastmod>
+      <lastmod>2019-10-15T11:19:24+08:00</lastmod>
       
       
       
@@ -14,7 +24,7 @@
     <url>
       <loc>https://rudy.org.cn/posts/</loc>
       
-      <lastmod>2019-10-14T17:39:21+08:00</lastmod>
+      <lastmod>2019-10-15T11:19:24+08:00</lastmod>
       
       
       
@@ -24,17 +34,7 @@
     <url>
       <loc>https://rudy.org.cn/</loc>
       
-      <lastmod>2019-10-14T17:39:21+08:00</lastmod>
-      
-      
-      
-      
-    </url>
-  
-    <url>
-      <loc>https://rudy.org.cn/tags/standard/</loc>
-      
-      <lastmod>2019-10-14T17:39:21+08:00</lastmod>
+      <lastmod>2019-10-15T11:19:24+08:00</lastmod>
       
       
       
@@ -44,7 +44,37 @@
     <url>
       <loc>https://rudy.org.cn/tags/</loc>
       
-      <lastmod>2019-10-14T17:39:21+08:00</lastmod>
+      <lastmod>2019-10-15T11:19:24+08:00</lastmod>
+      
+      
+      
+      
+    </url>
+  
+    <url>
+      <loc>https://rudy.org.cn/categories/%E5%90%8E%E7%AB%AF/</loc>
+      
+      <lastmod>2019-10-15T11:19:24+08:00</lastmod>
+      
+      
+      
+      
+    </url>
+  
+    <url>
+      <loc>https://rudy.org.cn/2019/backend_bigdata_01/</loc>
+      
+      <lastmod>2019-10-15T11:19:24+08:00</lastmod>
+      
+      
+      
+      
+    </url>
+  
+    <url>
+      <loc>https://rudy.org.cn/tags/editor/</loc>
+      
+      <lastmod>2019-10-14T19:18:13+08:00</lastmod>
       
       
       
@@ -53,6 +83,26 @@
   
     <url>
       <loc>https://rudy.org.cn/categories/%E5%89%8D%E7%AB%AF/</loc>
+      
+      <lastmod>2019-10-14T19:18:13+08:00</lastmod>
+      
+      
+      
+      
+    </url>
+  
+    <url>
+      <loc>https://rudy.org.cn/2019/frontend_editor-01/</loc>
+      
+      <lastmod>2019-10-14T19:18:13+08:00</lastmod>
+      
+      
+      
+      
+    </url>
+  
+    <url>
+      <loc>https://rudy.org.cn/tags/standard/</loc>
       
       <lastmod>2019-10-14T17:39:21+08:00</lastmod>
       
@@ -152,17 +202,7 @@
     </url>
   
     <url>
-      <loc>https://rudy.org.cn/2019/backend_test-01/</loc>
-      
-      <lastmod>2019-10-09T16:03:33+08:00</lastmod>
-      
-      
-      
-      
-    </url>
-  
-    <url>
-      <loc>https://rudy.org.cn/categories/%E5%90%8E%E7%AB%AF/</loc>
+      <loc>https://rudy.org.cn/2019/backend_java-01/</loc>
       
       <lastmod>2019-10-09T16:03:33+08:00</lastmod>
       
@@ -182,7 +222,7 @@
     </url>
   
     <url>
-      <loc>https://rudy.org.cn/2019/frontend_test-01/</loc>
+      <loc>https://rudy.org.cn/2019/frontend_vue-01/</loc>
       
       <lastmod>2019-10-09T16:03:06+08:00</lastmod>
       
