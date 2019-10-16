@@ -2,9 +2,9 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
     <url>
-      <loc>https://rudy.org.cn/tags/bigdata/</loc>
+      <loc>https://rudy.org.cn/categories/</loc>
       
-      <lastmod>2019-10-15T11:19:24+08:00</lastmod>
+      <lastmod>2019-10-16T09:11:03+08:00</lastmod>
       
       
       
@@ -12,9 +12,9 @@
     </url>
   
     <url>
-      <loc>https://rudy.org.cn/categories/</loc>
+      <loc>https://rudy.org.cn/tags/keep-thinking/</loc>
       
-      <lastmod>2019-10-15T11:19:24+08:00</lastmod>
+      <lastmod>2019-10-16T09:11:03+08:00</lastmod>
       
       
       
@@ -24,7 +24,7 @@
     <url>
       <loc>https://rudy.org.cn/posts/</loc>
       
-      <lastmod>2019-10-15T11:19:24+08:00</lastmod>
+      <lastmod>2019-10-16T09:11:03+08:00</lastmod>
       
       
       
@@ -34,7 +34,7 @@
     <url>
       <loc>https://rudy.org.cn/</loc>
       
-      <lastmod>2019-10-15T11:19:24+08:00</lastmod>
+      <lastmod>2019-10-16T09:11:03+08:00</lastmod>
       
       
       
@@ -43,6 +43,36 @@
   
     <url>
       <loc>https://rudy.org.cn/tags/</loc>
+      
+      <lastmod>2019-10-16T09:11:03+08:00</lastmod>
+      
+      
+      
+      
+    </url>
+  
+    <url>
+      <loc>https://rudy.org.cn/categories/%E4%BA%BA%E7%94%9F/</loc>
+      
+      <lastmod>2019-10-16T09:11:03+08:00</lastmod>
+      
+      
+      
+      
+    </url>
+  
+    <url>
+      <loc>https://rudy.org.cn/2019/life_rendada/</loc>
+      
+      <lastmod>2019-10-16T09:11:03+08:00</lastmod>
+      
+      
+      
+      
+    </url>
+  
+    <url>
+      <loc>https://rudy.org.cn/tags/bigdata/</loc>
       
       <lastmod>2019-10-15T11:19:24+08:00</lastmod>
       
@@ -225,36 +255,6 @@
       <loc>https://rudy.org.cn/2019/frontend_vue-01/</loc>
       
       <lastmod>2019-10-09T16:03:06+08:00</lastmod>
-      
-      
-      
-      
-    </url>
-  
-    <url>
-      <loc>https://rudy.org.cn/tags/life/</loc>
-      
-      <lastmod>2019-10-09T16:02:39+08:00</lastmod>
-      
-      
-      
-      
-    </url>
-  
-    <url>
-      <loc>https://rudy.org.cn/categories/%E4%BA%BA%E7%94%9F/</loc>
-      
-      <lastmod>2019-10-09T16:02:39+08:00</lastmod>
-      
-      
-      
-      
-    </url>
-  
-    <url>
-      <loc>https://rudy.org.cn/2019/life_test-01/</loc>
-      
-      <lastmod>2019-10-09T16:02:39+08:00</lastmod>
       
       
       
