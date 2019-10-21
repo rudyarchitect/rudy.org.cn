@@ -13,10 +13,10 @@
     
     <item>
       <title>编辑器01</title>
-      <link>https://rudy.org.cn/2019/frontend_editor-01/</link>
+      <link>https://rudy.org.cn/2019/frontend_editor-design/</link>
       <pubDate>Mon, 14 Oct 2019 19:18:13 +0800</pubDate>
       
-      <guid>https://rudy.org.cn/2019/frontend_editor-01/</guid>
+      <guid>https://rudy.org.cn/2019/frontend_editor-design/</guid>
       <description>页面 = HTML Tree (DOM) + 静态Data + 动态逻辑Javascript 页面可视化编辑本质上是用可视化的方式对页面的DOM、静态Data和动态逻辑javas</description>
     </item>
     
