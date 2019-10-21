@@ -12,11 +12,11 @@
     
     
     <item>
-      <title>前端监控平台analysis-01</title>
-      <link>https://rudy.org.cn/2019/frontend_analysis-01/</link>
+      <title>前端监控平台analysis方案设计</title>
+      <link>https://rudy.org.cn/2019/frontend_analysis-design/</link>
       <pubDate>Mon, 14 Oct 2019 17:33:53 +0800</pubDate>
       
-      <guid>https://rudy.org.cn/2019/frontend_analysis-01/</guid>
+      <guid>https://rudy.org.cn/2019/frontend_analysis-design/</guid>
       <description>背景 为了定位Web线上问题，需要对页面异常信息进行收集，分析和定位问题原因，以提升用户体验和产品运营效率。 维度 前端监控的维度主要分为以下3个</description>
     </item>
     

@@ -1,5 +1,5 @@
 ---
-title: "前端监控平台analysis-01"
+title: "前端监控平台analysis方案设计"
 date: 2019-10-14T17:33:53+08:00
 draft: false
 tags: ["analysis"]

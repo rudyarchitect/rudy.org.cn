@@ -1,5 +1,5 @@
 ---
-title: "前端架构设计"
+title: "前端架构从0到1"
 date: 2019-10-09T19:27:35+08:00
 draft: false
 tags: ["book"]

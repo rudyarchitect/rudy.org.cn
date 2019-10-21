@@ -1,5 +1,5 @@
 ---
-title: "java笔记01"
+title: "java学习笔记"
 date: 2019-10-09T16:03:33+08:00
 draft: false
 tags: ["java"]

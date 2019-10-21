@@ -9,9 +9,9 @@
   
   
   
-  <link rel="prev" href="https://rudy.org.cn/2019/frontend_plan-2019/" />
-  <link rel="next" href="https://rudy.org.cn/2019/manage_rules/" />
-  <link rel="canonical" href="https://rudy.org.cn/2019/life_lyrics/" />
+  <link rel="prev" href="https://rudy.org.cn/2019/frontend_standard-design/" />
+  <link rel="next" href="https://rudy.org.cn/2019/backend_bigdata-note/" />
+  <link rel="canonical" href="https://rudy.org.cn/2019/frontend_editor-design/" />
   <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
   <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
   <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
@@ -22,10 +22,10 @@
   <title>
        
        
-           有关人生的歌词 | Rudy&#39;s blog
+           编辑器01 | Rudy&#39;s blog
        
   </title>
-  <meta name="title" content="有关人生的歌词 | Rudy&#39;s blog">
+  <meta name="title" content="编辑器01 | Rudy&#39;s blog">
     
   <link rel="stylesheet" href="/css/main.min.css">
 
@@ -42,9 +42,9 @@
          "@id": "https:\/\/rudy.org.cn\/"
     },
     "articleSection" : "posts",
-    "name" : "有关人生的歌词",
-    "headline" : "有关人生的歌词",
-    "description" : "海阔天空 一生要走多远的路程 经过多少年 才能走到终点 梦想需要多久的时间 多少血和泪 才能慢慢实现 天地间任我展翅高飞 谁说那是天真的预言 风中挥舞狂乱的双",
+    "name" : "编辑器01",
+    "headline" : "编辑器01",
+    "description" : "页面 = HTML Tree (DOM) \x2b 静态Data \x2b 动态逻辑Javascript 页面可视化编辑本质上是用可视化的方式对页面的DOM、静态Data和动态逻辑javas",
     "inLanguage" : "zh-cn",
     "author" : "Rudy",
     "creator" : "Rudy",
@@ -52,11 +52,11 @@
     "accountablePerson" : "Rudy",
     "copyrightHolder" : "Rudy",
     "copyrightYear" : "2019",
-    "datePublished": "2019-10-17 15:56:21 \x2b0800 CST",
-    "dateModified" : "2019-10-17 15:56:21 \x2b0800 CST",
-    "url" : "https:\/\/rudy.org.cn\/2019\/life_lyrics\/",
-    "wordCount" : "236",
-    "keywords" : [ "keep thinking", "Rudy\x27s blog"]
+    "datePublished": "2019-10-14 19:18:13 \x2b0800 CST",
+    "dateModified" : "2019-10-14 19:18:13 \x2b0800 CST",
+    "url" : "https:\/\/rudy.org.cn\/2019\/frontend_editor-design\/",
+    "wordCount" : "363",
+    "keywords" : [ "editor", "Rudy\x27s blog"]
 }
 </script>
 
@@ -146,23 +146,23 @@
       		
 <article class="post-warp" itemscope itemtype="http://schema.org/Article">
     <header class="post-header">
-        <h1 class="post-title" itemprop="name headline">有关人生的歌词</h1>
+        <h1 class="post-title" itemprop="name headline">编辑器01</h1>
         <div class="post-meta">
                 Written by <a itemprop="name" href="https://rudy.org.cn/" rel="author">Rudy</a> with ♥ 
                 <span class="post-time">
-                on <time datetime=2019-10-17 itemprop="datePublished">October 17, 2019</time>
+                on <time datetime=2019-10-14 itemprop="datePublished">October 14, 2019</time>
                 </span>
                 in
                 <i class="iconfont icon-folder"></i>
                 <span class="post-category">
-                        <a href="https://rudy.org.cn/categories/%E4%BA%BA%E7%94%9F/"> 人生 </a>
+                        <a href="https://rudy.org.cn/categories/%E5%89%8D%E7%AB%AF/"> 前端 </a>
                         
                 </span>
                 
-                <h5 id="wc">236 Words|Read in about 1 Min|本文总阅读量<span id="busuanzi_value_page_pv"></span>次</h5>
+                <h5 id="wc">363 Words|Read in about 1 Min|本文总阅读量<span id="busuanzi_value_page_pv"></span>次</h5>
                 <h5 id="tags">Tags: 
                     
-                    <a href="https://rudy.org.cn/tags/keep-thinking/">keep thinking</a> &nbsp;
+                    <a href="https://rudy.org.cn/tags/editor/">editor</a> &nbsp;
                 </h5>
         </div>
     </header>
@@ -182,63 +182,50 @@
           
           
 
-          
+          <p>页面 = HTML Tree (DOM) + 静态Data + 动态逻辑Javascript</p>
 
-<h2 id="海阔天空">海阔天空</h2>
+<p>页面可视化编辑本质上是用可视化的方式对页面的DOM、静态Data和动态逻辑javascript进行操作，从而完成页面的生成。</p>
 
-<p>一生要走多远的路程</p>
+<p>前端服务化，为前端小白，运营/产品人员,以及后台开发人员提供开发前端页面的能力。</p>
 
-<p>经过多少年</p>
+<ul>
+<li>系统粒度
 
-<p>才能走到终点</p>
+<ul>
+<li>HTML Tree编辑</li>
+<li>Component Tree编辑</li>
+<li>静态Data编辑</li>
+<li>动态逻辑Javascript编辑</li>
+</ul></li>
+<li>面向群体
 
-<p>梦想需要多久的时间</p>
+<ul>
+<li>前端小白</li>
+<li>运营/产品人员</li>
+<li>后台开发人员</li>
+</ul></li>
+<li>编辑自由度
 
-<p>多少血和泪</p>
+<ul>
+<li>页面</li>
+<li>组件</li>
+</ul></li>
+</ul>
 
-<p>才能慢慢实现</p>
+<p>核心原理：模板 + 配置数据 = 页面</p>
 
-<p>天地间任我展翅高飞</p>
-
-<p>谁说那是天真的预言</p>
-
-<p>风中挥舞狂乱的双手</p>
-
-<p>写下灿烂的诗篇</p>
-
-<p>不管有多么疲倦</p>
-
-<p>潮来潮往世界多变迁</p>
-
-<p>迎接光辉岁月</p>
-
-<p>为它一生奉献</p>
-
-<h2 id="blowing-in-the-wind-答案在风中飘">Blowing in the Wind 答案在风中飘</h2>
-
-<p>How many roads must a man walk down</p>
-
-<p>一个男人还要经历多少的干戈与磨难</p>
-
-<p>Before they call him a man</p>
-
-<p>才能被称为真正的男子汉</p>
-
-<p>How many seas must a white dove sail</p>
-
-<p>一只和平鸽还要飞越几重巨浪汪洋</p>
-
-<p>Before she sleeps in the sand</p>
-
-<p>才能安眠于宁静海滩</p>
-
-<p>How many years must a mountain exist</p>
-
-<p>一座高山还要守望多少无情岁月</p>
-
-<p>Before it is washed to the sea</p>
-
-<p>才能见证沧海桑田</p>
+<p>最佳实践
+- 数据格式Json Scheme
+- 组件化和模板化
+- 编辑与组件、模板和框架解耦
+- 框架负责数据管理
+  + 数据包括组件数据和业务数据，管理包括保存数据和读取数据方式。
+- 分析数据管理的简单场景和复杂场景，确定边界
+- 组件暴露所有属性和事件
+- 渐进式体验
+- 数据驱动
+  + 数据现在是什么样子
+  + 数据在哪里被修改了</p>
 
 <p><br></p>
 
@@ -257,7 +244,7 @@
              
             <p class="copyright-item">
                     <span>Link:</span>
-                    <a href=https://rudy.org.cn/2019/life_lyrics/>https://rudy.org.cn/2019/life_lyrics/</span>
+                    <a href=https://rudy.org.cn/2019/frontend_editor-design/>https://rudy.org.cn/2019/frontend_editor-design/</span>
             </p>
             
              
@@ -273,8 +260,8 @@
             <section>
             <i class="iconfont icon-tag"></i>Tag(s): 
             
-            <span class="tag"><a href="https://rudy.org.cn/tags/keep-thinking/">
-                    #keep thinking</a></span>
+            <span class="tag"><a href="https://rudy.org.cn/tags/editor/">
+                    #editor</a></span>
             
             </section>
         
@@ -286,10 +273,10 @@
 
     <div class="post-nav">
         
-        <a href="https://rudy.org.cn/2019/frontend_plan-2019/" class="prev" rel="prev" title="前端计划 2019"><i class="iconfont icon-left"></i>&nbsp;前端计划 2019</a>
+        <a href="https://rudy.org.cn/2019/frontend_standard-design/" class="prev" rel="prev" title="前端规范01"><i class="iconfont icon-left"></i>&nbsp;前端规范01</a>
          
         
-        <a href="https://rudy.org.cn/2019/manage_rules/" class="next" rel="next" title="3个时间管理原则">3个时间管理原则&nbsp;<i class="iconfont icon-right"></i></a>
+        <a href="https://rudy.org.cn/2019/backend_bigdata-note/" class="next" rel="next" title="大数据学习笔记">大数据学习笔记&nbsp;<i class="iconfont icon-right"></i></a>
         
     </div>
 

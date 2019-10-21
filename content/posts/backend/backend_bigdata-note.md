@@ -1,5 +1,5 @@
 ---
-title: "大数据01"
+title: "大数据学习笔记"
 date: 2019-10-15T11:19:24+08:00
 draft: false
 tags: ["bigdata"]

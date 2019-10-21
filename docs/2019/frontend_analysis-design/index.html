@@ -9,9 +9,9 @@
   
   
   
-  <link rel="prev" href="https://rudy.org.cn/2019/frontend_plan-2019/" />
-  <link rel="next" href="https://rudy.org.cn/2019/manage_rules/" />
-  <link rel="canonical" href="https://rudy.org.cn/2019/life_lyrics/" />
+  <link rel="prev" href="https://rudy.org.cn/2019/frontend_book-outline/" />
+  <link rel="next" href="https://rudy.org.cn/2019/frontend_standard-design/" />
+  <link rel="canonical" href="https://rudy.org.cn/2019/frontend_analysis-design/" />
   <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
   <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
   <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
@@ -22,10 +22,10 @@
   <title>
        
        
-           有关人生的歌词 | Rudy&#39;s blog
+           前端监控平台analysis方案设计 | Rudy&#39;s blog
        
   </title>
-  <meta name="title" content="有关人生的歌词 | Rudy&#39;s blog">
+  <meta name="title" content="前端监控平台analysis方案设计 | Rudy&#39;s blog">
     
   <link rel="stylesheet" href="/css/main.min.css">
 
@@ -42,9 +42,9 @@
          "@id": "https:\/\/rudy.org.cn\/"
     },
     "articleSection" : "posts",
-    "name" : "有关人生的歌词",
-    "headline" : "有关人生的歌词",
-    "description" : "海阔天空 一生要走多远的路程 经过多少年 才能走到终点 梦想需要多久的时间 多少血和泪 才能慢慢实现 天地间任我展翅高飞 谁说那是天真的预言 风中挥舞狂乱的双",
+    "name" : "前端监控平台analysis方案设计",
+    "headline" : "前端监控平台analysis方案设计",
+    "description" : "背景 为了定位Web线上问题，需要对页面异常信息进行收集，分析和定位问题原因，以提升用户体验和产品运营效率。 维度 前端监控的维度主要分为以下3个",
     "inLanguage" : "zh-cn",
     "author" : "Rudy",
     "creator" : "Rudy",
@@ -52,11 +52,11 @@
     "accountablePerson" : "Rudy",
     "copyrightHolder" : "Rudy",
     "copyrightYear" : "2019",
-    "datePublished": "2019-10-17 15:56:21 \x2b0800 CST",
-    "dateModified" : "2019-10-17 15:56:21 \x2b0800 CST",
-    "url" : "https:\/\/rudy.org.cn\/2019\/life_lyrics\/",
-    "wordCount" : "236",
-    "keywords" : [ "keep thinking", "Rudy\x27s blog"]
+    "datePublished": "2019-10-14 17:33:53 \x2b0800 CST",
+    "dateModified" : "2019-10-14 17:33:53 \x2b0800 CST",
+    "url" : "https:\/\/rudy.org.cn\/2019\/frontend_analysis-design\/",
+    "wordCount" : "419",
+    "keywords" : [ "analysis", "Rudy\x27s blog"]
 }
 </script>
 
@@ -146,23 +146,23 @@
       		
 <article class="post-warp" itemscope itemtype="http://schema.org/Article">
     <header class="post-header">
-        <h1 class="post-title" itemprop="name headline">有关人生的歌词</h1>
+        <h1 class="post-title" itemprop="name headline">前端监控平台analysis方案设计</h1>
         <div class="post-meta">
                 Written by <a itemprop="name" href="https://rudy.org.cn/" rel="author">Rudy</a> with ♥ 
                 <span class="post-time">
-                on <time datetime=2019-10-17 itemprop="datePublished">October 17, 2019</time>
+                on <time datetime=2019-10-14 itemprop="datePublished">October 14, 2019</time>
                 </span>
                 in
                 <i class="iconfont icon-folder"></i>
                 <span class="post-category">
-                        <a href="https://rudy.org.cn/categories/%E4%BA%BA%E7%94%9F/"> 人生 </a>
+                        <a href="https://rudy.org.cn/categories/%E5%89%8D%E7%AB%AF/"> 前端 </a>
                         
                 </span>
                 
-                <h5 id="wc">236 Words|Read in about 1 Min|本文总阅读量<span id="busuanzi_value_page_pv"></span>次</h5>
+                <h5 id="wc">419 Words|Read in about 1 Min|本文总阅读量<span id="busuanzi_value_page_pv"></span>次</h5>
                 <h5 id="tags">Tags: 
                     
-                    <a href="https://rudy.org.cn/tags/keep-thinking/">keep thinking</a> &nbsp;
+                    <a href="https://rudy.org.cn/tags/analysis/">analysis</a> &nbsp;
                 </h5>
         </div>
     </header>
@@ -184,61 +184,126 @@
 
           
 
-<h2 id="海阔天空">海阔天空</h2>
+<h2 id="背景">背景</h2>
 
-<p>一生要走多远的路程</p>
+<p>为了定位Web线上问题，需要对页面异常信息进行收集，分析和定位问题原因，以提升用户体验和产品运营效率。</p>
 
-<p>经过多少年</p>
+<h2 id="维度">维度</h2>
 
-<p>才能走到终点</p>
+<p>前端监控的维度主要分为以下3个方面：</p>
 
-<p>梦想需要多久的时间</p>
+<ul>
+<li>性能</li>
+<li>异常</li>
+<li>用户行为</li>
+</ul>
 
-<p>多少血和泪</p>
+<h2 id="原理">原理</h2>
 
-<p>才能慢慢实现</p>
+<ul>
+<li>监听window对象的onerror事件。</li>
+<li>使用try catch语句。</li>
+</ul>
 
-<p>天地间任我展翅高飞</p>
+<h2 id="案例">案例</h2>
 
-<p>谁说那是天真的预言</p>
+<ul>
+<li>[开源] 腾讯 <a href="https://betterjs.github.io/" rel="nofollow noreferrer" target="_blank">badjs</a>
+文档说明详细，提供完整解决方案，项目落地10+。
 
-<p>风中挥舞狂乱的双手</p>
+<ul>
+<li>日志功能</li>
+<li>上报功能</li>
+<li>统计功能</li>
+<li>邮件功能</li>
+</ul></li>
+<li>[收费] <a href="https://sentry.io" rel="nofollow noreferrer" target="_blank">sentry</a>
 
-<p>写下灿烂的诗篇</p>
+<ul>
+<li>代码开源</li>
+<li><a href="https://sentry.io/pricing/" rel="nofollow noreferrer" target="_blank">价格</a></li>
+</ul></li>
+<li>[收费] <a href="https://www.fundebug.com/" rel="nofollow noreferrer" target="_blank">fundebug</a>
 
-<p>不管有多么疲倦</p>
+<ul>
+<li><a href="https://www.fundebug.com/price" rel="nofollow noreferrer" target="_blank">价格</a></li>
+</ul></li>
+<li>[收费] 阿里云ARMS-<a href="https://help.aliyun.com/document_detail/58652.html?spm=5176.8064714.976547.2.251cIEc0IEc0Ro" rel="nofollow noreferrer" target="_blank">前端监控</a>
 
-<p>潮来潮往世界多变迁</p>
+<ul>
+<li>主动监控</li>
+<li>慢会话追踪</li>
+<li>搜索报错明细</li>
+<li>出错行为还原</li>
+</ul></li>
+<li>[收费] 蒲公英 <a href="https://www.frontjs.com" rel="nofollow noreferrer" target="_blank">frontjs</a>
 
-<p>迎接光辉岁月</p>
+<ul>
+<li><a href="https://www.frontjs.com/pricing" rel="nofollow noreferrer" target="_blank">价格</a></li>
+</ul></li>
+<li>[无维护] 淘宝 <a href="https://github.com/CurtisCBS/monitor" rel="nofollow noreferrer" target="_blank">JSTracker</a>
 
-<p>为它一生奉献</p>
+<ul>
+<li>参考README</li>
+</ul></li>
+<li>[未开源] 阿里 FdSafe</li>
+<li>[无维护] 支付宝 <a href="https://github.com/saijs/sai.js" rel="nofollow noreferrer" target="_blank">saijs</a>
 
-<h2 id="blowing-in-the-wind-答案在风中飘">Blowing in the Wind 答案在风中飘</h2>
+<ul>
+<li><a href="https://github.com/saijs/wiki" rel="nofollow noreferrer" target="_blank">javascript异常文档</a></li>
+</ul></li>
+</ul>
 
-<p>How many roads must a man walk down</p>
+<h2 id="需求分析">需求分析</h2>
 
-<p>一个男人还要经历多少的干戈与磨难</p>
+<ul>
+<li><p>错误收集</p>
 
-<p>Before they call him a man</p>
+<ul>
+<li>错误信息</li>
+<li>资源加载错误</li>
+<li>运行时错误</li>
+<li>性能指标</li>
+<li>页面加载时长</li>
+<li>首次渲染时长</li>
+<li>首次内容渲染时长</li>
+<li>首次有效渲染时长</li>
+<li>&hellip;</li>
+<li>日志数据
+<br /></li>
+</ul></li>
 
-<p>才能被称为真正的男子汉</p>
+<li><p>上报策略</p>
 
-<p>How many seas must a white dove sail</p>
+<ul>
+<li>ajax</li>
+<li>跨域 CORS协议</li>
+<li>image对象
+<br /></li>
+</ul></li>
 
-<p>一只和平鸽还要飞越几重巨浪汪洋</p>
+<li><p>日志采集与存储</p>
 
-<p>Before she sleeps in the sand</p>
+<ul>
+<li>数据过滤</li>
+<li>节流</li>
+</ul></li>
 
-<p>才能安眠于宁静海滩</p>
+<li><p>告警功能</p>
 
-<p>How many years must a mountain exist</p>
+<ul>
+<li>最大最小值</li>
+<li>错误累计数</li>
+<li>异常等级</li>
+<li>自定义</li>
+</ul></li>
 
-<p>一座高山还要守望多少无情岁月</p>
+<li><p>邮件短信通知</p></li>
 
-<p>Before it is washed to the sea</p>
+<li><p>错误定位与复现</p></li>
 
-<p>才能见证沧海桑田</p>
+<li><p>管理后台数据可视化</p></li>
+</ul>
 
 <p><br></p>
 
@@ -257,7 +322,7 @@
              
             <p class="copyright-item">
                     <span>Link:</span>
-                    <a href=https://rudy.org.cn/2019/life_lyrics/>https://rudy.org.cn/2019/life_lyrics/</span>
+                    <a href=https://rudy.org.cn/2019/frontend_analysis-design/>https://rudy.org.cn/2019/frontend_analysis-design/</span>
             </p>
             
              
@@ -273,8 +338,8 @@
             <section>
             <i class="iconfont icon-tag"></i>Tag(s): 
             
-            <span class="tag"><a href="https://rudy.org.cn/tags/keep-thinking/">
-                    #keep thinking</a></span>
+            <span class="tag"><a href="https://rudy.org.cn/tags/analysis/">
+                    #analysis</a></span>
             
             </section>
         
@@ -286,10 +351,10 @@
 
     <div class="post-nav">
         
-        <a href="https://rudy.org.cn/2019/frontend_plan-2019/" class="prev" rel="prev" title="前端计划 2019"><i class="iconfont icon-left"></i>&nbsp;前端计划 2019</a>
+        <a href="https://rudy.org.cn/2019/frontend_book-outline/" class="prev" rel="prev" title="前端架构从0到1"><i class="iconfont icon-left"></i>&nbsp;前端架构从0到1</a>
          
         
-        <a href="https://rudy.org.cn/2019/manage_rules/" class="next" rel="next" title="3个时间管理原则">3个时间管理原则&nbsp;<i class="iconfont icon-right"></i></a>
+        <a href="https://rudy.org.cn/2019/frontend_standard-design/" class="next" rel="next" title="前端规范01">前端规范01&nbsp;<i class="iconfont icon-right"></i></a>
         
     </div>
 
