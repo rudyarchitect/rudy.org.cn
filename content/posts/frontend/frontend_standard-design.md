@@ -1,5 +1,5 @@
 ---
-title: "前端规范01"
+title: "前端规范方案设计"
 date: 2019-10-14T17:39:21+08:00
 draft: false
 tags: ["standard"]
