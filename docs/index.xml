@@ -5,8 +5,126 @@
     <description>Recent content in Rudy&#39;s blog on Rudy&#39;s blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Mon, 21 Oct 2019 10:38:16 +0800</lastBuildDate>
+    <lastBuildDate>Wed, 23 Oct 2019 09:44:42 +0800</lastBuildDate>
     <atom:link href="https://rudy.org.cn/" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>chrome插件笔记</title>
+      <link>https://rudy.org.cn/2019/frontend_chrome-extension-note/</link>
+      <pubDate>Wed, 23 Oct 2019 09:44:42 +0800</pubDate>
+      
+      <guid>https://rudy.org.cn/2019/frontend_chrome-extension-note/</guid>
+      <description>
+
+&lt;p&gt;chrome extenstion是一个使用web技术开发、用来增强浏览器功能的插件，它实际上是一个由html,js,css,images等资源组成的.crx压缩包。&lt;/p&gt;
+
+&lt;h2 id=&#34;manifest-json&#34;&gt;manifest.json&lt;/h2&gt;
+
+&lt;p&gt;用来描述插件的元数据&lt;/p&gt;
+
+&lt;h2 id=&#34;3种资源文件&#34;&gt;3种资源文件&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;browser_action/page_action&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;插件的popup窗口&lt;/li&gt;
+&lt;li&gt;browser_action针对所有页面，page_action针对指定页面&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;background&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;插件的js运行环境&lt;/li&gt;
+&lt;li&gt;消息传递机制和其它页面通信 sendMessage/onMessage&lt;/li&gt;
+&lt;li&gt;无限制跨域&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;content_scripts&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;在当前页面运行的js文件，负责操作页面DOM&lt;/li&gt;
+&lt;li&gt;和当前页面js处于不同上下文&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img alt=&#34;chrome-extension-01&#34; src=&#34;https://rudyarchitect.github.io/site-images/frontend/frontend_chrome-extension-01.jpg&#34;&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;长链接&#34;&gt;长链接&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;background和popup&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;可以直接互相调用，不用消息传递&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;background和content&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;postMessage+connect&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;br&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;center&gt;  ·End·  &lt;/center&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>股票基础</title>
+      <link>https://rudy.org.cn/2019/finance_stock-base/</link>
+      <pubDate>Tue, 22 Oct 2019 21:58:57 +0800</pubDate>
+      
+      <guid>https://rudy.org.cn/2019/finance_stock-base/</guid>
+      <description>&lt;p&gt;&lt;br&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;center&gt;  ·End·  &lt;/center&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>缠论笔记01</title>
+      <link>https://rudy.org.cn/2019/finance_stock-chanlun-01/</link>
+      <pubDate>Tue, 22 Oct 2019 21:47:27 +0800</pubDate>
+      
+      <guid>https://rudy.org.cn/2019/finance_stock-chanlun-01/</guid>
+      <description>
+
+&lt;h1 id=&#34;缠论&#34;&gt;缠论&lt;/h1&gt;
+
+&lt;h2 id=&#34;2个认知&#34;&gt;2个认知&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;风险承受力&lt;/li&gt;
+&lt;li&gt;愿意持有时间&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;要点&#34;&gt;要点&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;K线图高低点连线&lt;/li&gt;
+&lt;li&gt;完全分类后的操作&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;心态放松-重视操作的过程-而不仅仅是关注结果&#34;&gt;心态放松，重视操作的过程，而不仅仅是关注结果。&lt;/h2&gt;
+
+&lt;h2 id=&#34;找到生活中的7只股票&#34;&gt;找到生活中的7只股票。&lt;/h2&gt;
+
+&lt;h2 id=&#34;笔记&#34;&gt;笔记&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;没有人能够战胜市场，e.g. 格雷厄姆和费雪。&lt;/li&gt;
+&lt;li&gt;找行业的龙头企业或自己熟悉的优秀企业。&lt;/li&gt;
+&lt;li&gt;专注不多于5只股票的操作。&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;br&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;center&gt;  ·End·  &lt;/center&gt;&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>3个时间管理原则</title>
@@ -655,100 +773,6 @@
 &lt;p&gt;&lt;br&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;center&gt;  ·End·  &lt;/center&gt;&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>有关数字经济的推论判断</title>
-      <link>https://rudy.org.cn/2019/finance_digital/</link>
-      <pubDate>Wed, 09 Oct 2019 16:02:24 +0800</pubDate>
-      
-      <guid>https://rudy.org.cn/2019/finance_digital/</guid>
-      <description>&lt;p&gt;李彦宏&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;数字经济在经历了PC的发明与普及，PC互联网，移动互联网这三个阶段后，正在进化到以人工智能为核心驱动力的智能经济新阶段，智能经济将给全球经济带来新的活力，是拉动全球经济重新向上的核心引擎。&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;丁磊&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;未来企业的机会，要走向上游，竞争会从拼人口红利，走向拼技术。技术创新，是数字经济最牢固的支撑。未来AI等技术型的公司，会成为新的主流，和各行各业做大跨度的融合。现在对教育、医疗、制造业和农业等领域投入的公司，未来会有更好的机会。&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;周鸿祎&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;新技术、新科技确实给人类带来的极大的便利和自动化，但同时，也给网络安全带来的巨大挑战和风险。&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;陆奇&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;目前面临的重大挑战是数据成为人工智能时代的核心产能，正如软件开发是上一时代的核心产能。今天以数据和机器学习为核心的时代，需要共同努力探索，建立新一代像开源软件一样的机制，不但能保护好数据隐私和数据的价值，同时能提供更强的合作机制。&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;沈南鹏&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;红杉作为全球的科技基金，过去47年以来，我们始终聚焦在数字经济领域。今天我们看到了数字经济出现了两个趋势。第一个是全球化越来越明显，不仅是在中国、美国，其他诸多国家和地区，比如印度、东南亚、中东，甚至拉美、非洲，都出现了一批发展迅速的独角兽；第二个是数字经济几乎渗透到所有领域，每个行业都在互联网化、数字化、云化。&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;杨旭&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;我非常赞赏我们上一任CEO说过的一句话，未来的数字就是“石油”。大家都在谈的数字经济，实际上是从数据产生、传输到分析、挖掘，最后增值的过程。数字经济最关键的是创新、增值的部分。如果不增值，这个数据一点用都没有。现在大家谈物联网、5G，5G和以前4G、3G最大的不同在于，以前是人在上网，今后是物在上网，而且物是智能的物，这些物会产生更多的数据。数据又需要被提取出来进行分析，这是得益于人工智能更多技术的辅助。在英特尔，我们是做跟踪数据的，研究分析数据、处理数据。从前端产生数据、传输到后端进行分析、挖掘、人工智能，到存储和最后实现增值，这个过程中，我想每一个企业都在研究，数据产生和数据增值过程中的机会在哪儿，怎样使数字经济能够推动未来的经济发展，这是很关键的。&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;br&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;center&gt;  ·End·  &lt;/center&gt;&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>About</title>
-      <link>https://rudy.org.cn/about/</link>
-      <pubDate>Mon, 23 Sep 2019 17:53:43 +0800</pubDate>
-      
-      <guid>https://rudy.org.cn/about/</guid>
-      <description>
-
-&lt;p&gt;&lt;center&gt;&lt;/p&gt;
-
-&lt;h3 id=&#34;年岁有加-并非垂老-理想丢弃-方坠暮年&#34;&gt;年岁有加，并非垂老。理想丢弃，方坠暮年。&lt;/h3&gt;
-
-&lt;p&gt;&lt;img alt=&#34;lufei&#34; style=&#34;width:200px;height:200px&#34; src=&#34;https://rudyarchitect.github.io/site-images/life/lufei.jpeg&#34;&gt;&lt;/p&gt;
-
-&lt;h1 id=&#34;keep-thinking&#34;&gt;Keep Thinking&lt;/h1&gt;
-
-&lt;h2 id=&#34;stay-hungry-stay-young&#34;&gt;&lt;strong&gt;stay hungry, stay young ~&lt;/strong&gt;&lt;/h2&gt;
-
-&lt;p&gt;保持好奇心，主动学习新事物，新知识和新技能。&lt;/p&gt;
-
-&lt;p&gt;对不确定性保持乐观。&lt;/p&gt;
-
-&lt;p&gt;不甘于平庸。&lt;/p&gt;
-
-&lt;p&gt;不傲娇，要能延迟满足感。&lt;/p&gt;
-
-&lt;p&gt;对重要的事情有判断力。&lt;/p&gt;
-
-&lt;h2 id=&#34;无论工作或生活-要有创业心态&#34;&gt;&lt;strong&gt;无论工作或生活，要有创业心态。&lt;/strong&gt;&lt;/h2&gt;
-
-&lt;p&gt;最重要的是“解决问题”，而不是“解释原因”。&lt;/p&gt;
-
-&lt;p&gt;聚焦长远目标，看淡眼前利益。&lt;/p&gt;
-
-&lt;p&gt;用心经营自己这家“公司”。&lt;/p&gt;
-
-&lt;p&gt;做事坚持“先有用，再好用，后好看”。&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;https://ghchart.rshah.org/rudyarchitect&#34; alt=&#34;GitHub Chart&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;&lt;em&gt;联系方式：rudy.architect@foxmail.com&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;/center&gt;&lt;/p&gt;
 </description>
     </item>
     
