@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>plugin on Rudy&#39;s blog</title>
+    <link>https://rudy.org.cn/tags/plugin/</link>
+    <description>Recent content in plugin on Rudy&#39;s blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Wed, 23 Oct 2019 09:44:42 +0800</lastBuildDate>
+    
+	<atom:link href="https://rudy.org.cn/tags/plugin/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>chrome插件笔记</title>
+      <link>https://rudy.org.cn/2019/frontend_chrome-extension-note/</link>
+      <pubDate>Wed, 23 Oct 2019 09:44:42 +0800</pubDate>
+      
+      <guid>https://rudy.org.cn/2019/frontend_chrome-extension-note/</guid>
+      <description>chrome extenstion是一个使用web技术开发、用来增强浏览器功能的插件，它实际上是一个由html,js,css,images等资源组成的.</description>
+    </item>
+    
+  </channel>
+</rss>
