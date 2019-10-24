@@ -6,10 +6,19 @@
     <description>Recent content in Tags on Rudy&#39;s blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Wed, 23 Oct 2019 09:44:42 +0800</lastBuildDate>
+    <lastBuildDate>Thu, 24 Oct 2019 11:42:16 +0800</lastBuildDate>
     
 	<atom:link href="https://rudy.org.cn/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>stock</title>
+      <link>https://rudy.org.cn/tags/stock/</link>
+      <pubDate>Thu, 24 Oct 2019 11:42:16 +0800</pubDate>
+      
+      <guid>https://rudy.org.cn/tags/stock/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>plugin</title>
@@ -17,15 +26,6 @@
       <pubDate>Wed, 23 Oct 2019 09:44:42 +0800</pubDate>
       
       <guid>https://rudy.org.cn/tags/plugin/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>stock</title>
-      <link>https://rudy.org.cn/tags/stock/</link>
-      <pubDate>Tue, 22 Oct 2019 21:58:57 +0800</pubDate>
-      
-      <guid>https://rudy.org.cn/tags/stock/</guid>
       <description></description>
     </item>
     

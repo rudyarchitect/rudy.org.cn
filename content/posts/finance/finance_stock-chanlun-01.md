@@ -8,8 +8,6 @@ featured_image:
 description: 
 ---
 
-# 缠论
-
 ## 2个认知
 
 - 风险承受力

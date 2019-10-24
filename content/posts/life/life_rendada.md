@@ -21,7 +21,7 @@ description:
 - 永远不要停止思考，永远不认输。
 - 清华北大只是过程，不是目的。
 
-<img alt="rendada-01" src="https://rudyarchitect.github.io/site-images/life/life_rendada-01.jpg">
+<img alt="rendada-01" src="https://rudyarchitect.github.io/blog-images/life/life_rendada-01.jpg">
 
 <br>
 

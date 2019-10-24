@@ -30,7 +30,7 @@ chrome extenstion是一个使用web技术开发、用来增强浏览器功能的
   - 在当前页面运行的js文件，负责操作页面DOM
   - 和当前页面js处于不同上下文
 
-<img alt="chrome-extension-01" src="https://rudyarchitect.github.io/site-images/frontend/frontend_chrome-extension-01.jpg">
+<img alt="chrome-extension-01" src="https://rudyarchitect.github.io/blog-images/frontend/frontend_chrome-extension-01.jpg">
 
 ## 长链接
   - background和popup 

@@ -5,8 +5,43 @@
     <description>Recent content in Rudy&#39;s blog on Rudy&#39;s blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Wed, 23 Oct 2019 09:44:42 +0800</lastBuildDate>
+    <lastBuildDate>Thu, 24 Oct 2019 11:42:16 +0800</lastBuildDate>
     <atom:link href="https://rudy.org.cn/" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>缠论笔记02</title>
+      <link>https://rudy.org.cn/2019/finance_stock-chanlun-02/</link>
+      <pubDate>Thu, 24 Oct 2019 11:42:16 +0800</pubDate>
+      
+      <guid>https://rudy.org.cn/2019/finance_stock-chanlun-02/</guid>
+      <description>
+
+&lt;h2 id=&#34;基本概念&#34;&gt;基本概念&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;分型
+
+&lt;ul&gt;
+&lt;li&gt;至少3根K线组成，分为顶和底&lt;/li&gt;
+&lt;li&gt;K线可能存在包含关系&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;笔
+
+&lt;ul&gt;
+&lt;li&gt;至少7根K线组成，即顶+至少一根K线+底&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;线段
+
+&lt;ul&gt;
+&lt;li&gt;由3笔构成&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;br&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;center&gt;  ·End·  &lt;/center&gt;&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>chrome插件笔记</title>
@@ -48,7 +83,7 @@
 &lt;/ul&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;&lt;img alt=&#34;chrome-extension-01&#34; src=&#34;https://rudyarchitect.github.io/site-images/frontend/frontend_chrome-extension-01.jpg&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt=&#34;chrome-extension-01&#34; src=&#34;https://rudyarchitect.github.io/blog-images/frontend/frontend_chrome-extension-01.jpg&#34;&gt;&lt;/p&gt;
 
 &lt;h2 id=&#34;长链接&#34;&gt;长链接&lt;/h2&gt;
 
@@ -91,8 +126,6 @@
       
       <guid>https://rudy.org.cn/2019/finance_stock-chanlun-01/</guid>
       <description>
-
-&lt;h1 id=&#34;缠论&#34;&gt;缠论&lt;/h1&gt;
 
 &lt;h2 id=&#34;2个认知&#34;&gt;2个认知&lt;/h2&gt;
 
@@ -305,7 +338,7 @@
 &lt;li&gt;清华北大只是过程，不是目的。&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;&lt;img alt=&#34;rendada-01&#34; src=&#34;https://rudyarchitect.github.io/site-images/life/life_rendada-01.jpg&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt=&#34;rendada-01&#34; src=&#34;https://rudyarchitect.github.io/blog-images/life/life_rendada-01.jpg&#34;&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;br&gt;&lt;/p&gt;
 
@@ -388,10 +421,13 @@
       <pubDate>Mon, 14 Oct 2019 17:39:21 +0800</pubDate>
       
       <guid>https://rudy.org.cn/2019/frontend_standard-design/</guid>
-      <description>&lt;p&gt;1.项目组织结构
-- 目录结构
-- 配置文件
-- README&lt;/p&gt;
+      <description>&lt;p&gt;1.项目组织结构&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;目录结构&lt;/li&gt;
+&lt;li&gt;配置文件&lt;/li&gt;
+&lt;li&gt;README&lt;/li&gt;
+&lt;/ul&gt;
 
 &lt;p&gt;2.代码规范&lt;/p&gt;
 
@@ -700,75 +736,6 @@
  - APP端功能
  - 同类产品
 4. 5年职业规划&lt;/p&gt;
-
-&lt;p&gt;&lt;br&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;center&gt;  ·End·  &lt;/center&gt;&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>vue学习笔记</title>
-      <link>https://rudy.org.cn/2019/frontend_vue-note/</link>
-      <pubDate>Wed, 09 Oct 2019 16:03:06 +0800</pubDate>
-      
-      <guid>https://rudy.org.cn/2019/frontend_vue-note/</guid>
-      <description>&lt;p&gt;npm root -g&lt;/p&gt;
-
-&lt;p&gt;npm config set prefix [path]&lt;/p&gt;
-
-&lt;p&gt;npm list /ls&lt;/p&gt;
-
-&lt;p&gt;—save -S //生产环境 默认&lt;/p&gt;
-
-&lt;p&gt;—save-dev -D //开发环境&lt;/p&gt;
-
-&lt;p&gt;npm view [module] version/versions&lt;/p&gt;
-
-&lt;p&gt;npm get registry&lt;/p&gt;
-
-&lt;p&gt;npm config set registry [url]&lt;/p&gt;
-
-&lt;p&gt;V-model //vm&lt;/p&gt;
-
-&lt;p&gt;v-once&lt;/p&gt;
-
-&lt;p&gt;v-html&lt;/p&gt;
-
-&lt;p&gt;v-bind：属性 = 数据 // ：属性 = 数据&lt;/p&gt;
-
-&lt;p&gt;v-on：事件 = 函数 // @ 事件 = 函数&lt;/p&gt;
-
-&lt;p&gt;函数和计算属性区别
-1. 计算属性有缓存
-2. 支持双向绑定 get/set&lt;/p&gt;
-
-&lt;p&gt;Vue instance
-{
-    el,
-    data,
-    methods,
-    compute,
-    watch
-}&lt;/p&gt;
-
-&lt;p&gt;class,style使用v-bind绑定//string, object,array&lt;/p&gt;
-
-&lt;p&gt;v-show // css display属性实现，仍存在dom中，频繁切换使用，否则使用v-if&lt;/p&gt;
-
-&lt;p&gt;v-for // 使用时添加v-bind:key&lt;/p&gt;
-
-&lt;p&gt;$event//event原生事件&lt;/p&gt;
-
-&lt;p&gt;事件修饰符 .stop .prevent .once&lt;/p&gt;
-
-&lt;p&gt;v-on:keyup.按键名 //按键修饰符&lt;/p&gt;
-
-&lt;p&gt;v-pre // 忽略Vue编译，提升性能&lt;/p&gt;
-
-&lt;p&gt;v-text/v-clock //隐藏双大括号&lt;/p&gt;
-
-&lt;p&gt;directives //自定义全局或局部指令&lt;/p&gt;
 
 &lt;p&gt;&lt;br&gt;&lt;/p&gt;
 
