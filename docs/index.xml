@@ -108,11 +108,11 @@
     </item>
     
     <item>
-      <title>股票基础</title>
-      <link>https://rudy.org.cn/2019/finance_stock-base/</link>
+      <title>不可不知的股票分析策略</title>
+      <link>https://rudy.org.cn/2019/finance_stock-analysis/</link>
       <pubDate>Tue, 22 Oct 2019 21:58:57 +0800</pubDate>
       
-      <guid>https://rudy.org.cn/2019/finance_stock-base/</guid>
+      <guid>https://rudy.org.cn/2019/finance_stock-analysis/</guid>
       <description>&lt;p&gt;&lt;br&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;center&gt;  ·End·  &lt;/center&gt;&lt;/p&gt;
@@ -276,7 +276,7 @@
 &lt;p&gt;1.项目&lt;/p&gt;
 
 &lt;ul&gt;
-&lt;li&gt;编辑器&lt;/li&gt;
+&lt;li&gt;编辑器前后端架构设计及实现&lt;/li&gt;
 &lt;li&gt;监控平台&lt;/li&gt;
 &lt;/ul&gt;
 
@@ -683,9 +683,9 @@
 &lt;h2 id=&#34;css那些不得不说的事&#34;&gt;CSS那些不得不说的事&lt;/h2&gt;
 
 &lt;ul&gt;
-&lt;li&gt;CSS设计圣杯&lt;/li&gt;
-&lt;li&gt;CSS预处理&lt;/li&gt;
-&lt;li&gt;CSS案例&lt;/li&gt;
+&lt;li&gt;寻找CSS设计的圣杯&lt;/li&gt;
+&lt;li&gt;预处理的必要性&lt;/li&gt;
+&lt;li&gt;可行的CSS方案&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h2 id=&#34;前端监控设计与落地&#34;&gt;前端监控设计与落地&lt;/h2&gt;
@@ -709,7 +709,21 @@
       <pubDate>Wed, 09 Oct 2019 19:17:50 +0800</pubDate>
       
       <guid>https://rudy.org.cn/2019/ai_machine-note/</guid>
-      <description>&lt;p&gt;&lt;br&gt;&lt;/p&gt;
+      <description>&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;思维方式的改变，依赖更多的不是人的经验，而是通过数据分析来做出更理智的决策。&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;应用场景&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;财务需要懂得如何使用Python和数据分析工具更高效地工作&lt;/li&gt;
+&lt;li&gt;运营懂得如何分析数据来做精准化营销&lt;/li&gt;
+&lt;li&gt;销售懂得如何通过构造用户画像去提升转化率和业绩&lt;/li&gt;
+&lt;li&gt;产品经理懂得如果通过数据分析来调整产品策略&lt;/li&gt;
+&lt;li&gt;人力懂得如何通过数据来精准筛选简历和人才&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;br&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;center&gt;  ·End·  &lt;/center&gt;&lt;/p&gt;
 </description>

@@ -34,6 +34,8 @@ featured_image:
   
 ![GitHub Chart](https://ghchart.rshah.org/rudyarchitect)
 
-***联系方式：rudy.architect@foxmail.com***
+**时光是最无情的刻刀，陪伴是最长情的告白。**
+
+***email：rudy.architect@foxmail.com***
 
 </center>
