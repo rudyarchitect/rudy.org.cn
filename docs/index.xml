@@ -512,18 +512,27 @@
 
 &lt;p&gt;核心原理：模板 + 配置数据 = 页面&lt;/p&gt;
 
-&lt;p&gt;最佳实践
-- 数据格式Json Scheme
-- 组件化和模板化
-- 编辑与组件、模板和框架解耦
-- 框架负责数据管理
-  + 数据包括组件数据和业务数据，管理包括保存数据和读取数据方式。
-- 分析数据管理的简单场景和复杂场景，确定边界
-- 组件暴露所有属性和事件
-- 渐进式体验
-- 数据驱动
-  + 数据现在是什么样子
-  + 数据在哪里被修改了&lt;/p&gt;
+&lt;p&gt;最佳实践&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;数据格式Json Scheme&lt;/li&gt;
+&lt;li&gt;组件化和模板化&lt;/li&gt;
+&lt;li&gt;编辑与组件、模板和框架解耦&lt;/li&gt;
+&lt;li&gt;框架负责数据管理
+
+&lt;ul&gt;
+&lt;li&gt;数据包括组件数据和业务数据，管理包括保存数据和读取数据方式。&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;分析数据管理的简单场景和复杂场景，确定边界&lt;/li&gt;
+&lt;li&gt;组件暴露所有属性和事件&lt;/li&gt;
+&lt;li&gt;渐进式体验&lt;/li&gt;
+&lt;li&gt;数据驱动
+
+&lt;ul&gt;
+&lt;li&gt;数据现在是什么样子&lt;/li&gt;
+&lt;li&gt;数据在哪里被修改了&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
 
 &lt;p&gt;&lt;br&gt;&lt;/p&gt;
 
