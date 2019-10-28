@@ -4,7 +4,7 @@
     <url>
       <loc>https://rudy.org.cn/categories/</loc>
       
-      <lastmod>2019-10-24T11:42:16+08:00</lastmod>
+      <lastmod>2019-10-28T18:54:22+08:00</lastmod>
       
       
       
@@ -16,7 +16,7 @@
     <url>
       <loc>https://rudy.org.cn/posts/</loc>
       
-      <lastmod>2019-10-24T11:42:16+08:00</lastmod>
+      <lastmod>2019-10-28T18:54:22+08:00</lastmod>
       
       
       
@@ -28,7 +28,7 @@
     <url>
       <loc>https://rudy.org.cn/</loc>
       
-      <lastmod>2019-10-24T11:42:16+08:00</lastmod>
+      <lastmod>2019-10-28T18:54:22+08:00</lastmod>
       
       
       
@@ -40,11 +40,45 @@
     <url>
       <loc>https://rudy.org.cn/tags/</loc>
       
-      <lastmod>2019-10-24T11:42:16+08:00</lastmod>
+      <lastmod>2019-10-28T18:54:22+08:00</lastmod>
       
       
       
       <priority>0</priority>
+      
+      
+    </url>
+  
+    <url>
+      <loc>https://rudy.org.cn/tags/keep-thinking/</loc>
+      
+      <lastmod>2019-10-28T18:54:22+08:00</lastmod>
+      
+      
+      
+      <priority>0</priority>
+      
+      
+    </url>
+  
+    <url>
+      <loc>https://rudy.org.cn/categories/%E4%BA%BA%E7%94%9F/</loc>
+      
+      <lastmod>2019-10-28T18:54:22+08:00</lastmod>
+      
+      
+      
+      <priority>0</priority>
+      
+      
+    </url>
+  
+    <url>
+      <loc>https://rudy.org.cn/2019/life_liangning-thinking/</loc>
+      
+      <lastmod>2019-10-28T18:54:22+08:00</lastmod>
+      
+      
       
       
     </url>
@@ -163,30 +197,6 @@
       <loc>https://rudy.org.cn/categories/%E7%AE%A1%E7%90%86/</loc>
       
       <lastmod>2019-10-21T10:38:16+08:00</lastmod>
-      
-      
-      
-      <priority>0</priority>
-      
-      
-    </url>
-  
-    <url>
-      <loc>https://rudy.org.cn/tags/keep-thinking/</loc>
-      
-      <lastmod>2019-10-17T15:56:21+08:00</lastmod>
-      
-      
-      
-      <priority>0</priority>
-      
-      
-    </url>
-  
-    <url>
-      <loc>https://rudy.org.cn/categories/%E4%BA%BA%E7%94%9F/</loc>
-      
-      <lastmod>2019-10-17T15:56:21+08:00</lastmod>
       
       
       
