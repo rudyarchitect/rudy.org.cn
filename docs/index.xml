@@ -69,41 +69,6 @@
     </item>
     
     <item>
-      <title>缠论笔记02</title>
-      <link>https://rudy.org.cn/2019/finance_stock-chanlun-02/</link>
-      <pubDate>Thu, 24 Oct 2019 11:42:16 +0800</pubDate>
-      
-      <guid>https://rudy.org.cn/2019/finance_stock-chanlun-02/</guid>
-      <description>
-
-&lt;h2 id=&#34;基本概念&#34;&gt;基本概念&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;分型
-
-&lt;ul&gt;
-&lt;li&gt;至少3根K线组成，分为顶和底&lt;/li&gt;
-&lt;li&gt;K线可能存在包含关系&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;笔
-
-&lt;ul&gt;
-&lt;li&gt;至少7根K线组成，即顶+至少一根K线+底&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;线段
-
-&lt;ul&gt;
-&lt;li&gt;由3笔构成&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;br&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;center&gt;  ·End·  &lt;/center&gt;&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
       <title>chrome插件笔记</title>
       <link>https://rudy.org.cn/2019/frontend_chrome-extension-note/</link>
       <pubDate>Wed, 23 Oct 2019 09:44:42 +0800</pubDate>
@@ -236,11 +201,11 @@
     </item>
     
     <item>
-      <title>缠论笔记01</title>
-      <link>https://rudy.org.cn/2019/finance_stock-chanlun-01/</link>
+      <title>缠论笔记</title>
+      <link>https://rudy.org.cn/2019/finance_stock-chanlun/</link>
       <pubDate>Tue, 22 Oct 2019 21:47:27 +0800</pubDate>
       
-      <guid>https://rudy.org.cn/2019/finance_stock-chanlun-01/</guid>
+      <guid>https://rudy.org.cn/2019/finance_stock-chanlun/</guid>
       <description>
 
 &lt;h2 id=&#34;2个认知&#34;&gt;2个认知&lt;/h2&gt;
@@ -257,6 +222,27 @@
 &lt;li&gt;完全分类后的操作&lt;/li&gt;
 &lt;/ul&gt;
 
+&lt;h2 id=&#34;基本概念&#34;&gt;基本概念&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;分型
+
+&lt;ul&gt;
+&lt;li&gt;至少3根K线组成，分为顶和底&lt;/li&gt;
+&lt;li&gt;K线可能存在包含关系&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;笔
+
+&lt;ul&gt;
+&lt;li&gt;至少7根K线组成，即顶+至少一根K线+底&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;线段
+
+&lt;ul&gt;
+&lt;li&gt;由3笔构成&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
 &lt;h2 id=&#34;心态放松-重视操作的过程-而不仅仅是关注结果&#34;&gt;心态放松，重视操作的过程，而不仅仅是关注结果。&lt;/h2&gt;
 
 &lt;h2 id=&#34;找到生活中的7只股票&#34;&gt;找到生活中的7只股票。&lt;/h2&gt;
@@ -267,7 +253,11 @@
 &lt;li&gt;没有人能够战胜市场，e.g. 格雷厄姆和费雪。&lt;/li&gt;
 &lt;li&gt;找行业的龙头企业或自己熟悉的优秀企业。&lt;/li&gt;
 &lt;li&gt;专注不多于5只股票的操作。&lt;/li&gt;
+&lt;li&gt;笔必须被笔破坏，线段必须被线段破坏，这样才能保证它的结构稳定，不会被轻易破坏。&lt;/li&gt;
+&lt;li&gt;中枢分为笔中枢和线段中枢。&lt;/li&gt;
 &lt;/ul&gt;
+
+&lt;p&gt;&lt;img alt=&#34;chanlun-01&#34; src=&#34;https://rudyarchitect.github.io/blog-images/finance/finance_chanlun-01.jpg&#34;&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;br&gt;&lt;/p&gt;
 
@@ -847,6 +837,34 @@
 &lt;li&gt;人力懂得如何通过数据来精准筛选简历和人才&lt;/li&gt;
 &lt;/ul&gt;&lt;/li&gt;
 &lt;/ul&gt;
+
+&lt;p&gt;&lt;br&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;center&gt;  ·End·  &lt;/center&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>java学习笔记</title>
+      <link>https://rudy.org.cn/2019/backend_java-note/</link>
+      <pubDate>Wed, 09 Oct 2019 16:03:33 +0800</pubDate>
+      
+      <guid>https://rudy.org.cn/2019/backend_java-note/</guid>
+      <description>&lt;p&gt;任何程序的本质有3个，变量，判断语句，循环语句。&lt;/p&gt;
+
+&lt;p&gt;数据都是由一张张表组成的。&lt;/p&gt;
+
+&lt;p&gt;20%的精英才会用心对待一件事件。&lt;/p&gt;
+
+&lt;p&gt;面试前准备：
+1. 了解公司情况
+2. 相关技术复习
+3. 公司产品分析
+ - 用户群体
+ - PC端功能
+ - APP端功能
+ - 同类产品
+4. 5年职业规划&lt;/p&gt;
 
 &lt;p&gt;&lt;br&gt;&lt;/p&gt;
 
