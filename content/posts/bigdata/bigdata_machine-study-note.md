@@ -2,12 +2,13 @@
 title: "机器学习笔记"
 date: 2019-10-09T19:17:50+08:00
 draft: false
-tags: ["ai"]
-categories: ["人工智能"]
+tags: ["bigdata"]
+categories: ["大数据"]
 featured_image: 
 description: 
 ---
 
+- 人工智能是一种工具，借助于它更高效地解决海量数据分析和决策问题。
 - 思维方式的改变，依赖更多的不是人的经验，而是通过数据分析来做出更理智的决策。
 
 - 应用场景

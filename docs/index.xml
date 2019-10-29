@@ -820,11 +820,13 @@
     
     <item>
       <title>机器学习笔记</title>
-      <link>https://rudy.org.cn/2019/ai_machine-note/</link>
+      <link>https://rudy.org.cn/2019/bigdata_machine-study-note/</link>
       <pubDate>Wed, 09 Oct 2019 19:17:50 +0800</pubDate>
       
-      <guid>https://rudy.org.cn/2019/ai_machine-note/</guid>
+      <guid>https://rudy.org.cn/2019/bigdata_machine-study-note/</guid>
       <description>&lt;ul&gt;
+&lt;li&gt;人工智能是一种工具，借助于它更高效地解决海量数据分析和决策问题。&lt;/li&gt;
+
 &lt;li&gt;&lt;p&gt;思维方式的改变，依赖更多的不是人的经验，而是通过数据分析来做出更理智的决策。&lt;/p&gt;&lt;/li&gt;
 
 &lt;li&gt;&lt;p&gt;应用场景&lt;/p&gt;

@@ -1,24 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>bigdata on Rudy&#39;s blog</title>
-    <link>https://rudy.org.cn/tags/bigdata/</link>
-    <description>Recent content in bigdata on Rudy&#39;s blog</description>
+    <title>大数据 on Rudy&#39;s blog</title>
+    <link>https://rudy.org.cn/categories/%E5%A4%A7%E6%95%B0%E6%8D%AE/</link>
+    <description>Recent content in 大数据 on Rudy&#39;s blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Tue, 15 Oct 2019 11:19:24 +0800</lastBuildDate>
+    <lastBuildDate>Wed, 09 Oct 2019 19:17:50 +0800</lastBuildDate>
     
-	<atom:link href="https://rudy.org.cn/tags/bigdata/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://rudy.org.cn/categories/%E5%A4%A7%E6%95%B0%E6%8D%AE/index.xml" rel="self" type="application/rss+xml" />
     
-    
-    <item>
-      <title>大数据学习笔记</title>
-      <link>https://rudy.org.cn/2019/backend_bigdata-note/</link>
-      <pubDate>Tue, 15 Oct 2019 11:19:24 +0800</pubDate>
-      
-      <guid>https://rudy.org.cn/2019/backend_bigdata-note/</guid>
-      <description>·End·</description>
-    </item>
     
     <item>
       <title>机器学习笔记</title>
