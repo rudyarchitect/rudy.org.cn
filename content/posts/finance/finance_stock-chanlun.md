@@ -40,7 +40,7 @@ description:
 - 笔必须被笔破坏，线段必须被线段破坏，这样才能保证它的结构稳定，不会被轻易破坏。
 - 中枢分为笔中枢和线段中枢。
 
-<img alt="chanlun-01" src="https://rudyarchitect.github.io/blog-images/finance/finance_chanlun-01.jpg">
+<img alt="chanlun-01" src="https://rudyarchitect.github.io/blog-images/finance/finance_chanlun-01.jpeg">
 
 <br>
 
