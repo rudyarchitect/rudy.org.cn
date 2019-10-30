@@ -48,7 +48,6 @@ preserveTaxonomyNames = true
     license= '知识共享署名-非商业性使用 4.0 国际许可协议'
     # busuanzi
     busuanzi = true
-    busuanzi_site_offset = 100000
 [params.social]
     GitHub = "rudyarchitect"
     Twitter = ""
