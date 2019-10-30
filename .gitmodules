@@ -2,3 +2,4 @@
 [submodule "LeaveIt"]
 	path = LeaveIt
 	url = https://github.com/rudyarchitect/LeaveIt.git
+	branch = master
