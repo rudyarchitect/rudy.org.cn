@@ -66,12 +66,12 @@
     </item>
     
     <item>
-      <title>前端计划 2019</title>
-      <link>https://rudy.org.cn/2019/frontend_plan-2019/</link>
+      <title>前端计划 2020</title>
+      <link>https://rudy.org.cn/2019/frontend_plan-2020/</link>
       <pubDate>Wed, 16 Oct 2019 16:46:51 +0800</pubDate>
       
-      <guid>https://rudy.org.cn/2019/frontend_plan-2019/</guid>
-      <description>公司 1.项目 编辑器前后端架构设计及实现 监控平台 2.工具 规范 脚手架 私有化仓库 Mock系统 3.方向 前端服务化 个人 职级P7 软件架构师 写1本前端架构</description>
+      <guid>https://rudy.org.cn/2019/frontend_plan-2020/</guid>
+      <description>公司前端架构 1.项目 编辑器前后端架构设计及实现 监控平台 2.工具 规范 脚手架 mock 3.方向 前端服务化 个人 职级P7/P8 软件架构师 2020.11 写1本前端架构方面</description>
     </item>
     
     <item>
@@ -125,7 +125,7 @@
       <pubDate>Wed, 09 Oct 2019 19:27:35 +0800</pubDate>
       
       <guid>https://rudy.org.cn/2019/frontend_book-outline/</guid>
-      <description>前端框架分析及趋势 前端框架发展简介 Angular从1到2 React持续成长 后起之秀Vue 框架未来简史 前端流程设计 脚手架DIY 规范统一习惯 代码</description>
+      <description>自序 技术的世界没有银弹 为什么要参与写这本书？在大多数情况下，内心是惶恐的，从学校毕业后一直做前端这个方向已经5年了，在此期间经历了Web技术</description>
     </item>
     
     <item>
