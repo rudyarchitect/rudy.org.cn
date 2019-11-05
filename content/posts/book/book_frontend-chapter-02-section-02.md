@@ -1,5 +1,5 @@
 ---
-title: "Frontend_book Chapter 02 Section 02"
+title: "规范统一习惯"
 date: 2019-10-28T18:13:31+08:00
 draft: true
 tags: ["book"]

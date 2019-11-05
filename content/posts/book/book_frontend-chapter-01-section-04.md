@@ -1,5 +1,5 @@
 ---
-title: "Frontend_book Chapter 01 Section 04"
+title: "后起之秀Vue"
 date: 2019-10-28T18:12:39+08:00
 draft: true
 tags: ["book"]
