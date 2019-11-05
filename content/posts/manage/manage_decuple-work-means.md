@@ -34,14 +34,14 @@ description:
 
 迭代考虑项
 
-<img alt="decuple-01" src="https://rudyarchitect.github.io/blog-images/manage/manager_decuple-01.png">
+<img alt="decuple-01" src="https://rudyarchitect.github.io/blog-images/manage/manage_decuple-01.png">
 
 - 任务分解，找到实施路径；
   - 动手做一项工作之前，首先进行任务分解。
   - 最佳实践称之为测试金字塔，它强调的重点是，越底层的测试应该写得越多。只有按照测试金字塔的方式写测试，持续集成才能更好地发挥作用。
   - 多写单元测试。
 
-<img alt="decuple-02" src="https://rudyarchitect.github.io/blog-images/manage/manager_decuple-02.png">
+<img alt="decuple-02" src="https://rudyarchitect.github.io/blog-images/manage/manage_decuple-02.png">
 
   - TDD测试驱动开发已经是行业中的优秀实践，学习测试驱动开发的第一步是，记住测试驱动开发的节奏：红——绿——重构。把测试放在前面，还带来了视角的转变，要编写可测的代码。
   - 将任务拆小，越小越好。
@@ -64,7 +64,7 @@ description:
     - Small，小。步子大了，不行。不能在一定时间内完成的用户故事只应该有一个结果，拆分。小的用户故事才方便调度，才好安排工作。
     - Testable，可测试的。不能测试谁知道你做得对不对。这个是我们在前面已经强调过的内容，也就是验收标准，你得知道怎样才算是工作完成。
 
-<img alt="decuple-03" src="https://rudyarchitect.github.io/blog-images/manage/manager_decuple-03.png">
+<img alt="decuple-03" src="https://rudyarchitect.github.io/blog-images/manage/manage_decuple-03.png">
 
   - 按照时间管理的理念，重要且紧急的事情要立即做。重要但不紧急的事情应该是我们重点投入精力的地方。紧急但不重要的事情，可以委托别人做。不重要不紧急的事情，尽量少做。
   - 需求分解之后，最重要的是，排列需求的优先级。
@@ -77,7 +77,7 @@ description:
   - 通过沟通反馈，不断升级自己的编解码能力。
   - 用业务的语言写代码。
 
-<img alt="decuple-04" src="https://rudyarchitect.github.io/blog-images/manage/manager_decuple-04.png">
+<img alt="decuple-04" src="https://rudyarchitect.github.io/blog-images/manage/manage_decuple-04.png">
 
   - 站会。之所以采用站会的方式，就是要控制时间。在站会上每个人说什么，我给了你一个建议的格式：
     - 我昨天做了什么？
@@ -89,11 +89,11 @@ description:
   - 雷达图、流程图、UML 等。
   - 看板。看板把工作分成了几个不同的阶段，在看板上对应不同的列，然后，每个任务作为一张卡贴在上面。每完成一张卡，就把这张卡挪到下一个阶段。
 
-<img alt="decuple-05" src="https://rudyarchitect.github.io/blog-images/manage/manager_decuple-05.png">
+<img alt="decuple-05" src="https://rudyarchitect.github.io/blog-images/manage/manage_decuple-05.png">
 
   - 做好持续集成的关键在于，快速反馈。
 
-<img alt="decuple-06" src="https://rudyarchitect.github.io/blog-images/manage/manager_decuple-06.png">
+<img alt="decuple-06" src="https://rudyarchitect.github.io/blog-images/manage/manage_decuple-06.png">
 
   - 定期复盘，找准问题根因，不断改善。
   - 多走近用户，聆听用户声音，做对用户有价值的产品。
@@ -103,14 +103,14 @@ description:
   - 多输出，让知识更有结构。
   - 金字塔原理。
 
-<img alt="decuple-07" src="https://rudyarchitect.github.io/blog-images/manage/manager_decuple-07.png">
+<img alt="decuple-07" src="https://rudyarchitect.github.io/blog-images/manage/manage_decuple-07.png">
 
   - 持续集成的价值在于，它是一条主线，可以将诸多实践贯穿起来。
   - 做好持续集成的关键是，快速反馈。
 
-<img alt="decuple-08" src="https://rudyarchitect.github.io/blog-images/manage/manager_decuple-08.png">
+<img alt="decuple-08" src="https://rudyarchitect.github.io/blog-images/manage/manage_decuple-08.png">
 
-<img alt="decuple-09" src="https://rudyarchitect.github.io/blog-images/manage/manager_decuple-09.png">
+<img alt="decuple-09" src="https://rudyarchitect.github.io/blog-images/manage/manage_decuple-09.png">
 
   - 重构，本质上就是一个“微操作”的实践。你需要把做的代码调整分解成若干可以单独进行的“重构”小动作，然后，一步一步完成它。
   - 函数式编程已然成为时代的主流。
@@ -122,15 +122,15 @@ description:
   - 将你的工作过程自动化。
   - 有体系地学习运维知识。
 
-<img alt="decuple-10" src="https://rudyarchitect.github.io/blog-images/manage/manager_decuple-10.png">
+<img alt="decuple-10" src="https://rudyarchitect.github.io/blog-images/manage/manage_decuple-10.png">
 
-<img alt="decuple-11" src="https://rudyarchitect.github.io/blog-images/manage/manager_decuple-11.png">
+<img alt="decuple-11" src="https://rudyarchitect.github.io/blog-images/manage/manage_decuple-11.png">
 
-<img alt="decuple-12" src="https://rudyarchitect.github.io/blog-images/manage/manager_decuple-12.png">
+<img alt="decuple-12" src="https://rudyarchitect.github.io/blog-images/manage/manage_decuple-12.png">
 
   - DevOps 是将开发（Development）和运维（Operations）组合在了一起。
 
-<img alt="decuple-13" src="https://rudyarchitect.github.io/blog-images/manage/manager_decuple-13.png">
+<img alt="decuple-13" src="https://rudyarchitect.github.io/blog-images/manage/manage_decuple-13.png">
 
   - 持续交付，是一种让软件随时处于可以部署到生产环境的能力。让软件具备部署到生产环境的能力，这里面有两个关键点：验证发布包和部署。
   - 验证发布包，不仅是功能上的验证，还包括与环境结合在一起的验证。所以，通常会用几个不同的环境验证，每一个环境都是一个单独的阶段，一个阶段不通过，是不能进入下一阶段的，这种按照不同阶段组织构建的方式，称之为构建流水线（Build Pipeline）。
@@ -150,7 +150,7 @@ description:
   - 构建好你的领域模型（Domain Model），指的是服务层。领域模型中一个重要的组成部分：领域对象。领域对象中不应只包含数据访问，也就是常说的 getter 和 setter，还应该有业务逻辑。
   - 你的领域层只依赖于你的领域对象，第三方发过来的内容先做一次转换，转换成你的领域对象。这种做法称为防腐层。
 
-<img alt="decuple-14" src="https://rudyarchitect.github.io/blog-images/manage/manager_decuple-14.png">
+<img alt="decuple-14" src="https://rudyarchitect.github.io/blog-images/manage/manage_decuple-14.png">
 
   - 领域驱动设计（Domain Driven Design，DDD）
   - 领域特定语言（Domain Specific Language，DSL）
@@ -165,12 +165,12 @@ description:
   - 入职新公司，了解的优先级是业务，技术（技术栈，技术架构，功能模块），团队运作（协作方式）。
   - 了解一个项目，从大图景开始。大多数程序员习惯的工作方式，往往是从细节入手，很难建立起一个完整的图景，常常是“只见树木不见森林”，而我的方式则是从大到小、由外而内，将要了解的内容层层分解，有了大图景之后，很容易知道自己做的事情到底在整体上处于什么样的位置。
 
-<img alt="decuple-15" src="https://rudyarchitect.github.io/blog-images/manage/manager_decuple-15.png">
+<img alt="decuple-15" src="https://rudyarchitect.github.io/blog-images/manage/manage_decuple-15.png">
 
   - 先尝试重构你的代码，尽可能在已有代码上做小步调整，不要走到大规模改造的路上，因为重构的成本是最低的。
   - 如果你的“小模块”是一个系统，那就部署新老两套系统，在前面的流量入口做控制，逐步把流量从老系统转到新系统上去；如果“小模块”只在代码层面，那就要有一段分发的代码，根据参数将流程转到不同的代码上去，然后，根据开发的进展，逐步减少对老代码的调用，一直到完全不依赖于老代码。
 
-<img alt="decuple-16" src="https://rudyarchitect.github.io/blog-images/manage/manager_decuple-16.png">
+<img alt="decuple-16" src="https://rudyarchitect.github.io/blog-images/manage/manage_decuple-16.png">
 
   - 要想代码腐化的速度不那么快，一定要在软件设计上多下功夫。一方面，建立好领域模型，另一方面，寻找行业对于系统构建的最新理解。
   - 改造遗留系统，一个关键点就是，不要回到老路上。
@@ -186,7 +186,7 @@ description:
     - 我快30岁时，有人问，35岁还能做程序员吗？
     - 我35岁时，讨论变成了40岁的程序员该怎么办。
 
-<img alt="decuple-17" src="https://rudyarchitect.github.io/blog-images/manage/manager_decuple-17.png">
+<img alt="decuple-17" src="https://rudyarchitect.github.io/blog-images/manage/manage_decuple-17.png">
 
   - 有了“一专”，“多能”才是有意义的，否则，就是低水平重复，而这正是很多人职业生涯不见起色的真正原因。
   - 这里的“专”不是熟练，而是深入。你可能是个有着10年丰富经验的程序员，但实际上只不过是重复了10年解决同样难度的问题而已，这根本就不算深入，也就没有做到真正意义上的“一专”。
@@ -203,7 +203,7 @@ description:
     - 如果实现一个具体功能都没问题了，那就去做设计，让程序有更好的组织。
     - 如果你已经能完成一个普通的系统设计，那就应该去设计业务量更大的系统。
 
-<img alt="decuple-18" src="https://rudyarchitect.github.io/blog-images/manage/manager_decuple-18.png">
+<img alt="decuple-18" src="https://rudyarchitect.github.io/blog-images/manage/manage_decuple-18.png">
 
   - 最内层是舒适区（Comfort Zone），置身其中会让人感觉良好，但也会因为没有挑战，成长甚微，你可以把它理解成做你最熟悉的事情。
   - 最外层是恐慌区（Panic Zone），这是压力极大的地方，完全超出了你的能力范围，你在其中只会感到无比的焦虑。

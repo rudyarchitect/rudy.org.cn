@@ -49,7 +49,7 @@
 
 &lt;p&gt;迭代考虑项&lt;/p&gt;
 
-&lt;p&gt;&lt;img alt=&#34;decuple-01&#34; src=&#34;https://rudyarchitect.github.io/blog-images/manage/manager_decuple-01.png&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt=&#34;decuple-01&#34; src=&#34;https://rudyarchitect.github.io/blog-images/manage/manage_decuple-01.png&#34;&gt;&lt;/p&gt;
 
 &lt;ul&gt;
 &lt;li&gt;任务分解，找到实施路径；
@@ -61,7 +61,7 @@
 &lt;/ul&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;&lt;img alt=&#34;decuple-02&#34; src=&#34;https://rudyarchitect.github.io/blog-images/manage/manager_decuple-02.png&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt=&#34;decuple-02&#34; src=&#34;https://rudyarchitect.github.io/blog-images/manage/manage_decuple-02.png&#34;&gt;&lt;/p&gt;
 
 &lt;ul&gt;
 &lt;li&gt;TDD测试驱动开发已经是行业中的优秀实践，学习测试驱动开发的第一步是，记住测试驱动开发的节奏：红——绿——重构。把测试放在前面，还带来了视角的转变，要编写可测的代码。&lt;/li&gt;
@@ -92,7 +92,7 @@
 &lt;/ul&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;&lt;img alt=&#34;decuple-03&#34; src=&#34;https://rudyarchitect.github.io/blog-images/manage/manager_decuple-03.png&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt=&#34;decuple-03&#34; src=&#34;https://rudyarchitect.github.io/blog-images/manage/manage_decuple-03.png&#34;&gt;&lt;/p&gt;
 
 &lt;ul&gt;
 &lt;li&gt;按照时间管理的理念，重要且紧急的事情要立即做。重要但不紧急的事情应该是我们重点投入精力的地方。紧急但不重要的事情，可以委托别人做。不重要不紧急的事情，尽量少做。&lt;/li&gt;
@@ -107,7 +107,7 @@
 &lt;li&gt;用业务的语言写代码。&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;&lt;img alt=&#34;decuple-04&#34; src=&#34;https://rudyarchitect.github.io/blog-images/manage/manager_decuple-04.png&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt=&#34;decuple-04&#34; src=&#34;https://rudyarchitect.github.io/blog-images/manage/manage_decuple-04.png&#34;&gt;&lt;/p&gt;
 
 &lt;ul&gt;
 &lt;li&gt;站会。之所以采用站会的方式，就是要控制时间。在站会上每个人说什么，我给了你一个建议的格式：
@@ -124,13 +124,13 @@
 &lt;li&gt;看板。看板把工作分成了几个不同的阶段，在看板上对应不同的列，然后，每个任务作为一张卡贴在上面。每完成一张卡，就把这张卡挪到下一个阶段。&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;&lt;img alt=&#34;decuple-05&#34; src=&#34;https://rudyarchitect.github.io/blog-images/manage/manager_decuple-05.png&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt=&#34;decuple-05&#34; src=&#34;https://rudyarchitect.github.io/blog-images/manage/manage_decuple-05.png&#34;&gt;&lt;/p&gt;
 
 &lt;ul&gt;
 &lt;li&gt;做好持续集成的关键在于，快速反馈。&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;&lt;img alt=&#34;decuple-06&#34; src=&#34;https://rudyarchitect.github.io/blog-images/manage/manager_decuple-06.png&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt=&#34;decuple-06&#34; src=&#34;https://rudyarchitect.github.io/blog-images/manage/manage_decuple-06.png&#34;&gt;&lt;/p&gt;
 
 &lt;ul&gt;
 &lt;li&gt;定期复盘，找准问题根因，不断改善。&lt;/li&gt;
@@ -142,16 +142,16 @@
 &lt;li&gt;金字塔原理。&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;&lt;img alt=&#34;decuple-07&#34; src=&#34;https://rudyarchitect.github.io/blog-images/manage/manager_decuple-07.png&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt=&#34;decuple-07&#34; src=&#34;https://rudyarchitect.github.io/blog-images/manage/manage_decuple-07.png&#34;&gt;&lt;/p&gt;
 
 &lt;ul&gt;
 &lt;li&gt;持续集成的价值在于，它是一条主线，可以将诸多实践贯穿起来。&lt;/li&gt;
 &lt;li&gt;做好持续集成的关键是，快速反馈。&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;&lt;img alt=&#34;decuple-08&#34; src=&#34;https://rudyarchitect.github.io/blog-images/manage/manager_decuple-08.png&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt=&#34;decuple-08&#34; src=&#34;https://rudyarchitect.github.io/blog-images/manage/manage_decuple-08.png&#34;&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;img alt=&#34;decuple-09&#34; src=&#34;https://rudyarchitect.github.io/blog-images/manage/manager_decuple-09.png&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt=&#34;decuple-09&#34; src=&#34;https://rudyarchitect.github.io/blog-images/manage/manage_decuple-09.png&#34;&gt;&lt;/p&gt;
 
 &lt;ul&gt;
 &lt;li&gt;重构，本质上就是一个“微操作”的实践。你需要把做的代码调整分解成若干可以单独进行的“重构”小动作，然后，一步一步完成它。&lt;/li&gt;
@@ -169,17 +169,17 @@
 &lt;/ul&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;&lt;img alt=&#34;decuple-10&#34; src=&#34;https://rudyarchitect.github.io/blog-images/manage/manager_decuple-10.png&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt=&#34;decuple-10&#34; src=&#34;https://rudyarchitect.github.io/blog-images/manage/manage_decuple-10.png&#34;&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;img alt=&#34;decuple-11&#34; src=&#34;https://rudyarchitect.github.io/blog-images/manage/manager_decuple-11.png&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt=&#34;decuple-11&#34; src=&#34;https://rudyarchitect.github.io/blog-images/manage/manage_decuple-11.png&#34;&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;img alt=&#34;decuple-12&#34; src=&#34;https://rudyarchitect.github.io/blog-images/manage/manager_decuple-12.png&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt=&#34;decuple-12&#34; src=&#34;https://rudyarchitect.github.io/blog-images/manage/manage_decuple-12.png&#34;&gt;&lt;/p&gt;
 
 &lt;ul&gt;
 &lt;li&gt;DevOps 是将开发（Development）和运维（Operations）组合在了一起。&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;&lt;img alt=&#34;decuple-13&#34; src=&#34;https://rudyarchitect.github.io/blog-images/manage/manager_decuple-13.png&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt=&#34;decuple-13&#34; src=&#34;https://rudyarchitect.github.io/blog-images/manage/manage_decuple-13.png&#34;&gt;&lt;/p&gt;
 
 &lt;ul&gt;
 &lt;li&gt;持续交付，是一种让软件随时处于可以部署到生产环境的能力。让软件具备部署到生产环境的能力，这里面有两个关键点：验证发布包和部署。&lt;/li&gt;
@@ -204,7 +204,7 @@
 &lt;li&gt;你的领域层只依赖于你的领域对象，第三方发过来的内容先做一次转换，转换成你的领域对象。这种做法称为防腐层。&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;&lt;img alt=&#34;decuple-14&#34; src=&#34;https://rudyarchitect.github.io/blog-images/manage/manager_decuple-14.png&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt=&#34;decuple-14&#34; src=&#34;https://rudyarchitect.github.io/blog-images/manage/manage_decuple-14.png&#34;&gt;&lt;/p&gt;
 
 &lt;ul&gt;
 &lt;li&gt;领域驱动设计（Domain Driven Design，DDD）&lt;/li&gt;
@@ -221,14 +221,14 @@
 &lt;li&gt;了解一个项目，从大图景开始。大多数程序员习惯的工作方式，往往是从细节入手，很难建立起一个完整的图景，常常是“只见树木不见森林”，而我的方式则是从大到小、由外而内，将要了解的内容层层分解，有了大图景之后，很容易知道自己做的事情到底在整体上处于什么样的位置。&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;&lt;img alt=&#34;decuple-15&#34; src=&#34;https://rudyarchitect.github.io/blog-images/manage/manager_decuple-15.png&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt=&#34;decuple-15&#34; src=&#34;https://rudyarchitect.github.io/blog-images/manage/manage_decuple-15.png&#34;&gt;&lt;/p&gt;
 
 &lt;ul&gt;
 &lt;li&gt;先尝试重构你的代码，尽可能在已有代码上做小步调整，不要走到大规模改造的路上，因为重构的成本是最低的。&lt;/li&gt;
 &lt;li&gt;如果你的“小模块”是一个系统，那就部署新老两套系统，在前面的流量入口做控制，逐步把流量从老系统转到新系统上去；如果“小模块”只在代码层面，那就要有一段分发的代码，根据参数将流程转到不同的代码上去，然后，根据开发的进展，逐步减少对老代码的调用，一直到完全不依赖于老代码。&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;&lt;img alt=&#34;decuple-16&#34; src=&#34;https://rudyarchitect.github.io/blog-images/manage/manager_decuple-16.png&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt=&#34;decuple-16&#34; src=&#34;https://rudyarchitect.github.io/blog-images/manage/manage_decuple-16.png&#34;&gt;&lt;/p&gt;
 
 &lt;ul&gt;
 &lt;li&gt;要想代码腐化的速度不那么快，一定要在软件设计上多下功夫。一方面，建立好领域模型，另一方面，寻找行业对于系统构建的最新理解。&lt;/li&gt;
@@ -252,7 +252,7 @@
 &lt;/ul&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;&lt;img alt=&#34;decuple-17&#34; src=&#34;https://rudyarchitect.github.io/blog-images/manage/manager_decuple-17.png&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt=&#34;decuple-17&#34; src=&#34;https://rudyarchitect.github.io/blog-images/manage/manage_decuple-17.png&#34;&gt;&lt;/p&gt;
 
 &lt;ul&gt;
 &lt;li&gt;有了“一专”，“多能”才是有意义的，否则，就是低水平重复，而这正是很多人职业生涯不见起色的真正原因。&lt;/li&gt;
@@ -278,7 +278,7 @@
 &lt;/ul&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;&lt;img alt=&#34;decuple-18&#34; src=&#34;https://rudyarchitect.github.io/blog-images/manage/manager_decuple-18.png&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt=&#34;decuple-18&#34; src=&#34;https://rudyarchitect.github.io/blog-images/manage/manage_decuple-18.png&#34;&gt;&lt;/p&gt;
 
 &lt;ul&gt;
 &lt;li&gt;最内层是舒适区（Comfort Zone），置身其中会让人感觉良好，但也会因为没有挑战，成长甚微，你可以把它理解成做你最熟悉的事情。&lt;/li&gt;
