@@ -4,7 +4,7 @@
     <url>
       <loc>https://rudy.org.cn/categories/</loc>
       
-      <lastmod>2019-10-28T18:54:22+08:00</lastmod>
+      <lastmod>2019-11-05T19:10:13+08:00</lastmod>
       
       
       
@@ -16,7 +16,7 @@
     <url>
       <loc>https://rudy.org.cn/posts/</loc>
       
-      <lastmod>2019-10-28T18:54:22+08:00</lastmod>
+      <lastmod>2019-11-05T19:10:13+08:00</lastmod>
       
       
       
@@ -28,7 +28,7 @@
     <url>
       <loc>https://rudy.org.cn/</loc>
       
-      <lastmod>2019-10-28T18:54:22+08:00</lastmod>
+      <lastmod>2019-11-05T19:10:13+08:00</lastmod>
       
       
       
@@ -40,7 +40,41 @@
     <url>
       <loc>https://rudy.org.cn/tags/</loc>
       
-      <lastmod>2019-10-28T18:54:22+08:00</lastmod>
+      <lastmod>2019-11-05T19:10:13+08:00</lastmod>
+      
+      
+      
+      <priority>0</priority>
+      
+      
+    </url>
+  
+    <url>
+      <loc>https://rudy.org.cn/tags/manage/</loc>
+      
+      <lastmod>2019-11-05T19:10:13+08:00</lastmod>
+      
+      
+      
+      <priority>0</priority>
+      
+      
+    </url>
+  
+    <url>
+      <loc>https://rudy.org.cn/2019/manage_decuple-work-means/</loc>
+      
+      <lastmod>2019-11-05T19:10:13+08:00</lastmod>
+      
+      
+      
+      
+    </url>
+  
+    <url>
+      <loc>https://rudy.org.cn/categories/%E7%AE%A1%E7%90%86/</loc>
+      
+      <lastmod>2019-11-05T19:10:13+08:00</lastmod>
       
       
       
@@ -167,30 +201,6 @@
       <lastmod>2019-10-21T10:38:16+08:00</lastmod>
       
       
-      
-      
-    </url>
-  
-    <url>
-      <loc>https://rudy.org.cn/tags/manage/</loc>
-      
-      <lastmod>2019-10-21T10:38:16+08:00</lastmod>
-      
-      
-      
-      <priority>0</priority>
-      
-      
-    </url>
-  
-    <url>
-      <loc>https://rudy.org.cn/categories/%E7%AE%A1%E7%90%86/</loc>
-      
-      <lastmod>2019-10-21T10:38:16+08:00</lastmod>
-      
-      
-      
-      <priority>0</priority>
       
       
     </url>
