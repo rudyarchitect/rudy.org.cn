@@ -26,8 +26,7 @@
 
 &lt;h2 id=&#34;整个工作法以4个思考原则展开讨论&#34;&gt;整个工作法以4个思考原则展开讨论&lt;/h2&gt;
 
-&lt;ul&gt;
-&lt;li&gt;以终为始，确定好真实目标；
+&lt;h3 id=&#34;以终为始-确定好真实目标&#34;&gt;&lt;strong&gt;以终为始，确定好真实目标&lt;/strong&gt;&lt;/h3&gt;
 
 &lt;ul&gt;
 &lt;li&gt;遇到事情倒着想，首先描述要做的事情，包括背景和意义，然后先写用户使用文档，最后再写代码。&lt;/li&gt;
@@ -36,29 +35,29 @@
 &lt;li&gt;梳理依赖，确定边界，用“用户故事”描述需求，定义验收标准（正常流程和异常流程）&lt;/li&gt;
 &lt;li&gt;交付物不是代码，是可工作的软件，如何做好集成？&lt;/li&gt;
 &lt;li&gt;最小可行产品 MVP（Minimum Viable Product），默认所有的需求都不做，知道弄清楚为什么这么做。&lt;/li&gt;
-&lt;li&gt;《精益创业》&lt;/li&gt;
+&lt;li&gt;《精益创业》
+
+&lt;ul&gt;
 &lt;li&gt;精益创业的方法论里，提出“开发（build）-测量（measure）-认知（learn）”这样一个反馈循环。就是说，当你有了一个新的想法（idea）时，就把想法开发成产品（code）投入市场，然后，收集数据（data）获取反馈，看看前面的想法是不是靠谱。&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
 &lt;li&gt;得到的结果无非是两种：好想法继续加强，不靠谱的想法丢掉算了。不管是哪种结果，你都会产生新的想法，再进入到下一个循环里。在这个反馈循环中，你所获得的认知是最重要的，因为它是经过验证的。在精益创业中，这也是一个很重要的概念：经过验证的认知（Validated Learning）。&lt;/li&gt;
 &lt;li&gt;扩大自己工作的上下文，在更高的维度思考问题。&lt;/li&gt;
 &lt;li&gt;不同角色工作真正的差异在于上下文的差异。在一个局部上下文难以解决的问题，换到另外一个上下文甚至是可以不解决的。所以说无论单点有多努力也只是局部优化，很难达到最优的效果。&lt;/li&gt;
 &lt;li&gt;想把工作做好，就需要不断扩大自己工作的上下文，多了解一下别人的工作逻辑是什么样的，认识软件开发的全生命周期。&lt;/li&gt;
 &lt;li&gt;在动手做一件事之前，先推演一番。&lt;/li&gt;
 &lt;li&gt;问一下自己，我的工作是不是可以用数字衡量。大数据时代，可视化的价值，定义好测量工作的有效性指标&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;p&gt;迭代考虑项&lt;/p&gt;
 
 &lt;p&gt;&lt;img alt=&#34;decuple-01&#34; src=&#34;https://rudyarchitect.github.io/blog-images/manage/manage_decuple-01.png&#34;&gt;&lt;/p&gt;
 
-&lt;ul&gt;
-&lt;li&gt;任务分解，找到实施路径；
+&lt;h3 id=&#34;任务分解-找到实施路径&#34;&gt;&lt;strong&gt;任务分解，找到实施路径&lt;/strong&gt;&lt;/h3&gt;
 
 &lt;ul&gt;
 &lt;li&gt;动手做一项工作之前，首先进行任务分解。&lt;/li&gt;
 &lt;li&gt;最佳实践称之为测试金字塔，它强调的重点是，越底层的测试应该写得越多。只有按照测试金字塔的方式写测试，持续集成才能更好地发挥作用。&lt;/li&gt;
 &lt;li&gt;多写单元测试。&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;p&gt;&lt;img alt=&#34;decuple-02&#34; src=&#34;https://rudyarchitect.github.io/blog-images/manage/manage_decuple-02.png&#34;&gt;&lt;/p&gt;
@@ -102,7 +101,11 @@
 &lt;li&gt;不是一个模块做得有多完整，而一条用户路径是否通畅。&lt;/li&gt;
 &lt;li&gt;做好产品开发，最可行的方式是采用 最小可行产品（Minimum Viable Product，MVP）。&lt;/li&gt;
 &lt;li&gt;最小可行产品就是“刚刚好”满足客户需求的产品。&lt;/li&gt;
-&lt;li&gt;沟通反馈，解决与人打交道出现的问题；&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;沟通反馈-解决与人打交道出现的问题&#34;&gt;&lt;strong&gt;沟通反馈，解决与人打交道出现的问题&lt;/strong&gt;&lt;/h3&gt;
+
+&lt;ul&gt;
 &lt;li&gt;通过沟通反馈，不断升级自己的编解码能力。&lt;/li&gt;
 &lt;li&gt;用业务的语言写代码。&lt;/li&gt;
 &lt;/ul&gt;
@@ -155,10 +158,10 @@
 
 &lt;ul&gt;
 &lt;li&gt;重构，本质上就是一个“微操作”的实践。你需要把做的代码调整分解成若干可以单独进行的“重构”小动作，然后，一步一步完成它。&lt;/li&gt;
+&lt;li&gt;函数式编程已然成为时代的主流。&lt;/li&gt;
+&lt;/ul&gt;
 
-&lt;li&gt;&lt;p&gt;函数式编程已然成为时代的主流。&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;自动化，解决与机器打交道出现的问题。&lt;/p&gt;
+&lt;h3 id=&#34;自动化-解决与机器打交道出现的问题&#34;&gt;&lt;strong&gt;自动化，解决与机器打交道出现的问题&lt;/strong&gt;&lt;/h3&gt;
 
 &lt;ul&gt;
 &lt;li&gt;学习自动化，先要知道哪些东西不要自动化，尽最大的努力不做浪费时间的事。一方面，我们要从需求上规避那些没必要做的事；另一方面，我们也从自身防止 NIH 综合症（Not Invented Here Syndrome），争取做一个懒惰的程序员。&lt;/li&gt;
@@ -166,7 +169,6 @@
 &lt;li&gt;不懂软件设计，只会被各种层出不穷的工具和框架淘汰。&lt;/li&gt;
 &lt;li&gt;将你的工作过程自动化。&lt;/li&gt;
 &lt;li&gt;有体系地学习运维知识。&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;p&gt;&lt;img alt=&#34;decuple-10&#34; src=&#34;https://rudyarchitect.github.io/blog-images/manage/manage_decuple-10.png&#34;&gt;&lt;/p&gt;
@@ -570,14 +572,35 @@
     </item>
     
     <item>
-      <title>3个时间管理原则</title>
+      <title>前端架构师的时间管理原则</title>
       <link>https://rudy.org.cn/2019/manage_rules/</link>
       <pubDate>Mon, 21 Oct 2019 10:38:16 +0800</pubDate>
       
       <guid>https://rudy.org.cn/2019/manage_rules/</guid>
       <description>
 
-&lt;h2 id=&#34;3个时间管理原则&#34;&gt;3个时间管理原则：&lt;/h2&gt;
+&lt;h2 id=&#34;前端架构师&#34;&gt;前端架构师&lt;/h2&gt;
+
+&lt;p&gt;前端架构是一系列工具和流程的集合，旨在提升前端代码质量，并实现高效、可持续的工作流。&lt;/p&gt;
+
+&lt;h3 id=&#34;4个核心&#34;&gt;4个核心&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;代码——如何实现系统架构中的HTML、CSS和JavaScript&lt;/li&gt;
+&lt;li&gt;流程——构建高效并且防止出错的工作流所需要的工具和流程&lt;/li&gt;
+&lt;li&gt;测试——为网站搭建稳固基础&lt;/li&gt;
+&lt;li&gt;文档——规划好系统设计蓝图&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;职责&#34;&gt;职责&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;体系设计——清晰描绘产品和代码的最终形态&lt;/li&gt;
+&lt;li&gt;工作规划——制定完整开发工作流&lt;/li&gt;
+&lt;li&gt;监督跟进——保证项目高效率完成&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;时间管理原则&#34;&gt;时间管理原则：&lt;/h2&gt;
 
 &lt;p&gt;1.细微边界&lt;/p&gt;
 
