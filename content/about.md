@@ -30,7 +30,7 @@ featured_image:
 
 用心经营自己这家“公司”。
 
-做事坚持“先有用，再好用，后好看”。
+做事坚持“先能用，再有用，再好用，后好看”。
   
 ![GitHub Chart](https://ghchart.rshah.org/rudyarchitect)
 
