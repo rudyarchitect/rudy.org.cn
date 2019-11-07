@@ -1,9 +1,9 @@
 ---
-title: "Angular从1到2"
+title: "Angular从1到2 Chapter01-Section02"
 date: 2019-10-28T18:08:19+08:00
 draft: true
 tags: ["book"]
-categories: ["book"]
+categories: ["作书"]
 featured_image: 
 description: 
 ---
