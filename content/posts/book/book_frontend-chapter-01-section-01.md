@@ -39,6 +39,77 @@ description:
   - 做减法不一定就输
   - 它究竟怎么想的，弯道超车的要领
 
+- 如何判断一个框架的发展前景？
+  - 功能
+  - 社区
+  - 作者
+  - 使用情况
+  - ...
+- 选择一个框架应该考虑什么？
+   - 成本
+   - 应用规模
+   - 最终目标
+   - 用户定位
+   - google trends
+   - github star trends
+
+- 从哪几个方面分析框架：
+  - 是否包含足够的特性支持可扩展应用的创建
+  - 是否有足够多的爱好者和社区支持
+  - 是否了解其核心理念
+  - 是否分析过其性能和学习曲线
+  - 是否有相应的辅助开发工具
+
+- 10个比较点
+  - 社区支持和成长空间
+  - 是否容易找到使用者
+  - JSX VS HTML
+  - 框架 VS 库
+  - 设计模式MV*
+  - 性能 Virtual DOM
+  - 原生APP开发
+  - 学习曲线
+  - 单向数据流和双向绑定
+  - 微应用和微服务
+
+- React和Angular 6个月会更新一个大版本，迁移需要注意。Vue有迁移工具，但如果应用较大，可能会产生问题。React库比较灵活，只需关注较少模块，Augular是一个完整框架…
+- React使用不同语法JSX javascript xml，熟悉React相关的设置，环境，架构需要学习成本，不同于Angular，vue
+- 都是基于组件的，Angular 增强版HTML，Vue不同于两者，分离概念，允许开发者以一种有序的方式编写样式，文本，脚本等。
+- Angular是一个框架，提供了完整的前端解决方案，无需关注库，路由方案以及结构，可以直接构建。而另外2个更灵活，React你可以随心所欲整合，但是可能带来问题，Vue相对来说更加整洁，在依赖和灵活性之间保持很好的平衡，更容易实现简单的Web应用。
+- Angular 依赖注入，MVVM，react只专注视图层
+- Virtual dom 在性能方面有很大帮助，react和vue都有。但是性能表现取决于很多因素，比如应用大小，代码优化
+- React native ，Angular 嵌入原生APP，Ionic混合应用，Vue weex?
+- Vue相对简单，但当应用复杂时，编码，调试，测试可能会有问题，主要原因是Vue允许以传统方式编写js，Angular提供了很好的解决方案。而另外2者需要很好js基础。
+- 这个主要区别在angular和React，双向绑定机制是UI层和Model层动态绑定，当UI层改变，Model层也会根据当前值改变，好处是高效代码结构。单向意味着只有Model层是数据唯一来源，好处数据易于管理。Vue两者都支持。
+- React和Vue提供很好的灵活性支持，angular更适合单页面。
+
+- 如何抉择？
+
+a.如果对灵活性要求高，Javascript爱好者，选择React。
+b.如果喜欢使用Typescript,面向对象程序，选择Angular。
+c.如果考虑代码整洁度，分离概念，选择Vue，它的学习曲线低，适合初学者。
+
+Vue适合小项目和小团队，如果你的应用庞大，并且有很巨大的扩展计划，请选择React或Angular。React-native是很好的跨平台选择，它提供大量的模块方法和学习资源。Angular需要丰富的javascript知识去构建大规模应用。
+
+
+|  | Angular | React | Vue | 
+| ------------- | ------------- | ------------- | ------------- |
+| 类型 | 框架 | 专注UI库| 框架 | 
+| 特点 | Angular | React | Vue | 
+| 作者 | Google | Facebook | Alibaba | 
+| 初始版本 | 2014.02 | 2013.03 | 2016.09 | 
+| 应用类型 | SPA | SPA | SPA | 
+| 学习曲线 | 陡峭 | 相对Angular容易 | 相对简单 | 
+| 友好程度 | 合理的结构 | 巨大的灵活度 | 关注分离概念 | 
+| 设计模式 | MVVM | Virtual DOM | Virtual DOM | 
+| 编写语言 | Typescript | Virtual DOM | Virtual DOM | 
+| 社区支持 | Angular | React | Vue | 
+
+- 服务端渲染？
+- 一站式开发？
+- 背后的思想？
+- 源码看了离真相还远吗？
+
 <br>
 
 <center>  ·End·  </center>

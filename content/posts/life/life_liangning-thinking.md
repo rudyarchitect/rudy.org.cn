@@ -1,5 +1,5 @@
 ---
-title: "创业者对西游记的另一种感悟"
+title: "创业者对《西游记》的另一种感悟"
 date: 2019-10-28T18:54:22+08:00
 draft: false
 tags: ["keep thinking"]
