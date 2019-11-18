@@ -6,10 +6,19 @@
     <description>Recent content in Posts on Rudy&#39;s blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Tue, 12 Nov 2019 09:18:22 +0800</lastBuildDate>
+    <lastBuildDate>Mon, 18 Nov 2019 19:12:07 +0800</lastBuildDate>
     
 	<atom:link href="https://rudy.org.cn/posts/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>保持终身学习的丁磊</title>
+      <link>https://rudy.org.cn/2019/life_dinglei/</link>
+      <pubDate>Mon, 18 Nov 2019 19:12:07 +0800</pubDate>
+      
+      <guid>https://rudy.org.cn/2019/life_dinglei/</guid>
+      <description>丁磊 我对奉化有非常多美好的回忆。1971年，我在奉化读书时，奉化总共有三个小学、两个中学。我在11年的读书生涯里，把这五个学校全读遍了。 “读</description>
+    </item>
     
     <item>
       <title>老贾的人生信条</title>
@@ -89,7 +98,7 @@
       <pubDate>Wed, 16 Oct 2019 16:46:51 +0800</pubDate>
       
       <guid>https://rudy.org.cn/2019/frontend_plan-2020/</guid>
-      <description>公司前端架构 1.项目 web编辑器 监控平台 2.工具 规范 脚手架 mock 3.方向 前端服务化 个人 职级P7/P8 软件架构师 2020.11 写1本前端架构方面的书。 2020.07 写1本</description>
+      <description>公司前端架构 1.项目 web在线编辑器 web监控平台 2.工具 前端规范 项目 git 脚手架 3.方向 前端服务化 个人 职级P7/P8 软件架构师 2020.11 写1本前端架构</description>
     </item>
     
     <item>
