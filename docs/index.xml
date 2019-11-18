@@ -28,6 +28,8 @@
 
 &lt;p&gt;老贾的这番话让人感动，活着，还能继续梦想，设想如果是我，还能这么想吗？估计很难，瑞·达利欧在《原则》中说过英雄总是会至少经历一次极大的失败（坎贝尔称之为“深渊”或“被鲸鱼吃进肚子”），这将考验他们有没有韧性东山再起，以更大的决心和更多的智慧继续战斗，普通人关注更多的是结果，对于过程的艰辛只有老贾自己知道。我自己常常也感慨，活着似乎挺难的，总有各种各种各样的烦恼，但似乎和老贾比起来，我的这些麻烦不值一提，那就继续努力，别放弃已在心中发芽的梦想种子，没有过程的历炼，会有成功么？&lt;/p&gt;
 
+&lt;p&gt;&lt;img alt=&#34;jiayueting-01&#34; src=&#34;https://rudyarchitect.github.io/blog-images/life/life_jiayueting-01.jpg&#34;&gt;&lt;/p&gt;
+
 &lt;p&gt;&lt;br&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;center&gt;  ·End·  &lt;/center&gt;&lt;/p&gt;
@@ -1213,11 +1215,58 @@
 &lt;li&gt;flex&lt;/li&gt;
 &lt;li&gt;redux&lt;/li&gt;
 &lt;li&gt;mobx&lt;/li&gt;
-&lt;li&gt;版本16之后&lt;/li&gt;
-&lt;li&gt;声明周期api更新&lt;/li&gt;
+&lt;li&gt;服务端渲染&lt;/li&gt;
+&lt;li&gt;版本优化&lt;/li&gt;
+&lt;li&gt;api更新&lt;/li&gt;
+&lt;li&gt;性能提升
+
+&lt;ul&gt;
+&lt;li&gt;具体细节？&lt;/li&gt;
 &lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;后起之秀Vue 10页&lt;/li&gt;
-&lt;li&gt;框架未来简史 5页&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;后起之秀Vue 10页&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;初识Vue&lt;/li&gt;
+&lt;li&gt;发展历程&lt;/li&gt;
+&lt;li&gt;特点？&lt;/li&gt;
+&lt;li&gt;核心原理&lt;/li&gt;
+&lt;li&gt;双向绑定
+
+&lt;ul&gt;
+&lt;li&gt;实现区别&lt;/li&gt;
+&lt;li&gt;一步步深挖&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;事件系统&lt;/li&gt;
+&lt;li&gt;数据流&lt;/li&gt;
+&lt;li&gt;版本优化&lt;/li&gt;
+&lt;li&gt;服务端渲染&lt;/li&gt;
+&lt;li&gt;和React对比&lt;/li&gt;
+&lt;li&gt;一直模仿&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;框架未来简史 5页&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;web component&lt;/li&gt;
+&lt;li&gt;为什么组件化成为趋势&lt;/li&gt;
+&lt;li&gt;移动互联时代&lt;/li&gt;
+&lt;li&gt;多设备&lt;/li&gt;
+&lt;li&gt;成本&lt;/li&gt;
+&lt;li&gt;效率&lt;/li&gt;
+&lt;li&gt;如何不掉队？&lt;/li&gt;
+&lt;li&gt;基础和框架区别&lt;/li&gt;
+&lt;li&gt;快速学习框架的方法&lt;/li&gt;
+&lt;li&gt;后端思维
+
+&lt;ul&gt;
+&lt;li&gt;php?&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;未来发展方向&lt;/li&gt;
+&lt;li&gt;我猜的&lt;/li&gt;
+&lt;li&gt;w3c正在推进的？&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;p&gt;预估40页&lt;/p&gt;
@@ -1225,12 +1274,126 @@
 &lt;h2 id=&#34;前端流程设计&#34;&gt;前端流程设计&lt;/h2&gt;
 
 &lt;ul&gt;
-&lt;li&gt;脚手架DIY 15页&lt;/li&gt;
-&lt;li&gt;规范统一习惯 15页&lt;/li&gt;
-&lt;li&gt;代码管理的艺术 10页&lt;/li&gt;
-&lt;li&gt;测试不可或缺 10页&lt;/li&gt;
+&lt;li&gt;脚手架DIY 15页
 
-&lt;li&gt;&lt;p&gt;无文档不开心 10页&lt;/p&gt;&lt;/li&gt;
+&lt;ul&gt;
+&lt;li&gt;脚手架的意义&lt;/li&gt;
+&lt;li&gt;如何搭建&lt;/li&gt;
+&lt;li&gt;需要做什么&lt;/li&gt;
+&lt;li&gt;一步步搭？&lt;/li&gt;
+&lt;li&gt;如何扩展&lt;/li&gt;
+&lt;li&gt;一个简易版本&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;规范统一习惯 15页
+
+&lt;ul&gt;
+&lt;li&gt;项目组织结构&lt;/li&gt;
+&lt;li&gt;目录结构&lt;/li&gt;
+&lt;li&gt;配置文件&lt;/li&gt;
+&lt;li&gt;README&lt;/li&gt;
+&lt;li&gt;代码规范&lt;/li&gt;
+&lt;li&gt;命名规范&lt;/li&gt;
+&lt;li&gt;Html规范&lt;/li&gt;
+&lt;li&gt;Javascript规范&lt;/li&gt;
+&lt;li&gt;CSS规范&lt;/li&gt;
+&lt;li&gt;统一代码风格&lt;/li&gt;
+&lt;li&gt;利用Lint工具，配置语法检测规则来对代码风格进行检测。&lt;/li&gt;
+&lt;li&gt;e.g.  js lint, css lint&lt;/li&gt;
+&lt;li&gt;开发工具规范&lt;/li&gt;
+&lt;li&gt;编辑器
+
+&lt;ul&gt;
+&lt;li&gt;Visual Studio Code&lt;/li&gt;
+&lt;li&gt;Web Storm&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;统一插件
+
+&lt;ul&gt;
+&lt;li&gt;EditorConfig&lt;/li&gt;
+&lt;li&gt;Lint&lt;/li&gt;
+&lt;li&gt;单词拼写检查&lt;/li&gt;
+&lt;li&gt;路径补全&lt;/li&gt;
+&lt;li&gt;代码自动补全&lt;/li&gt;
+&lt;li&gt;Emmet&lt;/li&gt;
+&lt;li&gt;代码格式化&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;代码管理的艺术 10页
+
+&lt;ul&gt;
+&lt;li&gt;svn与git&lt;/li&gt;
+&lt;li&gt;优缺点&lt;/li&gt;
+&lt;li&gt;如何选择&lt;/li&gt;
+&lt;li&gt;git使用&lt;/li&gt;
+&lt;li&gt;git常用命令&lt;/li&gt;
+&lt;li&gt;github流程&lt;/li&gt;
+&lt;li&gt;gitlab流程&lt;/li&gt;
+&lt;li&gt;哪种好？&lt;/li&gt;
+&lt;li&gt;git图形化工具
+
+&lt;ul&gt;
+&lt;li&gt;source tree&lt;/li&gt;
+&lt;li&gt;github desktop&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;代码提交信息规范&lt;/li&gt;
+&lt;li&gt;[任务名称/编码] [类型] 提交人 : 详细信息。&lt;/li&gt;
+&lt;li&gt;类型说明
+
+&lt;ul&gt;
+&lt;li&gt;文档&lt;/li&gt;
+&lt;li&gt;功能&lt;/li&gt;
+&lt;li&gt;修复&lt;/li&gt;
+&lt;li&gt;重构&lt;/li&gt;
+&lt;li&gt;样式&lt;/li&gt;
+&lt;li&gt;测试&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;流程化&lt;/li&gt;
+&lt;li&gt;代码预处理
+
+&lt;ul&gt;
+&lt;li&gt;Lint + Git Hooks&lt;/li&gt;
+&lt;li&gt;Lint + Webhook&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;人工检查代码
+
+&lt;ul&gt;
+&lt;li&gt;Code Review&lt;/li&gt;
+&lt;li&gt;Pull Request&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;测试不可或缺 10页
+
+&lt;ul&gt;
+&lt;li&gt;TDD？&lt;/li&gt;
+&lt;li&gt;测试工具&lt;/li&gt;
+&lt;li&gt;单元测试先行&lt;/li&gt;
+&lt;li&gt;项目中如何使用&lt;/li&gt;
+&lt;li&gt;逃避测试的后果&lt;/li&gt;
+&lt;li&gt;一个简易版本&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;无文档不开心 10页&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;文档的意义&lt;/li&gt;
+&lt;li&gt;文档是一直要更新维护的？&lt;/li&gt;
+&lt;li&gt;统一文档规范&lt;/li&gt;
+&lt;li&gt;怎么写文档&lt;/li&gt;
+&lt;li&gt;时间&lt;/li&gt;
+&lt;li&gt;结构&lt;/li&gt;
+&lt;li&gt;重要性&lt;/li&gt;
+&lt;li&gt;一个简易例子&lt;/li&gt;
+&lt;li&gt;README搭建指南
+
+&lt;ul&gt;
+&lt;li&gt;运行环境&lt;/li&gt;
+&lt;li&gt;依赖项&lt;/li&gt;
+&lt;li&gt;项目安装指南&lt;/li&gt;
+&lt;li&gt;项目结构图&lt;/li&gt;
+&lt;li&gt;参考资料&lt;/li&gt;
+&lt;li&gt;维护人员联系方式&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
 
 &lt;li&gt;&lt;p&gt;预估60页&lt;/p&gt;&lt;/li&gt;
 &lt;/ul&gt;
@@ -1238,9 +1401,26 @@
 &lt;h2 id=&#34;css那些不得不说的事&#34;&gt;CSS那些不得不说的事&lt;/h2&gt;
 
 &lt;ul&gt;
-&lt;li&gt;寻找CSS设计的圣杯 10页&lt;/li&gt;
-&lt;li&gt;预处理实现自动适配 10页&lt;/li&gt;
-&lt;li&gt;可行的CSS方案 10页&lt;/li&gt;
+&lt;li&gt;寻找CSS设计的圣杯 10页
+
+&lt;ul&gt;
+&lt;li&gt;css是web皮肤？&lt;/li&gt;
+&lt;li&gt;css 盒模型&lt;/li&gt;
+&lt;li&gt;浏览器区别&lt;/li&gt;
+&lt;li&gt;css进化3.0&lt;/li&gt;
+&lt;li&gt;css分类理论&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;预处理实现自动适配 10页
+
+&lt;ul&gt;
+&lt;li&gt;为什么预处理？&lt;/li&gt;
+&lt;li&gt;方案推荐&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;可行的CSS方案 10页
+
+&lt;ul&gt;
+&lt;li&gt;一个简易版本&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;p&gt;预估30页&lt;/p&gt;
@@ -1248,9 +1428,60 @@
 &lt;h2 id=&#34;前端监控设计与落地&#34;&gt;前端监控设计与落地&lt;/h2&gt;
 
 &lt;ul&gt;
-&lt;li&gt;监控的一小步 5页&lt;/li&gt;
-&lt;li&gt;监控可视化 10页&lt;/li&gt;
-&lt;li&gt;监控设计与实践 15页&lt;/li&gt;
+&lt;li&gt;监控的一小步 5页
+
+&lt;ul&gt;
+&lt;li&gt;监控维度&lt;/li&gt;
+&lt;li&gt;性能&lt;/li&gt;
+&lt;li&gt;异常&lt;/li&gt;
+&lt;li&gt;用户行为&lt;/li&gt;
+&lt;li&gt;原理&lt;/li&gt;
+&lt;li&gt;监听window对象的onerror事件。&lt;/li&gt;
+&lt;li&gt;使用try catch语句。&lt;/li&gt;
+&lt;li&gt;案例分析&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;监控可视化 10页
+
+&lt;ul&gt;
+&lt;li&gt;图表插件&lt;/li&gt;
+&lt;li&gt;业务维度&lt;/li&gt;
+&lt;li&gt;功能维度&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;监控设计与实践 15页
+
+&lt;ul&gt;
+&lt;li&gt;错误收集&lt;/li&gt;
+&lt;li&gt;错误信息
+
+&lt;ul&gt;
+&lt;li&gt;资源加载错误&lt;/li&gt;
+&lt;li&gt;运行时错误&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;性能指标
+
+&lt;ul&gt;
+&lt;li&gt;页面加载时长&lt;/li&gt;
+&lt;li&gt;首次渲染时长&lt;/li&gt;
+&lt;li&gt;首次内容渲染时长&lt;/li&gt;
+&lt;li&gt;首次有效渲染时长&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;日志数据&lt;/li&gt;
+&lt;li&gt;上报策略&lt;/li&gt;
+&lt;li&gt;ajax&lt;/li&gt;
+&lt;li&gt;跨域 CORS协议&lt;/li&gt;
+&lt;li&gt;image对象&lt;/li&gt;
+&lt;li&gt;日志采集与存储&lt;/li&gt;
+&lt;li&gt;数据过滤&lt;/li&gt;
+&lt;li&gt;节流&lt;/li&gt;
+&lt;li&gt;告警功能&lt;/li&gt;
+&lt;li&gt;最大最小值&lt;/li&gt;
+&lt;li&gt;错误累计数&lt;/li&gt;
+&lt;li&gt;异常等级&lt;/li&gt;
+&lt;li&gt;自定义&lt;/li&gt;
+&lt;li&gt;邮件短信通知&lt;/li&gt;
+&lt;li&gt;错误定位与复现&lt;/li&gt;
+&lt;li&gt;管理后台数据可视化&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;p&gt;预估30页&lt;/p&gt;
