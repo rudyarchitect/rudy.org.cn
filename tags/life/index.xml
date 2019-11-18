@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>life on Rudy&#39;s blog</title>
@@ -6,18 +6,18 @@
     <description>Recent content in life on Rudy&#39;s blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Wed, 09 Oct 2019 16:02:39 +0800</lastBuildDate>
+    <lastBuildDate>Mon, 18 Nov 2019 19:12:07 +0800</lastBuildDate>
     
 	<atom:link href="https://rudy.org.cn/tags/life/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>人生总是起起落落</title>
-      <link>https://rudy.org.cn/2019/life_test-01/</link>
-      <pubDate>Wed, 09 Oct 2019 16:02:39 +0800</pubDate>
+      <title>保持终身学习的丁磊</title>
+      <link>https://rudy.org.cn/2019/life_dinglei/</link>
+      <pubDate>Mon, 18 Nov 2019 19:12:07 +0800</pubDate>
       
-      <guid>https://rudy.org.cn/2019/life_test-01/</guid>
-      <description>·End·</description>
+      <guid>https://rudy.org.cn/2019/life_dinglei/</guid>
+      <description>丁磊 我对奉化有非常多美好的回忆。1971年，我在奉化读书时，奉化总共有三个小学、两个中学。我在11年的读书生涯里，把这五个学校全读遍了。 “读</description>
     </item>
     
   </channel>
