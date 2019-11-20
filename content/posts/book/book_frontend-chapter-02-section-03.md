@@ -8,7 +8,34 @@ featured_image:
 description: 
 ---
 
-代码管理的艺术 10页
+- 代码管理的艺术 10页
+  - svn与git
+   - 优缺点
+   - 如何选择
+  - git使用
+    - git常用命令
+    - github流程
+    - gitlab流程
+    - 哪种好？
+    - git图形化工具
+      - source tree
+      - github desktop
+  - 代码提交信息规范
+    - [任务名称/编码] [类型] 提交人 : 详细信息。
+    - 类型说明
+      - 文档
+      - 功能
+      - 修复
+      - 重构
+      - 样式
+      - 测试
+  - 流程化
+    - 代码预处理 
+      - Lint + Git Hooks
+      - Lint + Webhook
+    - 人工检查代码 
+      - Code Review
+      - Pull Request
 
 <br>
 
