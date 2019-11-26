@@ -36,6 +36,6 @@ featured_image:
 
 **时光是最无情的刻刀，陪伴是最长情的告白。**
 
-***email：rudy.architect@foxmail.com***
+**My promise past shall always last.**
 
 </center>
