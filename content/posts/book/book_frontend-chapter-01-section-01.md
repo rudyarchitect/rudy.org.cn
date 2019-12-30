@@ -101,14 +101,25 @@ Vue适合小项目和小团队，如果你的应用庞大，并且有很巨大�
 | 应用类型 | SPA | SPA | SPA | 
 | 学习曲线 | 陡峭 | 相对Angular容易 | 相对简单 | 
 | 友好程度 | 合理的结构 | 巨大的灵活度 | 关注分离概念 | 
-| 设计模式 | MVVM | Virtual DOM | Virtual DOM | 
-| 编写语言 | Typescript | Virtual DOM | Virtual DOM | 
+| 设计模式 | MVVM |  |  | 
+| 编写语言 | Typescript |  |  | 
 | 社区支持 | Angular | React | Vue | 
 
 - 服务端渲染？
 - 一站式开发？
 - 背后的思想？
 - 源码看了离真相还远吗？
+
+- typescript > es6 > es5 
+  - 类型
+  - 接口
+  - 类
+  - 函数
+  - 泛型
+  - 装饰器
+
+- 单元测试
+
 
 <br>
 

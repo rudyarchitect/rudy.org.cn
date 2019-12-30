@@ -97,7 +97,29 @@ vue全家桶 vue-router vuex
       - parse 抽象语法树 ast
     - 递归，解决对象数据嵌套
     - 代理，简化层级调用
-    
+    - 正则，获取标签
+
+  项目思考
+  - 任何一个UI库，都不能满足全部的业务开发需求，都需要定制和扩展，组件化设计思路至关重要。
+  - 权限控制 令牌机制 token(有时效) ，存储在localstorage VS Session
+    - bearer token
+    - json web token
+  - 请求/响应拦截器 
+  - 接口mock node
+  - 数据管理 vuex
+  - 代理 服务器
+  - 动画设计
+    - vue css动画 
+    - javascript钩子
+  - 全局组件
+    - 将生成的dom元素挂载到body
+
+SSR
+  - vue ssr
+  - nuxt.js
+  - 实现原理
+  - 应用场景
+
   
 
 

@@ -5,8 +5,71 @@
     <description>Recent content in Rudy&#39;s blog on Rudy&#39;s blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Mon, 18 Nov 2019 19:12:07 +0800</lastBuildDate>
+    <lastBuildDate>Mon, 30 Dec 2019 11:00:10 +0800</lastBuildDate>
     <atom:link href="https://rudy.org.cn/" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Knowledge_system</title>
+      <link>https://rudy.org.cn/2019/knowledge_system/</link>
+      <pubDate>Mon, 30 Dec 2019 11:00:10 +0800</pubDate>
+      
+      <guid>https://rudy.org.cn/2019/knowledge_system/</guid>
+      <description>&lt;p&gt;&lt;br&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;es5 知识点
+
+&lt;ul&gt;
+&lt;li&gt;原始类型 //值&lt;/li&gt;
+&lt;li&gt;boolean&lt;/li&gt;
+&lt;li&gt;undefined&lt;/li&gt;
+&lt;li&gt;null&lt;/li&gt;
+&lt;li&gt;number&lt;/li&gt;
+&lt;li&gt;string&lt;/li&gt;
+&lt;li&gt;symbol ?&lt;/li&gt;
+&lt;li&gt;对象类型 object //内存地址（指针）&amp;lt;&amp;ndash;&amp;gt; 值&lt;/li&gt;
+&lt;li&gt;typeof null // &amp;lsquo;object&amp;rsquo; is bug&lt;/li&gt;
+&lt;li&gt;0.1+0.2=0.30000000000000004 // number 浮点类型&lt;/li&gt;
+&lt;li&gt;typeof 判断原始类型&lt;/li&gt;
+&lt;li&gt;instanceof 判断对象类型&lt;/li&gt;
+&lt;li&gt;类型转换&lt;/li&gt;
+&lt;li&gt;this指向&lt;/li&gt;
+&lt;li&gt;函数直接调用 指向window&lt;/li&gt;
+&lt;li&gt;对象 谁调用指向谁&lt;/li&gt;
+&lt;li&gt;new 指向实例&lt;/li&gt;
+&lt;li&gt;bind/箭头函数 多次调用，this指向取决于第一次调用上下文&lt;/li&gt;
+&lt;li&gt;== vs === //==涉及类型转换&lt;/li&gt;
+&lt;li&gt;闭包 存在的意义就是可以访问外部函数的变量&lt;/li&gt;
+&lt;li&gt;对象拷贝&lt;/li&gt;
+&lt;li&gt;浅拷贝 object.assign() / 展开运算符 &amp;hellip;  //拷贝属性值，属性中有对象的话，拷贝的是地址&lt;/li&gt;
+&lt;li&gt;深拷贝 lodash.cloneDeep() //自己实现一个&lt;/li&gt;
+&lt;li&gt;原型 //重点&lt;/li&gt;
+&lt;li&gt;Object&lt;/li&gt;
+&lt;li&gt;Function&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;proto&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;es6知识点&lt;/li&gt;
+&lt;li&gt;js异步&lt;/li&gt;
+&lt;li&gt;promise&lt;/li&gt;
+&lt;li&gt;event loop&lt;/li&gt;
+&lt;li&gt;浏览器缓存机制&lt;/li&gt;
+&lt;li&gt;浏览器渲染原理与机制&lt;/li&gt;
+&lt;li&gt;v8 js性能优化&lt;/li&gt;
+&lt;li&gt;webpack性能优化&lt;/li&gt;
+&lt;li&gt;react&lt;/li&gt;
+&lt;li&gt;vue&lt;/li&gt;
+&lt;li&gt;angular&lt;/li&gt;
+&lt;li&gt;监控&lt;/li&gt;
+&lt;li&gt;http&lt;/li&gt;
+&lt;li&gt;设计模式&lt;/li&gt;
+&lt;li&gt;数据结构&lt;/li&gt;
+&lt;li&gt;算法&lt;/li&gt;
+&lt;li&gt;css&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;center&gt;  ·End·  &lt;/center&gt;&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>保持终身学习的丁磊</title>
@@ -675,14 +738,12 @@
     </item>
     
     <item>
-      <title>时间管理原则</title>
+      <title>一些重要规律和原则</title>
       <link>https://rudy.org.cn/2019/manage_rules/</link>
       <pubDate>Mon, 21 Oct 2019 10:38:16 +0800</pubDate>
       
       <guid>https://rudy.org.cn/2019/manage_rules/</guid>
       <description>
-
-&lt;h2 id=&#34;时间管理原则&#34;&gt;时间管理原则：&lt;/h2&gt;
 
 &lt;h3 id=&#34;细微边界&#34;&gt;细微边界&lt;/h3&gt;
 
@@ -702,7 +763,66 @@
 &lt;li&gt;帕金森认为，工作在最终期限到来之前是不可能被完成的。这一原则实际上是依赖人与生俱来的惰性和对最后期限的潜意识。&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;&lt;br&gt;&lt;/p&gt;
+&lt;h3 id=&#34;墨菲定律&#34;&gt;墨菲定律&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;看似一件事好与坏的几率相同的时候，事情都会朝着糟糕的方向发生。&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;洛克定律&#34;&gt;洛克定律&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;当目标既是未来指向的，又是富有挑战性的时候，它便是最有效的。&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;布朗定律&#34;&gt;布朗定律&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;找到心锁就是沟通的良好开端，知道别人最在意什么，别人的意愿就会在你的把握之中。&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;自我批评定律&#34;&gt;自我批评定律&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;在自己犯下错误的情况下，应积极、主动、真诚地承认自己的错误，进行自我批评，从而赢得别人的谅解。在每个人的内心深处，都不愿意过分地责备那些已经认错的人。&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;蝴蝶效应&#34;&gt;蝴蝶效应&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;一个动力系统中，初始条件下微小的变化能带动整个系统的长期的巨大的连锁反应。这是一种混沌现象。任何事物发展均存在定数与变数，事物在发展过程中其发展轨迹有规律可循，同时也存在不可测的“变数”，往往还会适得其反，一个微小的变化能影响事物的发展，说明事物的发展具有复杂性。&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;马太效应&#34;&gt;马太效应&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;强者愈强、弱者愈弱的现象，广泛应用于社会心理学、教育、金融以及科学领域。马太效应，是社会学家和经济学家们常用的术语，反映的社会现象是两极分化，富的更富，穷的更穷。&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;贝尔效应&#34;&gt;贝尔效应&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;有了成功的信念才会成功。不论环境如何，在我们的生命里，均潜伏着改变现时环境的力量。如果你满怀信心，积极地想着成功的景象，那么世界就会变成你想要的模样。你可以达到成功的最高峰，也可以在庸庸碌碌中悲叹。而这一切的不同，仅仅在于你是否有成功的信念！&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;钓鱼效应&#34;&gt;钓鱼效应&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;行为心理学中，人们把一个人的特定的内心强烈需求而产生的相应行为现象，称之为“钓鱼效应”。 这是因为在钓鱼中，人们总喜欢把鱼饵放到鱼的面前，让鱼产生特定的内心强烈需求，因为这是它最喜爱吃的东西，从而产生吃鱼饵的行为，结果上当受骗，走上死亡之路，因此，人们形象化地称它为钓鱼效应。&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;21天习惯效应&#34;&gt;21天习惯效应&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;在行为心理学中，人们把一个人的新习惯或理念的形成并得以巩固至少需要21天的现象，称之为21天效应。这是说，一个人的动作、或想法，如果重复21天就会变成一个习惯性的动作或想法。&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;羊群效应&#34;&gt;羊群效应&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;头羊往哪里走，后面的羊就跟着往哪里走。羊群效应最早是股票投资中的一个术语，主要是指投资者在交易过程中存在学习与模仿现象，“有样学样”，盲目效仿别人，从而导致他们在某段时期内买卖相同的股票。
+&lt;br&gt;&lt;/li&gt;
+&lt;/ul&gt;
 
 &lt;p&gt;&lt;center&gt;  ·End·  &lt;/center&gt;&lt;/p&gt;
 </description>
@@ -1103,141 +1223,6 @@
 &lt;ul&gt;
 &lt;li&gt;代码扫描工具 Sonar&lt;/li&gt;
 &lt;li&gt;测试方案&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;br&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;center&gt;  ·End·  &lt;/center&gt;&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>前端监控平台analysis方案设计</title>
-      <link>https://rudy.org.cn/2019/frontend_analysis-design/</link>
-      <pubDate>Mon, 14 Oct 2019 17:33:53 +0800</pubDate>
-      
-      <guid>https://rudy.org.cn/2019/frontend_analysis-design/</guid>
-      <description>
-
-&lt;h2 id=&#34;背景&#34;&gt;背景&lt;/h2&gt;
-
-&lt;p&gt;为了定位Web线上问题，需要对页面异常信息进行收集，分析和定位问题原因，以提升用户体验和产品运营效率。&lt;/p&gt;
-
-&lt;h2 id=&#34;维度&#34;&gt;维度&lt;/h2&gt;
-
-&lt;p&gt;前端监控的维度主要分为以下3个方面：&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;性能&lt;/li&gt;
-&lt;li&gt;异常&lt;/li&gt;
-&lt;li&gt;用户行为&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&#34;原理&#34;&gt;原理&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;监听window对象的onerror事件。&lt;/li&gt;
-&lt;li&gt;使用try catch语句。&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&#34;案例&#34;&gt;案例&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;[开源] 腾讯 &lt;a href=&#34;https://betterjs.github.io/&#34; rel=&#34;nofollow noreferrer&#34; target=&#34;_blank&#34;&gt;badjs&lt;/a&gt;
-文档说明详细，提供完整解决方案，项目落地10+。
-
-&lt;ul&gt;
-&lt;li&gt;日志功能&lt;/li&gt;
-&lt;li&gt;上报功能&lt;/li&gt;
-&lt;li&gt;统计功能&lt;/li&gt;
-&lt;li&gt;邮件功能&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;[收费] &lt;a href=&#34;https://sentry.io&#34; rel=&#34;nofollow noreferrer&#34; target=&#34;_blank&#34;&gt;sentry&lt;/a&gt;
-
-&lt;ul&gt;
-&lt;li&gt;代码开源&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://sentry.io/pricing/&#34; rel=&#34;nofollow noreferrer&#34; target=&#34;_blank&#34;&gt;价格&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;[收费] &lt;a href=&#34;https://www.fundebug.com/&#34; rel=&#34;nofollow noreferrer&#34; target=&#34;_blank&#34;&gt;fundebug&lt;/a&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.fundebug.com/price&#34; rel=&#34;nofollow noreferrer&#34; target=&#34;_blank&#34;&gt;价格&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;[收费] 阿里云ARMS-&lt;a href=&#34;https://help.aliyun.com/document_detail/58652.html?spm=5176.8064714.976547.2.251cIEc0IEc0Ro&#34; rel=&#34;nofollow noreferrer&#34; target=&#34;_blank&#34;&gt;前端监控&lt;/a&gt;
-
-&lt;ul&gt;
-&lt;li&gt;主动监控&lt;/li&gt;
-&lt;li&gt;慢会话追踪&lt;/li&gt;
-&lt;li&gt;搜索报错明细&lt;/li&gt;
-&lt;li&gt;出错行为还原&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;[收费] 蒲公英 &lt;a href=&#34;https://www.frontjs.com&#34; rel=&#34;nofollow noreferrer&#34; target=&#34;_blank&#34;&gt;frontjs&lt;/a&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.frontjs.com/pricing&#34; rel=&#34;nofollow noreferrer&#34; target=&#34;_blank&#34;&gt;价格&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;[无维护] 淘宝 &lt;a href=&#34;https://github.com/CurtisCBS/monitor&#34; rel=&#34;nofollow noreferrer&#34; target=&#34;_blank&#34;&gt;JSTracker&lt;/a&gt;
-
-&lt;ul&gt;
-&lt;li&gt;参考README&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;[未开源] 阿里 FdSafe&lt;/li&gt;
-&lt;li&gt;[无维护] 支付宝 &lt;a href=&#34;https://github.com/saijs/sai.js&#34; rel=&#34;nofollow noreferrer&#34; target=&#34;_blank&#34;&gt;saijs&lt;/a&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/saijs/wiki&#34; rel=&#34;nofollow noreferrer&#34; target=&#34;_blank&#34;&gt;javascript异常文档&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&#34;需求分析&#34;&gt;需求分析&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;错误收集&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;错误信息&lt;/li&gt;
-&lt;li&gt;资源加载错误&lt;/li&gt;
-&lt;li&gt;运行时错误&lt;/li&gt;
-&lt;li&gt;性能指标&lt;/li&gt;
-&lt;li&gt;页面加载时长&lt;/li&gt;
-&lt;li&gt;首次渲染时长&lt;/li&gt;
-&lt;li&gt;首次内容渲染时长&lt;/li&gt;
-&lt;li&gt;首次有效渲染时长&lt;/li&gt;
-&lt;li&gt;&amp;hellip;&lt;/li&gt;
-&lt;li&gt;日志数据
-&lt;br /&gt;&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;上报策略&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;ajax&lt;/li&gt;
-&lt;li&gt;跨域 CORS协议&lt;/li&gt;
-&lt;li&gt;image对象
-&lt;br /&gt;&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;日志采集与存储&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;数据过滤&lt;/li&gt;
-&lt;li&gt;节流&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;告警功能&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;最大最小值&lt;/li&gt;
-&lt;li&gt;错误累计数&lt;/li&gt;
-&lt;li&gt;异常等级&lt;/li&gt;
-&lt;li&gt;自定义&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;邮件短信通知&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;错误定位与复现&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;管理后台数据可视化&lt;/p&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;p&gt;&lt;br&gt;&lt;/p&gt;
