@@ -1052,18 +1052,6 @@
     </item>
     
     <item>
-      <title>大数据学习笔记</title>
-      <link>https://rudy.org.cn/2019/backend_bigdata-note/</link>
-      <pubDate>Tue, 15 Oct 2019 11:19:24 +0800</pubDate>
-      
-      <guid>https://rudy.org.cn/2019/backend_bigdata-note/</guid>
-      <description>&lt;p&gt;&lt;br&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;center&gt;  ·End·  &lt;/center&gt;&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
       <title>编辑器方案设计</title>
       <link>https://rudy.org.cn/2019/frontend_editor-design/</link>
       <pubDate>Mon, 14 Oct 2019 19:18:13 +0800</pubDate>
@@ -1223,6 +1211,141 @@
 &lt;ul&gt;
 &lt;li&gt;代码扫描工具 Sonar&lt;/li&gt;
 &lt;li&gt;测试方案&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;br&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;center&gt;  ·End·  &lt;/center&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>前端监控平台analysis方案设计</title>
+      <link>https://rudy.org.cn/2019/frontend_analysis-design/</link>
+      <pubDate>Mon, 14 Oct 2019 17:33:53 +0800</pubDate>
+      
+      <guid>https://rudy.org.cn/2019/frontend_analysis-design/</guid>
+      <description>
+
+&lt;h2 id=&#34;背景&#34;&gt;背景&lt;/h2&gt;
+
+&lt;p&gt;为了定位Web线上问题，需要对页面异常信息进行收集，分析和定位问题原因，以提升用户体验和产品运营效率。&lt;/p&gt;
+
+&lt;h2 id=&#34;维度&#34;&gt;维度&lt;/h2&gt;
+
+&lt;p&gt;前端监控的维度主要分为以下3个方面：&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;性能&lt;/li&gt;
+&lt;li&gt;异常&lt;/li&gt;
+&lt;li&gt;用户行为&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;原理&#34;&gt;原理&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;监听window对象的onerror事件。&lt;/li&gt;
+&lt;li&gt;使用try catch语句。&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;案例&#34;&gt;案例&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;[开源] 腾讯 &lt;a href=&#34;https://betterjs.github.io/&#34; rel=&#34;nofollow noreferrer&#34; target=&#34;_blank&#34;&gt;badjs&lt;/a&gt;
+文档说明详细，提供完整解决方案，项目落地10+。
+
+&lt;ul&gt;
+&lt;li&gt;日志功能&lt;/li&gt;
+&lt;li&gt;上报功能&lt;/li&gt;
+&lt;li&gt;统计功能&lt;/li&gt;
+&lt;li&gt;邮件功能&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;[收费] &lt;a href=&#34;https://sentry.io&#34; rel=&#34;nofollow noreferrer&#34; target=&#34;_blank&#34;&gt;sentry&lt;/a&gt;
+
+&lt;ul&gt;
+&lt;li&gt;代码开源&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://sentry.io/pricing/&#34; rel=&#34;nofollow noreferrer&#34; target=&#34;_blank&#34;&gt;价格&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;[收费] &lt;a href=&#34;https://www.fundebug.com/&#34; rel=&#34;nofollow noreferrer&#34; target=&#34;_blank&#34;&gt;fundebug&lt;/a&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.fundebug.com/price&#34; rel=&#34;nofollow noreferrer&#34; target=&#34;_blank&#34;&gt;价格&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;[收费] 阿里云ARMS-&lt;a href=&#34;https://help.aliyun.com/document_detail/58652.html?spm=5176.8064714.976547.2.251cIEc0IEc0Ro&#34; rel=&#34;nofollow noreferrer&#34; target=&#34;_blank&#34;&gt;前端监控&lt;/a&gt;
+
+&lt;ul&gt;
+&lt;li&gt;主动监控&lt;/li&gt;
+&lt;li&gt;慢会话追踪&lt;/li&gt;
+&lt;li&gt;搜索报错明细&lt;/li&gt;
+&lt;li&gt;出错行为还原&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;[收费] 蒲公英 &lt;a href=&#34;https://www.frontjs.com&#34; rel=&#34;nofollow noreferrer&#34; target=&#34;_blank&#34;&gt;frontjs&lt;/a&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.frontjs.com/pricing&#34; rel=&#34;nofollow noreferrer&#34; target=&#34;_blank&#34;&gt;价格&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;[无维护] 淘宝 &lt;a href=&#34;https://github.com/CurtisCBS/monitor&#34; rel=&#34;nofollow noreferrer&#34; target=&#34;_blank&#34;&gt;JSTracker&lt;/a&gt;
+
+&lt;ul&gt;
+&lt;li&gt;参考README&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;[未开源] 阿里 FdSafe&lt;/li&gt;
+&lt;li&gt;[无维护] 支付宝 &lt;a href=&#34;https://github.com/saijs/sai.js&#34; rel=&#34;nofollow noreferrer&#34; target=&#34;_blank&#34;&gt;saijs&lt;/a&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/saijs/wiki&#34; rel=&#34;nofollow noreferrer&#34; target=&#34;_blank&#34;&gt;javascript异常文档&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;需求分析&#34;&gt;需求分析&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;错误收集&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;错误信息&lt;/li&gt;
+&lt;li&gt;资源加载错误&lt;/li&gt;
+&lt;li&gt;运行时错误&lt;/li&gt;
+&lt;li&gt;性能指标&lt;/li&gt;
+&lt;li&gt;页面加载时长&lt;/li&gt;
+&lt;li&gt;首次渲染时长&lt;/li&gt;
+&lt;li&gt;首次内容渲染时长&lt;/li&gt;
+&lt;li&gt;首次有效渲染时长&lt;/li&gt;
+&lt;li&gt;&amp;hellip;&lt;/li&gt;
+&lt;li&gt;日志数据
+&lt;br /&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;上报策略&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;ajax&lt;/li&gt;
+&lt;li&gt;跨域 CORS协议&lt;/li&gt;
+&lt;li&gt;image对象
+&lt;br /&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;日志采集与存储&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;数据过滤&lt;/li&gt;
+&lt;li&gt;节流&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;告警功能&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;最大最小值&lt;/li&gt;
+&lt;li&gt;错误累计数&lt;/li&gt;
+&lt;li&gt;异常等级&lt;/li&gt;
+&lt;li&gt;自定义&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;邮件短信通知&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;错误定位与复现&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;管理后台数据可视化&lt;/p&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;p&gt;&lt;br&gt;&lt;/p&gt;

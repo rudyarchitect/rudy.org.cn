@@ -120,15 +120,6 @@
     </item>
     
     <item>
-      <title>大数据学习笔记</title>
-      <link>https://rudy.org.cn/2019/backend_bigdata-note/</link>
-      <pubDate>Tue, 15 Oct 2019 11:19:24 +0800</pubDate>
-      
-      <guid>https://rudy.org.cn/2019/backend_bigdata-note/</guid>
-      <description>·End·</description>
-    </item>
-    
-    <item>
       <title>编辑器方案设计</title>
       <link>https://rudy.org.cn/2019/frontend_editor-design/</link>
       <pubDate>Mon, 14 Oct 2019 19:18:13 +0800</pubDate>
@@ -162,24 +153,6 @@
       
       <guid>https://rudy.org.cn/2019/book_frontend-outline/</guid>
       <description>自序 技术的世界没有银弹 为什么要参与写这本书？在大多数情况下，内心是惶恐的，从学校毕业后一直做前端这个方向已经5年了，在此期间经历了Web技术</description>
-    </item>
-    
-    <item>
-      <title>机器学习笔记</title>
-      <link>https://rudy.org.cn/2019/bigdata_machine-study-note/</link>
-      <pubDate>Wed, 09 Oct 2019 19:17:50 +0800</pubDate>
-      
-      <guid>https://rudy.org.cn/2019/bigdata_machine-study-note/</guid>
-      <description>人工智能是一种工具，借助于它更高效地解决海量数据分析和决策问题。 思维方式的改变，依赖更多的不是人的经验，而是通过数据分析来做出更理智的决策。</description>
-    </item>
-    
-    <item>
-      <title>java学习笔记</title>
-      <link>https://rudy.org.cn/2019/backend_java-note/</link>
-      <pubDate>Wed, 09 Oct 2019 16:03:33 +0800</pubDate>
-      
-      <guid>https://rudy.org.cn/2019/backend_java-note/</guid>
-      <description>任何程序的本质有3个，变量，判断语句，循环语句。 数据都是由一张张表组成的。 20%的精英才会用心对待一件事件。 面试前准备： 1. 了解公司情况 2. 相关</description>
     </item>
     
     <item>
