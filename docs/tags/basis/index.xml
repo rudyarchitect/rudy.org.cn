@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>basis on Rudy&#39;s blog</title>
+    <link>https://rudy.org.cn/tags/basis/</link>
+    <description>Recent content in basis on Rudy&#39;s blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Tue, 29 Oct 2019 19:54:58 +0800</lastBuildDate>
+    
+	<atom:link href="https://rudy.org.cn/tags/basis/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>数据结构与算法</title>
+      <link>https://rudy.org.cn/2019/basis_algorithm/</link>
+      <pubDate>Tue, 29 Oct 2019 19:54:58 +0800</pubDate>
+      
+      <guid>https://rudy.org.cn/2019/basis_algorithm/</guid>
+      <description>数据结构 链表 数组 栈 队列 哈希表 堆 二叉树 排序 冒泡 选择 插入 堆 归并 快速 数组的查找 线性 二分 图的搜索 广度优先 深度优先 ·End·</description>
+    </item>
+    
+  </channel>
+</rss>
