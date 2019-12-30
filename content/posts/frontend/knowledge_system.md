@@ -1,9 +1,9 @@
 ---
-title: "Knowledge_system"
+title: "前端知识体系"
 date: 2019-12-30T11:00:10+08:00
 draft: false
-tags: [""]
-categories: [""]
+tags: ["system"]
+categories: ["前端"]
 featured_image: 
 description: 
 ---
