@@ -13,10 +13,10 @@
     
     <item>
       <title>前端知识体系</title>
-      <link>https://rudy.org.cn/2019/knowledge_system/</link>
+      <link>https://rudy.org.cn/2019/frontend_knowledge-system/</link>
       <pubDate>Mon, 30 Dec 2019 11:00:10 +0800</pubDate>
       
-      <guid>https://rudy.org.cn/2019/knowledge_system/</guid>
+      <guid>https://rudy.org.cn/2019/frontend_knowledge-system/</guid>
       <description>es5 知识点 原始类型 //值 boolean undefined null number string symbol ? 对象类型 object //内存地址（指针）&amp;lt;&amp;ndash;&amp;gt; 值 typeof null // &amp;lsquo;object&amp;rsquo; is bug 0.1+0.2=0.30000000000000004 // number 浮点类型 typeof 判断原始类型 instanceof</description>
     </item>
     

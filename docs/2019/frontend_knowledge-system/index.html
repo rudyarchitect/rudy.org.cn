@@ -1,0 +1,465 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+  <head>
+  <meta http-equiv="content-type" content="text/html;charset=utf-8">
+  <meta http-equiv="X-UA-Compatible" content="chrome=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="robots" content="noodp"/>
+  <meta name="author" content="Rudy">
+  
+  
+  
+  <link rel="prev" href="https://rudy.org.cn/2019/life_dinglei/" />
+  
+  <link rel="canonical" href="https://rudy.org.cn/2019/frontend_knowledge-system/" />
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+  <link rel="manifest" href="/site.webmanifest">
+  <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+  <meta name="msapplication-TileColor" content="#da532c">
+  <meta name="theme-color" content="#ffffff">
+  <title>
+       
+       
+           前端知识体系 | Rudy&#39;s blog
+       
+  </title>
+  <meta name="title" content="前端知识体系 | Rudy&#39;s blog">
+    
+  <link rel="stylesheet" href="/css/main.min.css">
+
+
+  
+  
+ 
+
+<script type="application/ld+json">
+ "@context" : "http://schema.org",
+    "@type" : "BlogPosting",
+    "mainEntityOfPage": {
+         "@type": "WebPage",
+         "@id": "https:\/\/rudy.org.cn\/"
+    },
+    "articleSection" : "posts",
+    "name" : "前端知识体系",
+    "headline" : "前端知识体系",
+    "description" : "es5 知识点 原始类型 \/\/值 boolean undefined null number string symbol ? 对象类型 object \/\/内存地址（指针）\x26lt;\x26ndash;\x26gt; 值 typeof null \/\/ \x26lsquo;object\x26rsquo; is bug 0.1\x2b0.2=0.30000000000000004 \/\/ number 浮点类型 typeof 判断原始类型 instanceof",
+    "inLanguage" : "zh-cn",
+    "author" : "Rudy",
+    "creator" : "Rudy",
+    "publisher": "Rudy",
+    "accountablePerson" : "Rudy",
+    "copyrightHolder" : "Rudy",
+    "copyrightYear" : "2019",
+    "datePublished": "2019-12-30 11:00:10 \x2b0800 CST",
+    "dateModified" : "2019-12-30 11:00:10 \x2b0800 CST",
+    "url" : "https:\/\/rudy.org.cn\/2019\/frontend_knowledge-system\/",
+    "wordCount" : "528",
+    "keywords" : [ "system", "Rudy\x27s blog"]
+}
+</script>
+
+</head>
+
+  
+
+
+  <body class="">
+    <div class="wrapper">
+        
+
+<script async src="//cdn.busuanzi.ibruce.info/cdn/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+
+<nav class="navbar">
+    
+        <div class="top-scroll-bar"></div>
+    
+    <div class="container">
+        <div class="navbar-header header-logo">
+            
+            <span class="logo_mark" >></span>
+            <a href="https://rudy.org.cn/">
+                <span class="logo_text" >$ cd /home/ </span>
+                <span class="logo_cursor" ></span>
+            </a>
+            
+        </div>
+        <div class="navbar-right">
+                
+                <span class="menu">
+                
+                <a class="menu-item" href="/posts/" title="">Blog</a>
+                
+                <a class="menu-item" href="/categories/" title="">Categories</a>
+                
+                <a class="menu-item" href="/tags/" title="">Tags</a>
+                
+                <a class="menu-item" href="/about/" title="">About</a>
+                
+                </span>
+                
+        </div>
+    </div>
+</nav>
+<nav class="navbar-mobile" id="nav-mobile" style="display: none">
+     
+         <div class="top-scroll-bar"></div>
+     
+     <div class="container">
+        <div class="navbar-header">
+            <div class="header-logo">
+                
+                    <span class="logo_mark">></span>
+                    <a href="https://rudy.org.cn/">
+                        <span class="logo_text">$ cd /home/ </span>
+                        <span class="logo_cursor"></span>
+                </a>
+                
+            </div>
+            <div class="navbar-right">
+                <a href="javascript:void(0);" class="theme-switch"><i class="iconfont icon-dark-mode"></i></a>
+                <div class="menu-toggle">
+                    <span></span><span></span><span></span>
+                </div>
+            </div>
+        </div>
+     
+          <div class="menu" id="mobile-menu">
+                
+                
+                <a class="menu-item" href="/posts/" title="">Blog</a>
+                
+                <a class="menu-item" href="/categories/" title="">Categories</a>
+                
+                <a class="menu-item" href="/tags/" title="">Tags</a>
+                
+                <a class="menu-item" href="/about/" title="">About</a>
+                
+        </div>
+    </div>
+</nav>
+    	 <main class="main">
+          <div class="container">
+      		
+<article class="post-warp" itemscope itemtype="http://schema.org/Article">
+    <header class="post-header">
+        <h1 class="post-title" itemprop="name headline">前端知识体系</h1>
+        <div class="post-meta">
+                Written by <a itemprop="name" href="https://rudy.org.cn/" rel="author">Rudy</a> with ♥ 
+                <span class="post-time">
+                on <time datetime=2019-12-30 itemprop="datePublished">December 30, 2019</time>
+                </span>
+                in
+                <i class="iconfont icon-folder"></i>
+                <span class="post-category">
+                        <a href="https://rudy.org.cn/categories/%E5%89%8D%E7%AB%AF/"> 前端 </a>
+                        
+                </span>
+                
+                <h5 id="wc">528 Words|Read in about 2 Min|本文总阅读量<span id="busuanzi_value_page_pv"></span>次</h5>
+                <h5 id="tags">Tags: 
+                    
+                    <a href="https://rudy.org.cn/tags/system/">system</a> &nbsp;
+                </h5>
+        </div>
+    </header>
+    <div class="post-content">
+        
+
+        
+
+        
+        
+     
+          
+          
+          
+
+          
+          
+          
+
+          <p><br></p>
+
+<ul>
+<li>es5 知识点
+
+<ul>
+<li>原始类型 //值</li>
+<li>boolean</li>
+<li>undefined</li>
+<li>null</li>
+<li>number</li>
+<li>string</li>
+<li>symbol ?</li>
+<li>对象类型 object //内存地址（指针）&lt;&ndash;&gt; 值</li>
+<li>typeof null // &lsquo;object&rsquo; is bug</li>
+<li>0.1+0.2=0.30000000000000004 // number 浮点类型</li>
+<li>typeof 判断原始类型</li>
+<li>instanceof 判断对象类型</li>
+<li>类型转换</li>
+<li>this指向</li>
+<li>函数直接调用 指向window</li>
+<li>对象 谁调用指向谁</li>
+<li>new 指向实例</li>
+<li>bind/箭头函数 多次调用，this指向取决于第一次调用上下文</li>
+<li>== vs === //==涉及类型转换</li>
+<li>闭包 存在的意义就是可以访问外部函数的变量</li>
+<li>对象拷贝</li>
+<li>浅拷贝 object.assign() / 展开运算符 &hellip;  //拷贝属性值，属性中有对象的话，拷贝的是地址</li>
+<li>深拷贝 lodash.cloneDeep() //自己实现一个</li>
+<li>原型 //重点</li>
+<li>Object</li>
+<li>Function</li>
+<li><strong>proto</strong></li>
+<li>函数提升优先于变量提升</li>
+</ul></li>
+<li>es6知识点
+
+<ul>
+<li>let,const 暂时性死区</li>
+<li>继承</li>
+<li>原型</li>
+<li>class</li>
+<li>模块化</li>
+<li>commonjs 服务器端/同步/值拷贝</li>
+<li>es module 浏览器端/异步/地址拷贝</li>
+<li>proxy</li>
+<li>数据响应式</li>
+<li>map,filter,reduce</li>
+</ul></li>
+<li>js进阶
+
+<ul>
+<li>回调函数 callback</li>
+<li>generator</li>
+<li>promise 实现</li>
+<li>async/await</li>
+<li>requestAnimationFrame</li>
+<li>call , apply , bind , new 实现</li>
+<li>垃圾回收机制</li>
+</ul></li>
+<li>event loop
+
+<ul>
+<li>执行栈 call stack 先进后出 同步执行的js代码</li>
+<li>任务队列 task queue 异步执行的js代码</li>
+<li>宏任务 macro task //setTimeout , setInterval , xhr &hellip;</li>
+<li>微任务 micro task // promise , mutation observer &hellip;</li>
+<li>浏览器</li>
+<li>node</li>
+</ul></li>
+<li>浏览器
+
+<ul>
+<li>事件机制</li>
+<li>注册</li>
+<li>触发</li>
+<li>代理</li>
+<li>跨域</li>
+<li>同源策略</li>
+<li>解决方案
+
+<ul>
+<li>jsonp</li>
+<li>cors</li>
+<li>document.domain</li>
+<li>postMessage</li>
+</ul></li>
+<li>存储</li>
+<li>cookie</li>
+<li>localStorage</li>
+<li>sessionStorage</li>
+<li>service worker</li>
+<li>缓存机制</li>
+<li>缓存位置</li>
+<li>强缓存</li>
+<li>协商缓存</li>
+<li>渲染原理</li>
+<li>从url到页面渲染的整个流程</li>
+</ul></li>
+<li>安全
+
+<ul>
+<li>xss</li>
+<li>csrf</li>
+</ul></li>
+<li>性能优化
+
+<ul>
+<li>js</li>
+<li>webpack</li>
+</ul></li>
+<li>react</li>
+<li>vue</li>
+<li>angular</li>
+<li>监控
+
+<ul>
+<li>行为</li>
+<li>性能</li>
+<li>异常</li>
+</ul></li>
+<li>http
+
+<ul>
+<li>请求方法</li>
+<li>首部</li>
+<li>通用</li>
+<li>请求</li>
+<li>响应</li>
+<li>实体</li>
+<li>状态码</li>
+<li>tsl</li>
+<li>加密
+
+<ul>
+<li>对称</li>
+<li>非对称</li>
+</ul></li>
+<li>3次握手
+
+<ul>
+<li>udp</li>
+<li>tcp</li>
+</ul></li>
+<li>http2</li>
+</ul></li>
+<li>设计模式</li>
+<li>数据结构</li>
+<li>算法</li>
+<li>css</li>
+</ul>
+
+<p><center>  ·End·  </center></p>
+
+    </div>
+
+    <div class="post-copyright">
+             
+            <p class="copyright-item">
+                <span>Author:</span>
+                <span>Rudy </span>
+                </p>
+            
+           
+             
+            <p class="copyright-item">
+                    <span>Link:</span>
+                    <a href=https://rudy.org.cn/2019/frontend_knowledge-system/>https://rudy.org.cn/2019/frontend_knowledge-system/</span>
+            </p>
+            
+             
+            <p class="copyright-item lincese">
+                知识共享署名-非商业性使用 4.0 国际许可协议
+            </p>
+            
+    </div>
+
+  
+    <div class="post-tags">
+        
+            <section>
+            <i class="iconfont icon-tag"></i>Tag(s): 
+            
+            <span class="tag"><a href="https://rudy.org.cn/tags/system/">
+                    #system</a></span>
+            
+            </section>
+        
+        <section>
+                <a href="javascript:window.history.back();">back</a></span> · 
+                <span><a href="https://rudy.org.cn/">home</a></span>
+        </section>
+    </div>
+
+    <div class="post-nav">
+        
+        <a href="https://rudy.org.cn/2019/life_dinglei/" class="prev" rel="prev" title="保持终身学习的丁磊"><i class="iconfont icon-left"></i>&nbsp;保持终身学习的丁磊</a>
+         
+        
+    </div>
+
+    <div class="post-comment">
+          
+                 
+          
+        
+<div id="gitalk-container"></div>
+<link rel="stylesheet" href="https://cdn.bootcss.com/gitalk/1.5.0/gitalk.css">
+<script src="https://cdn.bootcss.com/gitalk/1.5.0/gitalk.min.js"></script>
+<script>
+    const gitalk = new Gitalk({
+
+        clientID: '14b5679b927269afbdb6',
+        clientSecret: 'a69f53c82624a3541530aee402850ed998b49ae9',
+        repo: 'rudy.org.cn',
+        owner: 'rudyarchitect',
+        admin: ['rudyarchitect'],
+        id: location.pathname, 
+        distractionFreeMode: false 
+    });
+    (function () {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('gitalk-container').innerHTML = 'Gitalk comments not available by default when the website is previewed locally.';
+            return;
+        }
+        gitalk.render('gitalk-container');
+    })();
+</script>
+
+    </div>
+</article>
+          </div>
+		   </main>
+      <footer class="footer">
+    
+    <div class="copyright">
+        &copy;
+        
+        <span itemprop="copyrightYear">2019</span>
+        
+        <span class="with-love">
+    	 <i class="iconfont icon-love"></i> 
+         </span>
+         
+            <span class="author" itemprop="copyrightHolder"><a href="https://rudy.org.cn/">Rudy</a> | </span> 
+         
+
+         
+        <span>Powered by <a href="https://gohugo.io/" target="_blank" rel="external nofollow">Hugo</a> & <a href="https://github.com/liuzc/leaveit" target="_blank" rel="external nofollow">LeaveIt</a></span> 
+        <br/>
+         <span id="busuanzi_container_site_pv">
+            本站访问量：<span id="busuanzi_value_site_pv"></span>次
+        </span>
+        &nbsp;
+        <span id="busuanzi_container_site_uv">
+            您是本站第 <span id="busuanzi_value_site_uv"></span> 位访问者
+        </span>
+    </div>
+</footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    
+    <script src="/js/vendor_no_gallery.min.js" async=""></script>
+    
+  
+
+
+
+     </div>
+  </body>
+</html>

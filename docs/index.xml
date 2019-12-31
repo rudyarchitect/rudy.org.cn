@@ -10,10 +10,10 @@
     
     <item>
       <title>前端知识体系</title>
-      <link>https://rudy.org.cn/2019/knowledge_system/</link>
+      <link>https://rudy.org.cn/2019/frontend_knowledge-system/</link>
       <pubDate>Mon, 30 Dec 2019 11:00:10 +0800</pubDate>
       
-      <guid>https://rudy.org.cn/2019/knowledge_system/</guid>
+      <guid>https://rudy.org.cn/2019/frontend_knowledge-system/</guid>
       <description>&lt;p&gt;&lt;br&gt;&lt;/p&gt;
 
 &lt;ul&gt;
@@ -47,20 +47,119 @@
 &lt;li&gt;Object&lt;/li&gt;
 &lt;li&gt;Function&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;proto&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;函数提升优先于变量提升&lt;/li&gt;
 &lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;es6知识点&lt;/li&gt;
-&lt;li&gt;js异步&lt;/li&gt;
-&lt;li&gt;promise&lt;/li&gt;
-&lt;li&gt;event loop&lt;/li&gt;
-&lt;li&gt;浏览器缓存机制&lt;/li&gt;
-&lt;li&gt;浏览器渲染原理与机制&lt;/li&gt;
-&lt;li&gt;v8 js性能优化&lt;/li&gt;
-&lt;li&gt;webpack性能优化&lt;/li&gt;
+&lt;li&gt;es6知识点
+
+&lt;ul&gt;
+&lt;li&gt;let,const 暂时性死区&lt;/li&gt;
+&lt;li&gt;继承&lt;/li&gt;
+&lt;li&gt;原型&lt;/li&gt;
+&lt;li&gt;class&lt;/li&gt;
+&lt;li&gt;模块化&lt;/li&gt;
+&lt;li&gt;commonjs 服务器端/同步/值拷贝&lt;/li&gt;
+&lt;li&gt;es module 浏览器端/异步/地址拷贝&lt;/li&gt;
+&lt;li&gt;proxy&lt;/li&gt;
+&lt;li&gt;数据响应式&lt;/li&gt;
+&lt;li&gt;map,filter,reduce&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;js进阶
+
+&lt;ul&gt;
+&lt;li&gt;回调函数 callback&lt;/li&gt;
+&lt;li&gt;generator&lt;/li&gt;
+&lt;li&gt;promise 实现&lt;/li&gt;
+&lt;li&gt;async/await&lt;/li&gt;
+&lt;li&gt;requestAnimationFrame&lt;/li&gt;
+&lt;li&gt;call , apply , bind , new 实现&lt;/li&gt;
+&lt;li&gt;垃圾回收机制&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;event loop
+
+&lt;ul&gt;
+&lt;li&gt;执行栈 call stack 先进后出 同步执行的js代码&lt;/li&gt;
+&lt;li&gt;任务队列 task queue 异步执行的js代码&lt;/li&gt;
+&lt;li&gt;宏任务 macro task //setTimeout , setInterval , xhr &amp;hellip;&lt;/li&gt;
+&lt;li&gt;微任务 micro task // promise , mutation observer &amp;hellip;&lt;/li&gt;
+&lt;li&gt;浏览器&lt;/li&gt;
+&lt;li&gt;node&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;浏览器
+
+&lt;ul&gt;
+&lt;li&gt;事件机制&lt;/li&gt;
+&lt;li&gt;注册&lt;/li&gt;
+&lt;li&gt;触发&lt;/li&gt;
+&lt;li&gt;代理&lt;/li&gt;
+&lt;li&gt;跨域&lt;/li&gt;
+&lt;li&gt;同源策略&lt;/li&gt;
+&lt;li&gt;解决方案
+
+&lt;ul&gt;
+&lt;li&gt;jsonp&lt;/li&gt;
+&lt;li&gt;cors&lt;/li&gt;
+&lt;li&gt;document.domain&lt;/li&gt;
+&lt;li&gt;postMessage&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;存储&lt;/li&gt;
+&lt;li&gt;cookie&lt;/li&gt;
+&lt;li&gt;localStorage&lt;/li&gt;
+&lt;li&gt;sessionStorage&lt;/li&gt;
+&lt;li&gt;service worker&lt;/li&gt;
+&lt;li&gt;缓存机制&lt;/li&gt;
+&lt;li&gt;缓存位置&lt;/li&gt;
+&lt;li&gt;强缓存&lt;/li&gt;
+&lt;li&gt;协商缓存&lt;/li&gt;
+&lt;li&gt;渲染原理&lt;/li&gt;
+&lt;li&gt;从url到页面渲染的整个流程&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;安全
+
+&lt;ul&gt;
+&lt;li&gt;xss&lt;/li&gt;
+&lt;li&gt;csrf&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;性能优化
+
+&lt;ul&gt;
+&lt;li&gt;js&lt;/li&gt;
+&lt;li&gt;webpack&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
 &lt;li&gt;react&lt;/li&gt;
 &lt;li&gt;vue&lt;/li&gt;
 &lt;li&gt;angular&lt;/li&gt;
-&lt;li&gt;监控&lt;/li&gt;
-&lt;li&gt;http&lt;/li&gt;
+&lt;li&gt;监控
+
+&lt;ul&gt;
+&lt;li&gt;行为&lt;/li&gt;
+&lt;li&gt;性能&lt;/li&gt;
+&lt;li&gt;异常&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;http
+
+&lt;ul&gt;
+&lt;li&gt;请求方法&lt;/li&gt;
+&lt;li&gt;首部&lt;/li&gt;
+&lt;li&gt;通用&lt;/li&gt;
+&lt;li&gt;请求&lt;/li&gt;
+&lt;li&gt;响应&lt;/li&gt;
+&lt;li&gt;实体&lt;/li&gt;
+&lt;li&gt;状态码&lt;/li&gt;
+&lt;li&gt;tsl&lt;/li&gt;
+&lt;li&gt;加密
+
+&lt;ul&gt;
+&lt;li&gt;对称&lt;/li&gt;
+&lt;li&gt;非对称&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;3次握手
+
+&lt;ul&gt;
+&lt;li&gt;udp&lt;/li&gt;
+&lt;li&gt;tcp&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;http2&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
 &lt;li&gt;设计模式&lt;/li&gt;
 &lt;li&gt;数据结构&lt;/li&gt;
 &lt;li&gt;算法&lt;/li&gt;
