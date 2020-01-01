@@ -689,7 +689,7 @@
     </item>
     
     <item>
-      <title>chrome插件笔记</title>
+      <title>chrome插件简介</title>
       <link>https://rudy.org.cn/2019/frontend_chrome-extension-note/</link>
       <pubDate>Wed, 23 Oct 2019 09:44:42 +0800</pubDate>
       
@@ -968,9 +968,10 @@
 &lt;h3 id=&#34;羊群效应&#34;&gt;羊群效应&lt;/h3&gt;
 
 &lt;ul&gt;
-&lt;li&gt;头羊往哪里走，后面的羊就跟着往哪里走。羊群效应最早是股票投资中的一个术语，主要是指投资者在交易过程中存在学习与模仿现象，“有样学样”，盲目效仿别人，从而导致他们在某段时期内买卖相同的股票。
-&lt;br&gt;&lt;/li&gt;
+&lt;li&gt;头羊往哪里走，后面的羊就跟着往哪里走。羊群效应最早是股票投资中的一个术语，主要是指投资者在交易过程中存在学习与模仿现象，“有样学样”，盲目效仿别人，从而导致他们在某段时期内买卖相同的股票。&lt;/li&gt;
 &lt;/ul&gt;
+
+&lt;p&gt;&lt;br&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;center&gt;  ·End·  &lt;/center&gt;&lt;/p&gt;
 </description>
@@ -1073,7 +1074,6 @@
 &lt;ul&gt;
 &lt;li&gt;组件库&lt;/li&gt;
 &lt;li&gt;脚手架&lt;/li&gt;
-&lt;li&gt;mock数据&lt;/li&gt;
 &lt;li&gt;性能优化&lt;/li&gt;
 &lt;li&gt;开发流程
 
@@ -1121,6 +1121,9 @@
 &lt;li&gt;react&lt;/li&gt;
 &lt;li&gt;vue&lt;/li&gt;
 &lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;webAssembly&lt;/li&gt;
+&lt;li&gt;graphQL&lt;/li&gt;
+&lt;li&gt;css in js&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h2 id=&#34;公司规划&#34;&gt;公司规划&lt;/h2&gt;
@@ -1128,7 +1131,7 @@
 &lt;h3 id=&#34;项目&#34;&gt;项目&lt;/h3&gt;
 
 &lt;ul&gt;
-&lt;li&gt;web在线编辑器&lt;/li&gt;
+&lt;li&gt;web编辑器&lt;/li&gt;
 &lt;li&gt;web监控平台&lt;/li&gt;
 &lt;/ul&gt;
 
@@ -1200,7 +1203,7 @@
     </item>
     
     <item>
-      <title>编辑器方案设计</title>
+      <title>web编辑器方案</title>
       <link>https://rudy.org.cn/2019/frontend_editor-design/</link>
       <pubDate>Mon, 14 Oct 2019 19:18:13 +0800</pubDate>
       
@@ -1266,7 +1269,7 @@
     </item>
     
     <item>
-      <title>前端规范方案设计</title>
+      <title>前端规范方案</title>
       <link>https://rudy.org.cn/2019/frontend_standard-design/</link>
       <pubDate>Mon, 14 Oct 2019 17:39:21 +0800</pubDate>
       

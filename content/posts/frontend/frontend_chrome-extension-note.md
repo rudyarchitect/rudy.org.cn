@@ -1,5 +1,5 @@
 ---
-title: "chrome插件笔记"
+title: "chrome插件简介"
 date: 2019-10-23T09:44:42+08:00
 draft: false
 tags: ["plugin"]

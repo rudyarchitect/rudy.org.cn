@@ -24,7 +24,6 @@ description:
 
 - 组件库
 - 脚手架
-- mock数据
 - 性能优化
 - 开发流程
   - 代码规范
@@ -54,12 +53,15 @@ description:
   - angular
   - react
   - vue
+- webAssembly
+- graphQL
+- css in js
 
 ## 公司规划
 
 ### 项目
 
-- web在线编辑器
+- web编辑器
 - web监控平台
 
 ### 工具

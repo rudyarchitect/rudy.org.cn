@@ -1,5 +1,5 @@
 ---
-title: "编辑器方案设计"
+title: "web编辑器方案"
 date: 2019-10-14T19:18:13+08:00
 draft: false
 tags: ["editor"]
