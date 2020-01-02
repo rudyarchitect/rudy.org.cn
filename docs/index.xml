@@ -122,12 +122,67 @@
 &lt;li&gt;性能优化
 
 &lt;ul&gt;
-&lt;li&gt;js&lt;/li&gt;
-&lt;li&gt;webpack&lt;/li&gt;
+&lt;li&gt;chrome&lt;/li&gt;
+&lt;li&gt;audits
+
+&lt;ul&gt;
+&lt;li&gt;性能分析报告&lt;/li&gt;
 &lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;performance
+
+&lt;ul&gt;
+&lt;li&gt;分析性能瓶颈&lt;/li&gt;
+&lt;li&gt;每个阶段耗费时间&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;v8 js解释性语言首先会被解析成抽象语法树（AST），然后通过解释器转换成字节码（很多逻辑判断），或者通过编译器转换成机器码。
+
+&lt;ul&gt;
+&lt;li&gt;优化策略&lt;/li&gt;
+&lt;li&gt;减少代码文件大小&lt;/li&gt;
+&lt;li&gt;减少嵌套函数&lt;/li&gt;
+&lt;li&gt;传入参数类型保持一致，会直接编译成机器码&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;js&lt;/li&gt;
+&lt;li&gt;图片优化
+
+&lt;ul&gt;
+&lt;li&gt;减少像素点和每个像素点能够显示的颜色&lt;/li&gt;
+&lt;li&gt;css代替&lt;/li&gt;
+&lt;li&gt;雪碧图&lt;/li&gt;
+&lt;li&gt;base64格式&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;节流 在一段时间内只发生一次事件&lt;/li&gt;
+&lt;li&gt;防抖 在一段事件内只执行最后一次事件&lt;/li&gt;
+&lt;li&gt;预加载&lt;/li&gt;
+&lt;li&gt;预渲染&lt;/li&gt;
+&lt;li&gt;懒计算&lt;/li&gt;
+&lt;li&gt;懒加载&lt;/li&gt;
+&lt;li&gt;cdn&lt;/li&gt;
+&lt;li&gt;webpack //自己实现一个&lt;/li&gt;
+&lt;li&gt;减少打包时间
+
+&lt;ul&gt;
+&lt;li&gt;优化loader&lt;/li&gt;
+&lt;li&gt;happypack 将loader同步执行转换成并行&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;减少包大小
+
+&lt;ul&gt;
+&lt;li&gt;按需加载&lt;/li&gt;
+&lt;li&gt;tree shaking&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;js框架
+
+&lt;ul&gt;
+&lt;li&gt;基础&lt;/li&gt;
+&lt;li&gt;mvvm&lt;/li&gt;
+&lt;li&gt;virtual dom&lt;/li&gt;
+&lt;li&gt;路由&lt;/li&gt;
 &lt;li&gt;react&lt;/li&gt;
 &lt;li&gt;vue&lt;/li&gt;
 &lt;li&gt;angular&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
 &lt;li&gt;监控
 
 &lt;ul&gt;
@@ -160,9 +215,6 @@
 &lt;/ul&gt;&lt;/li&gt;
 &lt;li&gt;http2&lt;/li&gt;
 &lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;设计模式&lt;/li&gt;
-&lt;li&gt;数据结构&lt;/li&gt;
-&lt;li&gt;算法&lt;/li&gt;
 &lt;li&gt;css&lt;/li&gt;
 &lt;/ul&gt;
 
@@ -582,16 +634,36 @@
       
       <guid>https://rudy.org.cn/2019/basis_algorithm/</guid>
       <description>&lt;ul&gt;
-&lt;li&gt;数据结构
+&lt;li&gt;数据结构 数据存储与内存时，数据结构就是数据的顺序和位置关系，目的是提高内存利用率。
 
 &lt;ul&gt;
 &lt;li&gt;链表&lt;/li&gt;
+&lt;li&gt;数据访问复杂&lt;/li&gt;
+&lt;li&gt;数据添加或删除方便，只需该改变指针&lt;/li&gt;
+&lt;li&gt;每个数据都有一个“指针”，它指向下一个数据的内存地址&lt;/li&gt;
+&lt;li&gt;分类
+
+&lt;ul&gt;
+&lt;li&gt;单向&lt;/li&gt;
+&lt;li&gt;双向缺点&lt;/li&gt;
+&lt;li&gt;指针数的增加导致存储空间需求增加&lt;/li&gt;
+&lt;li&gt;添加或删除数据时需要改变更多指针指向&lt;/li&gt;
+&lt;li&gt;循环 链表尾部指针指向头部&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
 &lt;li&gt;数组&lt;/li&gt;
-&lt;li&gt;栈&lt;/li&gt;
-&lt;li&gt;队列&lt;/li&gt;
-&lt;li&gt;哈希表&lt;/li&gt;
+&lt;li&gt;数据访问简单，通过下标访问&lt;/li&gt;
+&lt;li&gt;添加或删除数据复杂&lt;/li&gt;
+&lt;li&gt;栈 last in first out 适合访问最新数据。&lt;/li&gt;
+&lt;li&gt;深度优先搜索&lt;/li&gt;
+&lt;li&gt;队列 first in first out 先来的数据先处理。&lt;/li&gt;
+&lt;li&gt;广度优先搜索&lt;/li&gt;
 &lt;li&gt;堆&lt;/li&gt;
-&lt;li&gt;二叉树&lt;/li&gt;
+&lt;li&gt;图的树形结构，顶端的数据始终最小，用于实现优先队列&lt;/li&gt;
+&lt;li&gt;优先队列只从最小值开始处理&lt;/li&gt;
+&lt;li&gt;子结点大于父节点&lt;/li&gt;
+&lt;li&gt;二叉树 图的树形结构，每个结点最多2个子结点。&lt;/li&gt;
+&lt;li&gt;每个结点的值大于其左子树上任意一个结点的值&lt;/li&gt;
+&lt;li&gt;每个结点的值小于其右子树上任意一个结点的值&lt;/li&gt;
 &lt;/ul&gt;&lt;/li&gt;
 &lt;li&gt;排序
 

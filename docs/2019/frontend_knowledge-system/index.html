@@ -55,7 +55,7 @@
     "datePublished": "2019-12-30 11:00:10 \x2b0800 CST",
     "dateModified" : "2019-12-30 11:00:10 \x2b0800 CST",
     "url" : "https:\/\/rudy.org.cn\/2019\/frontend_knowledge-system\/",
-    "wordCount" : "528",
+    "wordCount" : "785",
     "keywords" : [ "system", "Rudy\x27s blog"]
 }
 </script>
@@ -157,7 +157,7 @@
                         
                 </span>
                 
-                <h5 id="wc">528 Words|Read in about 2 Min|本文总阅读量<span id="busuanzi_value_page_pv"></span>次</h5>
+                <h5 id="wc">785 Words|Read in about 2 Min|本文总阅读量<span id="busuanzi_value_page_pv"></span>次</h5>
                 <h5 id="tags">Tags: 
                     
                     <a href="https://rudy.org.cn/tags/system/">system</a> &nbsp;
@@ -288,12 +288,67 @@
 <li>性能优化
 
 <ul>
-<li>js</li>
-<li>webpack</li>
+<li>chrome</li>
+<li>audits
+
+<ul>
+<li>性能分析报告</li>
 </ul></li>
+<li>performance
+
+<ul>
+<li>分析性能瓶颈</li>
+<li>每个阶段耗费时间</li>
+</ul></li>
+<li>v8 js解释性语言首先会被解析成抽象语法树（AST），然后通过解释器转换成字节码（很多逻辑判断），或者通过编译器转换成机器码。
+
+<ul>
+<li>优化策略</li>
+<li>减少代码文件大小</li>
+<li>减少嵌套函数</li>
+<li>传入参数类型保持一致，会直接编译成机器码</li>
+</ul></li>
+<li>js</li>
+<li>图片优化
+
+<ul>
+<li>减少像素点和每个像素点能够显示的颜色</li>
+<li>css代替</li>
+<li>雪碧图</li>
+<li>base64格式</li>
+</ul></li>
+<li>节流 在一段时间内只发生一次事件</li>
+<li>防抖 在一段事件内只执行最后一次事件</li>
+<li>预加载</li>
+<li>预渲染</li>
+<li>懒计算</li>
+<li>懒加载</li>
+<li>cdn</li>
+<li>webpack //自己实现一个</li>
+<li>减少打包时间
+
+<ul>
+<li>优化loader</li>
+<li>happypack 将loader同步执行转换成并行</li>
+</ul></li>
+<li>减少包大小
+
+<ul>
+<li>按需加载</li>
+<li>tree shaking</li>
+</ul></li>
+</ul></li>
+<li>js框架
+
+<ul>
+<li>基础</li>
+<li>mvvm</li>
+<li>virtual dom</li>
+<li>路由</li>
 <li>react</li>
 <li>vue</li>
 <li>angular</li>
+</ul></li>
 <li>监控
 
 <ul>
@@ -326,9 +381,6 @@
 </ul></li>
 <li>http2</li>
 </ul></li>
-<li>设计模式</li>
-<li>数据结构</li>
-<li>算法</li>
 <li>css</li>
 </ul>
 

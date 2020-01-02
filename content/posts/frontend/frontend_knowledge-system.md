@@ -92,11 +92,45 @@ description:
   - xss
   - csrf
 - 性能优化
+  - chrome
+    - audits
+      - 性能分析报告
+    - performance
+      - 分析性能瓶颈
+      - 每个阶段耗费时间
+    - v8 js解释性语言首先会被解析成抽象语法树（AST），然后通过解释器转换成字节码（很多逻辑判断），或者通过编译器转换成机器码。
+      - 优化策略
+        - 减少代码文件大小
+        - 减少嵌套函数
+        - 传入参数类型保持一致，会直接编译成机器码
   - js
-  - webpack
-- react
-- vue
-- angular
+    - 图片优化
+      - 减少像素点和每个像素点能够显示的颜色
+      - css代替
+      - 雪碧图
+      - base64格式
+    - 节流 在一段时间内只发生一次事件
+    - 防抖 在一段事件内只执行最后一次事件
+    - 预加载
+    - 预渲染
+    - 懒计算
+    - 懒加载
+    - cdn
+  - webpack //自己实现一个
+    - 减少打包时间
+      - 优化loader
+      - happypack 将loader同步执行转换成并行
+    - 减少包大小
+      - 按需加载
+      - tree shaking
+- js框架
+  - 基础
+    - mvvm
+    - virtual dom
+    - 路由
+  - react
+  - vue
+  - angular
 - 监控
   - 行为
   - 性能
@@ -117,9 +151,6 @@ description:
       - udp
       - tcp
   - http2
-- 设计模式
-- 数据结构
-- 算法
 - css
 
 
