@@ -6,10 +6,19 @@
     <description>Recent content in Tags on Rudy&#39;s blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Mon, 30 Dec 2019 11:00:10 +0800</lastBuildDate>
+    <lastBuildDate>Thu, 02 Jan 2020 21:21:49 +0800</lastBuildDate>
     
 	<atom:link href="https://rudy.org.cn/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>design pattern</title>
+      <link>https://rudy.org.cn/tags/design-pattern/</link>
+      <pubDate>Thu, 02 Jan 2020 21:21:49 +0800</pubDate>
+      
+      <guid>https://rudy.org.cn/tags/design-pattern/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>system</title>
@@ -48,11 +57,11 @@
     </item>
     
     <item>
-      <title>basis</title>
-      <link>https://rudy.org.cn/tags/basis/</link>
+      <title>algorithm</title>
+      <link>https://rudy.org.cn/tags/algorithm/</link>
       <pubDate>Tue, 29 Oct 2019 19:54:58 +0800</pubDate>
       
-      <guid>https://rudy.org.cn/tags/basis/</guid>
+      <guid>https://rudy.org.cn/tags/algorithm/</guid>
       <description></description>
     </item>
     
@@ -107,15 +116,6 @@
       <pubDate>Mon, 14 Oct 2019 17:33:53 +0800</pubDate>
       
       <guid>https://rudy.org.cn/tags/analysis/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>book</title>
-      <link>https://rudy.org.cn/tags/book/</link>
-      <pubDate>Wed, 09 Oct 2019 19:27:35 +0800</pubDate>
-      
-      <guid>https://rudy.org.cn/tags/book/</guid>
       <description></description>
     </item>
     

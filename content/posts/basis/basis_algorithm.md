@@ -2,7 +2,7 @@
 title: "数据结构与算法"
 date: 2019-10-29T19:54:58+08:00
 draft: false
-tags: ["basis"]
+tags: ["algorithm"]
 categories: ["基础"]
 featured_image: 
 description: 
@@ -46,6 +46,9 @@ description:
 - 图的搜索
   - 广度优先
   - 深度优先
+- 复杂度 O
+  - 时间
+  - 空间
   
 <br>
 

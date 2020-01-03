@@ -6,10 +6,19 @@
     <description>Recent content in Categories on Rudy&#39;s blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Mon, 30 Dec 2019 11:00:10 +0800</lastBuildDate>
+    <lastBuildDate>Thu, 02 Jan 2020 21:21:49 +0800</lastBuildDate>
     
 	<atom:link href="https://rudy.org.cn/categories/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>基础</title>
+      <link>https://rudy.org.cn/categories/%E5%9F%BA%E7%A1%80/</link>
+      <pubDate>Thu, 02 Jan 2020 21:21:49 +0800</pubDate>
+      
+      <guid>https://rudy.org.cn/categories/%E5%9F%BA%E7%A1%80/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>前端</title>
@@ -39,29 +48,11 @@
     </item>
     
     <item>
-      <title>基础</title>
-      <link>https://rudy.org.cn/categories/%E5%9F%BA%E7%A1%80/</link>
-      <pubDate>Tue, 29 Oct 2019 19:54:58 +0800</pubDate>
-      
-      <guid>https://rudy.org.cn/categories/%E5%9F%BA%E7%A1%80/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>金融</title>
       <link>https://rudy.org.cn/categories/%E9%87%91%E8%9E%8D/</link>
       <pubDate>Tue, 22 Oct 2019 21:58:57 +0800</pubDate>
       
       <guid>https://rudy.org.cn/categories/%E9%87%91%E8%9E%8D/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>作书</title>
-      <link>https://rudy.org.cn/categories/%E4%BD%9C%E4%B9%A6/</link>
-      <pubDate>Wed, 09 Oct 2019 19:27:35 +0800</pubDate>
-      
-      <guid>https://rudy.org.cn/categories/%E4%BD%9C%E4%B9%A6/</guid>
       <description></description>
     </item>
     

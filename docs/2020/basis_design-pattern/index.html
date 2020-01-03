@@ -9,9 +9,9 @@
   
   
   
-  <link rel="prev" href="https://rudy.org.cn/2019/life_dinglei/" />
-  <link rel="next" href="https://rudy.org.cn/2020/basis_design-pattern/" />
-  <link rel="canonical" href="https://rudy.org.cn/2019/frontend_knowledge-system/" />
+  <link rel="prev" href="https://rudy.org.cn/2019/frontend_knowledge-system/" />
+  
+  <link rel="canonical" href="https://rudy.org.cn/2020/basis_design-pattern/" />
   <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
   <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
   <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
@@ -22,10 +22,10 @@
   <title>
        
        
-           前端知识体系 | Rudy&#39;s blog
+           javascript设计模式 | Rudy&#39;s blog
        
   </title>
-  <meta name="title" content="前端知识体系 | Rudy&#39;s blog">
+  <meta name="title" content="javascript设计模式 | Rudy&#39;s blog">
     
   <link rel="stylesheet" href="/css/main.min.css">
 
@@ -42,21 +42,21 @@
          "@id": "https:\/\/rudy.org.cn\/"
     },
     "articleSection" : "posts",
-    "name" : "前端知识体系",
-    "headline" : "前端知识体系",
-    "description" : "es5 知识点 原始类型 \/\/值 boolean undefined null number string symbol ? 对象类型 object \/\/内存地址（指针）\x26lt;\x26ndash;\x26gt; 值 typeof null \/\/ \x26lsquo;object\x26rsquo; is bug 0.1\x2b0.2=0.30000000000000004 \/\/ number 浮点类型 typeof 判断原始类型 instanceof",
+    "name" : "javascript设计模式",
+    "headline" : "javascript设计模式",
+    "description" : "·End·",
     "inLanguage" : "zh-cn",
     "author" : "Rudy",
     "creator" : "Rudy",
     "publisher": "Rudy",
     "accountablePerson" : "Rudy",
     "copyrightHolder" : "Rudy",
-    "copyrightYear" : "2019",
-    "datePublished": "2019-12-30 11:00:10 \x2b0800 CST",
-    "dateModified" : "2019-12-30 11:00:10 \x2b0800 CST",
-    "url" : "https:\/\/rudy.org.cn\/2019\/frontend_knowledge-system\/",
-    "wordCount" : "831",
-    "keywords" : [ "system", "Rudy\x27s blog"]
+    "copyrightYear" : "2020",
+    "datePublished": "2020-01-02 21:21:49 \x2b0800 CST",
+    "dateModified" : "2020-01-02 21:21:49 \x2b0800 CST",
+    "url" : "https:\/\/rudy.org.cn\/2020\/basis_design-pattern\/",
+    "wordCount" : "5",
+    "keywords" : [ "design pattern", "Rudy\x27s blog"]
 }
 </script>
 
@@ -144,23 +144,23 @@
       		
 <article class="post-warp" itemscope itemtype="http://schema.org/Article">
     <header class="post-header">
-        <h1 class="post-title" itemprop="name headline">前端知识体系</h1>
+        <h1 class="post-title" itemprop="name headline">javascript设计模式</h1>
         <div class="post-meta">
                 Written by <a itemprop="name" href="https://rudy.org.cn/" rel="author">Rudy</a> with ♥ 
                 <span class="post-time">
-                on <time datetime=2019-12-30 itemprop="datePublished">December 30, 2019</time>
+                on <time datetime=2020-01-02 itemprop="datePublished">January 2, 2020</time>
                 </span>
                 in
                 <i class="iconfont icon-folder"></i>
                 <span class="post-category">
-                        <a href="https://rudy.org.cn/categories/%E5%89%8D%E7%AB%AF/"> 前端 </a>
+                        <a href="https://rudy.org.cn/categories/%E5%9F%BA%E7%A1%80/"> 基础 </a>
                         
                 </span>
                 
-                <h5 id="wc">831 Words|Read in about 2 Min|本文总阅读量<span id="busuanzi_value_page_pv"></span>次</h5>
+                <h5 id="wc">5 Words|Read in about 1 Min|本文总阅读量<span id="busuanzi_value_page_pv"></span>次</h5>
                 <h5 id="tags">Tags: 
                     
-                    <a href="https://rudy.org.cn/tags/system/">system</a> &nbsp;
+                    <a href="https://rudy.org.cn/tags/design-pattern/">design pattern</a> &nbsp;
                 </h5>
         </div>
     </header>
@@ -182,214 +182,6 @@
 
           <p><br></p>
 
-<ul>
-<li>es5 知识点
-
-<ul>
-<li>原始类型 //值</li>
-<li>boolean</li>
-<li>undefined</li>
-<li>null</li>
-<li>number</li>
-<li>string</li>
-<li>symbol ?</li>
-<li>对象类型 object //内存地址（指针）&lt;&ndash;&gt; 值</li>
-<li>typeof null // &lsquo;object&rsquo; is bug</li>
-<li>0.1+0.2=0.30000000000000004 // number 浮点类型</li>
-<li>typeof 判断原始类型</li>
-<li>instanceof 判断对象类型</li>
-<li>类型转换</li>
-<li>this指向</li>
-<li>函数直接调用 指向window</li>
-<li>对象 谁调用指向谁</li>
-<li>new 指向实例</li>
-<li>bind/箭头函数 多次调用，this指向取决于第一次调用上下文</li>
-<li>== vs === //==涉及类型转换</li>
-<li>闭包 存在的意义就是可以访问外部函数的变量</li>
-<li>对象拷贝</li>
-<li>浅拷贝 object.assign() / 展开运算符 &hellip;  //拷贝属性值，属性中有对象的话，拷贝的是地址</li>
-<li>深拷贝 lodash.cloneDeep() //自己实现一个</li>
-<li>原型 //重点</li>
-<li>Object</li>
-<li>Function</li>
-<li><strong>proto</strong></li>
-<li>函数提升优先于变量提升</li>
-</ul></li>
-<li>es6知识点
-
-<ul>
-<li>let,const 暂时性死区</li>
-<li>继承</li>
-<li>原型</li>
-<li>class</li>
-<li>模块化</li>
-<li>commonjs 服务器端/同步/值拷贝</li>
-<li>es module 浏览器端/异步/地址拷贝</li>
-<li>proxy</li>
-<li>数据响应式</li>
-<li>map,filter,reduce</li>
-</ul></li>
-<li>js进阶
-
-<ul>
-<li>回调函数 callback</li>
-<li>generator</li>
-<li>promise 实现</li>
-<li>async/await</li>
-<li>requestAnimationFrame</li>
-<li>call , apply , bind , new 实现</li>
-<li>垃圾回收机制</li>
-</ul></li>
-<li>event loop
-
-<ul>
-<li>执行栈 call stack 先进后出 同步执行的js代码</li>
-<li>任务队列 task queue 异步执行的js代码</li>
-<li>宏任务 macro task //setTimeout , setInterval , xhr &hellip;</li>
-<li>微任务 micro task // promise , mutation observer &hellip;</li>
-<li>浏览器</li>
-<li>node</li>
-</ul></li>
-<li>浏览器
-
-<ul>
-<li>事件机制</li>
-<li>注册</li>
-<li>触发</li>
-<li>代理</li>
-<li>跨域</li>
-<li>同源策略</li>
-<li>解决方案
-
-<ul>
-<li>jsonp</li>
-<li>cors</li>
-<li>document.domain</li>
-<li>postMessage</li>
-</ul></li>
-<li>存储</li>
-<li>cookie</li>
-<li>localStorage</li>
-<li>sessionStorage</li>
-<li>service worker</li>
-<li>缓存机制</li>
-<li>缓存位置</li>
-<li>强缓存</li>
-<li>协商缓存</li>
-<li>渲染原理</li>
-<li>从url到页面渲染的整个流程</li>
-</ul></li>
-<li>安全
-
-<ul>
-<li>xss</li>
-<li>csrf</li>
-</ul></li>
-<li>性能优化
-
-<ul>
-<li>chrome</li>
-<li>audits
-
-<ul>
-<li>性能分析报告</li>
-</ul></li>
-<li>performance
-
-<ul>
-<li>分析性能瓶颈</li>
-<li>每个阶段耗费时间</li>
-</ul></li>
-<li>v8 js解释性语言首先会被解析成抽象语法树（AST），然后通过解释器转换成字节码（很多逻辑判断），或者通过编译器转换成机器码。
-
-<ul>
-<li>优化策略</li>
-<li>减少代码文件大小</li>
-<li>减少嵌套函数</li>
-<li>传入参数类型保持一致，会直接编译成机器码</li>
-</ul></li>
-<li>js</li>
-<li>图片优化
-
-<ul>
-<li>减少像素点和每个像素点能够显示的颜色</li>
-<li>css代替</li>
-<li>雪碧图</li>
-<li>base64格式</li>
-</ul></li>
-<li>节流 在一段时间内只发生一次事件</li>
-<li>防抖 在一段事件内只执行最后一次事件</li>
-<li>预加载</li>
-<li>预渲染</li>
-<li>懒计算</li>
-<li>懒加载</li>
-<li>cdn</li>
-<li>webpack //自己实现一个</li>
-<li>减少打包时间
-
-<ul>
-<li>优化loader</li>
-<li>happypack 将loader同步执行转换成并行</li>
-</ul></li>
-<li>减少包大小
-
-<ul>
-<li>按需加载</li>
-<li>tree shaking</li>
-</ul></li>
-</ul></li>
-<li>js框架
-
-<ul>
-<li>基础</li>
-<li>mvvm</li>
-<li>virtual dom</li>
-<li>路由</li>
-<li>react</li>
-<li>vue</li>
-<li>angular</li>
-</ul></li>
-<li>监控
-
-<ul>
-<li>行为</li>
-<li>性能</li>
-<li>异常</li>
-</ul></li>
-<li>http
-
-<ul>
-<li>请求方法</li>
-<li>首部</li>
-<li>通用</li>
-<li>请求</li>
-<li>响应</li>
-<li>实体</li>
-<li>状态码</li>
-<li>tsl</li>
-<li>加密
-
-<ul>
-<li>对称</li>
-<li>非对称</li>
-</ul></li>
-<li>3次握手
-
-<ul>
-<li>udp</li>
-<li>tcp</li>
-</ul></li>
-<li>http2</li>
-</ul></li>
-<li>css</li>
-<li>编译
-
-<ul>
-<li>jit编译，动态编译，在浏览器中进行代码编译</li>
-<li>aot编译，静态编译，在项目工程打包阶段编译</li>
-</ul></li>
-</ul>
-
 <p><center>  ·End·  </center></p>
 
     </div>
@@ -405,7 +197,7 @@
              
             <p class="copyright-item">
                     <span>Link:</span>
-                    <a href=https://rudy.org.cn/2019/frontend_knowledge-system/>https://rudy.org.cn/2019/frontend_knowledge-system/</span>
+                    <a href=https://rudy.org.cn/2020/basis_design-pattern/>https://rudy.org.cn/2020/basis_design-pattern/</span>
             </p>
             
              
@@ -421,8 +213,8 @@
             <section>
             <i class="iconfont icon-tag"></i>Tag(s): 
             
-            <span class="tag"><a href="https://rudy.org.cn/tags/system/">
-                    #system</a></span>
+            <span class="tag"><a href="https://rudy.org.cn/tags/design-pattern/">
+                    #design pattern</a></span>
             
             </section>
         
@@ -434,10 +226,8 @@
 
     <div class="post-nav">
         
-        <a href="https://rudy.org.cn/2019/life_dinglei/" class="prev" rel="prev" title="保持终身学习的丁磊"><i class="iconfont icon-left"></i>&nbsp;保持终身学习的丁磊</a>
+        <a href="https://rudy.org.cn/2019/frontend_knowledge-system/" class="prev" rel="prev" title="前端知识体系"><i class="iconfont icon-left"></i>&nbsp;前端知识体系</a>
          
-        
-        <a href="https://rudy.org.cn/2020/basis_design-pattern/" class="next" rel="next" title="javascript设计模式">javascript设计模式&nbsp;<i class="iconfont icon-right"></i></a>
         
     </div>
 

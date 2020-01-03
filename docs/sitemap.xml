@@ -4,7 +4,7 @@
     <url>
       <loc>https://rudy.org.cn/categories/</loc>
       
-      <lastmod>2019-12-30T11:00:10+08:00</lastmod>
+      <lastmod>2020-01-02T21:21:49+08:00</lastmod>
       
       
       
@@ -16,7 +16,7 @@
     <url>
       <loc>https://rudy.org.cn/posts/</loc>
       
-      <lastmod>2019-12-30T11:00:10+08:00</lastmod>
+      <lastmod>2020-01-02T21:21:49+08:00</lastmod>
       
       
       
@@ -28,7 +28,7 @@
     <url>
       <loc>https://rudy.org.cn/</loc>
       
-      <lastmod>2019-12-30T11:00:10+08:00</lastmod>
+      <lastmod>2020-01-02T21:21:49+08:00</lastmod>
       
       
       
@@ -40,7 +40,41 @@
     <url>
       <loc>https://rudy.org.cn/tags/</loc>
       
-      <lastmod>2019-12-30T11:00:10+08:00</lastmod>
+      <lastmod>2020-01-02T21:21:49+08:00</lastmod>
+      
+      
+      
+      <priority>0</priority>
+      
+      
+    </url>
+  
+    <url>
+      <loc>https://rudy.org.cn/tags/design-pattern/</loc>
+      
+      <lastmod>2020-01-02T21:21:49+08:00</lastmod>
+      
+      
+      
+      <priority>0</priority>
+      
+      
+    </url>
+  
+    <url>
+      <loc>https://rudy.org.cn/2020/basis_design-pattern/</loc>
+      
+      <lastmod>2020-01-02T21:21:49+08:00</lastmod>
+      
+      
+      
+      
+    </url>
+  
+    <url>
+      <loc>https://rudy.org.cn/categories/%E5%9F%BA%E7%A1%80/</loc>
+      
+      <lastmod>2020-01-02T21:21:49+08:00</lastmod>
       
       
       
@@ -174,19 +208,7 @@
     </url>
   
     <url>
-      <loc>https://rudy.org.cn/tags/basis/</loc>
-      
-      <lastmod>2019-10-29T19:54:58+08:00</lastmod>
-      
-      
-      
-      <priority>0</priority>
-      
-      
-    </url>
-  
-    <url>
-      <loc>https://rudy.org.cn/categories/%E5%9F%BA%E7%A1%80/</loc>
+      <loc>https://rudy.org.cn/tags/algorithm/</loc>
       
       <lastmod>2019-10-29T19:54:58+08:00</lastmod>
       
@@ -395,40 +417,6 @@
       <loc>https://rudy.org.cn/2019/frontend_analysis-design/</loc>
       
       <lastmod>2019-10-14T17:33:53+08:00</lastmod>
-      
-      
-      
-      
-    </url>
-  
-    <url>
-      <loc>https://rudy.org.cn/tags/book/</loc>
-      
-      <lastmod>2019-10-09T19:27:35+08:00</lastmod>
-      
-      
-      
-      <priority>0</priority>
-      
-      
-    </url>
-  
-    <url>
-      <loc>https://rudy.org.cn/categories/%E4%BD%9C%E4%B9%A6/</loc>
-      
-      <lastmod>2019-10-09T19:27:35+08:00</lastmod>
-      
-      
-      
-      <priority>0</priority>
-      
-      
-    </url>
-  
-    <url>
-      <loc>https://rudy.org.cn/2019/book_frontend-outline/</loc>
-      
-      <lastmod>2019-10-09T19:27:35+08:00</lastmod>
       
       
       
