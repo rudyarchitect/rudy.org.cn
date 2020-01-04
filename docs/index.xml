@@ -5,8 +5,32 @@
     <description>Recent content in Rudy&#39;s blog on Rudy&#39;s blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Thu, 02 Jan 2020 21:21:49 +0800</lastBuildDate>
+    <lastBuildDate>Sat, 04 Jan 2020 14:03:08 +0800</lastBuildDate>
     <atom:link href="https://rudy.org.cn/" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>node笔记</title>
+      <link>https://rudy.org.cn/2020/frontend_node-note/</link>
+      <pubDate>Sat, 04 Jan 2020 14:03:08 +0800</pubDate>
+      
+      <guid>https://rudy.org.cn/2020/frontend_node-note/</guid>
+      <description>&lt;ul&gt;
+&lt;li&gt;bff 聚合层&lt;/li&gt;
+&lt;li&gt;serverless for frontend? 无服务&lt;/li&gt;
+&lt;li&gt;考虑点
+
+&lt;ul&gt;
+&lt;li&gt;数据清洗&lt;/li&gt;
+&lt;li&gt;鉴权&lt;/li&gt;
+&lt;li&gt;协议&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;br&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;center&gt;  ·End·  &lt;/center&gt;&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>javascript设计模式</title>
@@ -1291,72 +1315,6 @@
 &lt;/ul&gt;
 
 &lt;p&gt;&lt;img alt=&#34;rendada-01&#34; src=&#34;https://rudyarchitect.github.io/blog-images/life/life_rendada-01.jpg&#34;&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;br&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;center&gt;  ·End·  &lt;/center&gt;&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>web编辑器方案</title>
-      <link>https://rudy.org.cn/2019/frontend_editor-design/</link>
-      <pubDate>Mon, 14 Oct 2019 19:18:13 +0800</pubDate>
-      
-      <guid>https://rudy.org.cn/2019/frontend_editor-design/</guid>
-      <description>&lt;p&gt;页面 = HTML Tree (DOM) + 静态Data + 动态逻辑Javascript&lt;/p&gt;
-
-&lt;p&gt;页面可视化编辑本质上是用可视化的方式对页面的DOM、静态Data和动态逻辑javascript进行操作，从而完成页面的生成。&lt;/p&gt;
-
-&lt;p&gt;前端服务化，为前端小白，运营/产品人员,以及后台开发人员提供开发前端页面的能力。&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;系统粒度
-
-&lt;ul&gt;
-&lt;li&gt;HTML Tree编辑&lt;/li&gt;
-&lt;li&gt;Component Tree编辑&lt;/li&gt;
-&lt;li&gt;静态Data编辑&lt;/li&gt;
-&lt;li&gt;动态逻辑Javascript编辑&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;面向群体
-
-&lt;ul&gt;
-&lt;li&gt;前端小白&lt;/li&gt;
-&lt;li&gt;运营/产品人员&lt;/li&gt;
-&lt;li&gt;后台开发人员&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;编辑自由度
-
-&lt;ul&gt;
-&lt;li&gt;页面&lt;/li&gt;
-&lt;li&gt;组件&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;核心原理：模板 + 配置数据 = 页面&lt;/p&gt;
-
-&lt;p&gt;最佳实践&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;数据格式Json Scheme&lt;/li&gt;
-&lt;li&gt;组件化和模板化&lt;/li&gt;
-&lt;li&gt;编辑与组件、模板和框架解耦&lt;/li&gt;
-&lt;li&gt;框架负责数据管理
-
-&lt;ul&gt;
-&lt;li&gt;数据包括组件数据和业务数据，管理包括保存数据和读取数据方式。&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;分析数据管理的简单场景和复杂场景，确定边界&lt;/li&gt;
-&lt;li&gt;组件暴露所有属性和事件&lt;/li&gt;
-&lt;li&gt;渐进式体验&lt;/li&gt;
-&lt;li&gt;数据驱动
-
-&lt;ul&gt;
-&lt;li&gt;数据现在是什么样子&lt;/li&gt;
-&lt;li&gt;数据在哪里被修改了&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;/ul&gt;
 
 &lt;p&gt;&lt;br&gt;&lt;/p&gt;
 
