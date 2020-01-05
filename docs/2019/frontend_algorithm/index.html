@@ -9,9 +9,9 @@
   
   
   
-  <link rel="prev" href="https://rudy.org.cn/2020/frontend_design-pattern/" />
-  
-  <link rel="canonical" href="https://rudy.org.cn/2020/frontend_node-note/" />
+  <link rel="prev" href="https://rudy.org.cn/2019/life_liangning-thinking/" />
+  <link rel="next" href="https://rudy.org.cn/2019/manage_decuple-work-means/" />
+  <link rel="canonical" href="https://rudy.org.cn/2019/frontend_algorithm/" />
   <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
   <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
   <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
@@ -22,10 +22,10 @@
   <title>
        
        
-           node笔记 | Rudy&#39;s blog
+           数据结构与算法 | Rudy&#39;s blog
        
   </title>
-  <meta name="title" content="node笔记 | Rudy&#39;s blog">
+  <meta name="title" content="数据结构与算法 | Rudy&#39;s blog">
     
   <link rel="stylesheet" href="/css/main.min.css">
 
@@ -42,21 +42,21 @@
          "@id": "https:\/\/rudy.org.cn\/"
     },
     "articleSection" : "posts",
-    "name" : "node笔记",
-    "headline" : "node笔记",
-    "description" : "bff 聚合层 serverless for frontend? 无服务 考虑点 数据清洗 鉴权 协议 ·End·",
+    "name" : "数据结构与算法",
+    "headline" : "数据结构与算法",
+    "description" : "常见数据结构 栈，队列，链表，树，图 集合，字典，散列表 数据结构 数据存储与内存时，数据结构就是数据的顺序和位置关系，目的是提高内存利用率。 链表 数",
     "inLanguage" : "zh-cn",
     "author" : "Rudy",
     "creator" : "Rudy",
     "publisher": "Rudy",
     "accountablePerson" : "Rudy",
     "copyrightHolder" : "Rudy",
-    "copyrightYear" : "2020",
-    "datePublished": "2020-01-04 14:03:08 \x2b0800 CST",
-    "dateModified" : "2020-01-04 14:03:08 \x2b0800 CST",
-    "url" : "https:\/\/rudy.org.cn\/2020\/frontend_node-note\/",
-    "wordCount" : "26",
-    "keywords" : [ "node", "Rudy\x27s blog"]
+    "copyrightYear" : "2019",
+    "datePublished": "2019-10-29 19:54:58 \x2b0800 CST",
+    "dateModified" : "2019-10-29 19:54:58 \x2b0800 CST",
+    "url" : "https:\/\/rudy.org.cn\/2019\/frontend_algorithm\/",
+    "wordCount" : "569",
+    "keywords" : [ "algorithm", "Rudy\x27s blog"]
 }
 </script>
 
@@ -144,23 +144,23 @@
       		
 <article class="post-warp" itemscope itemtype="http://schema.org/Article">
     <header class="post-header">
-        <h1 class="post-title" itemprop="name headline">node笔记</h1>
+        <h1 class="post-title" itemprop="name headline">数据结构与算法</h1>
         <div class="post-meta">
                 Written by <a itemprop="name" href="https://rudy.org.cn/" rel="author">Rudy</a> with ♥ 
                 <span class="post-time">
-                on <time datetime=2020-01-04 itemprop="datePublished">January 4, 2020</time>
+                on <time datetime=2019-10-29 itemprop="datePublished">October 29, 2019</time>
                 </span>
                 in
                 <i class="iconfont icon-folder"></i>
                 <span class="post-category">
-                        <a href="https://rudy.org.cn/categories/%E5%89%8D%E7%AB%AF/"> 前端 </a>
+                        <a href="https://rudy.org.cn/categories/%E5%9F%BA%E7%A1%80/"> 基础 </a>
                         
                 </span>
                 
-                <h5 id="wc">26 Words|Read in about 1 Min|本文总阅读量<span id="busuanzi_value_page_pv"></span>次</h5>
+                <h5 id="wc">569 Words|Read in about 2 Min|本文总阅读量<span id="busuanzi_value_page_pv"></span>次</h5>
                 <h5 id="tags">Tags: 
                     
-                    <a href="https://rudy.org.cn/tags/node/">node</a> &nbsp;
+                    <a href="https://rudy.org.cn/tags/algorithm/">algorithm</a> &nbsp;
                 </h5>
         </div>
     </header>
@@ -180,16 +180,118 @@
           
           
 
-          <ul>
-<li>bff 聚合层</li>
-<li>serverless for frontend? 无服务</li>
-<li>考虑点
+          
+
+<h3 id="常见数据结构">常见数据结构</h3>
+
+<ol>
+<li>栈，队列，链表，树，图</li>
+<li>集合，字典，散列表</li>
+</ol>
 
 <ul>
-<li>数据清洗</li>
-<li>鉴权</li>
-<li>协议</li>
+<li>数据结构 数据存储与内存时，数据结构就是数据的顺序和位置关系，目的是提高内存利用率。
+
+<ul>
+<li>链表</li>
+<li>数据访问复杂</li>
+<li>数据添加或删除方便，只需该改变指针</li>
+<li>每个数据都有一个“指针”，它指向下一个数据的内存地址</li>
+<li>分类
+
+<ul>
+<li>单向</li>
+<li>双向缺点</li>
+<li>指针数的增加导致存储空间需求增加</li>
+<li>添加或删除数据时需要改变更多指针指向</li>
+<li>循环 链表尾部指针指向头部</li>
 </ul></li>
+<li>数组</li>
+<li>数据访问简单，通过下标访问</li>
+<li>添加或删除数据复杂</li>
+<li>栈 last in first out 适合访问最新数据。</li>
+<li>深度优先搜索</li>
+<li>队列 first in first out 先来的数据先处理。</li>
+<li>广度优先搜索</li>
+<li>堆</li>
+<li>图的树形结构，顶端的数据始终最小，用于实现优先队列</li>
+<li>优先队列只从最小值开始处理</li>
+<li>子结点大于父节点</li>
+<li>二叉树 图的树形结构，每个结点最多2个子结点。</li>
+<li>每个结点的值大于其左子树上任意一个结点的值</li>
+<li>每个结点的值小于其右子树上任意一个结点的值</li>
+</ul></li>
+</ul>
+
+<h3 id="常见算法">常见算法</h3>
+
+<p>递归，排序，查找</p>
+
+<ul>
+<li>排序
+
+<ul>
+<li>冒泡</li>
+<li>选择</li>
+<li>插入</li>
+<li>堆</li>
+<li>归并</li>
+<li>快速</li>
+</ul></li>
+<li>数组的查找
+
+<ul>
+<li>线性</li>
+<li>二分</li>
+</ul></li>
+<li>图的搜索
+
+<ul>
+<li>广度优先</li>
+<li>深度优先</li>
+</ul></li>
+</ul>
+
+<h3 id="复杂度分析">复杂度分析</h3>
+
+<ul>
+<li>时间 处理数据所需要的时间，算法的执行效率
+
+<ul>
+<li>常见复杂度
+
+<ul>
+<li>常数阶 O(1)</li>
+<li>对数阶 O(logN)</li>
+<li>线性阶 O(n)</li>
+<li>线性对数阶 O(nlogN)</li>
+<li>平方阶 O(n^2)</li>
+<li>立方阶 O(n^3)</li>
+<li>指数阶 O(2^n)</li>
+</ul></li>
+<li>一层循环 O(n), 二层循环 O(n^2)</li>
+<li>二分 O(logN)</li>
+</ul></li>
+<li>空间 处理数据所需要的内存</li>
+</ul>
+
+<h3 id="算法思维">算法思维</h3>
+
+<ul>
+<li>分治，贪心，动态规划</li>
+<li>养成算法思维是一个长期的过程，多思考多练习
+
+<ul>
+<li>问题规模缩小，动态规划</li>
+<li>问题分解，二分</li>
+</ul></li>
+</ul>
+
+<h3 id="前端场景">前端场景</h3>
+
+<ul>
+<li>前端核心是dom,dom以树为基础</li>
+<li>手写dom diff算法</li>
 </ul>
 
 <p><br></p>
@@ -209,7 +311,7 @@
              
             <p class="copyright-item">
                     <span>Link:</span>
-                    <a href=https://rudy.org.cn/2020/frontend_node-note/>https://rudy.org.cn/2020/frontend_node-note/</span>
+                    <a href=https://rudy.org.cn/2019/frontend_algorithm/>https://rudy.org.cn/2019/frontend_algorithm/</span>
             </p>
             
              
@@ -225,8 +327,8 @@
             <section>
             <i class="iconfont icon-tag"></i>Tag(s): 
             
-            <span class="tag"><a href="https://rudy.org.cn/tags/node/">
-                    #node</a></span>
+            <span class="tag"><a href="https://rudy.org.cn/tags/algorithm/">
+                    #algorithm</a></span>
             
             </section>
         
@@ -238,8 +340,10 @@
 
     <div class="post-nav">
         
-        <a href="https://rudy.org.cn/2020/frontend_design-pattern/" class="prev" rel="prev" title="javascript设计模式"><i class="iconfont icon-left"></i>&nbsp;javascript设计模式</a>
+        <a href="https://rudy.org.cn/2019/life_liangning-thinking/" class="prev" rel="prev" title="创业者对《西游记》的另一种感悟"><i class="iconfont icon-left"></i>&nbsp;创业者对《西游记》的另一种感悟</a>
          
+        
+        <a href="https://rudy.org.cn/2019/manage_decuple-work-means/" class="next" rel="next" title="《十倍工作法，寻找最佳实践》笔记">《十倍工作法，寻找最佳实践》笔记&nbsp;<i class="iconfont icon-right"></i></a>
         
     </div>
 

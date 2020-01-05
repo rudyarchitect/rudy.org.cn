@@ -1,18 +1,47 @@
 ---
-title: "前端计划 2020"
+title: "前端规划 2020"
 date: 2019-10-16T16:46:51+08:00
-draft: false
+draft: true
 tags: ["plan"]
 categories: ["前端"]
 featured_image: 
 description: 
 ---
 
-## 前端架构
+## 前端架构师
 
-前端架构要解决的是效率问题，通过设计一套前端开发流程，抽象系统中的通用部分，将功能模块化，提高前端团队工作效率。
+- 源码 
+  - mvc backbone.js
+  - mvvm angularjs (di,aop)
+  - react
+    - rudux
+    - next.js
+  - vue
+    - vuex
+    - nuxt.js
+- 框架熟练度，api，原理
+- web component
+- node
+  - express
+  - koa
+  - 熟悉后端架构
+- nginx
+- linux
+- http
+- 性能优化 
+  - 浏览器
+  - 项目工程
+  - 用户量或数据量很大的优化策略
+- 技术选型
+  - 架构是渐进式的，从一个小项目开始
+  - 架构是各种库的组合
+  - 引入中间服务层
+  - 不断优化，工作自动化
+  - 团队沟通，包括前端，后端，测试，设计，产品经理
+- webAssembly
+  - c++
 
-### 5个方面
+### 考虑点
 
 - 代码
 - 流程
@@ -20,7 +49,7 @@ description:
 - 文档
 - 团队
 
-### 效率提升
+### 思考点
 
 - 组件库
 - 脚手架
@@ -64,15 +93,9 @@ description:
 - web编辑器
 - web监控平台
 
-### 工具
-
-- 前端规范
-- 开发流程
-- 脚手架
-
 ### 方向
 
-- 前端服务化
+- 可视化ide
 
 <br>
 

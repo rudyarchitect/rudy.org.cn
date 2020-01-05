@@ -22,10 +22,10 @@
     
     <item>
       <title>javascript设计模式</title>
-      <link>https://rudy.org.cn/2020/basis_design-pattern/</link>
+      <link>https://rudy.org.cn/2020/frontend_design-pattern/</link>
       <pubDate>Thu, 02 Jan 2020 21:21:49 +0800</pubDate>
       
-      <guid>https://rudy.org.cn/2020/basis_design-pattern/</guid>
+      <guid>https://rudy.org.cn/2020/frontend_design-pattern/</guid>
       <description>·End·</description>
     </item>
     
@@ -67,11 +67,11 @@
     
     <item>
       <title>数据结构与算法</title>
-      <link>https://rudy.org.cn/2019/basis_algorithm/</link>
+      <link>https://rudy.org.cn/2019/frontend_algorithm/</link>
       <pubDate>Tue, 29 Oct 2019 19:54:58 +0800</pubDate>
       
-      <guid>https://rudy.org.cn/2019/basis_algorithm/</guid>
-      <description>数据结构 数据存储与内存时，数据结构就是数据的顺序和位置关系，目的是提高内存利用率。 链表 数据访问复杂 数据添加或删除方便，只需该改变指针 每个数据</description>
+      <guid>https://rudy.org.cn/2019/frontend_algorithm/</guid>
+      <description>常见数据结构 栈，队列，链表，树，图 集合，字典，散列表 数据结构 数据存储与内存时，数据结构就是数据的顺序和位置关系，目的是提高内存利用率。 链表 数</description>
     </item>
     
     <item>
@@ -126,15 +126,6 @@
       
       <guid>https://rudy.org.cn/2019/life_lyrics/</guid>
       <description>海阔天空 一生要走多远的路程 经过多少年 才能走到终点 梦想需要多久的时间 多少血和泪 才能慢慢实现 天地间任我展翅高飞 谁说那是天真的预言 风中挥舞狂乱的双</description>
-    </item>
-    
-    <item>
-      <title>前端计划 2020</title>
-      <link>https://rudy.org.cn/2019/frontend_plan-2020/</link>
-      <pubDate>Wed, 16 Oct 2019 16:46:51 +0800</pubDate>
-      
-      <guid>https://rudy.org.cn/2019/frontend_plan-2020/</guid>
-      <description>前端架构 前端架构要解决的是效率问题，通过设计一套前端开发流程，抽象系统中的通用部分，将功能模块化，提高前端团队工作效率。 5个方面 代码 流程 测试</description>
     </item>
     
     <item>
