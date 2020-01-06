@@ -785,8 +785,8 @@
 &lt;li&gt;图的搜索
 
 &lt;ul&gt;
-&lt;li&gt;广度优先&lt;/li&gt;
-&lt;li&gt;深度优先&lt;/li&gt;
+&lt;li&gt;广度优先 v8 垃圾回收&lt;/li&gt;
+&lt;li&gt;深度优先 dom diff&lt;/li&gt;
 &lt;/ul&gt;&lt;/li&gt;
 &lt;/ul&gt;
 

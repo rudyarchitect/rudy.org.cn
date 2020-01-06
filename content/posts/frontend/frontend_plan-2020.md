@@ -12,13 +12,14 @@ description:
 
 - 源码 
   - mvc backbone.js
-  - mvvm angularjs (di,aop)
+  - mvvm angularjs (ioc,di,aop)
   - react
     - rudux
     - next.js
   - vue
     - vuex
     - nuxt.js
+  - jquery
 - 框架熟练度，api，原理
 - web component
 - node
@@ -39,7 +40,9 @@ description:
   - 不断优化，工作自动化
   - 团队沟通，包括前端，后端，测试，设计，产品经理
 - webAssembly
-  - c++
+- 掌握业务
+- 一门后端语言(java)
+- 提高情商
 
 ### 考虑点
 
