@@ -5,8 +5,60 @@
     <description>Recent content in Rudy&#39;s blog on Rudy&#39;s blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Thu, 02 Jan 2020 21:21:49 +0800</lastBuildDate>
+    <lastBuildDate>Wed, 08 Jan 2020 18:49:32 +0800</lastBuildDate>
     <atom:link href="https://rudy.org.cn/" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>js中的bind方法</title>
+      <link>https://rudy.org.cn/2020/frontend_javascript_bind/</link>
+      <pubDate>Wed, 08 Jan 2020 18:49:32 +0800</pubDate>
+      
+      <guid>https://rudy.org.cn/2020/frontend_javascript_bind/</guid>
+      <description>
+
+&lt;h1 id=&#34;bind&#34;&gt;bind&lt;/h1&gt;
+
+&lt;ul&gt;
+&lt;li&gt;特点&lt;/li&gt;
+&lt;li&gt;mdn的polyfill&lt;/li&gt;
+&lt;li&gt;词法作用域&lt;/li&gt;
+&lt;li&gt;执行顺序
+
+&lt;ul&gt;
+&lt;li&gt;执行上下文栈&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;变量对象 vo/ao
+
+&lt;ul&gt;
+&lt;li&gt;全局上下文&lt;/li&gt;
+&lt;li&gt;函数上下文&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;执行过程
+
+&lt;ul&gt;
+&lt;li&gt;进入执行上下文&lt;/li&gt;
+&lt;li&gt;代码执行&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;作用域链
+
+&lt;ul&gt;
+&lt;li&gt;函数激活&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;this&lt;/li&gt;
+&lt;li&gt;具体执行分析&lt;/li&gt;
+&lt;li&gt;闭包&lt;/li&gt;
+&lt;li&gt;call和apply的模拟实现&lt;/li&gt;
+&lt;li&gt;new&lt;/li&gt;
+&lt;li&gt;柯里化&lt;/li&gt;
+&lt;li&gt;继承&lt;/li&gt;
+&lt;li&gt;原型链&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;br&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;center&gt;  ·End·  &lt;/center&gt;&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>javascript设计模式</title>
@@ -1366,108 +1418,6 @@
 &lt;li&gt;数据现在是什么样子&lt;/li&gt;
 &lt;li&gt;数据在哪里被修改了&lt;/li&gt;
 &lt;/ul&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;br&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;center&gt;  ·End·  &lt;/center&gt;&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>前端规范方案</title>
-      <link>https://rudy.org.cn/2019/frontend_standard-design/</link>
-      <pubDate>Mon, 14 Oct 2019 17:39:21 +0800</pubDate>
-      
-      <guid>https://rudy.org.cn/2019/frontend_standard-design/</guid>
-      <description>&lt;p&gt;1.项目组织结构&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;目录结构&lt;/li&gt;
-&lt;li&gt;配置文件&lt;/li&gt;
-&lt;li&gt;README&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;2.代码规范&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;命名规范&lt;/li&gt;
-&lt;li&gt;Html规范&lt;/li&gt;
-&lt;li&gt;Javascript规范&lt;/li&gt;
-&lt;li&gt;CSS规范&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;3.统一代码风格&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;利用Lint工具，配置语法检测规则来对代码风格进行检测。&lt;/li&gt;
-&lt;li&gt;e.g.  js lint, css lint&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;4.开发工具规范&lt;/p&gt;
-
-&lt;p&gt;4.1 编辑器&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Visual Studio Code&lt;/li&gt;
-&lt;li&gt;Web Storm&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;4.2 统一插件&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;EditorConfig&lt;/li&gt;
-&lt;li&gt;Lint&lt;/li&gt;
-&lt;li&gt;单词拼写检查&lt;/li&gt;
-&lt;li&gt;路径补全&lt;/li&gt;
-&lt;li&gt;代码自动补全&lt;/li&gt;
-&lt;li&gt;Emmet&lt;/li&gt;
-&lt;li&gt;代码格式化&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;4.3 README搭建指南&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;运行环境&lt;/li&gt;
-&lt;li&gt;依赖项&lt;/li&gt;
-&lt;li&gt;项目安装指南&lt;/li&gt;
-&lt;li&gt;项目结构图&lt;/li&gt;
-&lt;li&gt;参考资料&lt;/li&gt;
-&lt;li&gt;维护人员联系方式&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;5.代码提交信息规范&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;[任务名称/编码] [类型] 提交人 : 详细信息。&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;类型说明：&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;文档&lt;/li&gt;
-&lt;li&gt;功能&lt;/li&gt;
-&lt;li&gt;修复&lt;/li&gt;
-&lt;li&gt;重构&lt;/li&gt;
-&lt;li&gt;样式&lt;/li&gt;
-&lt;li&gt;测试&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;6.流程化&lt;/p&gt;
-
-&lt;p&gt;6.1 代码预处理
-- Lint + Git Hooks
-- Lint + Webhook&lt;/p&gt;
-
-&lt;p&gt;6.2 人工检查代码
-- Code Review
-- Pull Request&lt;/p&gt;
-
-&lt;p&gt;7.工具&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;代码扫描工具 Sonar&lt;/li&gt;
-&lt;li&gt;测试方案&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;p&gt;&lt;br&gt;&lt;/p&gt;

@@ -9,9 +9,9 @@
   
   
   
-  <link rel="prev" href="https://rudy.org.cn/2019/frontend_knowledge-system/" />
-  <link rel="next" href="https://rudy.org.cn/2020/frontend_javascript_bind/" />
-  <link rel="canonical" href="https://rudy.org.cn/2020/frontend_design-pattern/" />
+  <link rel="prev" href="https://rudy.org.cn/2020/frontend_design-pattern/" />
+  
+  <link rel="canonical" href="https://rudy.org.cn/2020/frontend_javascript_bind/" />
   <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
   <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
   <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
@@ -22,10 +22,10 @@
   <title>
        
        
-           javascript设计模式 | Rudy&#39;s blog
+           js中的bind方法 | Rudy&#39;s blog
        
   </title>
-  <meta name="title" content="javascript设计模式 | Rudy&#39;s blog">
+  <meta name="title" content="js中的bind方法 | Rudy&#39;s blog">
     
   <link rel="stylesheet" href="/css/main.min.css">
 
@@ -42,9 +42,9 @@
          "@id": "https:\/\/rudy.org.cn\/"
     },
     "articleSection" : "posts",
-    "name" : "javascript设计模式",
-    "headline" : "javascript设计模式",
-    "description" : "设计模式 编写高效，可维护代码，提升工作效率 oop基础 封装程序和数据 创建型 控制对象的创建 简单工厂 工厂方法 抽象工厂 建造者 原型 单例 结构型 将类或对象",
+    "name" : "js中的bind方法",
+    "headline" : "js中的bind方法",
+    "description" : "bind 特点 mdn的polyfill 词法作用域 执行顺序 执行上下文栈 变量对象 vo\/ao 全局上下文 函数上下文 执行过程 进入执行上下文 代码执行 作用域链 函数激活 this 具",
     "inLanguage" : "zh-cn",
     "author" : "Rudy",
     "creator" : "Rudy",
@@ -52,11 +52,11 @@
     "accountablePerson" : "Rudy",
     "copyrightHolder" : "Rudy",
     "copyrightYear" : "2020",
-    "datePublished": "2020-01-02 21:21:49 \x2b0800 CST",
-    "dateModified" : "2020-01-02 21:21:49 \x2b0800 CST",
-    "url" : "https:\/\/rudy.org.cn\/2020\/frontend_design-pattern\/",
-    "wordCount" : "218",
-    "keywords" : [ "design pattern", "Rudy\x27s blog"]
+    "datePublished": "2020-01-08 18:49:32 \x2b0800 CST",
+    "dateModified" : "2020-01-08 18:49:32 \x2b0800 CST",
+    "url" : "https:\/\/rudy.org.cn\/2020\/frontend_javascript_bind\/",
+    "wordCount" : "106",
+    "keywords" : [ "bind", "Rudy\x27s blog"]
 }
 </script>
 
@@ -144,23 +144,23 @@
       		
 <article class="post-warp" itemscope itemtype="http://schema.org/Article">
     <header class="post-header">
-        <h1 class="post-title" itemprop="name headline">javascript设计模式</h1>
+        <h1 class="post-title" itemprop="name headline">js中的bind方法</h1>
         <div class="post-meta">
                 Written by <a itemprop="name" href="https://rudy.org.cn/" rel="author">Rudy</a> with ♥ 
                 <span class="post-time">
-                on <time datetime=2020-01-02 itemprop="datePublished">January 2, 2020</time>
+                on <time datetime=2020-01-08 itemprop="datePublished">January 8, 2020</time>
                 </span>
                 in
                 <i class="iconfont icon-folder"></i>
                 <span class="post-category">
-                        <a href="https://rudy.org.cn/categories/%E5%9F%BA%E7%A1%80/"> 基础 </a>
+                        <a href="https://rudy.org.cn/categories/%E5%89%8D%E7%AB%AF/"> 前端 </a>
                         
                 </span>
                 
-                <h5 id="wc">218 Words|Read in about 1 Min|本文总阅读量<span id="busuanzi_value_page_pv"></span>次</h5>
+                <h5 id="wc">106 Words|Read in about 1 Min|本文总阅读量<span id="busuanzi_value_page_pv"></span>次</h5>
                 <h5 id="tags">Tags: 
                     
-                    <a href="https://rudy.org.cn/tags/design-pattern/">design pattern</a> &nbsp;
+                    <a href="https://rudy.org.cn/tags/bind/">bind</a> &nbsp;
                 </h5>
         </div>
     </header>
@@ -182,72 +182,45 @@
 
           
 
-<h3 id="设计模式">设计模式</h3>
-
-<p>编写高效，可维护代码，提升工作效率</p>
+<h1 id="bind">bind</h1>
 
 <ul>
-<li>oop基础 封装程序和数据</li>
-<li>创建型 控制对象的创建
+<li>特点</li>
+<li>mdn的polyfill</li>
+<li>词法作用域</li>
+<li>执行顺序
 
 <ul>
-<li>简单工厂</li>
-<li>工厂方法</li>
-<li>抽象工厂</li>
-<li>建造者</li>
-<li>原型</li>
-<li>单例</li>
+<li>执行上下文栈</li>
 </ul></li>
-<li>结构型 将类或对象组合成更大更复杂结构
+<li>变量对象 vo/ao
 
 <ul>
-<li>外观</li>
-<li>适配器</li>
-<li>代理</li>
-<li>装饰器</li>
-<li>桥接</li>
-<li>组合</li>
-<li>享元</li>
+<li>全局上下文</li>
+<li>函数上下文</li>
 </ul></li>
-<li>行为型 用于不同对象之间的职责划分或算法抽象
+<li>执行过程
 
 <ul>
-<li>模板方法</li>
-<li>观察者</li>
-<li>状态</li>
-<li>策略</li>
-<li>职责链</li>
-<li>命令</li>
-<li>访问者</li>
-<li>中介者</li>
-<li>备忘录</li>
-<li>迭代器</li>
-<li>解释器</li>
+<li>进入执行上下文</li>
+<li>代码执行</li>
 </ul></li>
-<li>技巧型 解决组件相关问题
+<li>作用域链
 
 <ul>
-<li>链</li>
-<li>委托</li>
-<li>数据访问对象</li>
-<li>节流</li>
-<li>简单模板</li>
-<li>惰性</li>
-<li>参与者</li>
-<li>等待者</li>
+<li>函数激活</li>
 </ul></li>
-<li>架构型 提供子系统，指定职责，组织在一起
-
-<ul>
-<li>同步模块</li>
-<li>异步模块</li>
-<li>widget</li>
-<li>mvc</li>
-<li>mvp</li>
-<li>mvvm
-<br></li>
-</ul></li>
+<li>this</li>
+<li>具体执行分析</li>
+<li>闭包</li>
+<li>call和apply的模拟实现</li>
+<li>new</li>
+<li>柯里化</li>
+<li>继承</li>
+<li>原型链</li>
 </ul>
+
+<p><br></p>
 
 <p><center>  ·End·  </center></p>
 
@@ -264,7 +237,7 @@
              
             <p class="copyright-item">
                     <span>Link:</span>
-                    <a href=https://rudy.org.cn/2020/frontend_design-pattern/>https://rudy.org.cn/2020/frontend_design-pattern/</span>
+                    <a href=https://rudy.org.cn/2020/frontend_javascript_bind/>https://rudy.org.cn/2020/frontend_javascript_bind/</span>
             </p>
             
              
@@ -280,8 +253,8 @@
             <section>
             <i class="iconfont icon-tag"></i>Tag(s): 
             
-            <span class="tag"><a href="https://rudy.org.cn/tags/design-pattern/">
-                    #design pattern</a></span>
+            <span class="tag"><a href="https://rudy.org.cn/tags/bind/">
+                    #bind</a></span>
             
             </section>
         
@@ -293,10 +266,8 @@
 
     <div class="post-nav">
         
-        <a href="https://rudy.org.cn/2019/frontend_knowledge-system/" class="prev" rel="prev" title="前端知识体系"><i class="iconfont icon-left"></i>&nbsp;前端知识体系</a>
+        <a href="https://rudy.org.cn/2020/frontend_design-pattern/" class="prev" rel="prev" title="javascript设计模式"><i class="iconfont icon-left"></i>&nbsp;javascript设计模式</a>
          
-        
-        <a href="https://rudy.org.cn/2020/frontend_javascript_bind/" class="next" rel="next" title="js中的bind方法">js中的bind方法&nbsp;<i class="iconfont icon-right"></i></a>
         
     </div>
 

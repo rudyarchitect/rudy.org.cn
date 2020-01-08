@@ -6,10 +6,19 @@
     <description>Recent content in Tags on Rudy&#39;s blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Thu, 02 Jan 2020 21:21:49 +0800</lastBuildDate>
+    <lastBuildDate>Wed, 08 Jan 2020 18:49:32 +0800</lastBuildDate>
     
 	<atom:link href="https://rudy.org.cn/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>bind</title>
+      <link>https://rudy.org.cn/tags/bind/</link>
+      <pubDate>Wed, 08 Jan 2020 18:49:32 +0800</pubDate>
+      
+      <guid>https://rudy.org.cn/tags/bind/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>design pattern</title>
