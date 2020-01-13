@@ -65,6 +65,7 @@ a.getTest() //['1','2']
 2. 设计模式 
   - 观察者模式又称为发布-订阅模式或者消息机制，它定义了一种依赖关系，解决被观察对象和观察者之间的耦合。
 
+
   ```
   const Observer = (function(){
       //消息容器
@@ -112,6 +113,12 @@ a.getTest() //['1','2']
           }
       }
   })()
+
+  Observer.listen('test',function(e){
+      console.log(e)
+  })
+
+  Observer.publish('test',{msg:'消息’}) //{type:'test',args:{msg:‘消息’}}
   ```
 
 

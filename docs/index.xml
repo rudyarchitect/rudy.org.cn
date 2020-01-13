@@ -132,6 +132,12 @@ return {
   }
 }
 })()
+
+Observer.listen(&#39;test&#39;,function(e){
+console.log(e)
+})
+
+Observer.publish(&#39;test&#39;,{msg:&#39;消息’}) //{type:&#39;test&#39;,args:{msg:‘消息’}}
 &lt;/code&gt;&lt;/pre&gt;&lt;/li&gt;
 &lt;/ul&gt;&lt;/li&gt;
 &lt;/ol&gt;
