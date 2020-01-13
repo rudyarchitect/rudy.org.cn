@@ -4,7 +4,7 @@
     <url>
       <loc>https://rudy.org.cn/categories/</loc>
       
-      <lastmod>2020-01-08T18:49:32+08:00</lastmod>
+      <lastmod>2020-01-13T17:25:51+08:00</lastmod>
       
       
       
@@ -16,7 +16,7 @@
     <url>
       <loc>https://rudy.org.cn/posts/</loc>
       
-      <lastmod>2020-01-08T18:49:32+08:00</lastmod>
+      <lastmod>2020-01-13T17:25:51+08:00</lastmod>
       
       
       
@@ -28,7 +28,7 @@
     <url>
       <loc>https://rudy.org.cn/</loc>
       
-      <lastmod>2020-01-08T18:49:32+08:00</lastmod>
+      <lastmod>2020-01-13T17:25:51+08:00</lastmod>
       
       
       
@@ -40,11 +40,45 @@
     <url>
       <loc>https://rudy.org.cn/tags/</loc>
       
-      <lastmod>2020-01-08T18:49:32+08:00</lastmod>
+      <lastmod>2020-01-13T17:25:51+08:00</lastmod>
       
       
       
       <priority>0</priority>
+      
+      
+    </url>
+  
+    <url>
+      <loc>https://rudy.org.cn/tags/mvvm/</loc>
+      
+      <lastmod>2020-01-13T17:25:51+08:00</lastmod>
+      
+      
+      
+      <priority>0</priority>
+      
+      
+    </url>
+  
+    <url>
+      <loc>https://rudy.org.cn/categories/%E5%89%8D%E7%AB%AF/</loc>
+      
+      <lastmod>2020-01-13T17:25:51+08:00</lastmod>
+      
+      
+      
+      <priority>0</priority>
+      
+      
+    </url>
+  
+    <url>
+      <loc>https://rudy.org.cn/2020/frontend_javascript-mvvm-realize/</loc>
+      
+      <lastmod>2020-01-13T17:25:51+08:00</lastmod>
+      
+      
       
       
     </url>
@@ -67,18 +101,6 @@
       <lastmod>2020-01-08T18:49:32+08:00</lastmod>
       
       
-      
-      
-    </url>
-  
-    <url>
-      <loc>https://rudy.org.cn/categories/%E5%89%8D%E7%AB%AF/</loc>
-      
-      <lastmod>2020-01-08T18:49:32+08:00</lastmod>
-      
-      
-      
-      <priority>0</priority>
       
       
     </url>

@@ -10,6 +10,10 @@ description:
 
 ## 前端架构师
 
+- 主流底层技术
+  - 函数式编程
+  - 发布订阅模式
+  - 递归
 - 源码 
   - mvc backbone.js
   - mvvm angularjs (ioc,di,aop)

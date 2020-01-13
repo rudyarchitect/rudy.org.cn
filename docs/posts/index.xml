@@ -6,10 +6,19 @@
     <description>Recent content in Posts on Rudy&#39;s blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Wed, 08 Jan 2020 18:49:32 +0800</lastBuildDate>
+    <lastBuildDate>Mon, 13 Jan 2020 17:25:51 +0800</lastBuildDate>
     
 	<atom:link href="https://rudy.org.cn/posts/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>手写数据绑定mvvm实现</title>
+      <link>https://rudy.org.cn/2020/frontend_javascript-mvvm-realize/</link>
+      <pubDate>Mon, 13 Jan 2020 17:25:51 +0800</pubDate>
+      
+      <guid>https://rudy.org.cn/2020/frontend_javascript-mvvm-realize/</guid>
+      <description>mvc与mvvm mvc model 模型层 view 视图层 controller 控制层 mvvm model 模型层 view 视图层 view model 视图模型层 view dom 监听 model 数据绑定 基础知识 Object.defineProperty(obj,prop,descriptor) 在一个对象上定义一个新属性，或者修改一</description>
+    </item>
     
     <item>
       <title>js中的bind方法</title>
