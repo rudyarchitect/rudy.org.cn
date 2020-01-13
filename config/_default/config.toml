@@ -2,6 +2,8 @@ baseURL = "http://rudy.org.cn"
 title = "Rudy's blog"
 theme = "zzo"
 
+publishDir = "docs"
+
 defaultContentLanguage = "en"
 defaultContentLanguageInSubdir = true
 hasCJKLanguage = true
