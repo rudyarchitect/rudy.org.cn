@@ -10,12 +10,14 @@ description:
 
 ### mvc与mvvm
 
-1. mvc
+1.mvc
+
 - model 模型层
 - view 视图层
 - controller 控制层
 
-2. mvvm
+2.mvvm
+
 - model 模型层
 - view 视图层
 - view model 视图模型层
@@ -24,22 +26,23 @@ description:
 
 ### 基础知识
 
-1. Object.defineProperty(obj,prop,descriptor)
+#### Object.defineProperty
 
-  在一个对象上定义一个新属性，或者修改一个对象的现有属性，并返回该对象。
-  - obj 对象
-  - prop 新属性或修改属性
-  - descriptor 属性描述符
-    - configurable
-    - enumerable
-    - 数据
+  - 参数
+    - obj 对象
+    - prop 新属性或修改属性
+    - descriptor 属性描述符
+      - configurable
+      - enumerable
       - value
       - wirtable
-    - 存取
       - get
       - set
 
-```
+
+在一个对象上定义一个新属性，或者修改一个对象的现有属性，并返回该对象。
+
+```javascript
 const Test = function(){
     let item, arr = []
     Object.defineProperty(this, 'item',{
@@ -62,11 +65,13 @@ a.item = 2
 a.getTest() //['1','2']
 ```
 
-2. 设计模式 
-  - 观察者模式又称为发布-订阅模式或者消息机制，它定义了一种依赖关系，解决被观察对象和观察者之间的耦合。
+
+#### 设计模式 
+
+  观察者模式又称为发布-订阅模式或者消息机制，它定义了一种依赖关系，解决被观察对象和观察者之间的耦合。
 
 
-  ```
+  ```javascript
   const Observer = (function(){
       //消息容器
       let _messages = {}
@@ -125,9 +130,9 @@ a.getTest() //['1','2']
 
 ### 数据绑定实现
 
-1. 数据劫持 vue.js
+#### 数据劫持 vue.js
 
-2. 脏值检查 angular.js
+#### 脏值检查 angular.js
 
 <br>
 

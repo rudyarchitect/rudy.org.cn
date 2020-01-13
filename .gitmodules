@@ -1,5 +1,4 @@
 
-[submodule "LeaveIt"]
-	path = LeaveIt
-	url = https://github.com/rudyarchitect/LeaveIt.git
-	branch = master
+[submodule "themes/zzo"]
+	path = themes/zzo
+	url = https://github.com/zzossig/hugo-theme-zzo.git

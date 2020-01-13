@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>system on Rudy&#39;s blog</title>
+    <link>http://rudy.org.cn/tags/system/</link>
+    <description>Recent content in system on Rudy&#39;s blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <managingEditor>rudy.architect@foxmail.com (Rudy)</managingEditor>
+    <webMaster>rudy.architect@foxmail.com (Rudy)</webMaster>
+    <copyright>&amp;copy;{year}, All Rights Reserved</copyright>
+    <lastBuildDate>Mon, 30 Dec 2019 11:00:10 +0800</lastBuildDate>
+    
+        <atom:link href="http://rudy.org.cn/tags/system/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    
+      
+      <item>
+        <title>前端知识体系</title>
+        <link>http://rudy.org.cn/posts/frontend/frontend_knowledge-system/</link>
+        <pubDate>Mon, 30 Dec 2019 11:00:10 +0800</pubDate>
+        <author>rudy.architect@foxmail.com (Rudy)</author>
+        <guid>http://rudy.org.cn/posts/frontend/frontend_knowledge-system/</guid>
+        <description>es5 知识点 原始类型 //值 boolean undefined null number string symbol ? 对象类型 object //内存地址（指针）&amp;lt;&amp;ndash;&amp;gt; 值 typeof null // &amp;lsquo;object&amp;rsquo; is bug 0.1+0.2=0.30000000000000004 // number 浮点类型 typeof 判断原始类型 instanceof</description>
+      </item>
+      
+    
+  </channel>
+</rss>
