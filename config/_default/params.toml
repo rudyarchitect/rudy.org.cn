@@ -46,14 +46,14 @@ itemsPerCategory = 0
 
 # footer
 showPoweredBy = true
-showFeedLinks = false
+showFeedLinks = true
 showSocialLinks = true
 enableLangChange = true
 enableThemeChange = true
 
 # service
 baiduAnalytics = ""
-enableBusuanzi = false
+enableBusuanzi = true
 busuanziSiteUV = true
 busuanziSitePV = true
 busuanziPagePV = true
