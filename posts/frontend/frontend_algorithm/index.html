@@ -691,7 +691,7 @@
 <meta property="og:url" content="http://rudy.org.cn/posts/frontend/frontend_algorithm/">
 <meta property="og:type" content="article">
 
-<meta name="generator" content="Hugo 0.58.0" />
+<meta name="generator" content="Hugo 0.60.0" />
 <meta name="msapplication-TileColor" content="#ffffff">
 <meta name="theme-color" content="#ffffff">
 <link rel="canonical" href="http://rudy.org.cn/posts/frontend/frontend_algorithm/">
@@ -968,56 +968,69 @@
     </div>    
     <article class="single__contents">
       
-      
-
-<h3 id="常见数据结构">常见数据结构</h3>
-
+      <h3 id="heading">常见数据结构</h3>
 <ol>
 <li>栈，队列，链表，树，图</li>
 <li>集合，字典，散列表</li>
 </ol>
-
 <ul>
 <li>数据结构 数据存储与内存时，数据结构就是数据的顺序和位置关系，目的是提高内存利用率。
-
 <ul>
-<li>链表</li>
+<li>链表
+<ul>
 <li>数据访问复杂</li>
 <li>数据添加或删除方便，只需该改变指针</li>
 <li>每个数据都有一个“指针”，它指向下一个数据的内存地址</li>
 <li>分类
-
 <ul>
 <li>单向</li>
-<li>双向缺点</li>
+<li>双向缺点
+<ul>
 <li>指针数的增加导致存储空间需求增加</li>
 <li>添加或删除数据时需要改变更多指针指向</li>
+</ul>
+</li>
 <li>循环 链表尾部指针指向头部</li>
-</ul></li>
-<li>数组</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>数组
+<ul>
 <li>数据访问简单，通过下标访问</li>
 <li>添加或删除数据复杂</li>
-<li>栈 last in first out 适合访问最新数据。</li>
+</ul>
+</li>
+<li>栈 last in first out 适合访问最新数据。
+<ul>
 <li>深度优先搜索</li>
-<li>队列 first in first out 先来的数据先处理。</li>
+</ul>
+</li>
+<li>队列 first in first out 先来的数据先处理。
+<ul>
 <li>广度优先搜索</li>
-<li>堆</li>
+</ul>
+</li>
+<li>堆
+<ul>
 <li>图的树形结构，顶端的数据始终最小，用于实现优先队列</li>
 <li>优先队列只从最小值开始处理</li>
 <li>子结点大于父节点</li>
-<li>二叉树 图的树形结构，每个结点最多2个子结点。</li>
+</ul>
+</li>
+<li>二叉树 图的树形结构，每个结点最多2个子结点。
+<ul>
 <li>每个结点的值大于其左子树上任意一个结点的值</li>
 <li>每个结点的值小于其右子树上任意一个结点的值</li>
-</ul></li>
 </ul>
-
-<h3 id="常见算法">常见算法</h3>
-
+</li>
+</ul>
+</li>
+</ul>
+<h3 id="heading1">常见算法</h3>
 <p>递归，排序，查找</p>
-
 <ul>
 <li>排序
-
 <ul>
 <li>冒泡</li>
 <li>选择</li>
@@ -1025,29 +1038,26 @@
 <li>堆</li>
 <li>归并</li>
 <li>快速</li>
-</ul></li>
+</ul>
+</li>
 <li>数组的查找
-
 <ul>
 <li>线性</li>
 <li>二分</li>
-</ul></li>
+</ul>
+</li>
 <li>图的搜索
-
 <ul>
 <li>广度优先 v8 垃圾回收</li>
 <li>深度优先 dom diff</li>
-</ul></li>
 </ul>
-
-<h3 id="复杂度分析">复杂度分析</h3>
-
+</li>
+</ul>
+<h3 id="heading2">复杂度分析</h3>
 <ul>
 <li>时间 处理数据所需要的时间，算法的执行效率
-
 <ul>
 <li>常见复杂度
-
 <ul>
 <li>常数阶 O(1)</li>
 <li>对数阶 O(logN)</li>
@@ -1056,36 +1066,31 @@
 <li>平方阶 O(n^2)</li>
 <li>立方阶 O(n^3)</li>
 <li>指数阶 O(2^n)</li>
-</ul></li>
+</ul>
+</li>
 <li>一层循环 O(n), 二层循环 O(n^2)</li>
 <li>二分 O(logN)</li>
-</ul></li>
+</ul>
+</li>
 <li>空间 处理数据所需要的内存</li>
 </ul>
-
-<h3 id="算法思维">算法思维</h3>
-
+<h3 id="heading3">算法思维</h3>
 <ul>
 <li>分治，贪心，动态规划</li>
 <li>养成算法思维是一个长期的过程，多思考多练习
-
 <ul>
 <li>问题规模缩小，动态规划</li>
 <li>问题分解，二分</li>
-</ul></li>
 </ul>
-
-<h3 id="前端场景">前端场景</h3>
-
+</li>
+</ul>
+<h3 id="heading4">前端场景</h3>
 <ul>
 <li>前端核心是dom,dom以树为基础</li>
 <li>手写dom diff算法</li>
 </ul>
-
-<p><br></p>
-
-<p><center>  ·End·  </center></p>
-
+<br>
+<center>  ·End·  </center>
     </article>
     
     
@@ -1560,19 +1565,17 @@ document.addEventListener('DOMContentLoaded', function () {
   </div>
   <div class="toc ">
     <nav id="TableOfContents">
-<ul>
-<li>
-<ul>
-<li>
-<ul>
-<li><a href="#常见数据结构">常见数据结构</a></li>
-<li><a href="#常见算法">常见算法</a></li>
-<li><a href="#复杂度分析">复杂度分析</a></li>
-<li><a href="#算法思维">算法思维</a></li>
-<li><a href="#前端场景">前端场景</a></li>
-</ul></li>
-</ul></li>
-</ul>
+  <ul>
+    <li>
+      <ul>
+        <li><a href="#heading">常见数据结构</a></li>
+        <li><a href="#heading1">常见算法</a></li>
+        <li><a href="#heading2">复杂度分析</a></li>
+        <li><a href="#heading3">算法思维</a></li>
+        <li><a href="#heading4">前端场景</a></li>
+      </ul>
+    </li>
+  </ul>
 </nav>
   </div>
 </section>
@@ -2250,7 +2253,7 @@ document.addEventListener('DOMContentLoaded', function () {
                 
             <p class="caption">
                 
-                    &copy;2020, All Rights Reserved
+                    ©2020, All Rights Reserved
                 
             </p>
         

@@ -691,7 +691,7 @@
 <meta property="og:url" content="http://rudy.org.cn/posts/frontend/frontend_analysis-design/">
 <meta property="og:type" content="article">
 
-<meta name="generator" content="Hugo 0.58.0" />
+<meta name="generator" content="Hugo 0.60.0" />
 <meta name="msapplication-TileColor" content="#ffffff">
 <meta name="theme-color" content="#ffffff">
 <link rel="canonical" href="http://rudy.org.cn/posts/frontend/frontend_analysis-design/">
@@ -968,133 +968,126 @@
     </div>    
     <article class="single__contents">
       
-      
-
-<h2 id="背景">背景</h2>
-
+      <h2 id="heading">背景</h2>
 <p>为了定位Web线上问题，需要对页面异常信息进行收集，分析和定位问题原因，以提升用户体验和产品运营效率。</p>
-
-<h2 id="维度">维度</h2>
-
+<h2 id="heading1">维度</h2>
 <p>前端监控的维度主要分为以下3个方面：</p>
-
 <ul>
 <li>性能</li>
 <li>异常</li>
 <li>用户行为</li>
 </ul>
-
-<h2 id="原理">原理</h2>
-
+<h2 id="heading2">原理</h2>
 <ul>
 <li>监听window对象的onerror事件。</li>
 <li>使用try catch语句。</li>
 </ul>
-
-<h2 id="案例">案例</h2>
-
+<h2 id="heading3">案例</h2>
 <ul>
-<li>[开源] 腾讯 <a href="https://betterjs.github.io/">badjs</a>
+<li>[开源] 腾讯 <a href="https://betterjs.github.io/">badjs</a><br />
 文档说明详细，提供完整解决方案，项目落地10+。
-
 <ul>
 <li>日志功能</li>
 <li>上报功能</li>
 <li>统计功能</li>
 <li>邮件功能</li>
-</ul></li>
+</ul>
+</li>
 <li>[收费] <a href="https://sentry.io">sentry</a>
-
 <ul>
 <li>代码开源</li>
 <li><a href="https://sentry.io/pricing/">价格</a></li>
-</ul></li>
+</ul>
+</li>
 <li>[收费] <a href="https://www.fundebug.com/">fundebug</a>
-
 <ul>
 <li><a href="https://www.fundebug.com/price">价格</a></li>
-</ul></li>
+</ul>
+</li>
 <li>[收费] 阿里云ARMS-<a href="https://help.aliyun.com/document_detail/58652.html?spm=5176.8064714.976547.2.251cIEc0IEc0Ro">前端监控</a>
-
 <ul>
 <li>主动监控</li>
 <li>慢会话追踪</li>
 <li>搜索报错明细</li>
 <li>出错行为还原</li>
-</ul></li>
+</ul>
+</li>
 <li>[收费] 蒲公英 <a href="https://www.frontjs.com">frontjs</a>
-
 <ul>
 <li><a href="https://www.frontjs.com/pricing">价格</a></li>
-</ul></li>
+</ul>
+</li>
 <li>[无维护] 淘宝 <a href="https://github.com/CurtisCBS/monitor">JSTracker</a>
-
 <ul>
 <li>参考README</li>
-</ul></li>
+</ul>
+</li>
 <li>[未开源] 阿里 FdSafe</li>
 <li>[无维护] 支付宝 <a href="https://github.com/saijs/sai.js">saijs</a>
-
 <ul>
 <li><a href="https://github.com/saijs/wiki">javascript异常文档</a></li>
-</ul></li>
 </ul>
-
-<h2 id="需求分析">需求分析</h2>
-
+</li>
+</ul>
+<h2 id="heading4">需求分析</h2>
 <ul>
-<li><p>错误收集</p>
-
+<li>
+<p>错误收集</p>
 <ul>
-<li>错误信息</li>
+<li>错误信息
+<ul>
 <li>资源加载错误</li>
 <li>运行时错误</li>
-<li>性能指标</li>
+</ul>
+</li>
+<li>性能指标
+<ul>
 <li>页面加载时长</li>
 <li>首次渲染时长</li>
 <li>首次内容渲染时长</li>
 <li>首次有效渲染时长</li>
 <li>&hellip;</li>
-<li>日志数据
-<br /></li>
-</ul></li>
-
-<li><p>上报策略</p>
-
+</ul>
+</li>
+<li>日志数据</li>
+</ul>
+</li>
+<li>
+<p>上报策略</p>
 <ul>
 <li>ajax</li>
 <li>跨域 CORS协议</li>
-<li>image对象
-<br /></li>
-</ul></li>
-
-<li><p>日志采集与存储</p>
-
+<li>image对象</li>
+</ul>
+</li>
+<li>
+<p>日志采集与存储</p>
 <ul>
 <li>数据过滤</li>
 <li>节流</li>
-</ul></li>
-
-<li><p>告警功能</p>
-
+</ul>
+</li>
+<li>
+<p>告警功能</p>
 <ul>
 <li>最大最小值</li>
 <li>错误累计数</li>
 <li>异常等级</li>
 <li>自定义</li>
-</ul></li>
-
-<li><p>邮件短信通知</p></li>
-
-<li><p>错误定位与复现</p></li>
-
-<li><p>管理后台数据可视化</p></li>
 </ul>
-
-<p><br></p>
-
-<p><center>  ·End·  </center></p>
-
+</li>
+<li>
+<p>邮件短信通知</p>
+</li>
+<li>
+<p>错误定位与复现</p>
+</li>
+<li>
+<p>管理后台数据可视化</p>
+</li>
+</ul>
+<br>
+<center>  ·End·  </center>
     </article>
     
     
@@ -1569,16 +1562,13 @@ document.addEventListener('DOMContentLoaded', function () {
   </div>
   <div class="toc ">
     <nav id="TableOfContents">
-<ul>
-<li>
-<ul>
-<li><a href="#背景">背景</a></li>
-<li><a href="#维度">维度</a></li>
-<li><a href="#原理">原理</a></li>
-<li><a href="#案例">案例</a></li>
-<li><a href="#需求分析">需求分析</a></li>
-</ul></li>
-</ul>
+  <ul>
+    <li><a href="#heading">背景</a></li>
+    <li><a href="#heading1">维度</a></li>
+    <li><a href="#heading2">原理</a></li>
+    <li><a href="#heading3">案例</a></li>
+    <li><a href="#heading4">需求分析</a></li>
+  </ul>
 </nav>
   </div>
 </section>
@@ -2256,7 +2246,7 @@ document.addEventListener('DOMContentLoaded', function () {
                 
             <p class="caption">
                 
-                    &copy;2020, All Rights Reserved
+                    ©2020, All Rights Reserved
                 
             </p>
         

@@ -691,7 +691,7 @@
 <meta property="og:url" content="http://rudy.org.cn/posts/frontend/frontend_editor-design/">
 <meta property="og:type" content="article">
 
-<meta name="generator" content="Hugo 0.58.0" />
+<meta name="generator" content="Hugo 0.60.0" />
 <meta name="msapplication-TileColor" content="#ffffff">
 <meta name="theme-color" content="#ffffff">
 <link rel="canonical" href="http://rudy.org.cn/posts/frontend/frontend_editor-design/">
@@ -969,63 +969,54 @@
     <article class="single__contents">
       
       <p>页面 = HTML Tree (DOM) + 静态Data + 动态逻辑Javascript</p>
-
 <p>页面可视化编辑本质上是用可视化的方式对页面的DOM、静态Data和动态逻辑javascript进行操作，从而完成页面的生成。</p>
-
 <p>前端服务化，为前端小白，运营/产品人员,以及后台开发人员提供开发前端页面的能力。</p>
-
 <ul>
 <li>系统粒度
-
 <ul>
 <li>HTML Tree编辑</li>
 <li>Component Tree编辑</li>
 <li>静态Data编辑</li>
 <li>动态逻辑Javascript编辑</li>
-</ul></li>
+</ul>
+</li>
 <li>面向群体
-
 <ul>
 <li>前端小白</li>
 <li>运营/产品人员</li>
 <li>后台开发人员</li>
-</ul></li>
+</ul>
+</li>
 <li>编辑自由度
-
 <ul>
 <li>页面</li>
 <li>组件</li>
-</ul></li>
 </ul>
-
+</li>
+</ul>
 <p>核心原理：模板 + 配置数据 = 页面</p>
-
 <p>最佳实践</p>
-
 <ul>
 <li>数据格式Json Scheme</li>
 <li>组件化和模板化</li>
 <li>编辑与组件、模板和框架解耦</li>
 <li>框架负责数据管理
-
 <ul>
 <li>数据包括组件数据和业务数据，管理包括保存数据和读取数据方式。</li>
-</ul></li>
+</ul>
+</li>
 <li>分析数据管理的简单场景和复杂场景，确定边界</li>
 <li>组件暴露所有属性和事件</li>
 <li>渐进式体验</li>
 <li>数据驱动
-
 <ul>
 <li>数据现在是什么样子</li>
 <li>数据在哪里被修改了</li>
-</ul></li>
 </ul>
-
-<p><br></p>
-
-<p><center>  ·End·  </center></p>
-
+</li>
+</ul>
+<br>
+<center>  ·End·  </center>
     </article>
     
     
@@ -1499,7 +1490,7 @@ document.addEventListener('DOMContentLoaded', function () {
     
   </div>
   <div class="toc ">
-    
+    <nav id="TableOfContents"></nav>
   </div>
 </section>
 
@@ -2176,7 +2167,7 @@ document.addEventListener('DOMContentLoaded', function () {
                 
             <p class="caption">
                 
-                    &copy;2020, All Rights Reserved
+                    ©2020, All Rights Reserved
                 
             </p>
         

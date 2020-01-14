@@ -691,7 +691,7 @@
 <meta property="og:url" content="http://rudy.org.cn/posts/frontend/frontend_knowledge-system/">
 <meta property="og:type" content="article">
 
-<meta name="generator" content="Hugo 0.58.0" />
+<meta name="generator" content="Hugo 0.60.0" />
 <meta name="msapplication-TileColor" content="#ffffff">
 <meta name="theme-color" content="#ffffff">
 <link rel="canonical" href="http://rudy.org.cn/posts/frontend/frontend_knowledge-system/">
@@ -968,57 +968,76 @@
     </div>    
     <article class="single__contents">
       
-      <p><br></p>
-
+      <br>
 <ul>
 <li>es5 知识点
-
 <ul>
-<li>原始类型 //值</li>
+<li>原始类型 //值
+<ul>
 <li>boolean</li>
 <li>undefined</li>
 <li>null</li>
 <li>number</li>
 <li>string</li>
 <li>symbol ?</li>
+</ul>
+</li>
 <li>对象类型 object //内存地址（指针）&lt;&ndash;&gt; 值</li>
 <li>typeof null // &lsquo;object&rsquo; is bug</li>
 <li>0.1+0.2=0.30000000000000004 // number 浮点类型</li>
 <li>typeof 判断原始类型</li>
 <li>instanceof 判断对象类型</li>
 <li>类型转换</li>
-<li>this指向</li>
+<li>this指向
+<ul>
 <li>函数直接调用 指向window</li>
 <li>对象 谁调用指向谁</li>
 <li>new 指向实例</li>
 <li>bind/箭头函数 多次调用，this指向取决于第一次调用上下文</li>
+</ul>
+</li>
 <li>== vs === //==涉及类型转换</li>
 <li>闭包 存在的意义就是可以访问外部函数的变量</li>
-<li>对象拷贝</li>
+<li>对象拷贝
+<ul>
 <li>浅拷贝 object.assign() / 展开运算符 &hellip;  //拷贝属性值，属性中有对象的话，拷贝的是地址</li>
 <li>深拷贝 lodash.cloneDeep() //自己实现一个</li>
-<li>原型 //重点</li>
+</ul>
+</li>
+<li>原型 //重点
+<ul>
 <li>Object</li>
 <li>Function</li>
 <li><strong>proto</strong></li>
+</ul>
+</li>
 <li>函数提升优先于变量提升</li>
-</ul></li>
+</ul>
+</li>
 <li>es6知识点
-
 <ul>
 <li>let,const 暂时性死区</li>
-<li>继承</li>
+<li>继承
+<ul>
 <li>原型</li>
 <li>class</li>
-<li>模块化</li>
+</ul>
+</li>
+<li>模块化
+<ul>
 <li>commonjs 服务器端/同步/值拷贝</li>
 <li>es module 浏览器端/异步/地址拷贝</li>
-<li>proxy</li>
+</ul>
+</li>
+<li>proxy
+<ul>
 <li>数据响应式</li>
+</ul>
+</li>
 <li>map,filter,reduce</li>
-</ul></li>
+</ul>
+</li>
 <li>js进阶
-
 <ul>
 <li>回调函数 callback</li>
 <li>generator</li>
@@ -1027,84 +1046,106 @@
 <li>requestAnimationFrame</li>
 <li>call , apply , bind , new 实现</li>
 <li>垃圾回收机制</li>
-</ul></li>
+</ul>
+</li>
 <li>event loop
-
 <ul>
 <li>执行栈 call stack 先进后出 同步执行的js代码</li>
-<li>任务队列 task queue 异步执行的js代码</li>
+<li>任务队列 task queue 异步执行的js代码
+<ul>
 <li>宏任务 macro task //setTimeout , setInterval , xhr &hellip;</li>
 <li>微任务 micro task // promise , mutation observer &hellip;</li>
+</ul>
+</li>
 <li>浏览器</li>
 <li>node</li>
-</ul></li>
+</ul>
+</li>
 <li>浏览器
-
 <ul>
-<li>事件机制</li>
+<li>事件机制
+<ul>
 <li>注册</li>
 <li>触发</li>
 <li>代理</li>
-<li>跨域</li>
+</ul>
+</li>
+<li>跨域
+<ul>
 <li>同源策略</li>
 <li>解决方案
-
 <ul>
 <li>jsonp</li>
 <li>cors</li>
 <li>document.domain</li>
 <li>postMessage</li>
-</ul></li>
-<li>存储</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>存储
+<ul>
 <li>cookie</li>
 <li>localStorage</li>
 <li>sessionStorage</li>
 <li>service worker</li>
-<li>缓存机制</li>
+</ul>
+</li>
+<li>缓存机制
+<ul>
 <li>缓存位置</li>
 <li>强缓存</li>
 <li>协商缓存</li>
+</ul>
+</li>
 <li>渲染原理</li>
 <li>从url到页面渲染的整个流程</li>
-</ul></li>
+</ul>
+</li>
 <li>安全
-
 <ul>
 <li>xss</li>
 <li>csrf</li>
-</ul></li>
+</ul>
+</li>
 <li>性能优化
-
 <ul>
-<li>chrome</li>
+<li>chrome
+<ul>
 <li>audits
-
 <ul>
 <li>性能分析报告</li>
-</ul></li>
+</ul>
+</li>
 <li>performance
-
 <ul>
 <li>分析性能瓶颈</li>
 <li>每个阶段耗费时间</li>
-</ul></li>
+</ul>
+</li>
 <li>v8 js解释性语言首先会被解析成抽象语法树（AST），然后通过解释器转换成字节码（很多逻辑判断），或者通过编译器转换成机器码。
-
 <ul>
-<li>优化策略</li>
+<li>优化策略
+<ul>
 <li>减少代码文件大小</li>
 <li>减少嵌套函数</li>
 <li>传入参数类型保持一致，会直接编译成机器码</li>
-</ul></li>
-<li>js</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>js
+<ul>
 <li>图片优化
-
 <ul>
 <li>减少像素点和每个像素点能够显示的颜色</li>
 <li>css代替</li>
 <li>雪碧图</li>
 <li>base64格式</li>
-</ul></li>
+</ul>
+</li>
 <li>节流 在一段时间内只发生一次事件</li>
 <li>防抖 在一段事件内只执行最后一次事件</li>
 <li>预加载</li>
@@ -1112,74 +1153,87 @@
 <li>懒计算</li>
 <li>懒加载</li>
 <li>cdn</li>
-<li>webpack //自己实现一个</li>
+</ul>
+</li>
+<li>webpack //自己实现一个
+<ul>
 <li>减少打包时间
-
 <ul>
 <li>优化loader</li>
 <li>happypack 将loader同步执行转换成并行</li>
-</ul></li>
+</ul>
+</li>
 <li>减少包大小
-
 <ul>
 <li>按需加载</li>
 <li>tree shaking</li>
-</ul></li>
-</ul></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
 <li>js框架
-
 <ul>
-<li>基础</li>
+<li>基础
+<ul>
 <li>mvvm</li>
 <li>virtual dom</li>
 <li>路由</li>
+</ul>
+</li>
 <li>react</li>
 <li>vue</li>
 <li>angular</li>
-</ul></li>
+</ul>
+</li>
 <li>监控
-
 <ul>
 <li>行为</li>
 <li>性能</li>
 <li>异常</li>
-</ul></li>
+</ul>
+</li>
 <li>http
-
 <ul>
 <li>请求方法</li>
-<li>首部</li>
+<li>首部
+<ul>
 <li>通用</li>
 <li>请求</li>
 <li>响应</li>
 <li>实体</li>
+</ul>
+</li>
 <li>状态码</li>
-<li>tsl</li>
+<li>tsl
+<ul>
 <li>加密
-
 <ul>
 <li>对称</li>
 <li>非对称</li>
-</ul></li>
+</ul>
+</li>
 <li>3次握手
-
 <ul>
 <li>udp</li>
 <li>tcp</li>
-</ul></li>
+</ul>
+</li>
+</ul>
+</li>
 <li>http2</li>
-</ul></li>
+</ul>
+</li>
 <li>css</li>
 <li>编译
-
 <ul>
 <li>jit编译，动态编译，在浏览器中进行代码编译</li>
 <li>aot编译，静态编译，在项目工程打包阶段编译</li>
-</ul></li>
 </ul>
-
-<p><center>  ·End·  </center></p>
-
+</li>
+</ul>
+<center>  ·End·  </center>
     </article>
     
     
@@ -1653,7 +1707,7 @@ document.addEventListener('DOMContentLoaded', function () {
     
   </div>
   <div class="toc ">
-    
+    <nav id="TableOfContents"></nav>
   </div>
 </section>
 
@@ -2330,7 +2384,7 @@ document.addEventListener('DOMContentLoaded', function () {
                 
             <p class="caption">
                 
-                    &copy;2020, All Rights Reserved
+                    ©2020, All Rights Reserved
                 
             </p>
         
