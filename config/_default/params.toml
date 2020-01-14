@@ -1,7 +1,7 @@
 logoText = "Rudy's blog"
 logoType = "short" # long, short
 description = "Rudy's blog"
-custom_css = ["css/custom.css"]
+custom_css = []
 custom_js = []
 
 themeOptions = ["dark", "light", "hacker", "solarized", "kimbie"]
@@ -42,7 +42,7 @@ enableSidebarCategories = true
 enableToc = true
 hideToc = false
 enableTocSwitch = true
-itemsPerCategory = 0
+itemsPerCategory = 3
 
 # footer
 showPoweredBy = true

@@ -1,7 +1,7 @@
 ---
 title: "vue学习笔记"
 date: 2019-10-09T16:03:06+08:00
-draft: false
+draft: true
 tags: ["vue"]
 categories: ["前端"]
 featured_image: 

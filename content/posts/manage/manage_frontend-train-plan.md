@@ -1,14 +1,14 @@
 ---
-title: "前端培训机构计划"
+title: "前端培训机构创业计划"
 date: 2020-01-09T17:22:10+08:00
 draft: true
 tags: ["train"]
-categories: ["培训"]
+categories: ["管理"]
 featured_image: 
 description: 
 ---
 
-## 前端培训机构计划
+## 前端培训机构创业计划
 
 - 地点：汉中
 - 方向：前端

@@ -3,7 +3,7 @@ title: "数据结构与算法"
 date: 2019-10-29T19:54:58+08:00
 draft: false
 tags: ["algorithm"]
-categories: ["基础"]
+categories: ["前端"]
 featured_image: 
 description: 
 ---

@@ -1,15 +1,16 @@
 ---
 title: "{{ replace .Name "-" " " | title }}"
 date: {{ .Date }}
+publishDate: {{ .Date }}
 description:
-draft: false
-hideToc: false
-enableToc: true
-enableTocContent: false
 tags:
 -
 series:
 -
 categories:
 -
+links:
+  - link: ""
+    title: ""
+    type: ""
 ---
