@@ -62,15 +62,6 @@
       </item>
       
       <item>
-        <title>chrome插件笔记</title>
-        <link>http://rudy.org.cn/posts/frontend/frontend_chrome-extension-note/</link>
-        <pubDate>Wed, 23 Oct 2019 09:44:42 +0800</pubDate>
-        <author>rudy.architect@foxmail.com (Rudy)</author>
-        <guid>http://rudy.org.cn/posts/frontend/frontend_chrome-extension-note/</guid>
-        <description>chrome extenstion是一个使用web技术开发、用来增强浏览器功能的插件，它实际上是一个由html,js,css,images等资源组成的.</description>
-      </item>
-      
-      <item>
         <title>web编辑器方案</title>
         <link>http://rudy.org.cn/posts/frontend/frontend_editor-design/</link>
         <pubDate>Mon, 14 Oct 2019 19:18:13 +0800</pubDate>
