@@ -1,24 +1,30 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>editor on Rudy&#39;s blog</title>
-    <link>https://rudy.org.cn/tags/editor/</link>
+    <link>http://rudy.org.cn/tags/editor/</link>
     <description>Recent content in editor on Rudy&#39;s blog</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>zh-cn</language>
+    <language>en</language>
+    <managingEditor>rudy.architect@foxmail.com (Rudy)</managingEditor>
+    <webMaster>rudy.architect@foxmail.com (Rudy)</webMaster>
+    <copyright>&amp;copy;{year}, All Rights Reserved</copyright>
     <lastBuildDate>Mon, 14 Oct 2019 19:18:13 +0800</lastBuildDate>
     
-	<atom:link href="https://rudy.org.cn/tags/editor/index.xml" rel="self" type="application/rss+xml" />
+        <atom:link href="http://rudy.org.cn/tags/editor/index.xml" rel="self" type="application/rss+xml" />
     
     
-    <item>
-      <title>编辑器方案设计</title>
-      <link>https://rudy.org.cn/2019/frontend_editor-design/</link>
-      <pubDate>Mon, 14 Oct 2019 19:18:13 +0800</pubDate>
+    
       
-      <guid>https://rudy.org.cn/2019/frontend_editor-design/</guid>
-      <description>页面 = HTML Tree (DOM) + 静态Data + 动态逻辑Javascript 页面可视化编辑本质上是用可视化的方式对页面的DOM、静态Data和动态逻辑javas</description>
-    </item>
+      <item>
+        <title>web编辑器方案</title>
+        <link>http://rudy.org.cn/posts/frontend/frontend_editor-design/</link>
+        <pubDate>Mon, 14 Oct 2019 19:18:13 +0800</pubDate>
+        <author>rudy.architect@foxmail.com (Rudy)</author>
+        <guid>http://rudy.org.cn/posts/frontend/frontend_editor-design/</guid>
+        <description>页面 = HTML Tree (DOM) + 静态Data + 动态逻辑Javascript 页面可视化编辑本质上是用可视化的方式对页面的DOM、静态Data和动态逻辑javas</description>
+      </item>
+      
     
   </channel>
 </rss>

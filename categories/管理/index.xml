@@ -1,33 +1,39 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>管理 on Rudy&#39;s blog</title>
-    <link>https://rudy.org.cn/categories/%E7%AE%A1%E7%90%86/</link>
+    <link>http://rudy.org.cn/categories/%E7%AE%A1%E7%90%86/</link>
     <description>Recent content in 管理 on Rudy&#39;s blog</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>zh-cn</language>
+    <language>en</language>
+    <managingEditor>rudy.architect@foxmail.com (Rudy)</managingEditor>
+    <webMaster>rudy.architect@foxmail.com (Rudy)</webMaster>
+    <copyright>&amp;copy;{year}, All Rights Reserved</copyright>
     <lastBuildDate>Tue, 05 Nov 2019 19:10:13 +0800</lastBuildDate>
     
-	<atom:link href="https://rudy.org.cn/categories/%E7%AE%A1%E7%90%86/index.xml" rel="self" type="application/rss+xml" />
+        <atom:link href="http://rudy.org.cn/categories/%E7%AE%A1%E7%90%86/index.xml" rel="self" type="application/rss+xml" />
     
     
-    <item>
-      <title>《十倍工作法，寻找最佳实践》笔记</title>
-      <link>https://rudy.org.cn/2019/manage_decuple-work-means/</link>
-      <pubDate>Tue, 05 Nov 2019 19:10:13 +0800</pubDate>
+    
       
-      <guid>https://rudy.org.cn/2019/manage_decuple-work-means/</guid>
-      <description>以3个思考问题为核心的思考框架 Where are we?（我们现在在哪？） 现状 Where are we going?（我们要到哪儿去？）目标 How can we get there?（我们如何到达那</description>
-    </item>
-    
-    <item>
-      <title>时间管理原则</title>
-      <link>https://rudy.org.cn/2019/manage_rules/</link>
-      <pubDate>Mon, 21 Oct 2019 10:38:16 +0800</pubDate>
+      <item>
+        <title>《十倍工作法，寻找最佳实践》笔记</title>
+        <link>http://rudy.org.cn/posts/manage/manage_decuple-work-means/</link>
+        <pubDate>Tue, 05 Nov 2019 19:10:13 +0800</pubDate>
+        <author>rudy.architect@foxmail.com (Rudy)</author>
+        <guid>http://rudy.org.cn/posts/manage/manage_decuple-work-means/</guid>
+        <description>以3个思考问题为核心的思考框架 Where are we?（我们现在在哪？） 现状 Where are we going?（我们要到哪儿去？）目标 How can we get there?（我们如何到达那</description>
+      </item>
       
-      <guid>https://rudy.org.cn/2019/manage_rules/</guid>
-      <description>时间管理原则： 细微边界 细微边界是指时间上的细微差别可能导致最终结果上的巨大差异，即所谓“差之毫厘，失之千里”。 帕累托 帕累托又称80/20，是</description>
-    </item>
+      <item>
+        <title>有关数字经济的推论判断</title>
+        <link>http://rudy.org.cn/posts/manage/manage_digital-economy/</link>
+        <pubDate>Wed, 09 Oct 2019 16:02:24 +0800</pubDate>
+        <author>rudy.architect@foxmail.com (Rudy)</author>
+        <guid>http://rudy.org.cn/posts/manage/manage_digital-economy/</guid>
+        <description>重要观点 李彦宏 数字经济在经历了PC的发明与普及，PC互联网，移动互联网这三个阶段后，正在进化到以人工智能为核心驱动力的智能经济新阶段，智能经</description>
+      </item>
+      
     
   </channel>
 </rss>
