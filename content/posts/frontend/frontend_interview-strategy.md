@@ -1,5 +1,5 @@
 ---
-title: "前端面试考点"
+title: "前端面试策略"
 date: 2020-01-04T21:53:03+08:00
 draft: true
 tags: ["interview"]
