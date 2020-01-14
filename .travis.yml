@@ -11,7 +11,7 @@ install:
   - wget https://github.com/gohugoio/hugo/releases/download/v0.58.0/hugo_0.58.0_Linux-64bit.deb
   - sudo dpkg -i hugo*.deb
   # 安装主题
-  - git clone [github.com/zzossig/hugo-theme-zzo.git]
+  - git clone 'https://github.com/zzossig/hugo-theme-zzo.git'
 script:
   # 运行hugo命令
   - hugo
