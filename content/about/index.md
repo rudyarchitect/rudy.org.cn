@@ -9,7 +9,7 @@ featured_image:
 
 <img alt="lufei" style="width:200px;height:200px" src="https://rudyarchitect.github.io/blog-images/life/lufei.jpeg">
 
-### **stay hungry, stay young ~**
+### **Stay hungry, stay young ~**
 
 ##### 保持好奇心，主动学习新事物，新知识和新技能。
 

@@ -1,5 +1,5 @@
 ---
-title: "js中的bind方法"
+title: "Javascript中的bind方法"
 date: 2020-01-08T18:49:32+08:00
 draft: false
 tags: ["bind"]
