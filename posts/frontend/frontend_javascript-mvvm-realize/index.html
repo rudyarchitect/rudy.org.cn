@@ -708,7 +708,7 @@
     "datePublished": "2020-01-13T17:25:51+08:00",
     "dateModified": "2020-01-13T17:25:51+08:00",
     "url" : "http://rudy.org.cn/posts/frontend/frontend_javascript-mvvm-realize/",
-    "description": "mvc与mvvm 1.mvc model 模型层 view 视图层 controller 控制层 2.mvvm model 模型层 view 视图层 view model 视图模型层 view dom 监听 model 数据绑定 基础知识 Object.defineProperty 参数 obj 对象 prop …",
+    "description": "mvc与mvvm 1.mvc model 模型层 view 视图层 controller 控制层 2.mvvm mvvm由直接操作dom转变为数据驱动的方式，来更新页面数据。 model 模型层 view 视图层 view model 视图模型层 view dom",
     "keywords": ["mvvm"],
     "mainEntityOfPage": {
       "@type": "WebPage",
@@ -976,6 +976,7 @@
 <li>controller 控制层</li>
 </ul>
 <p>2.mvvm</p>
+<p>mvvm由直接操作dom转变为数据驱动的方式，来更新页面数据。</p>
 <ul>
 <li>model 模型层</li>
 <li>view 视图层</li>
@@ -986,6 +987,7 @@
 </ul>
 </li>
 </ul>
+<img alt="mvvm-01" src="https://rudyarchitect.github.io/blog-images/frontend/frontend_mvvm-01.png">
 <h3 id="heading">基础知识</h3>
 <h4 id="objectdefineproperty">Object.defineProperty</h4>
 <ul>
@@ -1166,9 +1168,189 @@
 </code></pre></td></tr></table>
 </div>
 </div><h3 id="heading2">数据绑定实现</h3>
-<h4 id="-vuejs">数据劫持 vue.js</h4>
-<h4 id="-angularjs">脏值检查 angular.js</h4>
-<br>
+<h4 id="vuejs">vue.js</h4>
+<img alt="mvvm-01" src="https://rudyarchitect.github.io/blog-images/frontend/frontend_mvvm-02.png">
+<h4 id="mvvm">手写mvvm</h4>
+<p>定义</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span><span class="lnt">5
+</span><span class="lnt">6
+</span><span class="lnt">7
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-javascript" data-lang="javascript"><span class="kr">const</span> <span class="nx">Mvvm</span> <span class="o">=</span> <span class="kd">function</span><span class="p">(</span><span class="nx">options</span> <span class="o">=</span> <span class="p">{</span><span class="p">}</span><span class="p">)</span><span class="p">{</span>
+    <span class="c1">// vm.$options
+</span><span class="c1"></span>    <span class="k">this</span><span class="p">.</span><span class="nx">$options</span> <span class="o">=</span> <span class="nx">options</span>
+    <span class="kd">let</span> <span class="nx">data</span> <span class="o">=</span> <span class="k">this</span><span class="p">.</span><span class="nx">_data</span> <span class="o">=</span> <span class="k">this</span><span class="p">.</span><span class="nx">$options</span><span class="p">.</span><span class="nx">data</span>
+    <span class="c1">//数据劫持
+</span><span class="c1"></span>    <span class="nx">Observer</span><span class="p">(</span><span class="nx">data</span><span class="p">)</span>
+<span class="p">}</span>
+</code></pre></td></tr></table>
+</div>
+</div><p>数据劫持</p>
+<ul>
+<li>给观察的对象添加Object.defineProperty</li>
+<li>深度响应（数据对象嵌套）</li>
+</ul>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
+</span><span class="lnt">11
+</span><span class="lnt">12
+</span><span class="lnt">13
+</span><span class="lnt">14
+</span><span class="lnt">15
+</span><span class="lnt">16
+</span><span class="lnt">17
+</span><span class="lnt">18
+</span><span class="lnt">19
+</span><span class="lnt">20
+</span><span class="lnt">21
+</span><span class="lnt">22
+</span><span class="lnt">23
+</span><span class="lnt">24
+</span><span class="lnt">25
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-javascript" data-lang="javascript"><span class="kr">const</span> <span class="nx">Observe</span> <span class="o">=</span> <span class="kd">function</span><span class="p">(</span><span class="nx">data</span><span class="p">)</span><span class="p">{</span>
+    <span class="k">for</span><span class="p">(</span><span class="kd">let</span> <span class="nx">key</span> <span class="k">in</span> <span class="nx">data</span><span class="p">)</span><span class="p">{</span>
+        <span class="kd">let</span> <span class="nx">val</span> <span class="o">=</span> <span class="nx">data</span><span class="p">[</span><span class="nx">key</span><span class="p">]</span>
+        <span class="nx">deepObserve</span><span class="p">(</span><span class="nx">val</span><span class="p">)</span>
+        <span class="nb">Object</span><span class="p">.</span><span class="nx">defineProperty</span><span class="p">(</span><span class="nx">data</span><span class="p">,</span><span class="nx">key</span><span class="p">,</span><span class="p">{</span>
+            <span class="nx">get</span><span class="p">(</span><span class="p">)</span><span class="p">{</span>
+                <span class="k">return</span> <span class="nx">val</span>
+            <span class="p">}</span><span class="p">,</span>
+            <span class="nx">set</span><span class="p">(</span><span class="nx">newVal</span><span class="p">)</span><span class="p">{</span>
+                <span class="k">if</span><span class="p">(</span><span class="nx">val</span> <span class="o">===</span> <span class="nx">newVal</span><span class="p">)</span><span class="p">{</span>
+                    <span class="k">return</span>
+                <span class="p">}</span>
+                <span class="nx">val</span> <span class="o">=</span> <span class="nx">newVal</span>
+                <span class="nx">deepObserve</span><span class="p">(</span><span class="nx">newVal</span><span class="p">)</span>
+            <span class="p">}</span>
+        <span class="p">}</span><span class="p">)</span>
+    <span class="p">}</span>
+<span class="p">}</span>
+
+<span class="kr">const</span> <span class="nx">deepObserve</span> <span class="o">=</span> <span class="kd">function</span><span class="p">(</span><span class="nx">data</span><span class="p">)</span><span class="p">{</span>
+    <span class="k">if</span><span class="p">(</span><span class="o">!</span><span class="nx">data</span> <span class="o">||</span> <span class="k">typeof</span> <span class="nx">data</span> <span class="o">!==</span> <span class="s1">&#39;Object&#39;</span><span class="p">)</span><span class="p">{</span>
+        <span class="k">return</span>
+    <span class="p">}</span>
+    <span class="k">return</span> <span class="k">new</span> <span class="nx">Observe</span><span class="p">(</span><span class="nx">data</span><span class="p">)</span>
+<span class="p">}</span>
+</code></pre></td></tr></table>
+</div>
+</div><p>数据代理</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
+</span><span class="lnt">11
+</span><span class="lnt">12
+</span><span class="lnt">13
+</span><span class="lnt">14
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-javascript" data-lang="javascript"><span class="kr">const</span> <span class="nx">Mvvm</span> <span class="o">=</span> <span class="kd">function</span><span class="p">(</span><span class="nx">options</span> <span class="o">=</span> <span class="p">{</span><span class="p">}</span><span class="p">)</span><span class="p">{</span>
+    <span class="p">...</span> <span class="p">...</span>
+    <span class="c1">// this代理this._data
+</span><span class="c1"></span>    <span class="k">for</span><span class="p">(</span><span class="kd">let</span> <span class="nx">key</span> <span class="k">in</span> <span class="nx">data</span><span class="p">)</span><span class="p">{</span>
+        <span class="nb">Object</span><span class="p">.</span><span class="nx">defineProperty</span><span class="p">(</span><span class="k">this</span><span class="p">,</span><span class="nx">key</span><span class="p">,</span><span class="p">{</span>
+            <span class="nx">get</span><span class="p">(</span><span class="p">)</span><span class="p">{</span>
+                <span class="k">return</span> <span class="k">this</span><span class="p">.</span><span class="nx">_data</span><span class="p">[</span><span class="nx">key</span><span class="p">]</span>
+            <span class="p">}</span><span class="p">,</span>
+            <span class="nx">set</span><span class="p">(</span><span class="nx">newVal</span><span class="p">)</span><span class="p">{</span>
+                <span class="k">this</span><span class="p">.</span><span class="nx">_data</span><span class="p">[</span><span class="nx">key</span><span class="p">]</span> <span class="o">=</span> <span class="nx">newVal</span>
+            <span class="p">}</span>
+        <span class="p">}</span><span class="p">)</span>
+    <span class="p">}</span>  
+<span class="p">}</span>
+</code></pre></td></tr></table>
+</div>
+</div><p>模版编译</p>
+<ul>
+<li>v-model</li>
+<li>{{ }}</li>
+</ul>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-javascript" data-lang="javascript"><span class="kr">const</span> <span class="nx">Compile</span> <span class="o">=</span> <span class="kd">function</span><span class="p">(</span><span class="nx">el</span><span class="p">,</span><span class="nx">vm</span><span class="p">)</span><span class="p">{</span>
+    <span class="nx">vm</span><span class="p">.</span><span class="nx">$el</span> <span class="o">=</span> <span class="nb">document</span><span class="p">.</span><span class="nx">querySelector</span><span class="p">(</span><span class="nx">el</span><span class="p">)</span>
+
+<span class="p">}</span>
+</code></pre></td></tr></table>
+</div>
+</div><p>测试</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
+</span><span class="lnt">11
+</span><span class="lnt">12
+</span><span class="lnt">13
+</span><span class="lnt">14
+</span><span class="lnt">15
+</span><span class="lnt">16
+</span><span class="lnt">17
+</span><span class="lnt">18
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-html" data-lang="html">// index.html
+<span class="p">&lt;</span><span class="nt">body</span><span class="p"></span><span class="p">&gt;</span>
+    <span class="p">&lt;</span><span class="nt">div</span> <span class="na">id</span><span class="o">=</span><span class="s">&#34;app&#34;</span><span class="p"></span><span class="p">&gt;</span>
+        <span class="p">&lt;</span><span class="nt">p</span><span class="p"></span><span class="p">&gt;</span>{{test}}<span class="p">&lt;</span><span class="p">/</span><span class="nt">p</span><span class="p">&gt;</span>
+    <span class="p">&lt;</span><span class="p">/</span><span class="nt">div</span><span class="p">&gt;</span>
+    <span class="c">&lt;!--</span><span class="c">实现的mvvm</span><span class="c">--&gt;</span>
+    <span class="p">&lt;</span><span class="nt">script</span> <span class="na">src</span><span class="o">=</span><span class="s">&#34;mvvm.js&#34;</span><span class="p"></span><span class="p">&gt;</span><span class="p">&lt;</span><span class="p">/</span><span class="nt">script</span><span class="p">&gt;</span>
+    <span class="p">&lt;</span><span class="nt">script</span><span class="p"></span><span class="p">&gt;</span>
+        <span class="c1">// 写法和Vue一样
+</span><span class="c1"></span>        <span class="kd">let</span> <span class="nx">mvvm</span> <span class="o">=</span> <span class="k">new</span> <span class="nx">Mvvm</span><span class="p">(</span><span class="p">{</span>
+            <span class="nx">el</span><span class="o">:</span> <span class="s1">&#39;#app&#39;</span><span class="p">,</span>
+            <span class="nx">data</span><span class="o">:</span> <span class="p">{</span>    
+                <span class="nx">test</span><span class="o">:</span><span class="err">&#39;</span><span class="nx">双向绑定</span><span class="err">‘</span>
+            <span class="p">}</span>
+        <span class="p">}</span><span class="p">)</span><span class="p">;</span>
+    <span class="p">&lt;</span><span class="p">/</span><span class="nt">script</span><span class="p">&gt;</span>
+<span class="p">&lt;</span><span class="p">/</span><span class="nt">body</span><span class="p">&gt;</span>
+
+</code></pre></td></tr></table>
+</div>
+</div><br>
 <center>  ·End·  </center>
     </article>
     
@@ -1649,8 +1831,8 @@ document.addEventListener('DOMContentLoaded', function () {
         </li>
         <li><a href="#heading2">数据绑定实现</a>
           <ul>
-            <li><a href="#-vuejs">数据劫持 vue.js</a></li>
-            <li><a href="#-angularjs">脏值检查 angular.js</a></li>
+            <li><a href="#vuejs">vue.js</a></li>
+            <li><a href="#mvvm">手写mvvm</a></li>
           </ul>
         </li>
       </ul>
