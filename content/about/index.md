@@ -7,7 +7,7 @@ featured_image:
 
 <center>
 
-<img alt="lufei" style="width:200px;height:200px" src="https://rudyarchitect.github.io/blog-images/life/lufei.jpeg">
+<img alt="lufei" style="width:200px;height:200px" src="https://rudyarchitect.github.io/blog-images/lufei.jpeg">
 
 ### **Stay hungry, stay young ~**
 

@@ -18,11 +18,15 @@ description:
 
 2.mvvm
 
+mvvm由直接操作dom转变为数据驱动的方式，来更新页面数据。
+
 - model 模型层
 - view 视图层
 - view model 视图模型层
   - view dom 监听
   - model 数据绑定
+
+<img alt="mvvm-01" src="https://rudyarchitect.github.io/blog-images/frontend/frontend_mvvm-01.png">
 
 ### 基础知识
 
@@ -130,9 +134,110 @@ a.getTest() //['1','2']
 
 ### 数据绑定实现
 
-#### 数据劫持 vue.js
+#### vue.js
 
-#### 脏值检查 angular.js
+<img alt="mvvm-01" src="https://rudyarchitect.github.io/blog-images/frontend/frontend_mvvm-02.png">
+
+#### 手写mvvm
+
+定义
+
+```javascript
+const Mvvm = function(options = {}){
+    // vm.$options
+    this.$options = options
+    let data = this._data = this.$options.data
+    //数据劫持
+    Observer(data)
+}
+```
+
+数据劫持
+
+- 给观察的对象添加Object.defineProperty
+- 深度响应（数据对象嵌套）
+
+```javascript
+const Observe = function(data){
+    for(let key in data){
+        let val = data[key]
+        deepObserve(val)
+        Object.defineProperty(data,key,{
+            get(){
+                return val
+            },
+            set(newVal){
+                if(val === newVal){
+                    return
+                }
+                val = newVal
+                deepObserve(newVal)
+            }
+        })
+    }
+}
+
+const deepObserve = function(data){
+    if(!data || typeof data !== 'Object'){
+        return
+    }
+    return new Observe(data)
+}
+```
+
+数据代理
+
+```javascript
+const Mvvm = function(options = {}){
+    ... ...
+    // this代理this._data
+    for(let key in data){
+        Object.defineProperty(this,key,{
+            get(){
+                return this._data[key]
+            },
+            set(newVal){
+                this._data[key] = newVal
+            }
+        })
+    }  
+}
+```
+
+模版编译
+
+- v-model
+- {{ }}
+
+```javascript
+const Compile = function(el,vm){
+    vm.$el = document.querySelector(el)
+
+}
+```
+
+测试
+
+```html
+// index.html
+<body>
+    <div id="app">
+        <p>{{test}}</p>
+    </div>
+    <!--实现的mvvm-->
+    <script src="mvvm.js"></script>
+    <script>
+        // 写法和Vue一样
+        let mvvm = new Mvvm({
+            el: '#app',
+            data: {    
+                test:'双向绑定‘
+            }
+        });
+    </script>
+</body>
+
+```
 
 <br>
 
