@@ -212,6 +212,17 @@ const Mvvm = function(options = {}){
 ```javascript
 const Compile = function(el,vm){
     vm.$el = document.querySelector(el)
+    let fragment = document.createDocumentFragment();
+    let firstChild = vm.$el.firstChild
+    while(firstChild){
+        fragment.appendChild(firstChild)
+    }
+    const replace = function(frag){
+        Array.from(frag.childNodes).forEach(node =>{
+            let txt = node.textContent
+            let reg = \/{/{/}/}\g
+        })
+    }
 
 }
 ```
