@@ -9,21 +9,11 @@
     <managingEditor>rudy.architect@foxmail.com (Rudy)</managingEditor>
     <webMaster>rudy.architect@foxmail.com (Rudy)</webMaster>
     <copyright>&amp;copy;{year}, All Rights Reserved</copyright>
-    <lastBuildDate>Thu, 16 Jan 2020 12:03:31 +0800</lastBuildDate>
     
         <atom:link href="http://rudy.org.cn/series/index.xml" rel="self" type="application/rss+xml" />
     
     
     
-      
-      <item>
-        <title>gray</title>
-        <link>http://rudy.org.cn/series/gray/</link>
-        <pubDate>Thu, 16 Jan 2020 12:03:31 +0800</pubDate>
-        <author>rudy.architect@foxmail.com (Rudy)</author>
-        <guid>http://rudy.org.cn/series/gray/</guid>
-        <description></description>
-      </item>
       
     
   </channel>

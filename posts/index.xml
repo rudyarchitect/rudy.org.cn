@@ -9,21 +9,12 @@
     <managingEditor>rudy.architect@foxmail.com (Rudy)</managingEditor>
     <webMaster>rudy.architect@foxmail.com (Rudy)</webMaster>
     <copyright>&amp;copy;{year}, All Rights Reserved</copyright>
-    <lastBuildDate>Thu, 16 Jan 2020 12:03:31 +0800</lastBuildDate>
+    <lastBuildDate>Mon, 18 Nov 2019 19:12:07 +0800</lastBuildDate>
     
         <atom:link href="http://rudy.org.cn/posts/index.xml" rel="self" type="application/rss+xml" />
     
     
     
-      
-      <item>
-        <title>前端灰度发布</title>
-        <link>http://rudy.org.cn/posts/frontend/frontend_javascript-gray-level/</link>
-        <pubDate>Thu, 16 Jan 2020 12:03:31 +0800</pubDate>
-        <author>rudy.architect@foxmail.com (Rudy)</author>
-        <guid>http://rudy.org.cn/posts/frontend/frontend_javascript-gray-level/</guid>
-        <description>灰度发布 灰度发布，又称为金丝雀发布，即产品每次新功能的发布和旧功能的替换能够以平滑过渡的方式呈现给用户，就像金丝雀的羽毛一样，多种颜色能够平</description>
-      </item>
       
       <item>
         <title>保持终身学习的丁磊</title>

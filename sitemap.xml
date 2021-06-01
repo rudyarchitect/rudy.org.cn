@@ -4,46 +4,26 @@
   
   <url>
     <loc>http://rudy.org.cn/</loc>
-    <lastmod>2020-01-16T12:03:31+08:00</lastmod>
+    <lastmod>2019-11-18T19:12:07+08:00</lastmod>
   </url>
   
   <url>
     <loc>http://rudy.org.cn/categories/</loc>
-    <lastmod>2020-01-16T12:03:31+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://rudy.org.cn/series/gray/</loc>
-    <lastmod>2020-01-16T12:03:31+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://rudy.org.cn/posts/</loc>
-    <lastmod>2020-01-16T12:03:31+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://rudy.org.cn/series/</loc>
-    <lastmod>2020-01-16T12:03:31+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://rudy.org.cn/tags/</loc>
-    <lastmod>2020-01-16T12:03:31+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://rudy.org.cn/categories/%E5%89%8D%E7%AB%AF/</loc>
-    <lastmod>2020-01-16T12:03:31+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://rudy.org.cn/posts/frontend/frontend_javascript-gray-level/</loc>
-    <lastmod>2020-01-16T12:03:31+08:00</lastmod>
+    <lastmod>2019-11-18T19:12:07+08:00</lastmod>
   </url>
   
   <url>
     <loc>http://rudy.org.cn/tags/life/</loc>
+    <lastmod>2019-11-18T19:12:07+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://rudy.org.cn/posts/</loc>
+    <lastmod>2019-11-18T19:12:07+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://rudy.org.cn/tags/</loc>
     <lastmod>2019-11-18T19:12:07+08:00</lastmod>
   </url>
   
@@ -128,6 +108,11 @@
   </url>
   
   <url>
+    <loc>http://rudy.org.cn/categories/%E5%89%8D%E7%AB%AF/</loc>
+    <lastmod>2019-10-14T17:33:53+08:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://rudy.org.cn/posts/manage/manage_digital-economy/</loc>
     <lastmod>2019-10-09T16:02:24+08:00</lastmod>
   </url>
@@ -135,6 +120,10 @@
   <url>
     <loc>http://rudy.org.cn/about/</loc>
     <lastmod>2019-09-23T17:53:43+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://rudy.org.cn/series/</loc>
   </url>
   
 </urlset>

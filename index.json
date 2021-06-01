@@ -18,8 +18,8 @@
 	"content": ""
 },
 {
-	"uri": "http://rudy.org.cn/series/gray/",
-	"title": "gray",
+	"uri": "http://rudy.org.cn/tags/life/",
+	"title": "life",
 	"tags": [],
 	"categories": [],
 	"series": [],
@@ -36,44 +36,8 @@
 	"content": ""
 },
 {
-	"uri": "http://rudy.org.cn/series/",
-	"title": "Series",
-	"tags": [],
-	"categories": [],
-	"series": [],
-	"description": "",
-	"content": ""
-},
-{
 	"uri": "http://rudy.org.cn/tags/",
 	"title": "Tags",
-	"tags": [],
-	"categories": [],
-	"series": [],
-	"description": "",
-	"content": ""
-},
-{
-	"uri": "http://rudy.org.cn/categories/%E5%89%8D%E7%AB%AF/",
-	"title": "前端",
-	"tags": [],
-	"categories": [],
-	"series": [],
-	"description": "",
-	"content": ""
-},
-{
-	"uri": "http://rudy.org.cn/posts/frontend/frontend_javascript-gray-level/",
-	"title": "前端灰度发布",
-	"tags": [""],
-	"categories": [],
-	"series": ["gray"],
-	"description": "",
-	"content": "灰度发布 灰度发布，又称为金丝雀发布，即产品每次新功能的发布和旧功能的替换能够以平滑过渡的方式呈现给用户，就像金丝雀的羽毛一样，多种颜色能够平滑渐变。\n原因  考虑用户使用反馈和代码未知异常，需要将新的功能逐步地推给一批又一批的用户 根据用户的接受程度（投诉情况）和代码是否存在上线前未发生的异常，来决定是否发布新功能 避免出现一次更新导致线上问题阻塞用户体验的情况发生  优点  提前收集用户使用意见，及时调整产品功能 控制代码异常出现的用户范围 出现未知风险时，可以及时回滚到旧版本  要素   规则\n 用户按照特征分成不同群体，例如年龄，地区，以及用户注册时的id 按照百分比，从小到大放量，直到完成    版本\n 资源版本号 资源访问新旧切换  实现策略    方式  服务器端 浏览器端    "
-},
-{
-	"uri": "http://rudy.org.cn/tags/life/",
-	"title": "life",
 	"tags": [],
 	"categories": [],
 	"series": [],
@@ -225,6 +189,15 @@
 	"content": "背景 为了定位Web线上问题，需要对页面异常信息进行收集，分析和定位问题原因，以提升用户体验和产品运营效率。\n维度 前端监控的维度主要分为以下3个方面：\n 性能 异常 用户行为  原理  监听window对象的onerror事件。 使用try catch语句。  案例  [开源] 腾讯 badjs\n文档说明详细，提供完整解决方案，项目落地10+。  日志功能 上报功能 统计功能 邮件功能   [收费] sentry  代码开源 价格   [收费] fundebug  价格   [收费] 阿里云ARMS-前端监控  主动监控 慢会话追踪 搜索报错明细 出错行为还原   [收费] 蒲公英 frontjs  价格   [无维护] 淘宝 JSTracker  参考README   [未开源] 阿里 FdSafe [无维护] 支付宝 saijs  javascript异常文档    需求分析   错误收集\n 错误信息  资源加载错误 运行时错误   性能指标  页面加载时长 首次渲染时长 首次内容渲染时长 首次有效渲染时长 \u0026hellip;   日志数据    上报策略\n ajax 跨域 CORS协议 image对象    日志采集与存储\n 数据过滤 节流    告警功能\n 最大最小值 错误累计数 异常等级 自定义    邮件短信通知\n  错误定位与复现\n  管理后台数据可视化\n   ·End· "
 },
 {
+	"uri": "http://rudy.org.cn/categories/%E5%89%8D%E7%AB%AF/",
+	"title": "前端",
+	"tags": [],
+	"categories": [],
+	"series": [],
+	"description": "",
+	"content": ""
+},
+{
 	"uri": "http://rudy.org.cn/posts/manage/manage_digital-economy/",
 	"title": "有关数字经济的推论判断",
 	"tags": ["manage"],
@@ -241,4 +214,13 @@
 	"series": [],
 	"description": "",
 	"content": " Stay hungry, stay young ~ 保持好奇心，主动学习新事物，新知识和新技能。 对不确定性保持乐观。 不甘于平庸。 不傲娇，要能延迟满足感。 对重要的事情有判断力。 无论工作或生活，要有创业心态。 最重要的是“解决问题”，而不是“解释原因”。 聚焦长远目标，看淡眼前利益。 用心经营自己这家“公司”。 做事坚持“先能用，再有用，再好用，后好看”。 时光是最无情的刻刀，陪伴是最长情的告白。\nMy promise past shall always last.\n"
+},
+{
+	"uri": "http://rudy.org.cn/series/",
+	"title": "Series",
+	"tags": [],
+	"categories": [],
+	"series": [],
+	"description": "",
+	"content": ""
 }]
