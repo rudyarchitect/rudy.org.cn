@@ -9,7 +9,7 @@
     <managingEditor>rudy.architect@foxmail.com (Rudy)</managingEditor>
     <webMaster>rudy.architect@foxmail.com (Rudy)</webMaster>
     <copyright>&amp;copy;{year}, All Rights Reserved</copyright>
-    <lastBuildDate>Mon, 13 Jan 2020 17:25:51 +0800</lastBuildDate>
+    <lastBuildDate>Thu, 16 Jan 2020 12:03:31 +0800</lastBuildDate>
     
         <atom:link href="http://rudy.org.cn/posts/index.xml" rel="self" type="application/rss+xml" />
     
@@ -17,39 +17,12 @@
     
       
       <item>
-        <title>手写数据绑定mvvm实现</title>
-        <link>http://rudy.org.cn/posts/frontend/frontend_javascript-mvvm-realize/</link>
-        <pubDate>Mon, 13 Jan 2020 17:25:51 +0800</pubDate>
+        <title>前端灰度发布</title>
+        <link>http://rudy.org.cn/posts/frontend/frontend_javascript-gray-level/</link>
+        <pubDate>Thu, 16 Jan 2020 12:03:31 +0800</pubDate>
         <author>rudy.architect@foxmail.com (Rudy)</author>
-        <guid>http://rudy.org.cn/posts/frontend/frontend_javascript-mvvm-realize/</guid>
-        <description>mvc与mvvm 1.mvc model 模型层 view 视图层 controller 控制层 2.mvvm mvvm由直接操作dom转变为数据驱动的方式，来更新页面数据。 model 模型层 view 视图层 view model 视图模型层 view dom</description>
-      </item>
-      
-      <item>
-        <title>Javascript中的bind方法</title>
-        <link>http://rudy.org.cn/posts/frontend/frontend_javascript_bind/</link>
-        <pubDate>Wed, 08 Jan 2020 18:49:32 +0800</pubDate>
-        <author>rudy.architect@foxmail.com (Rudy)</author>
-        <guid>http://rudy.org.cn/posts/frontend/frontend_javascript_bind/</guid>
-        <description>bind 特点 mdn的polyfill 词法作用域 执行顺序 执行上下文栈 变量对象 vo/ao 全局上下文 函数上下文 执行过程 进入执行上下文 代码执行 作用域链 函数激活 this 具</description>
-      </item>
-      
-      <item>
-        <title>javascript设计模式</title>
-        <link>http://rudy.org.cn/posts/frontend/frontend_design-pattern/</link>
-        <pubDate>Thu, 02 Jan 2020 21:21:49 +0800</pubDate>
-        <author>rudy.architect@foxmail.com (Rudy)</author>
-        <guid>http://rudy.org.cn/posts/frontend/frontend_design-pattern/</guid>
-        <description>设计模式 编写高效，可维护代码，提升工作效率 oop基础 封装程序和数据 创建型 控制对象的创建 简单工厂 工厂方法 抽象工厂 建造者 原型 单例 结构型 将类或对象</description>
-      </item>
-      
-      <item>
-        <title>前端知识体系</title>
-        <link>http://rudy.org.cn/posts/frontend/frontend_knowledge-system/</link>
-        <pubDate>Mon, 30 Dec 2019 11:00:10 +0800</pubDate>
-        <author>rudy.architect@foxmail.com (Rudy)</author>
-        <guid>http://rudy.org.cn/posts/frontend/frontend_knowledge-system/</guid>
-        <description>es5 知识点 原始类型 //值 boolean undefined null number string symbol ? 对象类型 object //内存地址（指针）&amp;lt;&amp;ndash;&amp;gt; 值 typeof null // &amp;lsquo;object&amp;rsquo; is bug 0.1+0.2=0.30000000000000004 // number 浮点类型 typeof 判断原始类型 instanceof</description>
+        <guid>http://rudy.org.cn/posts/frontend/frontend_javascript-gray-level/</guid>
+        <description>灰度发布 灰度发布，又称为金丝雀发布，即产品每次新功能的发布和旧功能的替换能够以平滑过渡的方式呈现给用户，就像金丝雀的羽毛一样，多种颜色能够平</description>
       </item>
       
       <item>
@@ -80,15 +53,6 @@
       </item>
       
       <item>
-        <title>数据结构与算法</title>
-        <link>http://rudy.org.cn/posts/frontend/frontend_algorithm/</link>
-        <pubDate>Tue, 29 Oct 2019 19:54:58 +0800</pubDate>
-        <author>rudy.architect@foxmail.com (Rudy)</author>
-        <guid>http://rudy.org.cn/posts/frontend/frontend_algorithm/</guid>
-        <description>常见数据结构 栈，队列，链表，树，图 集合，字典，散列表 数据结构 数据存储与内存时，数据结构就是数据的顺序和位置关系，目的是提高内存利用率。 链表 数</description>
-      </item>
-      
-      <item>
         <title>创业者对《西游记》的另一种感悟</title>
         <link>http://rudy.org.cn/posts/life/life_liangning-thinking/</link>
         <pubDate>Mon, 28 Oct 2019 18:54:22 +0800</pubDate>
@@ -113,24 +77,6 @@
         <author>rudy.architect@foxmail.com (Rudy)</author>
         <guid>http://rudy.org.cn/posts/life/life_rendada/</guid>
         <description>任大大 我不是从小构建了什么做大事的想法，只是孜孜不倦地对一件事情研究，对一件事情的理解太集中了就容易产生成功。贫穷没有使我获得什么必须成功的</description>
-      </item>
-      
-      <item>
-        <title>web编辑器方案</title>
-        <link>http://rudy.org.cn/posts/frontend/frontend_editor-design/</link>
-        <pubDate>Mon, 14 Oct 2019 19:18:13 +0800</pubDate>
-        <author>rudy.architect@foxmail.com (Rudy)</author>
-        <guid>http://rudy.org.cn/posts/frontend/frontend_editor-design/</guid>
-        <description>页面 = HTML Tree (DOM) + 静态Data + 动态逻辑Javascript 页面可视化编辑本质上是用可视化的方式对页面的DOM、静态Data和动态逻辑javas</description>
-      </item>
-      
-      <item>
-        <title>前端规范方案</title>
-        <link>http://rudy.org.cn/posts/frontend/frontend_standard-design/</link>
-        <pubDate>Mon, 14 Oct 2019 17:39:21 +0800</pubDate>
-        <author>rudy.architect@foxmail.com (Rudy)</author>
-        <guid>http://rudy.org.cn/posts/frontend/frontend_standard-design/</guid>
-        <description>1.项目组织结构 目录结构 配置文件 README 2.代码规范 命名规范 Html规范 Javascript规范 CSS规范 3.统一代码风格 利用Lint工具，配置语</description>
       </item>
       
       <item>

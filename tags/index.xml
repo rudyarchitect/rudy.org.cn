@@ -9,48 +9,12 @@
     <managingEditor>rudy.architect@foxmail.com (Rudy)</managingEditor>
     <webMaster>rudy.architect@foxmail.com (Rudy)</webMaster>
     <copyright>&amp;copy;{year}, All Rights Reserved</copyright>
-    <lastBuildDate>Mon, 13 Jan 2020 17:25:51 +0800</lastBuildDate>
+    <lastBuildDate>Thu, 16 Jan 2020 12:03:31 +0800</lastBuildDate>
     
         <atom:link href="http://rudy.org.cn/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     
-      
-      <item>
-        <title>mvvm</title>
-        <link>http://rudy.org.cn/tags/mvvm/</link>
-        <pubDate>Mon, 13 Jan 2020 17:25:51 +0800</pubDate>
-        <author>rudy.architect@foxmail.com (Rudy)</author>
-        <guid>http://rudy.org.cn/tags/mvvm/</guid>
-        <description></description>
-      </item>
-      
-      <item>
-        <title>bind</title>
-        <link>http://rudy.org.cn/tags/bind/</link>
-        <pubDate>Wed, 08 Jan 2020 18:49:32 +0800</pubDate>
-        <author>rudy.architect@foxmail.com (Rudy)</author>
-        <guid>http://rudy.org.cn/tags/bind/</guid>
-        <description></description>
-      </item>
-      
-      <item>
-        <title>design pattern</title>
-        <link>http://rudy.org.cn/tags/design-pattern/</link>
-        <pubDate>Thu, 02 Jan 2020 21:21:49 +0800</pubDate>
-        <author>rudy.architect@foxmail.com (Rudy)</author>
-        <guid>http://rudy.org.cn/tags/design-pattern/</guid>
-        <description></description>
-      </item>
-      
-      <item>
-        <title>system</title>
-        <link>http://rudy.org.cn/tags/system/</link>
-        <pubDate>Mon, 30 Dec 2019 11:00:10 +0800</pubDate>
-        <author>rudy.architect@foxmail.com (Rudy)</author>
-        <guid>http://rudy.org.cn/tags/system/</guid>
-        <description></description>
-      </item>
       
       <item>
         <title>life</title>
@@ -76,33 +40,6 @@
         <pubDate>Tue, 05 Nov 2019 19:10:13 +0800</pubDate>
         <author>rudy.architect@foxmail.com (Rudy)</author>
         <guid>http://rudy.org.cn/tags/manage/</guid>
-        <description></description>
-      </item>
-      
-      <item>
-        <title>algorithm</title>
-        <link>http://rudy.org.cn/tags/algorithm/</link>
-        <pubDate>Tue, 29 Oct 2019 19:54:58 +0800</pubDate>
-        <author>rudy.architect@foxmail.com (Rudy)</author>
-        <guid>http://rudy.org.cn/tags/algorithm/</guid>
-        <description></description>
-      </item>
-      
-      <item>
-        <title>editor</title>
-        <link>http://rudy.org.cn/tags/editor/</link>
-        <pubDate>Mon, 14 Oct 2019 19:18:13 +0800</pubDate>
-        <author>rudy.architect@foxmail.com (Rudy)</author>
-        <guid>http://rudy.org.cn/tags/editor/</guid>
-        <description></description>
-      </item>
-      
-      <item>
-        <title>standard</title>
-        <link>http://rudy.org.cn/tags/standard/</link>
-        <pubDate>Mon, 14 Oct 2019 17:39:21 +0800</pubDate>
-        <author>rudy.architect@foxmail.com (Rudy)</author>
-        <guid>http://rudy.org.cn/tags/standard/</guid>
         <description></description>
       </item>
       

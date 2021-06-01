@@ -18,8 +18,8 @@
 	"content": ""
 },
 {
-	"uri": "http://rudy.org.cn/tags/mvvm/",
-	"title": "mvvm",
+	"uri": "http://rudy.org.cn/series/gray/",
+	"title": "gray",
 	"tags": [],
 	"categories": [],
 	"series": [],
@@ -29,6 +29,15 @@
 {
 	"uri": "http://rudy.org.cn/posts/",
 	"title": "Posts",
+	"tags": [],
+	"categories": [],
+	"series": [],
+	"description": "",
+	"content": ""
+},
+{
+	"uri": "http://rudy.org.cn/series/",
+	"title": "Series",
 	"tags": [],
 	"categories": [],
 	"series": [],
@@ -54,67 +63,13 @@
 	"content": ""
 },
 {
-	"uri": "http://rudy.org.cn/posts/frontend/frontend_javascript-mvvm-realize/",
-	"title": "手写数据绑定mvvm实现",
-	"tags": ["mvvm"],
+	"uri": "http://rudy.org.cn/posts/frontend/frontend_javascript-gray-level/",
+	"title": "前端灰度发布",
+	"tags": [""],
 	"categories": [],
-	"series": [],
+	"series": ["gray"],
 	"description": "",
-	"content": "mvc与mvvm 1.mvc\n model 模型层 view 视图层 controller 控制层  2.mvvm\nmvvm由直接操作dom转变为数据驱动的方式，来更新页面数据。\n model 模型层 view 视图层 view model 视图模型层  view dom 监听 model 数据绑定    基础知识 Object.defineProperty  参数  obj 对象 prop 新属性或修改属性 descriptor 属性描述符  configurable enumerable value wirtable get set      在一个对象上定义一个新属性，或者修改一个对象的现有属性，并返回该对象。\n1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20  const Test = function(){ let item, arr = [] Object.defineProperty(this, \u0026#39;item\u0026#39;,{ get:() =\u0026gt;{ console.log(\u0026#39;get item of value\u0026#39;) return item }, set:(value)=\u0026gt;{ item = value arr.push(item) } }) this.getTest = ()=\u0026gt; arr } const a = new Test() a.item a.item = 1 a.item = 2 a.getTest() //[\u0026#39;1\u0026#39;,\u0026#39;2\u0026#39;]   设计模式 观察者模式又称为发布-订阅模式或者消息机制，它定义了一种依赖关系，解决被观察对象和观察者之间的耦合。\n1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52  const Observer = (function(){ //消息容器  let _messages = {} return { //监听  listen:function(type,fn){ //如果消息类型不存在，则创建一个消息类型  if(typeof _messages[type] === \u0026#39;undefined\u0026#39;){ //创建消息执行队列  _messages[type] = [fn] }else{ _messages[type].push(fn) } }, //发布  publish:function(type,args){ //消息执行队列不存在，返回  if(!_messages[type]){ return } //定义信息  let events = { type:type, args:args || {} }, i=0, len = _messages[type].length //遍历消息执行队列  for(;i\u0026lt;len;i++){ _messages[type][i].call(this,events); } }, //移除  remove:function(type,fn){ //如果消息执行队列存在  if(_message[type] instanceof Array){ //从最后一个元素开始遍历  let i = _messages[type].length - 1 for(;i\u0026gt;=0;i--){ // 如果函数存在，则移除  _messages[type][i] === fn \u0026amp;\u0026amp; _messages[type].splice(i,1) } } } } })() Observer.listen(\u0026#39;test\u0026#39;,function(e){ console.log(e) }) Observer.publish(\u0026#39;test\u0026#39;,{msg:\u0026#39;消息’}) //{type:\u0026#39;test\u0026#39;,args:{msg:‘消息’}}   数据绑定实现 vue.js 手写mvvm 定义\n1 2 3 4 5 6 7  const Mvvm = function(options = {}){ // vm.$options  this.$options = options let data = this._data = this.$options.data //数据劫持  Observer(data) }   数据劫持\n 给观察的对象添加Object.defineProperty 深度响应（数据对象嵌套）  1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25  const Observe = function(data){ for(let key in data){ let val = data[key] deepObserve(val) Object.defineProperty(data,key,{ get(){ return val }, set(newVal){ if(val === newVal){ return } val = newVal deepObserve(newVal) } }) } } const deepObserve = function(data){ if(!data || typeof data !== \u0026#39;Object\u0026#39;){ return } return new Observe(data) }   数据代理\n1 2 3 4 5 6 7 8 9 10 11 12 13 14  const Mvvm = function(options = {}){ ... ... // this代理this._data  for(let key in data){ Object.defineProperty(this,key,{ get(){ return this._data[key] }, set(newVal){ this._data[key] = newVal } }) } }   模版编译\n v-model {{ }}  1 2 3 4  const Compile = function(el,vm){ vm.$el = document.querySelector(el) }   测试\n1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18  // index.html \u0026lt;body\u0026gt; \u0026lt;div id=\u0026#34;app\u0026#34;\u0026gt; \u0026lt;p\u0026gt;{{test}}\u0026lt;/p\u0026gt; \u0026lt;/div\u0026gt; \u0026lt;!--实现的mvvm--\u0026gt; \u0026lt;script src=\u0026#34;mvvm.js\u0026#34;\u0026gt;\u0026lt;/script\u0026gt; \u0026lt;script\u0026gt; // 写法和Vue一样  let mvvm = new Mvvm({ el: \u0026#39;#app\u0026#39;, data: { test:\u0026#39;双向绑定‘ } }); \u0026lt;/script\u0026gt; \u0026lt;/body\u0026gt;   \n ·End· "
-},
-{
-	"uri": "http://rudy.org.cn/tags/bind/",
-	"title": "bind",
-	"tags": [],
-	"categories": [],
-	"series": [],
-	"description": "",
-	"content": ""
-},
-{
-	"uri": "http://rudy.org.cn/posts/frontend/frontend_javascript_bind/",
-	"title": "Javascript中的bind方法",
-	"tags": ["bind"],
-	"categories": [],
-	"series": [],
-	"description": "",
-	"content": "bind  特点 mdn的polyfill 词法作用域 执行顺序  执行上下文栈   变量对象 vo/ao  全局上下文 函数上下文   执行过程  进入执行上下文 代码执行   作用域链  函数激活   this 具体执行分析 闭包 call和apply的模拟实现 new 柯里化 继承 原型链   ·End· "
-},
-{
-	"uri": "http://rudy.org.cn/tags/design-pattern/",
-	"title": "design pattern",
-	"tags": [],
-	"categories": [],
-	"series": [],
-	"description": "",
-	"content": ""
-},
-{
-	"uri": "http://rudy.org.cn/posts/frontend/frontend_design-pattern/",
-	"title": "javascript设计模式",
-	"tags": ["design pattern"],
-	"categories": [],
-	"series": [],
-	"description": "",
-	"content": "设计模式 编写高效，可维护代码，提升工作效率\n oop基础 封装程序和数据 创建型 控制对象的创建  简单工厂 工厂方法 抽象工厂 建造者 原型 单例   结构型 将类或对象组合成更大更复杂结构  外观 适配器 代理 装饰器 桥接 组合 享元   行为型 用于不同对象之间的职责划分或算法抽象  模板方法 观察者 状态 策略 职责链 命令 访问者 中介者 备忘录 迭代器 解释器   技巧型 解决组件相关问题  链 委托 数据访问对象 节流 简单模板 惰性 参与者 等待者   架构型 提供子系统，指定职责，组织在一起  同步模块 异步模块 widget mvc mvp mvvm\n     ·End· "
-},
-{
-	"uri": "http://rudy.org.cn/tags/system/",
-	"title": "system",
-	"tags": [],
-	"categories": [],
-	"series": [],
-	"description": "",
-	"content": ""
-},
-{
-	"uri": "http://rudy.org.cn/posts/frontend/frontend_knowledge-system/",
-	"title": "前端知识体系",
-	"tags": ["system"],
-	"categories": [],
-	"series": [],
-	"description": "",
-	"content": "\n es5 知识点  原始类型 //值  boolean undefined null number string symbol ?   对象类型 object //内存地址（指针）\u0026lt;\u0026ndash;\u0026gt; 值 typeof null // \u0026lsquo;object\u0026rsquo; is bug 0.1+0.2=0.30000000000000004 // number 浮点类型 typeof 判断原始类型 instanceof 判断对象类型 类型转换 this指向  函数直接调用 指向window 对象 谁调用指向谁 new 指向实例 bind/箭头函数 多次调用，this指向取决于第一次调用上下文   == vs === //==涉及类型转换 闭包 存在的意义就是可以访问外部函数的变量 对象拷贝  浅拷贝 object.assign() / 展开运算符 \u0026hellip; //拷贝属性值，属性中有对象的话，拷贝的是地址 深拷贝 lodash.cloneDeep() //自己实现一个   原型 //重点  Object Function proto   函数提升优先于变量提升   es6知识点  let,const 暂时性死区 继承  原型 class   模块化  commonjs 服务器端/同步/值拷贝 es module 浏览器端/异步/地址拷贝   proxy  数据响应式   map,filter,reduce   js进阶  回调函数 callback generator promise 实现 async/await requestAnimationFrame call , apply , bind , new 实现 垃圾回收机制   event loop  执行栈 call stack 先进后出 同步执行的js代码 任务队列 task queue 异步执行的js代码  宏任务 macro task //setTimeout , setInterval , xhr \u0026hellip; 微任务 micro task // promise , mutation observer \u0026hellip;   浏览器 node   浏览器  事件机制  注册 触发 代理   跨域  同源策略 解决方案  jsonp cors document.domain postMessage     存储  cookie localStorage sessionStorage service worker   缓存机制  缓存位置 强缓存 协商缓存   渲染原理 从url到页面渲染的整个流程   安全  xss csrf   性能优化  chrome  audits  性能分析报告   performance  分析性能瓶颈 每个阶段耗费时间   v8 js解释性语言首先会被解析成抽象语法树（AST），然后通过解释器转换成字节码（很多逻辑判断），或者通过编译器转换成机器码。  优化策略  减少代码文件大小 减少嵌套函数 传入参数类型保持一致，会直接编译成机器码       js  图片优化  减少像素点和每个像素点能够显示的颜色 css代替 雪碧图 base64格式   节流 在一段时间内只发生一次事件 防抖 在一段事件内只执行最后一次事件 预加载 预渲染 懒计算 懒加载 cdn   webpack //自己实现一个  减少打包时间  优化loader happypack 将loader同步执行转换成并行   减少包大小  按需加载 tree shaking       js框架  基础  mvvm virtual dom 路由   react vue angular   监控  行为 性能 异常   http  请求方法 首部  通用 请求 响应 实体   状态码 tsl  加密  对称 非对称   3次握手  udp tcp     http2   css 编译  jit编译，动态编译，在浏览器中进行代码编译 aot编译，静态编译，在项目工程打包阶段编译     ·End· "
+	"content": "灰度发布 灰度发布，又称为金丝雀发布，即产品每次新功能的发布和旧功能的替换能够以平滑过渡的方式呈现给用户，就像金丝雀的羽毛一样，多种颜色能够平滑渐变。\n原因  考虑用户使用反馈和代码未知异常，需要将新的功能逐步地推给一批又一批的用户 根据用户的接受程度（投诉情况）和代码是否存在上线前未发生的异常，来决定是否发布新功能 避免出现一次更新导致线上问题阻塞用户体验的情况发生  优点  提前收集用户使用意见，及时调整产品功能 控制代码异常出现的用户范围 出现未知风险时，可以及时回滚到旧版本  要素   规则\n 用户按照特征分成不同群体，例如年龄，地区，以及用户注册时的id 按照百分比，从小到大放量，直到完成    版本\n 资源版本号 资源访问新旧切换  实现策略    方式  服务器端 浏览器端    "
 },
 {
 	"uri": "http://rudy.org.cn/tags/life/",
@@ -216,24 +171,6 @@
 	"content": "Sample images from Pixabay\n"
 },
 {
-	"uri": "http://rudy.org.cn/tags/algorithm/",
-	"title": "algorithm",
-	"tags": [],
-	"categories": [],
-	"series": [],
-	"description": "",
-	"content": ""
-},
-{
-	"uri": "http://rudy.org.cn/posts/frontend/frontend_algorithm/",
-	"title": "数据结构与算法",
-	"tags": ["algorithm"],
-	"categories": [],
-	"series": [],
-	"description": "",
-	"content": "常见数据结构  栈，队列，链表，树，图 集合，字典，散列表   数据结构 数据存储与内存时，数据结构就是数据的顺序和位置关系，目的是提高内存利用率。  链表  数据访问复杂 数据添加或删除方便，只需该改变指针 每个数据都有一个“指针”，它指向下一个数据的内存地址 分类  单向 双向缺点  指针数的增加导致存储空间需求增加 添加或删除数据时需要改变更多指针指向   循环 链表尾部指针指向头部     数组  数据访问简单，通过下标访问 添加或删除数据复杂   栈 last in first out 适合访问最新数据。  深度优先搜索   队列 first in first out 先来的数据先处理。  广度优先搜索   堆  图的树形结构，顶端的数据始终最小，用于实现优先队列 优先队列只从最小值开始处理 子结点大于父节点   二叉树 图的树形结构，每个结点最多2个子结点。  每个结点的值大于其左子树上任意一个结点的值 每个结点的值小于其右子树上任意一个结点的值      常见算法 递归，排序，查找\n 排序  冒泡 选择 插入 堆 归并 快速   数组的查找  线性 二分   图的搜索  广度优先 v8 垃圾回收 深度优先 dom diff    复杂度分析  时间 处理数据所需要的时间，算法的执行效率  常见复杂度  常数阶 O(1) 对数阶 O(logN) 线性阶 O(n) 线性对数阶 O(nlogN) 平方阶 O(n^2) 立方阶 O(n^3) 指数阶 O(2^n)   一层循环 O(n), 二层循环 O(n^2) 二分 O(logN)   空间 处理数据所需要的内存  算法思维  分治，贪心，动态规划 养成算法思维是一个长期的过程，多思考多练习  问题规模缩小，动态规划 问题分解，二分    前端场景  前端核心是dom,dom以树为基础 手写dom diff算法   ·End· "
-},
-{
 	"uri": "http://rudy.org.cn/posts/life/life_liangning-thinking/",
 	"title": "创业者对《西游记》的另一种感悟",
 	"tags": ["keep thinking"],
@@ -270,42 +207,6 @@
 	"content": "任大大  我不是从小构建了什么做大事的想法，只是孜孜不倦地对一件事情研究，对一件事情的理解太集中了就容易产生成功。贫穷没有使我获得什么必须成功的要素。 那时的痛苦，还包括身份证明的痛苦，因为我们是私营企业，那时没有政治地位，还赚钱，是受怀疑的。今天的痛苦，是美国打击华为的市场、商业，但打击不了我们的生命。 痛苦并没有什么收获。如果我们“东一榔头，西一棒子”，注定是失败的，应该坚定不移在一个正确方向上去努力，才有可能成功，后来我们把奋斗目标叫做“方向大致正确”，绝对正确的方向不存在，大致正确就可以了。第二，组织要充满活力，对准一个地方。这是在科学技术上押注上押赌，有可能赌错。幸亏赌对了，压力就释放了。后来就不想自杀了。 面子是虚的，不能当饭吃  只有真正经历过贫穷的人，才会迫切地想要成功。任正非常说：“我要的是成功，面子是虚的，不能当饭吃，面子是给狗吃的。”但其实，这句话的源头是其父亲任摩逊的口头禅，即“面子是给狗吃的”！ 任正非父亲任摩逊，是一个知识分子。文革时间里，他被扣上“臭老九”的帽子，身陷囹圄。受难期间，任摩逊常被反动派推到大街上游行示众，头上戴着高帽子，脸上被涂抹得漆黑，其惨景令人内心震颤。 但父亲、母亲一边忍受羞辱，一边工作，照顾任正非的弟弟和妹妹。无论条件多么艰苦，也都要抽空读书、学习。 这段难忘的岁月，让任正非初尝了人生艰辛的一面。 任正非的青少年时代，全家9口人，靠父母的微薄收入度日。加上当时全国经济处于困难时期，粮食严重短缺，全家人常常饿肚子。19岁前，任正非没穿过一件新衣服。因为孩子多，每到新学期，母亲就为学费发愁，经常要靠向人借钱维持，有时还借不到，因为别人也一样困难。尽管日子十分难过，任摩逊和妻子还是坚持让7个孩子都上学读书。 任正非每天饥肠辘辘，最大的愿望就是吃上一个白面馒头。而直到他高考前，这个愿望都没能达成，倒是可以吃上一个小小的玉米饼了。而任正非也知晓，“这小小的玉米饼来之不易，是从父母、弟妹的嘴里抠出来的，我无以报答他们。” 家里所遭遇的一切，任正非都历历在目。他觉得痛心疾首，自己愧对父母。任正非想，如果真要做一个孝子，就得马上回去，继续在学业上深造。 任摩逊为了鼓励任正非，把自己穿的翻毛皮鞋给他，希望他在大学岁月里，不要虚度。 多年以后，任正非回忆起来这一幕说：“我当年穿走父亲的皮鞋，没念及父亲那时是做苦工的，泥里水里冰冷潮湿，他更需要鞋子。现在回忆起来，感觉自己太自私。” 在文革期间坐了10年牢，出狱后，任正非父亲任摩逊二话没说，继续出任中学校长，一直干到75岁。父亲让任正非看到了什么是“活下去的倔强”。 所以任正非经常感慨：“我真正能理解活下去这句话的含义！”“你是想吃饱肚子还是出名？”“知识分子不要脸才能进步。” 这种艰难的岁月，让任正非形成了，活着就是一切的信念。    我的感悟   今年任大大的采访特别多，如果不是华为遇到了危机，可能很难有这样的机会了解他的思想，华为表现出的生命力是令人震撼的，人生要有目标，就像电影《银河补习班》里说的，\u0026ldquo;人生就像射箭，梦想就像箭靶子，连箭靶子都找不到在哪，你每天拉弓有什么用。\u0026rdquo;\n 要学习的不仅是知识，还有思想，还有方法。 永远不要停止思考，永远不认输。 清华北大只是过程，不是目的。    不耻下问才能进步，一个人如果可以保持空杯心态，善于利用周边的资源，那么他的进步肯定可以更高效，这样的模式可以称之为“在请教中快速掌握，在实践中快速落地，在分享中加深理解”。\n   ·End· "
 },
 {
-	"uri": "http://rudy.org.cn/tags/editor/",
-	"title": "editor",
-	"tags": [],
-	"categories": [],
-	"series": [],
-	"description": "",
-	"content": ""
-},
-{
-	"uri": "http://rudy.org.cn/posts/frontend/frontend_editor-design/",
-	"title": "web编辑器方案",
-	"tags": ["editor"],
-	"categories": [],
-	"series": [],
-	"description": "",
-	"content": "页面 = HTML Tree (DOM) + 静态Data + 动态逻辑Javascript\n页面可视化编辑本质上是用可视化的方式对页面的DOM、静态Data和动态逻辑javascript进行操作，从而完成页面的生成。\n前端服务化，为前端小白，运营/产品人员,以及后台开发人员提供开发前端页面的能力。\n 系统粒度  HTML Tree编辑 Component Tree编辑 静态Data编辑 动态逻辑Javascript编辑   面向群体  前端小白 运营/产品人员 后台开发人员   编辑自由度  页面 组件    核心原理：模板 + 配置数据 = 页面\n最佳实践\n 数据格式Json Scheme 组件化和模板化 编辑与组件、模板和框架解耦 框架负责数据管理  数据包括组件数据和业务数据，管理包括保存数据和读取数据方式。   分析数据管理的简单场景和复杂场景，确定边界 组件暴露所有属性和事件 渐进式体验 数据驱动  数据现在是什么样子 数据在哪里被修改了     ·End· "
-},
-{
-	"uri": "http://rudy.org.cn/tags/standard/",
-	"title": "standard",
-	"tags": [],
-	"categories": [],
-	"series": [],
-	"description": "",
-	"content": ""
-},
-{
-	"uri": "http://rudy.org.cn/posts/frontend/frontend_standard-design/",
-	"title": "前端规范方案",
-	"tags": ["standard"],
-	"categories": [],
-	"series": [],
-	"description": "",
-	"content": "1.项目组织结构\n 目录结构 配置文件 README  2.代码规范\n 命名规范 Html规范 Javascript规范 CSS规范  3.统一代码风格\n 利用Lint工具，配置语法检测规则来对代码风格进行检测。 e.g. js lint, css lint  4.开发工具规范\n4.1 编辑器\n Visual Studio Code Web Storm  4.2 统一插件\n EditorConfig Lint 单词拼写检查 路径补全 代码自动补全 Emmet 代码格式化  4.3 README搭建指南\n 运行环境 依赖项 项目安装指南 项目结构图 参考资料 维护人员联系方式  5.代码提交信息规范\n [任务名称/编码] [类型] 提交人 : 详细信息。  类型说明：\n 文档 功能 修复 重构 样式 测试  6.流程化\n6.1 代码预处理\n Lint + Git Hooks Lint + Webhook  6.2 人工检查代码\n Code Review Pull Request  7.工具\n 代码扫描工具 Sonar 测试方案   ·End· "
-},
-{
 	"uri": "http://rudy.org.cn/tags/analysis/",
 	"title": "analysis",
 	"tags": [],
@@ -340,13 +241,4 @@
 	"series": [],
 	"description": "",
 	"content": " Stay hungry, stay young ~ 保持好奇心，主动学习新事物，新知识和新技能。 对不确定性保持乐观。 不甘于平庸。 不傲娇，要能延迟满足感。 对重要的事情有判断力。 无论工作或生活，要有创业心态。 最重要的是“解决问题”，而不是“解释原因”。 聚焦长远目标，看淡眼前利益。 用心经营自己这家“公司”。 做事坚持“先能用，再有用，再好用，后好看”。 时光是最无情的刻刀，陪伴是最长情的告白。\nMy promise past shall always last.\n"
-},
-{
-	"uri": "http://rudy.org.cn/series/",
-	"title": "Series",
-	"tags": [],
-	"categories": [],
-	"series": [],
-	"description": "",
-	"content": ""
 }]

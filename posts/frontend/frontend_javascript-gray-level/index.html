@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>前端规范方案 – Rudy&#39;s blog</title>
+    <title>前端灰度发布 – Rudy&#39;s blog</title>
     
 
 
@@ -682,19 +682,19 @@
 
     <meta name="description" content="" />
 <meta name="keywords" content="">
-<meta name="created" content="2019-10-14T17:39:21&#43;0800">
-<meta name="modified" content="2019-10-14T17:39:21&#43;0800">
+<meta name="created" content="2020-01-16T12:03:31&#43;0800">
+<meta name="modified" content="2020-01-16T12:03:31&#43;0800">
 
 
 <meta property="og:site_name" content="Rudy&#39;s blog">
-<meta property="og:title" content="前端规范方案">
-<meta property="og:url" content="http://rudy.org.cn/posts/frontend/frontend_standard-design/">
+<meta property="og:title" content="前端灰度发布">
+<meta property="og:url" content="http://rudy.org.cn/posts/frontend/frontend_javascript-gray-level/">
 <meta property="og:type" content="article">
 
 <meta name="generator" content="Hugo 0.60.0" />
 <meta name="msapplication-TileColor" content="#ffffff">
 <meta name="theme-color" content="#ffffff">
-<link rel="canonical" href="http://rudy.org.cn/posts/frontend/frontend_standard-design/">
+<link rel="canonical" href="http://rudy.org.cn/posts/frontend/frontend_javascript-gray-level/">
 <link rel="apple-touch-icon" href="/apple-touch-icon.png">
 <link rel="shortcut icon" href="/favicon.png" type="image/x-icon">
 <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
@@ -704,12 +704,12 @@
   {
     "@context": "https://schema.org",
     "@type": "WebPage",
-    "headline": "前端规范方案",
-    "datePublished": "2019-10-14T17:39:21+08:00",
-    "dateModified": "2019-10-14T17:39:21+08:00",
-    "url" : "http://rudy.org.cn/posts/frontend/frontend_standard-design/",
-    "description": "1.项目组织结构 目录结构 配置文件 README 2.代码规范 命名规范 Html规范 Javascript规范 CSS规范 3.统一代码风格 利用Lint工具，配置语",
-    "keywords": ["standard"],
+    "headline": "前端灰度发布",
+    "datePublished": "2020-01-16T12:03:31+08:00",
+    "dateModified": "2020-01-16T12:03:31+08:00",
+    "url" : "http://rudy.org.cn/posts/frontend/frontend_javascript-gray-level/",
+    "description": "灰度发布 灰度发布，又称为金丝雀发布，即产品每次新功能的发布和旧功能的替换能够以平滑过渡的方式呈现给用户，就像金丝雀的羽毛一样，多种颜色能够平",
+    "keywords": [""],
     "mainEntityOfPage": {
       "@type": "WebPage",
       "@id": "http://rudy.org.cn"
@@ -933,7 +933,7 @@
   
   <li  class="is-active" >
     
-      <span>前端规范方案</span>
+      <span>前端灰度发布</span>
     
   </li>
   
@@ -942,11 +942,11 @@
 </nav>
   
   <div class="single">
-    <h2 class="single__title">前端规范方案</h2>
+    <h2 class="single__title">前端灰度发布</h2>
     <div class="single__meta">
       
 <div class="single__infos">
-  <time class="single__info" title="Written At">📅&nbsp;Oct 14, 2019 </time>  &middot; <span class="single__info" title="Reading Time"> ☕ 1 min read </span>
+  <time class="single__info" title="Written At">📅&nbsp;Jan 16, 2020 </time>  &middot; <span class="single__info" title="Reading Time"> ☕ 1 min read </span>
   <span class="single__info">
      &middot; 👀<span id="busuanzi_value_page_pv">...</span> views
   </span>
@@ -954,94 +954,54 @@
       <div class="single__tags caption">
 
   
-    🏷️
-  
-  
-  <li>
-    <a href="/tags/standard" class="single__tag" title="standard">
-      #standard
-    </a>
-  </li>
     
 
 </div>
     </div>    
     <article class="single__contents">
       
-      <p>1.项目组织结构</p>
+      <h2 id="heading">灰度发布</h2>
+<p>灰度发布，又称为金丝雀发布，即产品每次新功能的发布和旧功能的替换能够以平滑过渡的方式呈现给用户，就像金丝雀的羽毛一样，多种颜色能够平滑渐变。</p>
+<h3 id="heading1">原因</h3>
 <ul>
-<li>目录结构</li>
-<li>配置文件</li>
-<li>README</li>
+<li>考虑用户使用反馈和代码未知异常，需要将新的功能逐步地推给一批又一批的用户</li>
+<li>根据用户的接受程度（投诉情况）和代码是否存在上线前未发生的异常，来决定是否发布新功能</li>
+<li>避免出现一次更新导致线上问题阻塞用户体验的情况发生</li>
 </ul>
-<p>2.代码规范</p>
+<h3 id="heading2">优点</h3>
 <ul>
-<li>命名规范</li>
-<li>Html规范</li>
-<li>Javascript规范</li>
-<li>CSS规范</li>
+<li>提前收集用户使用意见，及时调整产品功能</li>
+<li>控制代码异常出现的用户范围</li>
+<li>出现未知风险时，可以及时回滚到旧版本</li>
 </ul>
-<p>3.统一代码风格</p>
+<h3 id="heading3">要素</h3>
 <ul>
-<li>利用Lint工具，配置语法检测规则来对代码风格进行检测。</li>
-<li>e.g.  js lint, css lint</li>
-</ul>
-<p>4.开发工具规范</p>
-<p>4.1 编辑器</p>
+<li>
+<p>规则</p>
 <ul>
-<li>Visual Studio Code</li>
-<li>Web Storm</li>
+<li>用户按照特征分成不同群体，例如年龄，地区，以及用户注册时的id</li>
+<li>按照百分比，从小到大放量，直到完成</li>
 </ul>
-<p>4.2 统一插件</p>
+</li>
+<li>
+<p>版本</p>
 <ul>
-<li>EditorConfig</li>
-<li>Lint</li>
-<li>单词拼写检查</li>
-<li>路径补全</li>
-<li>代码自动补全</li>
-<li>Emmet</li>
-<li>代码格式化</li>
+<li>资源版本号</li>
+<li>资源访问新旧切换</li>
 </ul>
-<p>4.3 README搭建指南</p>
+<h3 id="heading4">实现策略</h3>
+</li>
+</ul>
+<img alt="gary-level-01" src="https://rudyarchitect.github.io/blog-images/frontend/frontend_gary-level-01.jpg">
 <ul>
-<li>运行环境</li>
-<li>依赖项</li>
-<li>项目安装指南</li>
-<li>项目结构图</li>
-<li>参考资料</li>
-<li>维护人员联系方式</li>
-</ul>
-<p>5.代码提交信息规范</p>
+<li>方式
 <ul>
-<li>[任务名称/编码] [类型] 提交人 : 详细信息。</li>
+<li>服务器端</li>
+<li>浏览器端</li>
 </ul>
-<p>类型说明：</p>
-<ul>
-<li>文档</li>
-<li>功能</li>
-<li>修复</li>
-<li>重构</li>
-<li>样式</li>
-<li>测试</li>
+</li>
 </ul>
-<p>6.流程化</p>
-<p>6.1 代码预处理</p>
-<ul>
-<li>Lint + Git Hooks</li>
-<li>Lint + Webhook</li>
-</ul>
-<p>6.2 人工检查代码</p>
-<ul>
-<li>Code Review</li>
-<li>Pull Request</li>
-</ul>
-<p>7.工具</p>
-<ul>
-<li>代码扫描工具 Sonar</li>
-<li>测试方案</li>
-</ul>
-<br>
-<center>  ·End·  </center>
+
     </article>
     
     
@@ -1139,21 +1099,14 @@
     <div class="grow"></div>
 <nav class="pagination-single">
   
-    <a href="http://rudy.org.cn/posts/frontend/frontend_analysis-design/" class="pagination-single__left">
+    <a href="http://rudy.org.cn/posts/life/life_dinglei/" class="pagination-single__left">
       <div class="pagination-single__icon">
         <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 24 24"><path fill="none" d="M0 0h24v24H0V0z"/><path fill="currentColor" d="M19 11H7.83l4.88-4.88c.39-.39.39-1.03 0-1.42-.39-.39-1.02-.39-1.41 0l-6.59 6.59c-.39.39-.39 1.02 0 1.41l6.59 6.59c.39.39 1.02.39 1.41 0 .39-.39.39-1.02 0-1.41L7.83 13H19c.55 0 1-.45 1-1s-.45-1-1-1z"/></svg>
       </div>
-      <div class="pagination-single__left-title">web监控平台方案</div>      
+      <div class="pagination-single__left-title">保持终身学习的丁磊</div>      
     </a>
   
   <div class="grow"></div>
-  
-    <a href="http://rudy.org.cn/posts/frontend/frontend_editor-design/" class="pagination-single__right">      
-      <div class="pagination-single__right-title">web编辑器方案</div>
-      <div class="pagination-single__icon">
-        <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 24 24"><path fill="none" d="M0 0h24v24H0V0z"/><path fill="currentColor" d="M5 13h11.17l-4.88 4.88c-.39.39-.39 1.03 0 1.42.39.39 1.02.39 1.41 0l6.59-6.59c.39-.39.39-1.02 0-1.41l-6.58-6.6c-.39-.39-1.02-.39-1.41 0-.39.39-.39 1.02 0 1.41L16.17 11H5c-.55 0-1 .45-1 1s.45 1 1 1z"/></svg>
-      </div>
-    </a>
   
 </nav>
     
@@ -1163,8 +1116,8 @@
 <script src="https://cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.min.js" crossorigin="anonymous"></script>
 <script>
   var gitalk = new Gitalk({
-    id: '2019-10-14 17:39:21 \x2b0800 \x2b0800',
-    title: '前端规范方案',
+    id: '2020-01-16 12:03:31 \x2b0800 \x2b0800',
+    title: '前端灰度发布',
     clientID: '14b5679b927269afbdb6',
     clientSecret: 'a69f53c82624a3541530aee402850ed998b49ae9',
     repo: 'rudy.org.cn',
@@ -1515,7 +1468,18 @@ document.addEventListener('DOMContentLoaded', function () {
     
   </div>
   <div class="toc ">
-    <nav id="TableOfContents"></nav>
+    <nav id="TableOfContents">
+  <ul>
+    <li><a href="#heading">灰度发布</a>
+      <ul>
+        <li><a href="#heading1">原因</a></li>
+        <li><a href="#heading2">优点</a></li>
+        <li><a href="#heading3">要素</a></li>
+        <li><a href="#heading4">实现策略</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
   </div>
 </section>
 
@@ -2149,7 +2113,7 @@ document.addEventListener('DOMContentLoaded', function () {
             
     
     
-  <a href="http://rudy.org.cn/posts/frontend/frontend_standard-design//index.xml" type="application/rss+xml" title="rss" aria-label="RSS Feed Link">
+  <a href="http://rudy.org.cn/posts/frontend/frontend_javascript-gray-level//index.xml" type="application/rss+xml" title="rss" aria-label="RSS Feed Link">
     <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24"><path fill="none" d="M0 0h24v24H0V0z"/><circle fill="currentColor" cx="6.18" cy="17.82" r="2.18"/><path fill="currentColor" d="M5.59 10.23c-.84-.14-1.59.55-1.59 1.4 0 .71.53 1.28 1.23 1.4 2.92.51 5.22 2.82 5.74 5.74.12.7.69 1.23 1.4 1.23.85 0 1.54-.75 1.41-1.59-.68-4.2-3.99-7.51-8.19-8.18zm-.03-5.71C4.73 4.43 4 5.1 4 5.93c0 .73.55 1.33 1.27 1.4 6.01.6 10.79 5.38 11.39 11.39.07.73.67 1.28 1.4 1.28.84 0 1.5-.73 1.42-1.56-.73-7.34-6.57-13.19-13.92-13.92z"/></svg>
   </a>
 
@@ -2192,7 +2156,7 @@ document.addEventListener('DOMContentLoaded', function () {
                 
             <p class="caption">
                 
-                    ©2020, All Rights Reserved
+                    ©2021, All Rights Reserved
                 
             </p>
         
