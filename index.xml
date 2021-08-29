@@ -89,15 +89,6 @@
       </item>
       
       <item>
-        <title>web监控平台方案</title>
-        <link>http://rudy.org.cn/posts/frontend/frontend_analysis-design/</link>
-        <pubDate>Mon, 14 Oct 2019 17:33:53 +0800</pubDate>
-        <author>rudy.architect@foxmail.com (Rudy)</author>
-        <guid>http://rudy.org.cn/posts/frontend/frontend_analysis-design/</guid>
-        <description>背景 为了定位Web线上问题，需要对页面异常信息进行收集，分析和定位问题原因，以提升用户体验和产品运营效率。 维度 前端监控的维度主要分为以下3个</description>
-      </item>
-      
-      <item>
         <title>有关数字经济的推论判断</title>
         <link>http://rudy.org.cn/posts/manage/manage_digital-economy/</link>
         <pubDate>Wed, 09 Oct 2019 16:02:24 +0800</pubDate>
